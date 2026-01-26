@@ -194,6 +194,9 @@ def main():
     # Model parameters
     parser.add_argument('--sampling_backend', type=str, choices=["pytorch", "flashinfer"],
                         default="flashinfer", help='Sampling backend')
+    parser.add_argument('--attention_backend', type=str,
+                        choices=["triton", "flashinfer", "torch_native", "fa3"],
+                        default="triton", help='Attention backend (default: triton, disables flash-attn)')
     parser.add_argument('--model_name', type=str, required=True, default="Qwen/QwQ-32B",
                         help='Model name or path')
     parser.add_argument('--num_gpus', type=int, default=8,
@@ -402,7 +405,8 @@ Please solve the following multiple-choice question. Please show your choice in 
                     add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
                     max_topk=args.max_topk,
                     cuda_graph_max_bs=args.cuda_graph_max_bs,
-                    sampling_backend=args.sampling_backend
+                    sampling_backend=args.sampling_backend,
+                    attention_backend=args.attention_backend
                 )
 
                 outputs = llm.generate(
