@@ -10,6 +10,8 @@
 source ~/.bashrc
 conda activate tinker
 
+cd /coc/pskynet6/jhe478/Soft-Thinking
+
 python run_mgsm_evaluation.py \
     --model_name "Qwen/Qwen3-8B-Base" \
     --max_generated_tokens 32768 \
