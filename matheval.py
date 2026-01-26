@@ -282,6 +282,18 @@ Reference answer: {ground_truth}""".strip()
 # Reference answer: {ground_truth}""".strip()
 
 
+class MGSMEvaluator(GSM8KEvaluator):
+    """Evaluator for MGSM (Multilingual Grade School Math).
+
+    MGSM uses the same problems as GSM8K, translated into multiple languages.
+    The evaluation logic is the same as GSM8K.
+    """
+    pass
+
+
+# All MGSM language codes
+MGSM_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
+
 evaluator_map = {
     "aime2024": AIMEEvaluator(),
     "aime2025": AIMEEvaluator(),
@@ -289,7 +301,12 @@ evaluator_map = {
     "math500": MATH500Evaluator(),
     "gpqa_diamond": GPQAEvaluator(),
     "amc23": AMCEvaluator(),
+    "mgsm": MGSMEvaluator(),
 }
+
+# Add language-specific MGSM entries to evaluator_map
+for lang in MGSM_LANGUAGES:
+    evaluator_map[f"mgsm_{lang}"] = MGSMEvaluator()
 
 API_BASE = None
 DEPLOYMENT_NAME = None
