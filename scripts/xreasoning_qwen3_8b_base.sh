@@ -1,0 +1,52 @@
+#!/bin/bash
+#SBATCH -p overcap
+#SBATCH --account=nlprx-lab
+#SBATCH -t 12:00:00
+#SBATCH --gres=gpu:a40:1
+#SBATCH --cpus-per-task=6
+#SBATCH -J xreasoning_qwen3_8b_base
+#SBATCH -o xreasoning_qwen3_8b_base_%j.log
+
+source ~/.bashrc
+conda activate tinker
+
+cd /coc/pskynet6/jhe478/Soft-Thinking
+
+# Evaluate AIME 2024 (5 runs by default)
+python run_xreasoning_evaluation.py \
+    --dataset "aime2024" \
+    --model_name "Qwen/Qwen3-8B-Base" \
+    --max_generated_tokens 32768 \
+    --temperature 0.6 \
+    --top_p 0.95 \
+    --top_k 30 \
+    --min_p 0.001 \
+    --mem_fraction_static 0.8 \
+    --num_gpus 1 \
+    --num_samples 1
+
+# Evaluate AIME 2025 (5 runs by default)
+python run_xreasoning_evaluation.py \
+    --dataset "aime2025" \
+    --model_name "Qwen/Qwen3-8B-Base" \
+    --max_generated_tokens 32768 \
+    --temperature 0.6 \
+    --top_p 0.95 \
+    --top_k 30 \
+    --min_p 0.001 \
+    --mem_fraction_static 0.8 \
+    --num_gpus 1 \
+    --num_samples 1
+
+# Evaluate GPQA (1 run by default)
+python run_xreasoning_evaluation.py \
+    --dataset "gpqa" \
+    --model_name "Qwen/Qwen3-8B-Base" \
+    --max_generated_tokens 32768 \
+    --temperature 0.6 \
+    --top_p 0.95 \
+    --top_k 30 \
+    --min_p 0.001 \
+    --mem_fraction_static 0.8 \
+    --num_gpus 1 \
+    --num_samples 1
