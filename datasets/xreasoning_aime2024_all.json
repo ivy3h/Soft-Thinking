@@ -1,0 +1,4314 @@
+{
+  "en": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "en",
+      "language_name": "English"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "en",
+      "language_name": "English"
+    }
+  ],
+  "es": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "es",
+      "language_name": "Spanish"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "es",
+      "language_name": "Spanish"
+    }
+  ],
+  "fr": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "fr",
+      "language_name": "French"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "fr",
+      "language_name": "French"
+    }
+  ],
+  "de": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "de",
+      "language_name": "German"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "de",
+      "language_name": "German"
+    }
+  ],
+  "ru": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "ru",
+      "language_name": "Russian"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "ru",
+      "language_name": "Russian"
+    }
+  ],
+  "zh": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "zh",
+      "language_name": "Chinese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "zh",
+      "language_name": "Chinese"
+    }
+  ],
+  "ja": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "ja",
+      "language_name": "Japanese"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "ja",
+      "language_name": "Japanese"
+    }
+  ],
+  "th": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "th",
+      "language_name": "Thai"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "th",
+      "language_name": "Thai"
+    }
+  ],
+  "sw": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "sw",
+      "language_name": "Swahili"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "sw",
+      "language_name": "Swahili"
+    }
+  ],
+  "bn": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "bn",
+      "language_name": "Bengali"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "bn",
+      "language_name": "Bengali"
+    }
+  ],
+  "te": [
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "204",
+      "question_id": 0,
+      "original_id": "60",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "113",
+      "question_id": 1,
+      "original_id": "61",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "371",
+      "question_id": 2,
+      "original_id": "62",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "385",
+      "question_id": 3,
+      "original_id": "63",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "110",
+      "question_id": 4,
+      "original_id": "64",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 5,
+      "original_id": "65",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "721",
+      "question_id": 6,
+      "original_id": "66",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "025",
+      "question_id": 7,
+      "original_id": "67",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "809",
+      "question_id": 8,
+      "original_id": "68",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "116",
+      "question_id": 9,
+      "original_id": "69",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "104",
+      "question_id": 10,
+      "original_id": "70",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "294",
+      "question_id": 11,
+      "original_id": "71",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "540",
+      "question_id": 12,
+      "original_id": "72",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "197",
+      "question_id": 13,
+      "original_id": "73",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "480",
+      "question_id": 14,
+      "original_id": "74",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "073",
+      "question_id": 15,
+      "original_id": "75",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "468",
+      "question_id": 16,
+      "original_id": "76",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "601",
+      "question_id": 17,
+      "original_id": "77",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "023",
+      "question_id": 18,
+      "original_id": "78",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "321",
+      "question_id": 19,
+      "original_id": "79",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "211",
+      "question_id": 20,
+      "original_id": "80",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "315",
+      "question_id": 21,
+      "original_id": "81",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "236",
+      "question_id": 22,
+      "original_id": "82",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "045",
+      "question_id": 23,
+      "original_id": "83",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "033",
+      "question_id": 24,
+      "original_id": "84",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "080",
+      "question_id": 25,
+      "original_id": "85",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "055",
+      "question_id": 26,
+      "original_id": "86",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "699",
+      "question_id": 27,
+      "original_id": "87",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "127",
+      "question_id": 28,
+      "original_id": "88",
+      "language": "te",
+      "language_name": "Telugu"
+    },
+    {
+      "prompt": [
+        {
+          "from": "user",
+          "value": ""
+        }
+      ],
+      "final_answer": "902",
+      "question_id": 29,
+      "original_id": "89",
+      "language": "te",
+      "language_name": "Telugu"
+    }
+  ]
+}

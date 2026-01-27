@@ -14,7 +14,7 @@ cd /coc/pskynet6/jhe478/Soft-Thinking
 
 python run_mgsm_evaluation.py \
     --model_name "Qwen/Qwen3-4B-Instruct-2507" \
-    --max_generated_tokens 32768 \
+    --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
     --top_k 30 \

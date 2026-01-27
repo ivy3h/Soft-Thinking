@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p overcap
+#SBATCH -p nlprx-lab,overcap
 #SBATCH --account=nlprx-lab
 #SBATCH -t 4:00:00
 #SBATCH --gres=gpu:a40:1
@@ -14,7 +14,7 @@ cd /coc/pskynet6/jhe478/Soft-Thinking
 
 python run_mgsm_evaluation.py \
     --model_name "Qwen/Qwen3-8B" \
-    --max_generated_tokens 32768 \
+    --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
     --top_k 30 \

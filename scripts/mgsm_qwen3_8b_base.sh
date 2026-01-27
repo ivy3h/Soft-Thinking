@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p overcap
+#SBATCH -p nlprx-lab,overcap
 #SBATCH --account=nlprx-lab
 #SBATCH -t 4:00:00
 #SBATCH --gres=gpu:a40:1

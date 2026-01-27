@@ -16,7 +16,7 @@ cd /coc/pskynet6/jhe478/Soft-Thinking
 python run_xreasoning_evaluation.py \
     --dataset "aime2024" \
     --model_name "Qwen/Qwen3-4B-Instruct-2507" \
-    --max_generated_tokens 32768 \
+    --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
     --top_k 30 \
@@ -29,7 +29,7 @@ python run_xreasoning_evaluation.py \
 python run_xreasoning_evaluation.py \
     --dataset "aime2025" \
     --model_name "Qwen/Qwen3-4B-Instruct-2507" \
-    --max_generated_tokens 32768 \
+    --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
     --top_k 30 \
@@ -42,7 +42,7 @@ python run_xreasoning_evaluation.py \
 python run_xreasoning_evaluation.py \
     --dataset "gpqa" \
     --model_name "Qwen/Qwen3-4B-Instruct-2507" \
-    --max_generated_tokens 32768 \
+    --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
     --top_k 30 \
