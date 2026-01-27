@@ -276,6 +276,12 @@ def main():
     parser.add_argument('--reeval_file', type=str, default=None,
                         help='Path to existing results file for re-evaluation')
 
+    # Engine mode
+    parser.add_argument('--single_engine', action='store_true',
+                        help='Use single engine for all languages (reduces memory overhead)')
+    parser.add_argument('--engine_startup_delay', type=float, default=2.0,
+                        help='Delay in seconds before starting new engine (for memory cleanup)')
+
     args = parser.parse_args()
 
     # Set languages
@@ -342,6 +348,34 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
 
     start_time = time.time()
 
+    # Single engine mode - create engine once and reuse
+    shared_engine = None
+    if args.single_engine:
+        print("Using single engine mode - creating shared engine...")
+        import gc
+        gc.collect()
+        torch.cuda.empty_cache()
+
+        shared_engine = sgl.Engine(
+            model_path=args.model_name,
+            tp_size=args.num_gpus,
+            log_level="info",
+            trust_remote_code=True,
+            random_seed=args.random_seed,
+            max_running_requests=args.max_running_requests,
+            mem_fraction_static=args.mem_fraction_static,
+            disable_cuda_graph=True,
+            disable_overlap_schedule=True,
+            enable_soft_thinking=args.enable_soft_thinking,
+            add_noise_dirichlet=args.add_noise_dirichlet,
+            add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
+            max_topk=args.max_topk,
+            cuda_graph_max_bs=args.cuda_graph_max_bs,
+            sampling_backend=args.sampling_backend,
+            attention_backend=args.attention_backend
+        )
+        print("Shared engine created successfully.")
+
     # Evaluate each language
     for lang in languages:
         print(f"\n{'=' * 60}")
@@ -375,24 +409,34 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         while batch_idx < len(prompt_list):
             print(f"Processing batch {batch_idx // args.max_batch + 1}...")
 
-            llm = sgl.Engine(
-                model_path=args.model_name,
-                tp_size=args.num_gpus,
-                log_level="info",
-                trust_remote_code=True,
-                random_seed=args.random_seed,
-                max_running_requests=args.max_running_requests,
-                mem_fraction_static=args.mem_fraction_static,
-                disable_cuda_graph=True,
-                disable_overlap_schedule=True,
-                enable_soft_thinking=args.enable_soft_thinking,
-                add_noise_dirichlet=args.add_noise_dirichlet,
-                add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
-                max_topk=args.max_topk,
-                cuda_graph_max_bs=args.cuda_graph_max_bs,
-                sampling_backend=args.sampling_backend,
-                attention_backend=args.attention_backend
-            )
+            if args.single_engine and shared_engine is not None:
+                # Use shared engine
+                llm = shared_engine
+            else:
+                # Force garbage collection before starting new engine
+                import gc
+                gc.collect()
+                torch.cuda.empty_cache()
+                time.sleep(args.engine_startup_delay)  # Wait for memory to be released
+
+                llm = sgl.Engine(
+                    model_path=args.model_name,
+                    tp_size=args.num_gpus,
+                    log_level="info",
+                    trust_remote_code=True,
+                    random_seed=args.random_seed,
+                    max_running_requests=args.max_running_requests,
+                    mem_fraction_static=args.mem_fraction_static,
+                    disable_cuda_graph=True,
+                    disable_overlap_schedule=True,
+                    enable_soft_thinking=args.enable_soft_thinking,
+                    add_noise_dirichlet=args.add_noise_dirichlet,
+                    add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
+                    max_topk=args.max_topk,
+                    cuda_graph_max_bs=args.cuda_graph_max_bs,
+                    sampling_backend=args.sampling_backend,
+                    attention_backend=args.attention_backend
+                )
 
             outputs = llm.generate(
                 prompt_list[batch_idx:batch_idx + args.max_batch],
@@ -409,8 +453,15 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
             ])
 
             batch_idx += args.max_batch
-            llm.shutdown()
-            torch.cuda.empty_cache()
+
+            # Only shutdown if not using shared engine
+            if not args.single_engine:
+                llm.shutdown()
+                del llm
+                import gc
+                gc.collect()
+                torch.cuda.empty_cache()
+                time.sleep(args.engine_startup_delay)  # Wait for memory to be released
 
         # Evaluate results
         results = []
@@ -534,6 +585,15 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
 
     print(f"\nResults saved to: {args.output_dir}/results/mgsm/")
     print(f"Statistics file: {stats_file}")
+
+    # Shutdown shared engine if used
+    if args.single_engine and shared_engine is not None:
+        print("Shutting down shared engine...")
+        shared_engine.shutdown()
+        del shared_engine
+        import gc
+        gc.collect()
+        torch.cuda.empty_cache()
 
     # Push to HuggingFace if requested
     if args.push_results_to_hf:
