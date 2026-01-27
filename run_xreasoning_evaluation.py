@@ -158,7 +158,13 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
 
 
 def calculate_cross_lingual_consistency(results_by_lang, languages):
-    """Calculate cross-lingual consistency metrics."""
+    """Calculate cross-lingual consistency metrics.
+
+    Consistency (CO) is calculated as:
+    CO = both_correct / either_correct
+
+    This matches the tinker-cookbook implementation.
+    """
     lang_results = {}
     for lang in languages:
         if lang not in results_by_lang:
@@ -174,12 +180,10 @@ def calculate_cross_lingual_consistency(results_by_lang, languages):
     available_langs = [l for l in languages if l in lang_results]
 
     pairwise_consistency = {}
-    pairwise_correct_consistency = {}
 
     for lang1, lang2 in combinations(available_langs, 2):
-        same_answer_count = 0
         both_correct_count = 0
-        total_questions = 0
+        either_correct_count = 0
 
         common_qids = set(lang_results[lang1].keys()) & set(lang_results[lang2].keys())
 
@@ -187,31 +191,36 @@ def calculate_cross_lingual_consistency(results_by_lang, languages):
             r1 = lang_results[lang1][qid]
             r2 = lang_results[lang2][qid]
 
-            if r1["correct"] == r2["correct"]:
-                same_answer_count += 1
+            # Count both correct
             if r1["correct"] and r2["correct"]:
                 both_correct_count += 1
-            total_questions += 1
 
-        if total_questions > 0:
-            pairwise_consistency[(lang1, lang2)] = same_answer_count / total_questions
-            pairwise_correct_consistency[(lang1, lang2)] = both_correct_count / total_questions
+            # Count either correct (at least one correct)
+            if r1["correct"] or r2["correct"]:
+                either_correct_count += 1
+
+        # Calculate consistency as both_correct / either_correct
+        if either_correct_count > 0:
+            consistency = both_correct_count / either_correct_count
         else:
-            pairwise_consistency[(lang1, lang2)] = 0.0
-            pairwise_correct_consistency[(lang1, lang2)] = 0.0
+            consistency = 0.0
 
+        pairwise_consistency[(lang1, lang2)] = {
+            "both_correct": both_correct_count,
+            "either_correct": either_correct_count,
+            "consistency": consistency,
+            "total_questions": len(common_qids)
+        }
+
+    # Calculate average consistency
     if pairwise_consistency:
-        average_consistency = sum(pairwise_consistency.values()) / len(pairwise_consistency)
-        average_correct_consistency = sum(pairwise_correct_consistency.values()) / len(pairwise_correct_consistency)
+        average_consistency = sum(v["consistency"] for v in pairwise_consistency.values()) / len(pairwise_consistency)
     else:
         average_consistency = 0.0
-        average_correct_consistency = 0.0
 
     return {
         "pairwise_consistency": {f"{k[0]}-{k[1]}": v for k, v in pairwise_consistency.items()},
-        "pairwise_correct_consistency": {f"{k[0]}-{k[1]}": v for k, v in pairwise_correct_consistency.items()},
         "average_consistency": average_consistency,
-        "average_correct_consistency": average_correct_consistency,
         "num_language_pairs": len(pairwise_consistency)
     }
 
@@ -372,6 +381,25 @@ Please solve the following multiple-choice question. Please show your choice in 
     print(f"Number of runs: {num_runs}")
     print("=" * 60)
 
+    # Check if all runs already exist (complete resume)
+    stats_file = f"{args.output_dir}/results/xreasoning_{dataset_name}/{base_filename}_statistics.json"
+    if os.path.exists(stats_file):
+        print(f"\n✓ Found existing complete evaluation results!")
+        print(f"  Loading from: {stats_file}")
+        try:
+            with open(stats_file, "r", encoding="utf-8") as f:
+                results_statistics = json.load(f)
+
+            print(f"\n✓ Successfully loaded existing results:")
+            print(f"  Dataset: {results_statistics.get('dataset', 'N/A')}")
+            print(f"  Number of runs: {results_statistics.get('num_runs', 'N/A')}")
+            print(f"  Average accuracy: {results_statistics.get('average_accuracy', 0):.4f}")
+            print(f"\n✓ All evaluation already completed. Exiting.")
+            return results_statistics
+        except Exception as e:
+            print(f"⚠ Failed to load existing statistics: {e}")
+            print(f"⚠ Will re-run evaluation")
+
     start_time = time.time()
 
     # Store results across all runs
@@ -382,6 +410,36 @@ Please solve the following multiple-choice question. Please show your choice in 
         print(f"\n{'='*60}")
         print(f"Run {run_idx + 1}/{num_runs}")
         print(f"{'='*60}")
+
+        # Check if this run already exists (resume functionality)
+        if num_runs > 1:
+            run_results_file = f"{args.output_dir}/results/xreasoning_{dataset_name}/{base_filename}_run{run_idx + 1}.json"
+            if os.path.exists(run_results_file):
+                print(f"✓ Run {run_idx + 1} already completed, loading existing results...")
+                try:
+                    with open(run_results_file, "r", encoding="utf-8") as f:
+                        existing_results = json.load(f)
+
+                    # Group results by language and calculate accuracies
+                    results_by_lang = {}
+                    for result in existing_results:
+                        lang = result.get("language")
+                        if lang not in results_by_lang:
+                            results_by_lang[lang] = []
+                        results_by_lang[lang].append(result)
+
+                    # Calculate accuracies for each language
+                    for lang, results in results_by_lang.items():
+                        lang_accuracy = sum([r["passat1"] for r in results]) / len(results) if results else 0
+                        all_runs_accuracies[lang].append(lang_accuracy)
+                        all_runs_results[lang].append(results)
+                        print(f"  {lang}: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+
+                    print(f"✓ Successfully loaded results from {run_results_file}")
+                    continue  # Skip to next run
+                except Exception as e:
+                    print(f"⚠ Failed to load existing results: {e}")
+                    print(f"⚠ Will re-run this iteration")
 
         results_by_lang = {}
         language_accuracies = {}
@@ -589,8 +647,8 @@ Please solve the following multiple-choice question. Please show your choice in 
             print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ({acc * 100:.2f}%)")
 
     print(f"\nAverage Accuracy: {average_accuracy:.4f} ({average_accuracy * 100:.2f}%)")
-    print(f"Average Cross-Lingual Consistency: {consistency_metrics['average_consistency']:.4f}")
-    print(f"Average Correct Consistency: {consistency_metrics['average_correct_consistency']:.4f}")
+    print(f"Average Cross-Lingual Consistency (CO): {consistency_metrics['average_consistency']:.4f}")
+    print(f"  (CO = both_correct / either_correct, matching tinker-cookbook)")
     print(f"Time taken: {(end_time - start_time) / 3600:.2f} hours")
 
     # Save overall statistics

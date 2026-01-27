@@ -2,18 +2,21 @@
 #SBATCH -p overcap
 #SBATCH --account=nlprx-lab
 #SBATCH -t 12:00:00
-#SBATCH --gres=gpu:a40:1
+#SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=6
-#SBATCH -J st_qwen3_8b
-#SBATCH -o logs/mgsm_qwen3_8b_%j.log
+#SBATCH -J st_qwen3_4b_continue
+#SBATCH -o logs/mgsm_qwen3_4b_instruct_st_continue_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
+# Continue Qwen3-4B-Instruct MGSM with Soft-Thinking
+# Already completed: en, es
+# Need to complete: fr, de, ru, zh, ja, th, sw, bn, te
 python run_mgsm_evaluation.py \
-    --model_name "Qwen/Qwen3-8B" \
+    --model_name "Qwen/Qwen3-4B-Instruct-2507" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -24,6 +27,6 @@ python run_mgsm_evaluation.py \
     --end_idx 250 \
     --num_gpus 1 \
     --num_samples 1 \
-    --enable_soft_thinking \
     --single_engine \
+    --enable_soft_thinking \
     --resume

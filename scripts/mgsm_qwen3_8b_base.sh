@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH -p nlprx-lab,overcap
+#SBATCH -p overcap
 #SBATCH --account=nlprx-lab
-#SBATCH -t 4:00:00
+#SBATCH -t 12:00:00
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
-#SBATCH -J mgsm_qwen3_8b_base
-#SBATCH -o mgsm_qwen3_8b_base_%j.log
+#SBATCH -J st_qwen3_8b_base
+#SBATCH -o logs/mgsm_qwen3_8b_base_%j.log
 
 source ~/.bashrc
-conda activate tinker
+conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
@@ -25,5 +25,5 @@ python run_mgsm_evaluation.py \
     --num_gpus 1 \
     --num_samples 1 \
     --single_engine \
-    --attention_backend triton \
+    --enable_soft_thinking \
     --resume

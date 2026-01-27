@@ -4,8 +4,8 @@
 #SBATCH -t 12:00:00
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
-#SBATCH -J st_qwen3_8b
-#SBATCH -o logs/mgsm_qwen3_8b_%j.log
+#SBATCH -J cot_qwen3_8b
+#SBATCH -o logs/mgsm_qwen3_8b_cot_%j.log
 
 source ~/.bashrc
 conda activate st
@@ -24,6 +24,5 @@ python run_mgsm_evaluation.py \
     --end_idx 250 \
     --num_gpus 1 \
     --num_samples 1 \
-    --enable_soft_thinking \
     --single_engine \
     --resume

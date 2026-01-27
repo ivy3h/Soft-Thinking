@@ -5,10 +5,10 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
 #SBATCH -J xreasoning_qwen3_8b_base
-#SBATCH -o xreasoning_qwen3_8b_base_%j.log
+#SBATCH -o logs/xreasoning_qwen3_8b_base_%j.log
 
 source ~/.bashrc
-conda activate tinker
+conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
