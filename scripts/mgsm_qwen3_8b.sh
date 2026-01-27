@@ -19,7 +19,7 @@ python run_mgsm_evaluation.py \
     --top_p 0.95 \
     --top_k 30 \
     --min_p 0.001 \
-    --mem_fraction_static 0.6 \
+    --mem_fraction_static 0.4 \
     --start_idx 0 \
     --end_idx 250 \
     --num_gpus 1 \
