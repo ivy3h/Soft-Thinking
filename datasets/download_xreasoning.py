@@ -1,10 +1,8 @@
 """
 Download XReasoning datasets to local JSON files.
 
-XReasoning datasets contain all languages in a single split with columns:
-id, question, answer
-
-The language is typically encoded in the 'id' field (e.g., 'en_0', 'zh_1').
+XReasoning datasets have splits named by language codes (en, zh, ja, etc.)
+Each split contains: id, question, answer
 
 Usage:
     python datasets/download_xreasoning.py
@@ -15,7 +13,6 @@ from datasets import load_dataset
 import json
 import os
 import argparse
-import re
 
 # All XReasoning languages (same as MGSM)
 XREASONING_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
@@ -42,43 +39,6 @@ XREASONING_DATASETS = {
 }
 
 
-def extract_language_from_id(sample_id):
-    """Extract language code from sample ID.
-
-    Expected formats:
-    - 'en_0', 'zh_1', etc.
-    - 'en-0', 'zh-1', etc.
-    - 'english_0', 'chinese_0', etc.
-    """
-    sample_id = str(sample_id).lower()
-
-    # Direct language code match at start
-    for lang in XREASONING_LANGUAGES:
-        if sample_id.startswith(lang + "_") or sample_id.startswith(lang + "-"):
-            return lang
-
-    # Full language name match
-    lang_name_map = {
-        "english": "en",
-        "spanish": "es",
-        "french": "fr",
-        "german": "de",
-        "russian": "ru",
-        "chinese": "zh",
-        "japanese": "ja",
-        "thai": "th",
-        "swahili": "sw",
-        "bengali": "bn",
-        "telugu": "te"
-    }
-
-    for name, code in lang_name_map.items():
-        if sample_id.startswith(name):
-            return code
-
-    return None
-
-
 def download_xreasoning(dataset_name, output_dir=None):
     """Download XReasoning dataset and organize by language."""
     if output_dir is None:
@@ -94,59 +54,42 @@ def download_xreasoning(dataset_name, output_dir=None):
         # Load dataset
         ds = load_dataset(hf_dataset, trust_remote_code=True)
 
-        # Get available splits
-        print(f"Available splits: {list(ds.keys())}")
+        # Get available splits (these are the language codes)
+        available_splits = list(ds.keys())
+        print(f"Available splits (languages): {available_splits}")
 
-        # Use test split if available, otherwise first split
-        split_name = "test" if "test" in ds else list(ds.keys())[0]
-        print(f"Using split: {split_name}")
-        print(f"Total samples: {len(ds[split_name])}")
-
-        # Print first sample to understand structure
-        if len(ds[split_name]) > 0:
-            first_sample = ds[split_name][0]
-            print(f"Sample columns: {list(first_sample.keys())}")
-            print(f"First sample: {first_sample}")
-
-        # Process each sample
-        lang_question_ids = {lang: 0 for lang in XREASONING_LANGUAGES}
-
-        for example in ds[split_name]:
-            sample_id = example.get("id", "")
-            question = example.get("question", "")
-            answer = example.get("answer", "")
-
-            # Extract language from ID
-            lang = extract_language_from_id(sample_id)
-
-            if lang is None:
-                # Try to detect language from other fields or default to en
-                print(f"  Warning: Could not determine language for id={sample_id}")
+        # Process each language split
+        for lang in XREASONING_LANGUAGES:
+            if lang not in ds:
+                print(f"  {lang}: not available in dataset")
                 continue
 
-            if lang not in XREASONING_LANGUAGES:
-                continue
+            print(f"Processing {lang} ({LANGUAGE_NAMES[lang]})...")
 
-            sample = {
-                "prompt": [{"from": "user", "value": str(question)}],
-                "final_answer": str(answer),
-                "question_id": lang_question_ids[lang],
-                "original_id": sample_id,
-                "language": lang,
-                "language_name": LANGUAGE_NAMES.get(lang, lang)
-            }
+            data = []
+            for idx, example in enumerate(ds[lang]):
+                sample = {
+                    "prompt": [{"from": "user", "value": str(example.get("question", ""))}],
+                    "final_answer": str(example.get("answer", "")),
+                    "question_id": idx,
+                    "original_id": str(example.get("id", idx)),
+                    "language": lang,
+                    "language_name": LANGUAGE_NAMES.get(lang, lang)
+                }
 
-            # For GPQA, add choices if available
-            if dataset_name == "gpqa":
-                choices = {}
-                for choice_key in ["A", "B", "C", "D"]:
-                    if choice_key in example:
-                        choices[choice_key] = str(example[choice_key])
-                if choices:
-                    sample["choices"] = choices
+                # For GPQA, add choices if available
+                if dataset_name == "gpqa":
+                    choices = {}
+                    for choice_key in ["A", "B", "C", "D"]:
+                        if choice_key in example:
+                            choices[choice_key] = str(example[choice_key])
+                    if choices:
+                        sample["choices"] = choices
 
-            all_data[lang].append(sample)
-            lang_question_ids[lang] += 1
+                data.append(sample)
+
+            all_data[lang] = data
+            print(f"  Loaded {len(data)} samples")
 
     except Exception as e:
         print(f"Error loading dataset: {e}")
@@ -174,11 +117,6 @@ def download_xreasoning(dataset_name, output_dir=None):
     for lang, data in all_data.items():
         print(f"  {lang} ({LANGUAGE_NAMES[lang]:10s}): {len(data)} samples")
     print(f"\nTotal: {sum(len(d) for d in all_data.values())} samples")
-
-    # Warn if missing languages
-    missing = [lang for lang, data in all_data.items() if not data]
-    if missing:
-        print(f"\nWARNING: Missing languages: {', '.join(missing)}")
 
 
 def main():
