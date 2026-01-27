@@ -282,6 +282,10 @@ def main():
     parser.add_argument('--engine_startup_delay', type=float, default=2.0,
                         help='Delay in seconds before starting new engine (for memory cleanup)')
 
+    # Resume mode
+    parser.add_argument('--resume', action='store_true',
+                        help='Resume from existing results (skip completed languages)')
+
     args = parser.parse_args()
 
     # Set languages
@@ -381,6 +385,27 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         print(f"\n{'=' * 60}")
         print(f"Evaluating {lang} ({LANGUAGE_NAMES.get(lang, lang)})")
         print(f"{'=' * 60}")
+
+        # Check for existing results if resume mode is enabled
+        lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_{lang}.json"
+        if args.resume and os.path.exists(lang_results_file):
+            try:
+                with open(lang_results_file, "r", encoding="utf-8") as f:
+                    cached_results = json.load(f)
+                # Verify the cached results have the expected number of samples
+                expected_samples = min(args.end_idx, len(mgsm_data[lang])) - args.start_idx
+                if len(cached_results) >= expected_samples:
+                    print(f"  Found existing results for {lang} with {len(cached_results)} samples, skipping...")
+                    # Calculate accuracy from cached results
+                    lang_accuracy = sum([r["passat1"] for r in cached_results]) / len(cached_results) if cached_results else 0
+                    language_accuracies[lang] = lang_accuracy
+                    results_by_lang[lang] = cached_results
+                    print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+                    continue
+                else:
+                    print(f"  Found partial results for {lang} ({len(cached_results)}/{expected_samples} samples), re-evaluating...")
+            except Exception as e:
+                print(f"  Error loading cached results for {lang}: {e}, re-evaluating...")
 
         samples = mgsm_data[lang]
         samples = samples[args.start_idx:min(args.end_idx, len(samples))]

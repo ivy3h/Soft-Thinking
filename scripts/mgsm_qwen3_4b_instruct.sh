@@ -25,4 +25,5 @@ python run_mgsm_evaluation.py \
     --num_gpus 1 \
     --num_samples 1 \
     --single_engine \
-    --attention_backend triton
+    --attention_backend triton \
+    --resume
