@@ -1,8 +1,10 @@
 """
 Download XReasoning datasets to local JSON files.
 
-XReasoning datasets are organized with separate parquet files per language.
-This script downloads and converts them to JSON format.
+XReasoning datasets contain all languages in a single split with columns:
+id, question, answer
+
+The language is typically encoded in the 'id' field (e.g., 'en_0', 'zh_1').
 
 Usage:
     python datasets/download_xreasoning.py
@@ -13,9 +15,7 @@ from datasets import load_dataset
 import json
 import os
 import argparse
-import requests
-import pandas as pd
-from io import BytesIO
+import re
 
 # All XReasoning languages (same as MGSM)
 XREASONING_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
@@ -34,169 +34,124 @@ LANGUAGE_NAMES = {
     "te": "Telugu"
 }
 
-# Dataset HuggingFace paths - using JRQi versions which have proper multilingual support
+# Dataset HuggingFace paths
 XREASONING_DATASETS = {
-    "aime2024": "JRQi/aime_2024_multilingual",
-    "aime2025": "JRQi/aime_2025_multilingual",
-    "gpqa": "JRQi/gpqa_diamond_mc_multilingual"
-}
-
-# Fallback to shanchen versions
-XREASONING_DATASETS_FALLBACK = {
     "aime2024": "shanchen/aime_2024_multilingual",
     "aime2025": "shanchen/aime_2025_multilingual",
     "gpqa": "shanchen/gpqa_diamond_mc_multilingual"
 }
 
 
-def download_parquet_direct(repo_id, lang):
-    """Download parquet file directly from HuggingFace."""
-    # Try different parquet file naming patterns
-    patterns = [
-        f"https://huggingface.co/datasets/{repo_id}/resolve/main/data/{lang}-00000-of-00001.parquet",
-        f"https://huggingface.co/datasets/{repo_id}/resolve/main/{lang}/train-00000-of-00001.parquet",
-        f"https://huggingface.co/datasets/{repo_id}/resolve/main/{lang}.parquet",
-        f"https://huggingface.co/datasets/{repo_id}/resolve/main/data/{lang}.parquet",
-    ]
+def extract_language_from_id(sample_id):
+    """Extract language code from sample ID.
 
-    for url in patterns:
-        try:
-            response = requests.get(url, timeout=30)
-            if response.status_code == 200:
-                df = pd.read_parquet(BytesIO(response.content))
-                return df
-        except Exception:
-            continue
+    Expected formats:
+    - 'en_0', 'zh_1', etc.
+    - 'en-0', 'zh-1', etc.
+    - 'english_0', 'chinese_0', etc.
+    """
+    sample_id = str(sample_id).lower()
+
+    # Direct language code match at start
+    for lang in XREASONING_LANGUAGES:
+        if sample_id.startswith(lang + "_") or sample_id.startswith(lang + "-"):
+            return lang
+
+    # Full language name match
+    lang_name_map = {
+        "english": "en",
+        "spanish": "es",
+        "french": "fr",
+        "german": "de",
+        "russian": "ru",
+        "chinese": "zh",
+        "japanese": "ja",
+        "thai": "th",
+        "swahili": "sw",
+        "bengali": "bn",
+        "telugu": "te"
+    }
+
+    for name, code in lang_name_map.items():
+        if sample_id.startswith(name):
+            return code
+
     return None
 
 
-def process_dataframe(df, lang, dataset_name):
-    """Convert dataframe to our standard format."""
-    data = []
-
-    for idx, row in df.iterrows():
-        # Handle different column naming conventions
-        question = None
-        answer = None
-
-        # Try different question column names
-        for q_col in ["question", "problem", "Question", "Problem", "prompt"]:
-            if q_col in row and pd.notna(row[q_col]):
-                question = str(row[q_col])
-                break
-
-        # Try different answer column names
-        for a_col in ["answer", "Answer", "final_answer", "correct_answer", "solution"]:
-            if a_col in row and pd.notna(row[a_col]):
-                answer = str(row[a_col])
-                break
-
-        if question is None:
-            continue
-
-        sample = {
-            "prompt": [{"from": "user", "value": question}],
-            "final_answer": answer if answer else "",
-            "question_id": idx,
-            "language": lang,
-            "language_name": LANGUAGE_NAMES.get(lang, lang)
-        }
-
-        # For GPQA, add choices if available
-        if dataset_name == "gpqa":
-            choices = {}
-            for choice_key in ["A", "B", "C", "D"]:
-                if choice_key in row and pd.notna(row[choice_key]):
-                    choices[choice_key] = str(row[choice_key])
-            if choices:
-                sample["choices"] = choices
-
-        data.append(sample)
-
-    return data
-
-
 def download_xreasoning(dataset_name, output_dir=None):
-    """Download XReasoning dataset for all languages and save to JSON files."""
+    """Download XReasoning dataset and organize by language."""
     if output_dir is None:
         output_dir = os.path.dirname(os.path.abspath(__file__))
 
+    hf_dataset = XREASONING_DATASETS[dataset_name]
     all_data = {lang: [] for lang in XREASONING_LANGUAGES}
 
-    # Try primary and fallback dataset sources
-    for repo_source, repos in [("JRQi", XREASONING_DATASETS), ("shanchen", XREASONING_DATASETS_FALLBACK)]:
-        hf_dataset = repos[dataset_name]
+    print(f"\nDownloading {dataset_name} from {hf_dataset}")
+    print("=" * 50)
 
-        print(f"\nDownloading {dataset_name} from {hf_dataset}")
-        print("=" * 50)
+    try:
+        # Load dataset
+        ds = load_dataset(hf_dataset, trust_remote_code=True)
 
-        success_count = 0
+        # Get available splits
+        print(f"Available splits: {list(ds.keys())}")
 
-        for lang in XREASONING_LANGUAGES:
-            if all_data[lang]:  # Already have data for this language
+        # Use test split if available, otherwise first split
+        split_name = "test" if "test" in ds else list(ds.keys())[0]
+        print(f"Using split: {split_name}")
+        print(f"Total samples: {len(ds[split_name])}")
+
+        # Print first sample to understand structure
+        if len(ds[split_name]) > 0:
+            first_sample = ds[split_name][0]
+            print(f"Sample columns: {list(first_sample.keys())}")
+            print(f"First sample: {first_sample}")
+
+        # Process each sample
+        lang_question_ids = {lang: 0 for lang in XREASONING_LANGUAGES}
+
+        for example in ds[split_name]:
+            sample_id = example.get("id", "")
+            question = example.get("question", "")
+            answer = example.get("answer", "")
+
+            # Extract language from ID
+            lang = extract_language_from_id(sample_id)
+
+            if lang is None:
+                # Try to detect language from other fields or default to en
+                print(f"  Warning: Could not determine language for id={sample_id}")
                 continue
 
-            print(f"Downloading {lang} ({LANGUAGE_NAMES[lang]})...")
+            if lang not in XREASONING_LANGUAGES:
+                continue
 
-            # Method 1: Try load_dataset with language as config
-            try:
-                ds = load_dataset(hf_dataset, lang, trust_remote_code=True)
-                split_name = "test" if "test" in ds else "train" if "train" in ds else list(ds.keys())[0]
+            sample = {
+                "prompt": [{"from": "user", "value": str(question)}],
+                "final_answer": str(answer),
+                "question_id": lang_question_ids[lang],
+                "original_id": sample_id,
+                "language": lang,
+                "language_name": LANGUAGE_NAMES.get(lang, lang)
+            }
 
-                data = []
-                for idx, example in enumerate(ds[split_name]):
-                    question = (example.get("question") or example.get("problem") or
-                               example.get("Question") or example.get("Problem") or
-                               example.get("prompt"))
-                    answer = (example.get("answer") or example.get("Answer") or
-                             example.get("final_answer") or example.get("correct_answer") or
-                             example.get("solution"))
+            # For GPQA, add choices if available
+            if dataset_name == "gpqa":
+                choices = {}
+                for choice_key in ["A", "B", "C", "D"]:
+                    if choice_key in example:
+                        choices[choice_key] = str(example[choice_key])
+                if choices:
+                    sample["choices"] = choices
 
-                    sample = {
-                        "prompt": [{"from": "user", "value": str(question) if question else ""}],
-                        "final_answer": str(answer) if answer else "",
-                        "question_id": idx,
-                        "language": lang,
-                        "language_name": LANGUAGE_NAMES[lang]
-                    }
+            all_data[lang].append(sample)
+            lang_question_ids[lang] += 1
 
-                    if dataset_name == "gpqa":
-                        choices = {}
-                        for choice_key in ["A", "B", "C", "D"]:
-                            if choice_key in example:
-                                choices[choice_key] = str(example[choice_key])
-                        if choices:
-                            sample["choices"] = choices
-
-                    data.append(sample)
-
-                if data:
-                    all_data[lang] = data
-                    print(f"  Loaded {len(data)} samples via load_dataset")
-                    success_count += 1
-                    continue
-
-            except Exception as e:
-                print(f"  load_dataset failed: {e}")
-
-            # Method 2: Try direct parquet download
-            try:
-                df = download_parquet_direct(hf_dataset, lang)
-                if df is not None and len(df) > 0:
-                    data = process_dataframe(df, lang, dataset_name)
-                    if data:
-                        all_data[lang] = data
-                        print(f"  Loaded {len(data)} samples via direct parquet")
-                        success_count += 1
-                        continue
-            except Exception as e:
-                print(f"  Direct parquet failed: {e}")
-
-            print(f"  Failed to download {lang}")
-
-        if success_count > 0:
-            print(f"\nSuccessfully downloaded {success_count} languages from {repo_source}")
-            break
+    except Exception as e:
+        print(f"Error loading dataset: {e}")
+        import traceback
+        traceback.print_exc()
 
     # Save individual language files
     for lang, data in all_data.items():
