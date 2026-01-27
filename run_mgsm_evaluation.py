@@ -41,11 +41,14 @@ LANGUAGE_NAMES = {
 }
 
 
-def load_mgsm_data(languages=None):
+def load_mgsm_data(languages=None, data_dir="./datasets"):
     """Load MGSM data for specified languages.
+
+    First tries to load from local JSON files, then falls back to HuggingFace Hub.
 
     Args:
         languages: List of language codes. If None, loads all languages.
+        data_dir: Directory containing local JSON files.
 
     Returns:
         Dict mapping language code to list of samples
@@ -54,23 +57,61 @@ def load_mgsm_data(languages=None):
         languages = MGSM_LANGUAGES
 
     all_data = {}
+
+    # Try to load from local combined file first
+    combined_file = os.path.join(data_dir, "mgsm_all.json")
+    if os.path.exists(combined_file):
+        print(f"Loading MGSM from local file: {combined_file}")
+        with open(combined_file, "r", encoding="utf-8") as f:
+            local_data = json.load(f)
+        for lang in languages:
+            if lang in local_data:
+                all_data[lang] = local_data[lang]
+                print(f"  Loaded {len(all_data[lang])} samples for {lang}")
+            else:
+                print(f"  Warning: {lang} not found in local data")
+        return all_data
+
+    # Try to load from individual language files
+    all_local = True
+    for lang in languages:
+        lang_file = os.path.join(data_dir, f"mgsm_{lang}.json")
+        if os.path.exists(lang_file):
+            print(f"Loading MGSM {lang} from local file...")
+            with open(lang_file, "r", encoding="utf-8") as f:
+                all_data[lang] = json.load(f)
+            print(f"  Loaded {len(all_data[lang])} samples for {lang}")
+        else:
+            all_local = False
+            break
+
+    if all_local:
+        return all_data
+
+    # Fall back to HuggingFace Hub
+    print("Local files not found, loading from HuggingFace Hub...")
+    all_data = {}
     for lang in languages:
         print(f"Loading MGSM {lang} ({LANGUAGE_NAMES.get(lang, lang)})...")
-        ds = load_dataset("juletxara/mgsm", lang)
+        try:
+            ds = load_dataset("juletxara/mgsm", lang)
 
-        data = []
-        for idx, example in enumerate(ds["test"]):
-            data.append({
-                "prompt": [{"from": "user", "value": example["question"]}],
-                "final_answer": str(example["answer_number"]),
-                "question_id": idx,
-                "language": lang,
-                "language_name": LANGUAGE_NAMES.get(lang, lang),
-                "full_answer": example["answer"],
-                "equation_solution": example["equation_solution"]
-            })
-        all_data[lang] = data
-        print(f"  Loaded {len(data)} samples for {lang}")
+            data = []
+            for idx, example in enumerate(ds["test"]):
+                data.append({
+                    "prompt": [{"from": "user", "value": example["question"]}],
+                    "final_answer": str(example["answer_number"]),
+                    "question_id": idx,
+                    "language": lang,
+                    "language_name": LANGUAGE_NAMES.get(lang, lang),
+                    "full_answer": example["answer"],
+                    "equation_solution": example["equation_solution"]
+                })
+            all_data[lang] = data
+            print(f"  Loaded {len(data)} samples for {lang}")
+        except Exception as e:
+            print(f"  Error loading {lang}: {e}")
+            all_data[lang] = []
 
     return all_data
 

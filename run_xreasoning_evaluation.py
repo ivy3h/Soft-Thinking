@@ -62,12 +62,15 @@ DEFAULT_NUM_RUNS = {
 }
 
 
-def load_xreasoning_data(dataset_name: str, languages=None):
+def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets"):
     """Load XReasoning data for specified languages.
+
+    First tries to load from local JSON files, then falls back to HuggingFace Hub.
 
     Args:
         dataset_name: 'aime2024', 'aime2025', or 'gpqa'
         languages: List of language codes. If None, loads all languages.
+        data_dir: Directory containing local JSON files.
 
     Returns:
         Dict mapping language code to list of samples
@@ -75,6 +78,40 @@ def load_xreasoning_data(dataset_name: str, languages=None):
     if languages is None:
         languages = XREASONING_LANGUAGES
 
+    all_data = {}
+
+    # Try to load from local combined file first
+    combined_file = os.path.join(data_dir, f"xreasoning_{dataset_name}_all.json")
+    if os.path.exists(combined_file):
+        print(f"Loading {dataset_name} from local file: {combined_file}")
+        with open(combined_file, "r", encoding="utf-8") as f:
+            local_data = json.load(f)
+        for lang in languages:
+            if lang in local_data:
+                all_data[lang] = local_data[lang]
+                print(f"  Loaded {len(all_data[lang])} samples for {lang}")
+            else:
+                print(f"  Warning: {lang} not found in local data")
+        return all_data
+
+    # Try to load from individual language files
+    all_local = True
+    for lang in languages:
+        lang_file = os.path.join(data_dir, f"xreasoning_{dataset_name}_{lang}.json")
+        if os.path.exists(lang_file):
+            print(f"Loading {dataset_name} {lang} from local file...")
+            with open(lang_file, "r", encoding="utf-8") as f:
+                all_data[lang] = json.load(f)
+            print(f"  Loaded {len(all_data[lang])} samples for {lang}")
+        else:
+            all_local = False
+            break
+
+    if all_local:
+        return all_data
+
+    # Fall back to HuggingFace Hub
+    print("Local files not found, loading from HuggingFace Hub...")
     hf_dataset = XREASONING_DATASETS[dataset_name]
     all_data = {}
 
