@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra la suma de todas las bases enteras $b>9$ para las cuales $17_{b}$ es un divisor de $97_{b}$."
       }
     ],
     "final_answer": "70",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "En el triángulo $\\triangle ABC$, los puntos $A, D, E$ y $B$ se encuentran en ese orden en el lado $\\overline{AB}$ con $AD=4, DE=16$, y $EB=8$. Los puntos $A, F, G$ y $C$ se encuentran en ese orden en el lado $\\overline{AC}$ con $AF=13, FG=52$, y $GC=26$. Sea $M$ la reflexión de $D$ a través de $F$, y sea $N$ la reflexión de $G$ a través de $E$. El cuadrilátero $DEGF$ tiene un área de 288. Encuentra el área del heptágono $AFNBCEM$."
       }
     ],
     "final_answer": "588",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Los 9 miembros de un equipo de béisbol fueron a una heladería después de su juego. Cada jugador tuvo un cono de una bola de helado de chocolate, vainilla o fresa. Al menos un jugador eligió cada sabor, y el número de jugadores que eligieron chocolate fue mayor que el número de jugadores que eligieron vainilla, que fue mayor que el número de jugadores que eligieron fresa. Sea $N$ el número de diferentes asignaciones de sabores a los jugadores que cumplen con estas condiciones. Encuentra el residuo cuando $N$ se divide por 1000."
       }
     ],
     "final_answer": "16",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra el número de pares ordenados $(x,y)$, donde tanto $x$ como $y$ son enteros entre $-100$ y $100$, inclusive, tales que $12x^{2}-xy-6y^{2}=0$."
       }
     ],
     "final_answer": "117",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hay $8!=40320$ enteros positivos de ocho dígitos que utilizan cada uno de los dígitos $1,2,3,4,5,6,7,8$ exactamente una vez. Sea $N$ el número de estos enteros que son divisibles por 22. Encuentra la diferencia entre $N$ y 2025."
       }
     ],
     "final_answer": "279",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Un trapecio isósceles tiene un círculo inscrito que es tangente a cada uno de sus cuatro lados. El radio del círculo es 3, y el área del trapecio es 72. Sea $r$ y $s$ las longitudes de los lados paralelos del trapecio, con $r \\neq s$. Encuentra $r^{2}+s^{2}$."
       }
     ],
     "final_answer": "504",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Los doce letras $A,B,C,D,E,F,G,H,I,J,K$ y $L$ se agrupan aleatoriamente en seis pares de letras. Las dos letras en cada par se colocan una al lado de la otra en orden alfabético para formar seis palabras de dos letras, y esas seis palabras se enumeran alfabéticamente. Por ejemplo, un resultado posible es $AB,CJ,DG,EK,FL,HI$. La probabilidad de que la última palabra listada contenga $G$ es $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$."
       }
     ],
     "final_answer": "821",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $k$ un número real tal que el sistema $|25+20i-z|=5$ y $|z-4-k|=|z-3i-k|$ tiene exactamente una solución compleja $z$. La suma de todos los valores posibles de $k$ se puede escribir como $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$. Aquí $i=\\sqrt{-1}$."
       }
     ],
     "final_answer": "77",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "La parábola con la ecuación $y=x^{2}-4$ se rota $60^{\\circ}$ en sentido contrario a las agujas del reloj alrededor del origen. El único punto en el cuarto cuadrante donde la parábola original y su imagen se intersectan tiene la coordenada $y$ igual a $\\frac{a-\\sqrt{b}}{c}$, donde $a$, $b$, y $c$ son enteros positivos, y $a$ y $c$ son primos entre sí. Encuentra $a+b+c$."
       }
     ],
     "final_answer": "62",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Los 27 cuadros de una cuadrícula de $3\\times9$ se llenan utilizando los números del 1 al 9 de manera que cada fila contenga 9 números diferentes, y cada uno de los tres bloques de $3\\times3$ marcados en el ejemplo a continuación contenga 9 números diferentes, como en las tres primeras filas de un rompecabezas de Sudoku.  \n | 4 | 2 | 8 | 9 | 6 | 3 | 1 | 7 | 5 |  \n | 3 | 7 | 9 | 5 | 2 | 1 | 6 | 8 | 4 |  \n | 5 | 6 | 1 | 8 | 4 | 7 | 9 | 2 | 3 |  \n El número de maneras diferentes de llenar tal cuadrícula se puede escribir como $p^a\\cdot q^b\\cdot r^c\\cdot s^d$, donde $p,q,r,$ y $s$ son números primos distintos y $a,b,c,$ y $d$ son enteros positivos. Encuentra $p\\cdot a+q\\cdot b+r\\cdot c+s\\cdot d$."
       }
     ],
     "final_answer": "81",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Una función periódica lineal por partes está definida por $f(x)=\\begin{cases}x&\\text{si }x\\in[-1,1)\\\\2-x&\\text{si }x\\in[1,3)\\end{cases}$ y $f(x+4)=f(x)$ para todos los números reales $x$. El gráfico de $f(x)$ tiene un patrón de sierra. La parábola $x=34y^2$ interseca el gráfico de $f(x)$ en un número finito de puntos. La suma de las coordenadas $y$ de estos puntos de intersección se puede expresar en la forma $\\frac{a+b\\sqrt{c}}{d}$, donde $a,b,c,$ y $d$ son enteros positivos, $a,b,$ y $d$ tienen un máximo común divisor igual a 1, y $c$ no es divisible por el cuadrado de ningún primo. Encuentra $a+b+c+d$."
       }
     ],
     "final_answer": "259",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "El conjunto de puntos en el espacio de coordenadas tridimensional que se encuentran en el plano $x+y+z=75$ cuyas coordenadas satisfacen las desigualdades $x-yz<y-zx<z-xy$ forma tres regiones convexas disjuntas. Exactamente una de esas regiones tiene área finita. El área de esta región finita se puede expresar en la forma $a\\sqrt{b}$, donde $a$ y $b$ son enteros positivos y $b$ no es divisible por el cuadrado de ningún primo. Encuentra $a+b$."
       }
     ],
     "final_answer": "510",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alex divide un disco en cuatro cuadrantes con dos diámetros perpendiculares que se intersectan en el centro del disco. Dibuja 25 segmentos de línea más a través del disco, dibujando cada segmento al seleccionar dos puntos al azar en el perímetro del disco en diferentes cuadrantes y conectando esos dos puntos. Encuentra el número esperado de regiones en las que estos 27 segmentos de línea dividen el disco."
       }
     ],
     "final_answer": "204",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $ABCDE$ un pentágono convexo con $AB=14, BC=7, CD=24, DE=13, EA=26,$ y $\\angle B=\\angle E=60^\\circ$. Para cada punto $X$ en el plano, define $f(X)=AX+BX+CX+DX+EX$. El valor mínimo posible de $f(X)$ se puede expresar como $m+n\\sqrt{p}$, donde $m$ y $n$ son enteros positivos y $p$ no es divisible por el cuadrado de ningún primo. Encuentra $m+n+p$."
       }
     ],
     "final_answer": "60",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $N$ el número de tripletas ordenadas de enteros positivos $(a,b,c)$ tales que $a,b,c\\leq3^6$ y $a^3+b^3+c^3$ es un múltiplo de $3^7$. Encuentra el residuo cuando $N$ se divide por $1000$."
       }
     ],
     "final_answer": "735",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seis puntos $A, B, C, D, E$ y $F$ están en una línea recta en ese orden. Supongamos que $G$ es un punto que no está en la línea y que $AC = 26$, $BD = 22$, $CE = 31$, $DF = 33$, $AF = 73$, $CG = 40$ y $DG = 30$. Encuentra el área de $\\triangle BGE$."
       }
     ],
     "final_answer": "468",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra la suma de todos los enteros positivos $n$ tales que $n+2$ divide el producto $3(n+3)(n^2+9)$."
       }
     ],
     "final_answer": "49",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cuatro cuadrados unitarios forman una cuadrícula de $2\\times 2$. Cada uno de los $12$ segmentos de línea unitarios que forman los lados de los cuadrados está coloreado de rojo o azul de tal manera que cada cuadrado unitario tiene $2$ lados rojos y $2$ lados azules. Un ejemplo se muestra a continuación (el rojo es sólido, el azul es discontinuo). Encuentra el número de tales coloraciones.\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "82",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "El producto\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\nes igual a $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m + n$."
       }
     ],
     "final_answer": "106",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Supongamos que $\\triangle ABC$ tiene ángulos $\\angle BAC = 84^\\circ$, $\\angle ABC = 60^\\circ$ y $\\angle ACB = 36^\\circ$. Sea $D$, $E$ y $F$ los puntos medios de los lados $\\overline{BC}$, $\\overline{AC}$ y $\\overline{AB}$, respectivamente. El circuncírculo de $\\triangle DEF$ interseca $\\overline{BD}$, $\\overline{AE}$ y $\\overline{AF}$ en los puntos $G$, $H$ y $J$, respectivamente. Los puntos $G$, $D$, $E$, $H$, $J$ y $F$ dividen el circuncírculo de $\\triangle DEF$ en seis arcos menores, como se muestra. Encuentra $\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$, donde los arcos se miden en grados. \n\n\\begin{tikzpicture}[scale=1.2]\n    \\coordinate (B) at (0,0);\n    \\coordinate (C) at (6,0);\n    \\coordinate (A) at (1.78,3.07);\n    \n    \\coordinate (D) at ($(B)!0.5!(C)$);\n    \\coordinate (E) at ($(A)!0.5!(C)$);\n    \\coordinate (F) at ($(A)!0.5!(B)$);\n    \n    \\draw (A) -- (B) -- (C) -- cycle;\n\n    \\fill (A) circle (2pt) node[above] {$A$};\n    \\fill (B) circle (2pt) node[below] {$B$};\n    \\fill (C) circle (2pt) node[below] {$C$};\n\n    \\fill (D) circle (2pt) node[below] {$D$};\n    \\fill (E) circle (2pt) node[right] {$E$};\n    \\fill (F) circle (2pt) node[left] {$F$};\n\n    \\draw (D) -- (E) -- (F) -- cycle;\n\n    \\coordinate (O) at (2.39,1.38);\n    \n    \\draw (O) circle (1.51);\n\n    \\coordinate (G) at (1.72, 0.03);\n    \\coordinate (J) at (1.5, 2.6);\n    \\coordinate (H) at (2.08, 2.85);\n\n    \\fill (G) circle (2pt) node[below] {$G$};\n    \\fill (H) circle (2pt) node[above] {$H$};\n    \\fill (J) circle (2pt) node[above left] {$J$};\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "336",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Círculo $\\omega_1$ con radio $6$ centrado en el punto $A$ es tangente internamente en el punto $B$ al círculo $\\omega_2$ con radio $15$. Los puntos $C$ y $D$ están en $\\omega_2$ de tal manera que $\\overline{BC}$ es un diámetro de $\\omega_2$ y $\\overline{BC} \\perp \\overline{AD}$. El rectángulo $EFGH$ está inscrito en $\\omega_1$ de tal forma que $\\overline{EF} \\perp \\overline{BC}$, $C$ está más cerca de $\\overline{GH}$ que de $\\overline{EF}$, y $D$ está más cerca de $\\overline{FG}$ que de $\\overline{EH}$, como se muestra. Los triángulos $\\triangle DGF$ y $\\triangle CHG$ tienen áreas iguales. El área del rectángulo $EFGH$ es $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m + n$.\n\n\\begin{tikzpicture}[scale=0.15]\n\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (6,0);\n    \\coordinate (C) at (-24,0);\n    \\coordinate (D) at (0,12);\n\n    \\coordinate (O) at (-9, 0);\n\n    \\def\\rone{6} \n    \\def\\rtwo{15} \n\n    \\coordinate (E) at (5,-3.3166);\n    \\coordinate (F) at (5,3.3166);\n    \\coordinate (G) at (-5,3.3166);\n    \\coordinate (H) at (-5,-3.3166);\n\n    \\fill[gray!30] (D) -- (G) -- (F) -- cycle;\n    \\fill[gray!30] (C) -- (H) -- (G) -- cycle;\n    \n    \\draw[thick] (E) -- (F) -- (G) -- (H) -- cycle; \n\n    \\foreach \\p in {A,B,C,D,E,F,G,H}\n        \\fill[black] (\\p) circle (12pt);\n\n    \\node[below] at (A) {$A$};\n    \\node[right] at (B) {$B$};\n    \\node[left] at (C) {$C$};\n    \\node[above] at (D) {$D$};\n    \\node[below right] at (E) {$E$};\n    \\node[above right] at (F) {$F$};\n    \\node[above left] at (G) {$G$};\n    \\node[below left] at (H) {$H$};\n    \\node at (0,-4.75) {$\\omega_1$};\n    \\node at (-9, -14) {$\\omega_2$};\n\n    \\draw[thick] (A) circle (\\rone); \n    \\draw[thick] (O) circle (\\rtwo); \n    \\draw[thick] (C) -- (B);\n    \\draw[thick] (D) -- (A);\n    \\draw[thick] (C) -- (G);\n    \\draw[thick] (C) -- (H);\n    \\draw[thick] (D) -- (G);\n    \\draw[thick] (D) -- (F);\n\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "293",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $A$ el conjunto de divisores enteros positivos de $2025$. Sea $B$ un subconjunto seleccionado al azar de $A$. La probabilidad de que $B$ sea un conjunto no vacío con la propiedad de que el mínimo común múltiplo de sus elementos sea $2025$ es $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m + n$."
       }
     ],
     "final_answer": "237",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "De un suministro ilimitado de monedas de $1$ centavo, monedas de $10$ centavos y monedas de $25$ centavos, Silas quiere encontrar una colección de monedas que tenga un valor total de $N$ centavos, donde $N$ es un número entero positivo. Él utiliza el llamado \\textit{algoritmo codicioso}, eligiendo sucesivamente la moneda de mayor valor que no cause que el valor de su colección exceda $N$. Por ejemplo, para obtener $42$ centavos, Silas elegirá una moneda de $25$ centavos, luego una moneda de $10$ centavos, y luego $7$ monedas de $1$ centavo. Sin embargo, esta colección de $9$ monedas utiliza más monedas de las necesarias para obtener un total de $42$ centavos; de hecho, elegir $4$ monedas de $10$ centavos y $2$ monedas de $1$ centavo logra el mismo total con solo $6$ monedas.\n\nEn general, el algoritmo codicioso \\emph{tiene éxito} para un dado $N$ si ninguna otra colección de monedas de $1$ centavo, $10$ centavos y $25$ centavos da un valor total de $N$ centavos utilizando estrictamente menos monedas que la colección dada por el algoritmo codicioso. Encuentra el número de valores de $N$ entre $1$ y $1000$ inclusive para los cuales el algoritmo codicioso tiene éxito."
       }
     ],
     "final_answer": "610",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hay $n$ valores de $x$ en el intervalo $0 < x < 2\\pi$ donde $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$. Para $t$ de estos $n$ valores de $x$, el gráfico de $y = f(x)$ es tangente al eje $x$. Encuentra $n + t$."
       }
     ],
     "final_answer": "149",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Dieciséis sillas están dispuestas en una fila. Ocho personas eligen cada una una silla en la que sentarse de manera que ninguna persona se siente al lado de dos personas. Sea $N$ el número de subconjuntos de las 16 sillas que se podrían seleccionar. Encuentra el resto cuando $N$ se divide por $1000$."
       }
     ],
     "final_answer": "907",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $S$ el conjunto de vértices de un $24$-gon regular. Encuentra el número de maneras de dibujar $12$ segmentos de igual longitud de modo que cada vértice en $S$ sea un extremo de exactamente uno de los $12$ segmentos."
       }
     ],
     "final_answer": "113",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $A_1 A_2 A_3 \\ldots A_{11}$ un polígono simple no convexo de $11$ lados con las siguientes propiedades:\n\n\\begin{itemize}\n\\item Para cada entero $2 \\le i \\le 10$, el área de $\\triangle A_i A_{1} A_{i+1}$ es igual a $1$.\n\\item Para cada entero $2 \\le i \\le 10$, $\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$.\n\\item El perímetro del 11-gono $A_1 A_2 A_3 \\dots A_{11}$ es igual a $20$.\n\\end{itemize}\n\nEntonces $A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$ donde $m, n, p$, y $q$ son enteros positivos, $n$ no es divisible por el cuadrado de ningún primo, y ningún primo divide todos $m, p$, y $q$. Encuentra $m + n + p + q$."
       }
     ],
     "final_answer": "19",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $x_1, x_2, x_3, \\ldots$ una secuencia de números racionales definida por $x_1 = \\frac{25}{11}$ y\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\npara todo $k \\ge 1$. Entonces $x_{2025}$ se puede expresar como $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra el residuo cuando $m + n$ se divide por $1000$."
       }
     ],
     "final_answer": "248",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $\\triangle ABC$ un triángulo rectángulo con $\\angle A = 90^\\circ$ y $BC = 38$. Existen puntos $K$ y $L$ dentro del triángulo tales que\n$$AK = AL = BK = CL = KL = 14.$$\nEl área del cuadrilátero $BKLC$ se puede expresar como $n\\sqrt{3}$ para algún entero positivo $n$. Encuentra $n$."
       }
     ],
     "final_answer": "104",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hay exactamente tres números reales positivos $k$ tales que la función\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\ndefinida sobre los números reales positivos alcanza su valor mínimo en exactamente dos números reales positivos $x$. Encuentra la suma de estos tres valores de $k$."
       }
     ],
     "final_answer": "240",

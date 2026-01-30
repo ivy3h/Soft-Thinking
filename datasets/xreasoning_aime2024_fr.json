@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Chaque matin, Aya fait une promenade de $9$ kilomètres et s'arrête ensuite dans un café. Lorsqu'elle marche à une vitesse constante de $s$ kilomètres par heure, la promenade lui prend 4 heures, y compris $t$ minutes passées dans le café. Lorsqu'elle marche à $s+2$ kilomètres par heure, la promenade lui prend 2 heures et 24 minutes, y compris $t$ minutes passées dans le café. Supposons qu'Aya marche à $s+\\frac{1}{2}$ kilomètres par heure. Trouvez le nombre de minutes que la promenade lui prend, y compris les $t$ minutes passées dans le café."
       }
     ],
     "final_answer": "204",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $ABC$ un triangle inscrit dans le cercle $\\omega$. Les tangentes à $\\omega$ en $B$ et $C$ se rencontrent au point $D$, et la droite $\\overline{AD}$ intersecte $\\omega$ en $P$. Si $AB=5$, $BC=9$, et $AC=10$, alors $AP$ peut être écrit sous la forme $\\frac{m}{n}$, où $m$ et $n$ sont des entiers premiers entre eux. Trouvez $m + n$."
       }
     ],
     "final_answer": "113",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Chaque sommet d'un octogone régulier est colorié indépendamment en rouge ou en bleu avec une probabilité égale. La probabilité que l'octogone puisse ensuite être tourné de sorte que tous les sommets bleus se retrouvent à des positions où il y avait à l'origine des sommets rouges est $\\tfrac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Quelle est la valeur de $m+n$ ?"
       }
     ],
     "final_answer": "371",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Définissez $f(x)=|| x|-\\tfrac{1}{2}|$ et $g(x)=|| x|-\\tfrac{1}{4}|$. Trouvez le nombre d'intersections des graphes de \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ et }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]"
       }
     ],
     "final_answer": "385",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $p$ le plus petit nombre premier pour lequel il existe un entier positif $n$ tel que $n^{4}+1$ est divisible par $p^{2}$. Trouvez le plus petit entier positif $m$ tel que $m^{4}+1$ est divisible par $p^{2}$."
       }
     ],
     "final_answer": "110",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $ABCD$ un tétraèdre tel que $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$, et $BC=AD= \\sqrt{89}$. Il existe un point $I$ à l'intérieur du tétraèdre tel que les distances de $I$ à chacune des faces du tétraèdre sont toutes égales. Cette distance peut être écrite sous la forme $\\frac{m \\sqrt n}{p}$, où $m$, $n$, et $p$ sont des entiers positifs, $m$ et $p$ sont premiers entre eux, et $n$ n'est pas divisible par le carré d'un nombre premier. Trouvez $m+n+p$."
       }
     ],
     "final_answer": "104",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $\\mathcal{B}$ l'ensemble des boîtes rectangulaires ayant une surface de $54$ et un volume de $23$. Soit $r$ le rayon de la plus petite sphère pouvant contenir chacune des boîtes rectangulaires qui sont des éléments de $\\mathcal{B}$. La valeur de $r^2$ peut être écrite sous la forme $\\frac{p}{q}$, où $p$ et $q$ sont des entiers positifs premiers entre eux. Trouvez $p+q$."
       }
     ],
     "final_answer": "721",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Il existe des nombres réels $x$ et $y$, tous deux supérieurs à 1, tels que $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Trouvez $xy$."
       }
     ],
     "final_answer": "025",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice et Bob jouent au jeu suivant. Une pile de $n$ jetons se trouve devant eux. Les joueurs jouent à tour de rôle, Alice commençant en premier. À chaque tour, le joueur retire soit $1$ jeton soit $4$ jetons de la pile. Celui qui retire le dernier jeton gagne. Trouvez le nombre d'entiers positifs $n$ inférieurs ou égaux à $2024$ pour lesquels il existe une stratégie pour Bob qui garantit que Bob gagnera le jeu, peu importe le jeu d'Alice."
       }
     ],
     "final_answer": "809",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jen participe à une loterie en choisissant $4$ nombres distincts parmi $S=\\{1,2,3,\\cdots,9,10\\}.$ $4$ nombres sont choisis au hasard dans $S.$ Elle gagne un prix si au moins deux de ses nombres étaient $2$ des nombres choisis au hasard, et elle remporte le gros lot si ses quatre nombres étaient les nombres choisis au hasard. La probabilité qu'elle remporte le gros lot étant donné qu'elle a gagné un prix est $\\tfrac{m}{n}$ où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$."
       }
     ],
     "final_answer": "116",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Les rectangles $ABCD$ et $EFGH$ sont dessinés de telle sorte que $D,E,C,F$ sont colinéaires. De plus, $A,D,H,G$ se trouvent tous sur un cercle. Si $BC=16$, $AB=107$, $FG=17$, et $EF=184$, quelle est la longueur de $CE$ ?"
       }
     ],
     "final_answer": "104",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Considérez les chemins de longueur $16$ qui suivent les lignes du coin inférieur gauche au coin supérieur droit d'une grille $8\\times 8$. Trouvez le nombre de tels chemins qui changent de direction exactement quatre fois, comme dans les exemples montrés ci-dessous."
       }
     ],
     "final_answer": "294",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez la partie réelle maximale possible de \\[(75+117i)z+\\frac{96+144i}{z}\\] où $z$ est un nombre complexe avec $|z|=4$."
       }
     ],
     "final_answer": "540",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Huit cercles de rayon $34$ sont tangentiellement disposés, et deux des cercles sont tangents à $AB$ et $BC$ du triangle $ABC$, respectivement. $2024$ cercles de rayon $1$ peuvent être arrangés de la même manière. Le rayon incrit du triangle $ABC$ peut être exprimé sous la forme $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$."
       }
     ],
     "final_answer": "197",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $A$, $B$, $C$ et $D$ des points sur l'hyperbole $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ tels que $ABCD$ est un losange dont les diagonales se croisent à l'origine. Trouvez le plus grand nombre réel qui est inférieur à $BD^2$ pour tous ces losanges."
       }
     ],
     "final_answer": "480",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Parmi les 900 résidents d'Aimeville, il y a 195 qui possèdent une bague en diamant, 367 qui possèdent un ensemble de clubs de golf, et 562 qui possèdent une bêche de jardin. De plus, chacun des 900 résidents possède un sac de cœurs en bonbon. Il y a 437 résidents qui possèdent exactement deux de ces choses, et 234 résidents qui possèdent exactement trois de ces choses. Trouvez le nombre de résidents d'Aimeville qui possèdent ces quatre choses."
       }
     ],
     "final_answer": "073",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $\\triangle ABC$ ayant pour centre du cercle circonscrit $O$ et pour centre du cercle inscrit $I$ avec $\\overline{IA}\\perp\\overline{OI}$, un rayon circonscrit de $13$, et un rayon inscrit de $6$. Trouvez $AB\\cdot AC$."
       }
     ],
     "final_answer": "468",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez le nombre de triplets d'entiers non négatifs \\((a,b,c)\\) satisfaisant \\(a + b + c = 300\\) et\n\\begin{equation*}\na^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6,000,000.\n\\end{equation*}"
       }
     ],
     "final_answer": "601",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\), et \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) des points dans le plan coordonné. Soit \\(\\mathcal{F}\\) la famille de segments \\(\\overline{PQ}\\) de longueur unité situés dans le premier quadrant avec \\(P\\) sur l'axe des \\(x\\) et \\(Q\\) sur l'axe des \\(y\\). Il existe un point unique \\(C\\) sur \\(\\overline{AB}\\), distinct de \\(A\\) et \\(B\\), qui n'appartient à aucun segment de \\(\\mathcal{F}\\) autre que \\(\\overline{AB}\\). Alors \\(OC^2=\\tfrac{p}{q}\\), où \\(p\\) et \\(q\\) sont des entiers positifs premiers entre eux. Trouvez \\(p+q\\)."
       }
     ],
     "final_answer": "023",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $\\omega\\neq 1$ une racine 13ème de l'unité. Trouvez le reste lorsque\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\nest divisé par 1000."
       }
     ],
     "final_answer": "321",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit \\(b\\ge 2\\) un entier. On appelle un entier positif \\(n\\) \\(b\\text-\\textit{beau}\\) s'il a exactement deux chiffres lorsqu'il est exprimé en base \\(b\\) et que ces deux chiffres s'additionnent à \\(\\sqrt n\\). Par exemple, \\(81\\) est \\(13\\text-\\textit{beau}\\) car \\(81  = \\underline{6} \\ \\underline{3}_{13} \\) et \\(6 + 3 =  \\sqrt{81}\\). Trouvez le plus petit entier \\(b\\ge 2\\) pour lequel il y a plus de dix entiers \\(b\\text-\\textit{beaux}\\)."
       }
     ],
     "final_answer": "211",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez le nombre de rectangles qui peuvent être formés à l'intérieur d'un dodécagone régulier fixe ($12$-gone) où chaque côté du rectangle repose soit sur un côté soit sur une diagonale du dodécagone. Le diagramme ci-dessous montre trois de ces rectangles.  \n[asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy]"
       }
     ],
     "final_answer": "315",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Une liste d'entiers positifs a les propriétés suivantes :\n$\\bullet$ La somme des éléments de la liste est $30$.\n$\\bullet$ Le mode unique de la liste est $9$.\n$\\bullet$ La médiane de la liste est un entier positif qui n'apparaît pas dans la liste elle-même.\nTrouvez la somme des carrés de tous les éléments de la liste."
       }
     ],
     "final_answer": "236",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez le nombre de façons de placer un chiffre dans chaque cellule d'une grille 2x3 de sorte que la somme des deux nombres formés en lisant de gauche à droite soit $999$, et que la somme des trois nombres formés en lisant de haut en bas soit $99$. La grille ci-dessous est un exemple d'un tel arrangement car $8+991=999$ et $9+9+81=99$.\n\\[\\begin{array}{|c|c|c|} \\hline 0 & 0 & 8 \\\\ \\hline 9 & 9 & 1 \\\\ \\hline \\end{array}\\]"
       }
     ],
     "final_answer": "045",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $x,y$ et $z$ des nombres réels positifs qui satisfont le système d'équations suivant :\n\\[\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}\\]\\[\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}\\]\\[\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}\\]\nAlors la valeur de $\\left|\\log_2(x^4y^3z^2)\\right|$ est $\\tfrac{m}{n}$ où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$."
       }
     ],
     "final_answer": "033",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit ABCDEF un hexagone équilatéral convexe dans lequel toutes les paires de côtés opposés sont parallèles. Le triangle dont les côtés sont les prolongements des segments AB, CD et EF a des longueurs de côtés 200, 240 et 300. Trouvez la longueur du côté de l'hexagone."
       }
     ],
     "final_answer": "080",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice choisit un ensemble $A$ d'entiers positifs. Ensuite, Bob énumère tous les ensembles finis non vides $B$ d'entiers positifs ayant la propriété que l'élément maximum de $B$ appartient à $A$. La liste de Bob contient 2024 ensembles. Trouvez la somme des éléments de $A$."
       }
     ],
     "final_answer": "055",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $N$ le plus grand entier positif à quatre chiffres ayant la propriété que chaque fois qu'un de ses chiffres est changé en $1$, le nombre résultant est divisible par $7$. Soit $Q$ et $R$ le quotient et le reste, respectivement, lorsque $N$ est divisé par $1000$. Trouvez $Q+R$."
       }
     ],
     "final_answer": "699",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Le tore $T$ est la surface produite par la rotation d'un cercle de rayon $3$ autour d'un axe dans le plan du cercle qui est à une distance $6$ du centre du cercle (comme un beignet). Soit $S$ une sphère de rayon $11$. Lorsque $T$ repose à l'extérieur de $S$, il est tangent extérieurement à $S$ le long d'un cercle de rayon $r_i$, et lorsque $T$ repose à l'extérieur de $S$, il est tangent extérieurement à $S$ le long d'un cercle de rayon $r_o$. La différence $r_i - r_o$ peut être écrite sous la forme $\\tfrac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$."
       }
     ],
     "final_answer": "127",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Il y a une collection de $25$ jetons blancs indistinguables et de $25$ jetons noirs indistinguables. Trouvez le nombre de façons de placer certains de ces jetons dans les $25$ cellules unitaires d'une grille de $5\\times5$ de sorte que :\n\nchaque cellule contienne au maximum un jeton\ntous les jetons dans la même rangée et tous les jetons dans la même colonne aient la même couleur\ntout jeton supplémentaire placé sur la grille violerait une ou plusieurs des deux conditions précédentes."
       }
     ],
     "final_answer": "902",

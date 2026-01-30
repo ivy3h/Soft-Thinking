@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez la somme de toutes les bases entières $b>9$ pour lesquelles $17_{b}$ est un diviseur de $97_{b}$."
       }
     ],
     "final_answer": "70",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Dans le $\\triangle ABC$, les points $A, D, E$ et $B$ se trouvent dans cet ordre sur le côté $\\overline{AB}$ avec $AD=4, DE=16$, et $EB=8$. Les points $A, F, G$ et $C$ se trouvent dans cet ordre sur le côté $\\overline{AC}$ avec $AF=13, FG=52$, et $GC=26$. Soit $M$ le reflet de $D$ à travers $F$, et soit $N$ le reflet de $G$ à travers $E$. Le quadrilatère $DEGF$ a une aire de 288. Trouvez l'aire de l'heptagone $AFNBCEM$."
       }
     ],
     "final_answer": "588",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Les 9 membres d'une équipe de baseball sont allés dans une crèmerie après leur match. Chaque joueur a pris un cornet de glace à une boule de chocolat, vanille ou fraise. Au moins un joueur a choisi chaque saveur, et le nombre de joueurs qui ont choisi le chocolat était supérieur au nombre de joueurs qui ont choisi la vanille, qui était supérieur au nombre de joueurs qui ont choisi la fraise. Soit $N$ le nombre d'attributions différentes de saveurs aux joueurs qui respectent ces conditions. Trouvez le reste lorsque $N$ est divisé par 1000."
       }
     ],
     "final_answer": "16",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez le nombre de paires ordonnées $(x,y)$, où $x$ et $y$ sont des entiers compris entre $-100$ et $100$, inclus, tels que $12x^{2}-xy-6y^{2}=0$."
       }
     ],
     "final_answer": "117",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Il y a $8!=40320$ entiers positifs à huit chiffres qui utilisent chacun des chiffres $1,2,3,4,5,6,7,8$ exactement une fois. Soit $N$ le nombre de ces entiers qui sont divisibles par 22. Trouvez la différence entre $N$ et 2025."
       }
     ],
     "final_answer": "279",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Un trapèze isocèle a un cercle inscrit tangent à chacun de ses quatre côtés. Le rayon du cercle est 3, et l'aire du trapèze est 72. Soit les côtés parallèles du trapèze de longueurs $r$ et $s$, avec $r \\neq s$. Trouvez $r^{2}+s^{2}$."
       }
     ],
     "final_answer": "504",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Les douze lettres $A,B,C,D,E,F,G,H,I,J,K$, et $L$ sont regroupées au hasard en six paires de lettres. Les deux lettres de chaque paire sont placées côte à côte dans l'ordre alphabétique pour former six mots de deux lettres, et ces six mots sont listés par ordre alphabétique. Par exemple, un résultat possible est $AB,CJ,DG,EK,FL,HI$. La probabilité que le dernier mot listé contienne $G$ est $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$."
       }
     ],
     "final_answer": "821",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $k$ des nombres réels tels que le système $|25+20i-z|=5$ et $|z-4-k|=|z-3i-k|$ a exactement une solution complexe $z$. La somme de toutes les valeurs possibles de $k$ peut être écrite sous la forme $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m+n$. Ici, $i=\\sqrt{-1}$."
       }
     ],
     "final_answer": "77",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "La parabole dont l'équation est $y=x^{2}-4$ est tournée de $60^{\\circ}$ dans le sens antihoraire autour de l'origine. Le point unique dans le quatrième quadrant où la parabole originale et son image se croisent a une coordonnée $y$ de $\\frac{a-\\sqrt{b}}{c}$, où $a$, $b$, et $c$ sont des entiers positifs, et $a$ et $c$ sont premiers entre eux. Trouvez $a+b+c$."
       }
     ],
     "final_answer": "62",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Les 27 cellules d'une grille de $3\\times9$ sont remplies avec les nombres de 1 à 9 de sorte que chaque ligne contient 9 nombres différents, et chacun des trois blocs de $3\\times3$ fortement délimités dans l'exemple ci-dessous contient 9 nombres différents, comme dans les trois premières lignes d'un puzzle Sudoku.  \n | 4 | 2 | 8 | 9 | 6 | 3 | 1 | 7 | 5 |  \n | 3 | 7 | 9 | 5 | 2 | 1 | 6 | 8 | 4 |  \n | 5 | 6 | 1 | 8 | 4 | 7 | 9 | 2 | 3 |  \nLe nombre de façons différentes de remplir une telle grille peut être écrit sous la forme $p^a\\cdot q^b\\cdot r^c\\cdot s^d$, où $p,q,r,$ et $s$ sont des nombres premiers distincts et $a,b,c,$ et $d$ sont des entiers positifs. Trouvez $p\\cdot a+q\\cdot b+r\\cdot c+s\\cdot d$."
       }
     ],
     "final_answer": "81",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Une fonction périodique par morceaux et linéaire est définie par $f(x)=\\begin{cases}x&\\text{si }x\\in[-1,1)\\\\2-x&\\text{si }x\\in[1,3)\\end{cases}$ et $f(x+4)=f(x)$ pour tous les nombres réels $x$. Le graphique de $f(x)$ a un motif en dents de scie. La parabole $x=34y^2$ intersecte le graphique de $f(x)$ en un nombre fini de points. La somme des coordonnées $y$ de ces points d'intersection peut être exprimée sous la forme $\\frac{a+b\\sqrt{c}}{d}$, où $a,b,c,$ et $d$ sont des entiers positifs, $a,b,$ et $d$ ont un plus grand commun diviseur égal à 1, et $c$ n'est pas divisible par le carré d'un nombre premier. Trouvez $a+b+c+d$."
       }
     ],
     "final_answer": "259",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "L'ensemble des points dans l'espace de coordonnées à 3 dimensions qui se trouvent dans le plan $x+y+z=75$ dont les coordonnées satisfont les inégalités $x-yz<y-zx<z-xy$ forme trois régions convexes disjointes. Exactement une de ces régions a une aire finie. L'aire de cette région finie peut être exprimée sous la forme $a\\sqrt{b}$, où $a$ et $b$ sont des entiers positifs et $b$ n'est pas divisible par le carré d'un nombre premier. Trouvez $a+b$."
       }
     ],
     "final_answer": "510",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alex divise un disque en quatre quadrants avec deux diamètres perpendiculaires qui se croisent au centre du disque. Il trace 25 segments de droite supplémentaires à travers le disque, en traçant chaque segment en sélectionnant deux points au hasard sur le périmètre du disque dans des quadrants différents et en reliant ces deux points. Trouvez le nombre attendu de régions dans lesquelles ces 27 segments de droite divisent le disque."
       }
     ],
     "final_answer": "204",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $ABCDE$ un pentagone convexe avec $AB=14, BC=7, CD=24, DE=13, EA=26,$ et $\\angle B=\\angle E=60^\\circ$. Pour chaque point $X$ dans le plan, définissez $f(X)=AX+BX+CX+DX+EX$. La valeur minimale possible de $f(X)$ peut être exprimée sous la forme $m+n\\sqrt{p}$, où $m$ et $n$ sont des entiers positifs et $p$ n'est pas divisible par le carré d'un nombre premier. Trouvez $m+n+p$."
       }
     ],
     "final_answer": "60",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $N$ le nombre de triplets ordonnés d'entiers positifs $(a,b,c)$ tels que $a,b,c\\leq3^6$ et que $a^3+b^3+c^3$ soit un multiple de $3^7$. Trouvez le reste lorsque $N$ est divisé par $1000$."
       }
     ],
     "final_answer": "735",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Six points $A, B, C, D, E$ et $F$ sont alignés dans cet ordre. Supposons que $G$ soit un point qui n'est pas sur la ligne et que $AC = 26$, $BD = 22$, $CE = 31$, $DF = 33$, $AF = 73$, $CG = 40$, et $DG = 30$. Trouvez l'aire de $\\triangle BGE$."
       }
     ],
     "final_answer": "468",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Trouvez la somme de tous les entiers positifs $n$ tels que $n+2$ divise le produit $3(n+3)(n^2+9)$."
       }
     ],
     "final_answer": "49",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Quatre carrés unitaires forment une grille de $2\\times 2$. Chacun des $12$ segments de ligne unitaires formant les côtés des carrés est colorié soit en rouge soit en bleu de telle sorte que chaque carré unitaire a $2$ côtés rouges et $2$ côtés bleus. Un exemple est montré ci-dessous (le rouge est plein, le bleu est en pointillé). Trouvez le nombre de telles colorations.\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "82",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Le produit\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\nest égal à $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m + n$."
       }
     ],
     "final_answer": "106",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Supposons que $\\triangle ABC$ ait des angles $\\angle BAC = 84^\\circ$, $\\angle ABC = 60^\\circ$, et $\\angle ACB = 36^\\circ$. Soit $D$, $E$, et $F$ les milieux des côtés $\\overline{BC}$, $\\overline{AC}$, et $\\overline{AB}$, respectivement. Le cercle circonscrit de $\\triangle DEF$ intersecte $\\overline{BD}$, $\\overline{AE}$, et $\\overline{AF}$ aux points $G$, $H$, et $J$, respectivement. Les points $G$, $D$, $E$, $H$, $J$, et $F$ divisent le cercle circonscrit de $\\triangle DEF$ en six arcs mineurs, comme montré. Trouvez $\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$, où les arcs sont mesurés en degrés."
       }
     ],
     "final_answer": "336",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cercle $\\omega_1$ de rayon $6$ centré au point $A$ est tangent intérieurement au point $B$ au cercle $\\omega_2$ de rayon $15$. Les points $C$ et $D$ se trouvent sur $\\omega_2$ de sorte que $\\overline{BC}$ est un diamètre de $\\omega_2$ et $\\overline{BC} \\perp \\overline{AD}$. Le rectangle $EFGH$ est inscrit dans $\\omega_1$ de sorte que $\\overline{EF} \\perp \\overline{BC}$, $C$ est plus proche de $\\overline{GH}$ que de $\\overline{EF}$, et $D$ est plus proche de $\\overline{FG}$ que de $\\overline{EH}$, comme montré. Les triangles $\\triangle DGF$ et $\\triangle CHG$ ont des aires égales. L'aire du rectangle $EFGH$ est $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m + n$."
       }
     ],
     "final_answer": "293",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $A$ l'ensemble des diviseurs entiers positifs de $2025$. Soit $B$ un sous-ensemble sélectionné au hasard de $A$. La probabilité que $B$ soit un ensemble non vide avec la propriété que le plus petit multiple commun de ses éléments est $2025$ est $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez $m + n$."
       }
     ],
     "final_answer": "237",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "À partir d'une réserve illimitée de pièces de $1$ cent, de $10$ cents et de $25$ cents, Silas souhaite trouver une collection de pièces ayant une valeur totale de $N$ cents, où $N$ est un entier positif. Il utilise ce qu'on appelle l'\\textit{algorithme glouton}, choisissant successivement la pièce de plus grande valeur qui ne fait pas dépasser la valeur de sa collection à $N$. Par exemple, pour obtenir $42$ cents, Silas choisira une pièce de $25$ cents, puis une pièce de $10$ cents, puis $7$ pièces de $1$ cent. Cependant, cette collection de $9$ pièces utilise plus de pièces que nécessaire pour obtenir un total de $42$ cents ; en effet, choisir $4$ pièces de $10$ cents et $2$ pièces de $1$ cent atteint le même total avec seulement $6$ pièces.\n\nEn général, l'algorithme glouton \\emph{réussit} pour un $N$ donné si aucune autre collection de pièces de $1$ cent, de $10$ cents et de $25$ cents ne donne une valeur totale de $N$ cents en utilisant strictement moins de pièces que la collection donnée par l'algorithme glouton. Trouvez le nombre de valeurs de $N$ entre $1$ et $1000$ inclus pour lesquelles l'algorithme glouton réussit."
       }
     ],
     "final_answer": "610",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Il y a $n$ valeurs de $x$ dans l'intervalle $0 < x < 2\\pi$ où $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$. Pour $t$ de ces $n$ valeurs de $x$, le graphe de $y = f(x)$ est tangent à l'axe des $x$. Trouvez $n + t$."
       }
     ],
     "final_answer": "149",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seize chaises sont disposées en rangée. Huit personnes choisissent chacune une chaise dans laquelle s'asseoir de sorte qu'aucune personne ne soit assise à côté de deux autres personnes. Soit $N$ le nombre de sous-ensembles des 16 chaises qui pourraient être sélectionnés. Trouvez le reste lorsque $N$ est divisé par $1000$."
       }
     ],
     "final_answer": "907",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $S$ l'ensemble des sommets d'un polygone régulier à $24$ côtés. Trouvez le nombre de façons de tracer $12$ segments de longueurs égales de sorte que chaque sommet de $S$ soit un extrémité de exactement un des $12$ segments."
       }
     ],
     "final_answer": "113",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $A_1 A_2 A_3 \\ldots A_{11}$ un polygone simple non convexe à $11$ côtés avec les propriétés suivantes :\n\n\\begin{itemize}\n\\item Pour chaque entier $2 \\le i \\le 10$, l'aire de $\\triangle A_i A_{1} A_{i+1}$ est égale à $1$.\n\\item Pour chaque entier $2 \\le i \\le 10$, $\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$.\n\\item Le périmètre du polygone à $11$ côtés $A_1 A_2 A_3 \\dots A_{11}$ est égal à $20$.\n\\end{itemize}\n\nAlors $A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$ où $m, n, p$, et $q$ sont des entiers positifs, $n$ n'est pas divisible par le carré d'un premier, et aucun premier ne divise tous les $m, p$, et $q$. Trouvez $m + n + p + q$."
       }
     ],
     "final_answer": "19",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $x_1, x_2, x_3, \\ldots$ une suite de nombres rationnels définie par $x_1 = \\frac{25}{11}$ et\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\npour tout $k \\ge 1$. Alors $x_{2025}$ peut être exprimé sous la forme $\\frac{m}{n}$, où $m$ et $n$ sont des entiers positifs premiers entre eux. Trouvez le reste de $m + n$ lorsqu'il est divisé par $1000$."
       }
     ],
     "final_answer": "248",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Soit $\\triangle ABC$ un triangle rectangle avec $\\angle A = 90^\\circ$ et $BC = 38$. Il existe des points $K$ et $L$ à l'intérieur du triangle tels que\n$$AK = AL = BK = CL = KL = 14.$$\nL'aire du quadrilatère $BKLC$ peut être exprimée sous la forme $n\\sqrt{3}$ pour un certain entier positif $n$. Trouvez $n$."
       }
     ],
     "final_answer": "104",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Il existe exactement trois nombres réels positifs $k$ tels que la fonction\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\ndéfinie sur les nombres réels positifs atteint sa valeur minimale à exactement deux nombres réels positifs $x$. Trouvez la somme de ces trois valeurs de $k$."
       }
     ],
     "final_answer": "240",

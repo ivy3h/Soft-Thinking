@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jeden Morgen geht Aya einen $9$ Kilometer langen Spaziergang und hält danach in einem Café an. Wenn sie mit einer konstanten Geschwindigkeit von $s$ Kilometern pro Stunde geht, dauert der Spaziergang 4 Stunden, einschließlich $t$ Minuten, die sie im Café verbringt. Wenn sie mit $s+2$ Kilometern pro Stunde geht, dauert der Spaziergang 2 Stunden und 24 Minuten, einschließlich $t$ Minuten, die sie im Café verbringt. Angenommen, Aya geht mit $s+\\frac{1}{2}$ Kilometern pro Stunde. Finde die Anzahl der Minuten, die der Spaziergang dauert, einschließlich der $t$ Minuten, die sie im Café verbringt."
       }
     ],
     "final_answer": "204",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $ABC$ ein Dreieck, das im Kreis $\\omega$ eingeschrieben ist. Die Tangenten an $\\omega$ bei $B$ und $C$ schneiden sich im Punkt $D$, und die Linie $\\overline{AD}$ schneidet $\\omega$ im Punkt $P$. Wenn $AB=5$, $BC=9$ und $AC=10$, kann $AP$ in der Form $\\frac{m}{n}$ geschrieben werden, wobei $m$ und $n$ relativ prim sind. Finde $m + n$."
       }
     ],
     "final_answer": "113",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jeder Scheitelpunkt eines regelmäßigen Oktagons wird unabhängig entweder rot oder blau mit gleicher Wahrscheinlichkeit gefärbt. Die Wahrscheinlichkeit, dass das Oktagon dann so rotiert werden kann, dass alle blauen Scheitelpunkte an Positionen enden, an denen ursprünglich rote Scheitelpunkte waren, ist $\\tfrac{m}{n}$, wobei $m$ und $n$ relativ prim positive ganze Zahlen sind. Was ist $m+n$?"
       }
     ],
     "final_answer": "371",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Definiere $f(x)=|| x|-\\tfrac{1}{2}|$ und $g(x)=|| x|-\\tfrac{1}{4}|$. Finde die Anzahl der Schnittpunkte der Graphen von \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ und }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]"
       }
     ],
     "final_answer": "385",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $p$ die kleinste Primzahl, für die es eine positive ganze Zahl $n$ gibt, sodass $n^{4}+1$ durch $p^{2}$ teilbar ist. Finde die kleinste positive ganze Zahl $m$, sodass $m^{4}+1$ durch $p^{2}$ teilbar ist."
       }
     ],
     "final_answer": "110",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $ABCD$ ein Tetraeder, so dass $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$ und $BC=AD= \\sqrt{89}$. Es gibt einen Punkt $I$ im Inneren des Tetraeders, so dass die Abstände von $I$ zu jeder der Flächen des Tetraeders alle gleich sind. Dieser Abstand kann in der Form $\\frac{m \\sqrt n}{p}$ geschrieben werden, wobei $m$, $n$ und $p$ positive ganze Zahlen sind, $m$ und $p$ teilerfremd sind und $n$ nicht durch das Quadrat einer Primzahl teilbar ist. Finde $m+n+p$."
       }
     ],
     "final_answer": "104",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $\\mathcal{B}$ die Menge der rechteckigen Kästen mit einer Oberfläche von $54$ und einem Volumen von $23$. Sei $r$ der Radius der kleinsten Kugel, die jeden der rechteckigen Kästen, die Elemente von $\\mathcal{B}$ sind, enthalten kann. Der Wert von $r^2$ kann als $\\frac{p}{q}$ geschrieben werden, wobei $p$ und $q$ relativ prim positive ganze Zahlen sind. Finde $p+q$."
       }
     ],
     "final_answer": "721",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es existieren reelle Zahlen $x$ und $y$, beide größer als 1, sodass $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Finde $xy$."
       }
     ],
     "final_answer": "025",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice und Bob spielen das folgende Spiel. Ein Stapel von $n$ Token liegt vor ihnen. Die Spieler wechseln sich ab, wobei Alice zuerst spielt. In jedem Zug entfernt der Spieler entweder $1$ Token oder $4$ Token aus dem Stapel. Wer den letzten Token entfernt, gewinnt. Finde die Anzahl der positiven ganzen Zahlen $n$, die kleiner oder gleich $2024$ sind, für die es eine Strategie für Bob gibt, die garantiert, dass Bob das Spiel unabhängig von Alices Spiel gewinnen wird."
       }
     ],
     "final_answer": "809",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jen nimmt an einer Lotterie teil, indem sie $4$ verschiedene Zahlen aus $S=\\{1,2,3,\\cdots,9,10\\}$ auswählt. $4$ Zahlen werden zufällig aus $S$ ausgewählt. Sie gewinnt einen Preis, wenn mindestens zwei ihrer Zahlen $2$ der zufällig ausgewählten Zahlen sind, und gewinnt den Hauptpreis, wenn alle vier ihrer Zahlen die zufällig ausgewählten Zahlen sind. Die Wahrscheinlichkeit, dass sie den Hauptpreis gewinnt, gegeben dass sie einen Preis gewonnen hat, ist $\\tfrac{m}{n}$, wobei $m$ und $n$ relativ prim sind und positive ganze Zahlen darstellen. Finde $m+n$."
       }
     ],
     "final_answer": "116",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Rechtecke $ABCD$ und $EFGH$ sind so gezeichnet, dass $D,E,C,F$ kollinear sind. Außerdem liegen $A,D,H,G$ alle auf einem Kreis. Wenn $BC=16$, $AB=107$, $FG=17$ und $EF=184$, wie lang ist $CE$?"
       }
     ],
     "final_answer": "104",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie die Pfade der Länge $16$, die den Linien vom unteren linken Eckpunkt zum oberen rechten Eckpunkt auf einem $8\\times 8$-Gitter folgen. Bestimmen Sie die Anzahl solcher Pfade, die die Richtung genau viermal ändern, wie in den unten gezeigten Beispielen."
       }
     ],
     "final_answer": "294",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde den größtmöglichen Realteil von \\[(75+117i)z+\\frac{96+144i}{z}\\] wobei $z$ eine komplexe Zahl mit $|z|=4$ ist."
       }
     ],
     "final_answer": "540",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acht Kreise mit einem Radius von $34$ sind nacheinander tangential, und zwei der Kreise sind jeweils tangential zu $AB$ und $BC$ des Dreiecks $ABC$. $2024$ Kreise mit einem Radius von $1$ können auf die gleiche Weise angeordnet werden. Der Inkreisradius des Dreiecks $ABC$ kann als $\\frac{m}{n}$ ausgedrückt werden, wobei $m$ und $n$ relativ prim sind und positive ganze Zahlen darstellen. Finde $m+n$."
       }
     ],
     "final_answer": "197",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seien $A$, $B$, $C$ und $D$ Punkte auf der Hyperbel $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$, so dass $ABCD$ ein Rhombus ist, dessen Diagonalen sich im Ursprung schneiden. Finde die größte reelle Zahl, die kleiner ist als $BD^2$ für alle solchen Rhomben."
       }
     ],
     "final_answer": "480",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unter den 900 Bewohnern von Aimeville gibt es 195, die einen Diamantring besitzen, 367, die ein Golfset besitzen, und 562, die eine Gartenschaufel besitzen. Darüber hinaus besitzt jeder der 900 Bewohner eine Tüte mit Zuckerküssen. Es gibt 437 Bewohner, die genau zwei dieser Dinge besitzen, und 234 Bewohner, die genau drei dieser Dinge besitzen. Finde die Anzahl der Bewohner von Aimeville, die alle vier dieser Dinge besitzen."
       }
     ],
     "final_answer": "073",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $\\triangle ABC$ der Umkreiszentrum $O$ und der Inkreiszentrum $I$ mit $\\overline{IA}\\perp\\overline{OI}$, dem Umkreisradius $13$ und dem Inkreisradius $6$. Finde $AB\\cdot AC$."
       }
     ],
     "final_answer": "468",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finden Sie die Anzahl der Tripel nichtnegativer Ganzzahlen \\((a,b,c)\\), die die Gleichung \\(a + b + c = 300\\) erfüllen und\n\\begin{equation*}\na^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6.000.000.\n\\end{equation*}"
       }
     ],
     "final_answer": "601",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\) und \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) Punkte in der Koordinatenebene. Sei \\(\\mathcal{F}\\) die Familie von Segmenten \\(\\overline{PQ}\\) der Längen 1, die im ersten Quadranten liegen, wobei \\(P\\) auf der \\(x\\)-Achse und \\(Q\\) auf der \\(y\\)-Achse liegt. Es gibt einen einzigartigen Punkt \\(C\\) auf \\(\\overline{AB}\\), der sich von \\(A\\) und \\(B\\) unterscheidet und der zu keinem Segment aus \\(\\mathcal{F}\\) gehört, außer zu \\(\\overline{AB}\\). Dann gilt \\(OC^2=\\tfrac{p}{q}\\), wobei \\(p\\) und \\(q\\) relativ primitiv positive ganze Zahlen sind. Finde \\(p+q\\)."
       }
     ],
     "final_answer": "023",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $\\omega\\neq 1$ eine 13. Wurzel der Eins. Finde den Rest, wenn\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\ndurch 1000 geteilt wird."
       }
     ],
     "final_answer": "321",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei \\(b\\ge 2\\) eine ganze Zahl. Nennen wir eine positive ganze Zahl \\(n\\) \\(b\\text-\\textit{schön}\\), wenn sie genau zwei Ziffern hat, wenn sie in Basis \\(b\\) dargestellt wird, und diese beiden Ziffern die Summe \\(\\sqrt n\\) ergeben. Zum Beispiel ist \\(81\\) \\(13\\text-\\textit{schön}\\), weil \\(81 = \\underline{6} \\ \\underline{3}_{13}\\) und \\(6 + 3 = \\sqrt{81}\\). Finde die kleinste ganze Zahl \\(b\\ge 2\\), für die es mehr als zehn \\(b\\text-\\textit{schöne}\\) ganze Zahlen gibt."
       }
     ],
     "final_answer": "211",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die Anzahl der Rechtecke, die innerhalb eines festen regelmäßigen Dodekagons ($12$-Eck) gebildet werden können, wobei jede Seite des Rechtecks entweder auf einer Seite oder einer Diagonalen des Dodekagons liegt. Das Diagramm unten zeigt drei dieser Rechtecke. \n[asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy]"
       }
     ],
     "final_answer": "315",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine Liste von positiven ganzen Zahlen hat die folgenden Eigenschaften:\n$\\bullet$ Die Summe der Elemente in der Liste beträgt $30$.\n$\\bullet$ Der eindeutige Modus der Liste ist $9$.\n$\\bullet$ Der Median der Liste ist eine positive ganze Zahl, die nicht in der Liste selbst vorkommt.\nFinde die Summe der Quadrate aller Elemente in der Liste."
       }
     ],
     "final_answer": "236",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die Anzahl der Möglichkeiten, eine Ziffer in jede Zelle eines 2x3-Rasters zu platzieren, sodass die Summe der beiden Zahlen, die von links nach rechts gelesen werden, $999$ beträgt und die Summe der drei Zahlen, die von oben nach unten gelesen werden, $99$ beträgt. Das untenstehende Raster ist ein Beispiel für eine solche Anordnung, da $8+991=999$ und $9+9+81=99$.\n\\[\\begin{array}{|c|c|c|} \\hline 0 & 0 & 8 \\\\ \\hline 9 & 9 & 1 \\\\ \\hline \\end{array}\\]"
       }
     ],
     "final_answer": "045",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seien $x,y$ und $z$ positive reelle Zahlen, die das folgende Gleichungssystem erfüllen:\n\\[\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}\\]\\[\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}\\]\\[\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}\\]\nDann ist der Wert von $\\left|\\log_2(x^4y^3z^2)\\right|$ gleich $\\tfrac{m}{n}$, wobei $m$ und $n$ relativ prim sind positive ganze Zahlen. Finde $m+n$."
       }
     ],
     "final_answer": "033",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei ABCDEF ein konvexes gleichseitiges Sechseck, in dem alle Paare gegenüberliegender Seiten parallel sind. Das Dreieck, dessen Seiten Erweiterungen der Segmente AB, CD und EF sind, hat die Seitenlängen 200, 240 und 300. Finde die Seitenlänge des Sechsecks."
       }
     ],
     "final_answer": "080",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice wählt eine Menge $A$ von positiven ganzen Zahlen. Dann listet Bob alle endlichen, nicht leeren Mengen $B$ von positiven ganzen Zahlen auf, mit der Eigenschaft, dass das größte Element von $B$ zu $A$ gehört. Bobs Liste enthält 2024 Mengen. Finde die Summe der Elemente von $A$."
       }
     ],
     "final_answer": "055",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $N$ die größte vierstellige positive ganze Zahl mit der Eigenschaft, dass, wenn eine ihrer Ziffern in $1$ geändert wird, die resultierende Zahl durch $7$ teilbar ist. Sei $Q$ der Quotient und $R$ der Rest, wenn $N$ durch $1000$ geteilt wird. Finde $Q+R$."
       }
     ],
     "final_answer": "699",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Der Torus $T$ ist die Fläche, die entsteht, wenn ein Kreis mit dem Radius $3$ um eine Achse in der Ebene des Kreises rotiert, die einen Abstand von $6$ vom Mittelpunkt des Kreises hat (also wie ein Donut). Sei $S$ eine Kugel mit einem Radius von $11$. Wenn $T$ auf der Außenseite von $S$ ruht, ist es extern tangential zu $S$ entlang eines Kreises mit dem Radius $r_i$, und wenn $T$ auf der Außenseite von $S$ ruht, ist es extern tangential zu $S$ entlang eines Kreises mit dem Radius $r_o$. Der Unterschied $r_i - r_o$ kann als $\\tfrac{m}{n}$ geschrieben werden, wobei $m$ und $n$ relativ prim positive ganze Zahlen sind. Finde $m+n$."
       }
     ],
     "final_answer": "127",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es gibt eine Sammlung von $25$ indistinguishable weißen Chips und $25$ indistinguishable schwarzen Chips. Bestimmen Sie die Anzahl der Möglichkeiten, einige dieser Chips in den $25$ Einheitszellen eines $5\\times5$ Rasters zu platzieren, sodass:\n\njede Zelle höchstens einen Chip enthält\nalle Chips in derselben Reihe und alle Chips in derselben Spalte die gleiche Farbe haben\njeder zusätzliche Chip, der auf das Raster platziert wird, eine oder mehrere der vorherigen beiden Bedingungen verletzen würde."
       }
     ],
     "final_answer": "902",

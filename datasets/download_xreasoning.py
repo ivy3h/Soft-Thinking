@@ -68,9 +68,14 @@ def download_xreasoning(dataset_name, output_dir=None):
 
             data = []
             for idx, example in enumerate(ds[lang]):
+                # HF datasets use different field names: "problem" for AIME, "question" for GPQA
+                question = (example.get("problem") or example.get("question") or
+                           example.get("Question") or example.get("Problem") or "")
+                answer = (example.get("answer") or example.get("Answer") or
+                         example.get("final_answer") or example.get("correct_answer") or "")
                 sample = {
-                    "prompt": [{"from": "user", "value": str(example.get("question", ""))}],
-                    "final_answer": str(example.get("answer", "")),
+                    "prompt": [{"from": "user", "value": str(question)}],
+                    "final_answer": str(answer),
                     "question_id": idx,
                     "original_id": str(example.get("id", idx)),
                     "language": lang,

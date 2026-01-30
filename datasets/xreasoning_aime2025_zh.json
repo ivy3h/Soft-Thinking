@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "找出所有整数基数 $b>9$ 的和，使得 $17_{b}$ 是 $97_{b}$ 的因子。"
       }
     ],
     "final_answer": "70",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "在三角形 $\\triangle ABC$ 中，点 $A, D, E$ 和 $B$ 按顺序位于边 $\\overline{AB}$ 上，且 $AD=4, DE=16$，以及 $EB=8$。点 $A, F, G$ 和 $C$ 按顺序位于边 $\\overline{AC}$ 上，且 $AF=13, FG=52$，以及 $GC=26$。设 $M$ 为点 $D$ 关于点 $F$ 的反射，$N$ 为点 $G$ 关于点 $E$ 的反射。四边形 $DEGF$ 的面积为 288。求七边形 $AFNBCEM$ 的面积。"
       }
     ],
     "final_answer": "588",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "一个棒球队的9名成员在比赛后去了冰淇淋店。每位球员都选择了一个单球的巧克力、香草或草莓冰淇淋。至少有一名球员选择了每种口味，并且选择巧克力的球员人数多于选择香草的球员人数，而选择香草的球员人数又多于选择草莓的球员人数。设$N$为满足这些条件的口味分配给球员的不同方式的数量。求$N$除以1000的余数。"
       }
     ],
     "final_answer": "16",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "找出有序对 $(x,y)$ 的数量，其中 $x$ 和 $y$ 均为 $-100$ 到 $100$ 之间的整数（包括 $-100$ 和 $100$），使得 $12x^{2}-xy-6y^{2}=0$。"
       }
     ],
     "final_answer": "117",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "有 $8!=40320$ 个八位正整数，它们恰好使用每个数字 $1,2,3,4,5,6,7,8$ 一次。设 $N$ 为这些整数中能被 22 整除的数量。求 $N$ 与 2025 之间的差。"
       }
     ],
     "final_answer": "279",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "一个等腰梯形的内切圆与其四条边相切。圆的半径为 3，梯形的面积为 72。设梯形的平行边长度为 $r$ 和 $s$，且 $r \\neq s$。求 $r^{2}+s^{2}$。"
       }
     ],
     "final_answer": "504",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "十二个字母 $A,B,C,D,E,F,G,H,I,J,K$ 和 $L$ 被随机分成六对字母。每对字母按字母顺序排列在一起形成六个两个字母的单词，并将这六个单词按字母顺序列出。例如，一个可能的结果是 $AB,CJ,DG,EK,FL,HI$。最后一个列出的单词包含 $G$ 的概率是 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m+n$。"
       }
     ],
     "final_answer": "821",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $k$ 为实数，使得系统 $|25+20i-z|=5$ 和 $|z-4-k|=|z-3i-k|$ 具有唯一的复数解 $z$。所有可能的 $k$ 值的和可以表示为 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m+n$。这里 $i=\\sqrt{-1}$。"
       }
     ],
     "final_answer": "77",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "抛物线方程为 $y=x^{2}-4$ 的抛物线绕原点逆时针旋转 $60^{\\circ}$。原抛物线及其图像在第四象限相交的唯一点的 $y$ 坐标为 $\\frac{a-\\sqrt{b}}{c}$，其中 $a$、$b$ 和 $c$ 是正整数，且 $a$ 和 $c$ 互质。求 $a+b+c$。"
       }
     ],
     "final_answer": "62",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "将 $3\\times9$ 网格的 27 个单元格填入数字 1 到 9，使得每一行包含 9 个不同的数字，并且下面示例中重重勾勒的三个 $3\\times3$ 块也包含 9 个不同的数字，类似于数独的前三行。 \n | 4 | 2 | 8 | 9 | 6 | 3 | 1 | 7 | 5 | \n | 3 | 7 | 9 | 5 | 2 | 1 | 6 | 8 | 4 | \n | 5 | 6 | 1 | 8 | 4 | 7 | 9 | 2 | 3 | \n 填充这样一个网格的不同方式的数量可以表示为 $p^a\\cdot q^b\\cdot r^c\\cdot s^d$，其中 $p,q,r,$ 和 $s$ 是不同的质数，$a,b,c,$ 和 $d$ 是正整数。求 $p\\cdot a+q\\cdot b+r\\cdot c+s\\cdot d$。"
       }
     ],
     "final_answer": "81",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "一个分段线性周期函数定义为 $f(x)=\\begin{cases}x&\\text{如果 }x\\in[-1,1)\\\\2-x&\\text{如果 }x\\in[1,3)\\end{cases}$ 并且对于所有实数 $x$，有 $f(x+4)=f(x)$。函数 $f(x)$ 的图形呈锯齿形。抛物线 $x=34y^2$ 与 $f(x)$ 的图形在有限多个点相交。这些交点的 $y$ 坐标的和可以表示为 $\\frac{a+b\\sqrt{c}}{d}$ 的形式，其中 $a,b,c,$ 和 $d$ 是正整数，$a,b,$ 和 $d$ 的最大公约数为 1，且 $c$ 不可被任何素数的平方整除。求 $a+b+c+d$ 的值。"
       }
     ],
     "final_answer": "259",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "在三维坐标空间中，满足平面 $x+y+z=75$ 的点集，其坐标满足不等式 $x-yz<y-zx<z-xy$，形成三个不相交的凸区域。其中恰好有一个区域具有有限面积。这个有限区域的面积可以表示为 $a\\sqrt{b}$ 的形式，其中 $a$ 和 $b$ 是正整数，并且 $b$ 不能被任何素数的平方整除。求 $a+b$。"
       }
     ],
     "final_answer": "510",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "亚历克斯用两条相交于圆盘中心的垂直直径将一个圆盘分成四个象限。他在圆盘内绘制了25条线段，每条线段通过在不同象限的圆盘边缘随机选择两个点并连接这两个点来绘制。求这27条线段将圆盘划分成的区域的期望数量。"
       }
     ],
     "final_answer": "204",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $ABCDE$ 为一个凸五边形，满足 $AB=14, BC=7, CD=24, DE=13, EA=26,$ 且 $\\angle B=\\angle E=60^\\circ$。对于平面上的每一点 $X$，定义 $f(X)=AX+BX+CX+DX+EX$。$f(X)$ 的最小值可以表示为 $m+n\\sqrt{p}$，其中 $m$ 和 $n$ 是正整数，$p$ 不是任何素数的平方的倍数。求 $m+n+p$。"
       }
     ],
     "final_answer": "60",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $N$ 表示满足 $a,b,c\\leq3^6$ 且 $a^3+b^3+c^3$ 是 $3^7$ 的倍数的正整数有序三元组 $(a,b,c)$ 的数量。求 $N$ 除以 $1000$ 的余数。"
       }
     ],
     "final_answer": "735",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "六个点 $A, B, C, D, E$ 和 $F$ 按顺序位于一条直线上。假设 $G$ 是一个不在这条直线上的点，并且 $AC = 26$, $BD = 22$, $CE = 31$, $DF = 33$, $AF = 73$, $CG = 40$, 和 $DG = 30$。求 $\\triangle BGE$ 的面积。"
       }
     ],
     "final_answer": "468",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "找到所有正整数 $n$ 的和，使得 $n+2$ 能整除乘积 $3(n+3)(n^2+9)$。"
       }
     ],
     "final_answer": "49",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "四个单位正方形形成一个 $2\\times 2$ 网格。构成正方形边界的 $12$ 条单位线段被涂成红色或蓝色，使得每个单位正方形都有 $2$ 条红色边和 $2$ 条蓝色边。下面是一个示例（红色为实线，蓝色为虚线）。找出这样的涂色方案的数量。\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "82",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "积\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\n等于 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m + n$。"
       }
     ],
     "final_answer": "106",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "假设 $\\triangle ABC$ 的角度为 $\\angle BAC = 84^\\circ$，$\\angle ABC = 60^\\circ$，和 $\\angle ACB = 36^\\circ$。设 $D$、$E$ 和 $F$ 分别为边 $\\overline{BC}$、$\\overline{AC}$ 和 $\\overline{AB}$ 的中点。三角形 $\\triangle DEF$ 的外接圆与直线 $\\overline{BD}$、$\\overline{AE}$ 和 $\\overline{AF}$ 分别交于点 $G$、$H$ 和 $J$。点 $G$、$D$、$E$、$H$、$J$ 和 $F$ 将三角形 $\\triangle DEF$ 的外接圆分成六个小弧，如图所示。求 $\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$，其中弧的度数单位为度。\n\n\\begin{tikzpicture}[scale=1.2]\n    \\coordinate (B) at (0,0);\n    \\coordinate (C) at (6,0);\n    \\coordinate (A) at (1.78,3.07);\n    \n    \\coordinate (D) at ($(B)!0.5!(C)$);\n    \\coordinate (E) at ($(A)!0.5!(C)$);\n    \\coordinate (F) at ($(A)!0.5!(B)$);\n    \n    \\draw (A) -- (B) -- (C) -- cycle;\n\n    \\fill (A) circle (2pt) node[above] {$A$};\n    \\fill (B) circle (2pt) node[below] {$B$};\n    \\fill (C) circle (2pt) node[below] {$C$};\n\n    \\fill (D) circle (2pt) node[below] {$D$};\n    \\fill (E) circle (2pt) node[right] {$E$};\n    \\fill (F) circle (2pt) node[left] {$F$};\n\n    \\draw (D) -- (E) -- (F) -- cycle;\n\n    \\coordinate (O) at (2.39,1.38);\n    \n    \\draw (O) circle (1.51);\n\n    \\coordinate (G) at (1.72, 0.03);\n    \\coordinate (J) at (1.5, 2.6);\n    \\coordinate (H) at (2.08, 2.85);\n\n    \\fill (G) circle (2pt) node[below] {$G$};\n    \\fill (H) circle (2pt) node[above] {$H$};\n    \\fill (J) circle (2pt) node[above left] {$J$};\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "336",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "圆 $\\omega_1$ 的半径为 $6$，以点 $A$ 为中心，内部切于半径为 $15$ 的圆 $\\omega_2$ 的点 $B$。点 $C$ 和 $D$ 位于 $\\omega_2$ 上，使得 $\\overline{BC}$ 是 $\\omega_2$ 的直径，并且 $\\overline{BC} \\perp \\overline{AD}$。矩形 $EFGH$ 被内切于 $\\omega_1$，使得 $\\overline{EF} \\perp \\overline{BC}$，点 $C$ 离 $\\overline{GH}$ 比离 $\\overline{EF}$ 更近，点 $D$ 离 $\\overline{FG}$ 比离 $\\overline{EH}$ 更近，如图所示。三角形 $\\triangle DGF$ 和 $\\triangle CHG$ 的面积相等。矩形 $EFGH$ 的面积为 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m + n$。"
       }
     ],
     "final_answer": "293",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $A$ 为 $2025$ 的正整数因子集合。设 $B$ 为 $A$ 的一个随机选择的子集。$B$ 是一个非空集合，并且其元素的最小公倍数为 $2025$ 的概率为 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m + n$。"
       }
     ],
     "final_answer": "237",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "从无限供应的 $1$ 分币、$10$ 分币和 $25$ 分币中，Silas 想要找到一个总值为 $N$ 分的硬币组合，其中 $N$ 是一个正整数。他使用所谓的 \\textit{贪心算法}，依次选择不使他的硬币组合的总值超过 $N$ 的最大面值硬币。例如，为了得到 $42$ 分，Silas 会选择一个 $25$ 分币，然后一个 $10$ 分币，再加上 $7$ 个 $1$ 分币。然而，这个 $9$ 个硬币的组合使用的硬币比获得 $42$ 分所需的数量还要多；实际上，选择 $4$ 个 $10$ 分币和 $2$ 个 $1$ 分币就可以用仅 $6$ 个硬币达到相同的总值。\n\n一般来说，对于给定的 $N$，如果没有其他的 $1$ 分币、$10$ 分币和 $25$ 分币的组合能用严格少于贪心算法给出的组合的硬币数量来达到总值 $N$ 分，则贪心算法被认为是 \\emph{成功} 的。找出在 $1$ 到 $1000$（包括 $1$ 和 $1000$）之间，贪心算法成功的 $N$ 的值的数量。"
       }
     ],
     "final_answer": "610",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "在区间 $0 < x < 2\\pi$ 内有 $n$ 个值的 $x$ 使得 $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$。对于这 $n$ 个 $x$ 值中的 $t$ 个，图形 $y = f(x)$ 与 $x$ 轴相切。求 $n + t$。"
       }
     ],
     "final_answer": "149",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "十六把椅子排成一排。八个人各自选择一把椅子坐下，要求没有一个人坐在两个其他人旁边。设 $N$ 为可以选择的16把椅子的子集的数量。求 $N$ 除以 $1000$ 的余数。"
       }
     ],
     "final_answer": "907",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $S$ 为一个正 $24$-边形的顶点集合。找出绘制 $12$ 条等长线段的方式数，使得 $S$ 中的每个顶点恰好是 $12$ 条线段的一个端点。"
       }
     ],
     "final_answer": "113",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $A_1 A_2 A_3 \\ldots A_{11}$ 为一个具有以下性质的 $11$ 边非凸简单多边形：\n\n\\begin{itemize}\n\\item 对于每个整数 $2 \\le i \\le 10$，三角形 $\\triangle A_i A_{1} A_{i+1}$ 的面积等于 $1$。\n\\item 对于每个整数 $2 \\le i \\le 10$，$\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$。\n\\item $11$ 边形 $A_1 A_2 A_3 \\dots A_{11}$ 的周长等于 $20$。\n\\end{itemize}\n\n那么 $A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$，其中 $m, n, p$ 和 $q$ 是正整数，$n$ 不能被任何素数的平方整除，并且没有素数同时整除 $m, p$ 和 $q$。求 $m + n + p + q$。"
       }
     ],
     "final_answer": "19",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $x_1, x_2, x_3, \\ldots$ 是一个有理数序列，定义为 $x_1 = \\frac{25}{11}$ 和\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\n对于所有 $k \\ge 1$。那么 $x_{2025}$ 可以表示为 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互质的正整数。求 $m + n$ 除以 $1000$ 的余数。"
       }
     ],
     "final_answer": "248",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "设 $\\triangle ABC$ 为一个直角三角形，$\\angle A = 90^\\circ$ 且 $BC = 38$。在三角形内部存在点 $K$ 和 $L$，使得\n$$AK = AL = BK = CL = KL = 14.$$\n四边形 $BKLC$ 的面积可以表示为 $n\\sqrt{3}$，其中 $n$ 是某个正整数。求 $n$。"
       }
     ],
     "final_answer": "104",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "有恰好三个正实数 $k$，使得函数\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\n在正实数范围内的最小值恰好在两个正实数 $x$ 处取得。求这三个 $k$ 的值的和。"
       }
     ],
     "final_answer": "240",

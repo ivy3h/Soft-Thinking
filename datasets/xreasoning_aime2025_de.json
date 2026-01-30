@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die Summe aller ganzzahligen Basen $b>9$, für die $17_{b}$ ein Teiler von $97_{b}$ ist."
       }
     ],
     "final_answer": "70",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Auf dem Dreieck $\\triangle ABC$ liegen die Punkte $A, D, E$ und $B$ in dieser Reihenfolge auf der Seite $\\overline{AB}$ mit $AD=4, DE=16$ und $EB=8$. Die Punkte $A, F, G$ und $C$ liegen in dieser Reihenfolge auf der Seite $\\overline{AC}$ mit $AF=13, FG=52$ und $GC=26$. Sei $M$ die Spiegelung von $D$ durch $F$, und sei $N$ die Spiegelung von $G$ durch $E$. Das Viereck $DEGF$ hat eine Fläche von 288. Finde die Fläche des Heptagons $AFNBCEM$."
       }
     ],
     "final_answer": "588",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die 9 Mitglieder eines Baseballteams gingen nach ihrem Spiel zu einer Eisdiele. Jeder Spieler hatte eine Kugel Schokoladen-, Vanille- oder Erdbeereis. Mindestens ein Spieler wählte jeden Geschmack, und die Anzahl der Spieler, die Schokolade wählten, war größer als die Anzahl der Spieler, die Vanille wählten, die wiederum größer war als die Anzahl der Spieler, die Erdbeere wählten. Sei $N$ die Anzahl der verschiedenen Zuordnungen von Geschmäckern zu Spielern, die diese Bedingungen erfüllen. Finde den Rest, wenn $N$ durch 1000 geteilt wird."
       }
     ],
     "final_answer": "16",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die Anzahl der geordneten Paare $(x,y)$, wobei sowohl $x$ als auch $y$ ganze Zahlen zwischen $-100$ und $100$, einschließlich, sind, sodass $12x^{2}-xy-6y^{2}=0$."
       }
     ],
     "final_answer": "117",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es gibt $8!=40320$ achtstellige positive ganze Zahlen, die jede der Ziffern $1,2,3,4,5,6,7,8$ genau einmal verwenden. Sei $N$ die Anzahl dieser Zahlen, die durch 22 teilbar sind. Finde die Differenz zwischen $N$ und 2025."
       }
     ],
     "final_answer": "279",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein gleichschenkliges Trapez hat einen eingeschriebenen Kreis, der an jede seiner vier Seiten tangential ist. Der Radius des Kreises beträgt 3, und die Fläche des Trapezes beträgt 72. Lassen Sie die parallelen Seiten des Trapezes die Längen $r$ und $s$ haben, wobei $r \\neq s$. Finde $r^{2}+s^{2}$."
       }
     ],
     "final_answer": "504",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die zwölf Buchstaben $A,B,C,D,E,F,G,H,I,J,K$ und $L$ werden zufällig in sechs Paare von Buchstaben gruppiert. Die beiden Buchstaben in jedem Paar werden in alphabetischer Reihenfolge nebeneinander platziert, um sechs zwei-Buchstaben-Wörter zu bilden, und diese sechs Wörter werden alphabetisch aufgelistet. Zum Beispiel ist ein mögliches Ergebnis $AB,CJ,DG,EK,FL,HI$. Die Wahrscheinlichkeit, dass das letzte aufgelistete Wort $G$ enthält, ist $\\frac{m}{n}$, wobei $m$ und $n$ relativ primitiv positive ganze Zahlen sind. Finde $m+n$."
       }
     ],
     "final_answer": "821",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $k$ eine reelle Zahl, so dass das System $|25+20i-z|=5$ und $|z-4-k|=|z-3i-k|$ genau eine komplexe Lösung $z$ hat. Die Summe aller möglichen Werte von $k$ kann als $\\frac{m}{n}$ geschrieben werden, wobei $m$ und $n$ relativ prim sind und positive ganze Zahlen sind. Finde $m+n$. Hier ist $i=\\sqrt{-1}$."
       }
     ],
     "final_answer": "77",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Parabel mit der Gleichung $y=x^{2}-4$ wird um $60^{\\circ}$ gegen den Uhrzeigersinn um den Ursprung rotiert. Der einzigartige Punkt im vierten Quadranten, an dem die ursprüngliche Parabel und ihr Bild sich schneiden, hat die $y$-Koordinate $\\frac{a-\\sqrt{b}}{c}$, wobei $a$, $b$ und $c$ positive ganze Zahlen sind und $a$ und $c$ teilerfremd sind. Finde $a+b+c$."
       }
     ],
     "final_answer": "62",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die 27 Zellen eines $3\\times9$ Rasters sind mit den Zahlen 1 bis 9 gefüllt, sodass jede Zeile 9 verschiedene Zahlen enthält und jeder der drei $3\\times3$ Blöcke, die im folgenden Beispiel stark umrandet sind, 9 verschiedene Zahlen enthält, wie in den ersten drei Zeilen eines Sudoku-Rätsels. \n | 4 | 2 | 8 | 9 | 6 | 3 | 1 | 7 | 5 | \n | 3 | 7 | 9 | 5 | 2 | 1 | 6 | 8 | 4 | \n | 5 | 6 | 1 | 8 | 4 | 7 | 9 | 2 | 3 | \n Die Anzahl der verschiedenen Möglichkeiten, ein solches Raster zu füllen, kann als $p^a\\cdot q^b\\cdot r^c\\cdot s^d$ geschrieben werden, wobei $p,q,r,$ und $s$ verschiedene Primzahlen sind und $a,b,c,$ und $d$ positive ganze Zahlen sind. Finde $p\\cdot a+q\\cdot b+r\\cdot c+s\\cdot d$."
       }
     ],
     "final_answer": "81",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine stückweise lineare periodische Funktion ist definiert durch $f(x)=\\begin{cases}x&\\text{wenn }x\\in[-1,1)\\\\2-x&\\text{wenn }x\\in[1,3)\\end{cases}$ und $f(x+4)=f(x)$ für alle reellen Zahlen $x$. Der Graph von $f(x)$ hat das Sägezahn-Muster. Die Parabel $x=34y^2$ schneidet den Graphen von $f(x)$ an endlich vielen Punkten. Die Summe der $y$-Koordinaten dieser Schnittpunkte kann in der Form $\\frac{a+b\\sqrt{c}}{d}$ ausgedrückt werden, wobei $a,b,c,$ und $d$ positive ganze Zahlen sind, $a,b,$ und $d$ den größten gemeinsamen Teiler 1 haben und $c$ nicht durch das Quadrat einer Primzahl teilbar ist. Finde $a+b+c+d$."
       }
     ],
     "final_answer": "259",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Menge der Punkte im 3-dimensionalen Koordinatenraum, die in der Ebene $x+y+z=75$ liegen und deren Koordinaten die Ungleichungen $x-yz<y-zx<z-xy$ erfüllen, bildet drei disjunkte konvexe Regionen. Genau eine dieser Regionen hat eine endliche Fläche. Die Fläche dieser endlichen Region kann in der Form $a\\sqrt{b}$ ausgedrückt werden, wobei $a$ und $b$ positive ganze Zahlen sind und $b$ nicht durch das Quadrat einer Primzahl teilbar ist. Finde $a+b$."
       }
     ],
     "final_answer": "510",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alex teilt eine Scheibe in vier Quadranten mit zwei sich im Zentrum der Scheibe schneidenden, rechtwinkligen Durchmessern. Er zeichnet 25 weitere Liniensegmente durch die Scheibe, indem er jedes Segment zeichnet, indem er zwei Punkte zufällig auf dem Rand der Scheibe in verschiedenen Quadranten auswählt und diese beiden Punkte verbindet. Bestimmen Sie die erwartete Anzahl der Regionen, in die diese 27 Liniensegmente die Scheibe unterteilen."
       }
     ],
     "final_answer": "204",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $ABCDE$ ein konvexes Fünfeck mit $AB=14, BC=7, CD=24, DE=13, EA=26,$ und $\\angle B=\\angle E=60^\\circ$. Für jeden Punkt $X$ in der Ebene definiere $f(X)=AX+BX+CX+DX+EX$. Der minimal mögliche Wert von $f(X)$ kann als $m+n\\sqrt{p}$ ausgedrückt werden, wobei $m$ und $n$ positive ganze Zahlen sind und $p$ nicht durch das Quadrat einer Primzahl teilbar ist. Finde $m+n+p$."
       }
     ],
     "final_answer": "60",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $N$ die Anzahl der geordneten Tripel positiver Ganzzahlen $(a,b,c)$, so dass $a,b,c\\leq3^6$ und $a^3+b^3+c^3$ ein Vielfaches von $3^7$ ist. Finde den Rest, wenn $N$ durch $1000$ dividiert wird."
       }
     ],
     "final_answer": "735",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sechs Punkte $A, B, C, D, E$ und $F$ liegen in dieser Reihenfolge auf einer geraden Linie. Angenommen, $G$ ist ein Punkt, der nicht auf der Linie liegt, und dass $AC = 26$, $BD = 22$, $CE = 31$, $DF = 33$, $AF = 73$, $CG = 40$ und $DG = 30$. Bestimmen Sie die Fläche von $\\triangle BGE$."
       }
     ],
     "final_answer": "468",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die Summe aller positiven ganzen Zahlen $n$, so dass $n+2$ das Produkt $3(n+3)(n^2+9)$ teilt."
       }
     ],
     "final_answer": "49",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Vier Einheitsquadrate bilden ein $2\\times 2$ Gitter. Jedes der $12$ Einheitsliniensegmente, die die Seiten der Quadrate bilden, ist entweder rot oder blau gefärbt, sodass jedes Einheitsquadrat $2$ rote Seiten und $2$ blaue Seiten hat. Ein Beispiel ist unten gezeigt (rot ist durchgezogen, blau ist gestrichelt). Finde die Anzahl solcher Färbungen.\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "82",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Das Produkt\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\nist gleich $\\frac{m}{n}$, wobei $m$ und $n$ relativ prim positive ganze Zahlen sind. Finde $m + n$."
       }
     ],
     "final_answer": "106",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Angenommen, $\\triangle ABC$ hat die Winkel $\\angle BAC = 84^\\circ$, $\\angle ABC = 60^\\circ$ und $\\angle ACB = 36^\\circ$. Sei $D$, $E$ und $F$ die Mittelpunkte der Seiten $\\overline{BC}$, $\\overline{AC}$ und $\\overline{AB}$, respectively. Der Umkreis von $\\triangle DEF$ schneidet $\\overline{BD}$, $\\overline{AE}$ und $\\overline{AF}$ in den Punkten $G$, $H$ und $J$, respectively. Die Punkte $G$, $D$, $E$, $H$, $J$ und $F$ teilen den Umkreis von $\\triangle DEF$ in sechs kleine Bögen, wie gezeigt. Finde $\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$, wobei die Bögen in Grad gemessen werden."
       }
     ],
     "final_answer": "336",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kreis $\\omega_1$ mit dem Radius $6$, zentriert am Punkt $A$, ist intern tangential am Punkt $B$ zum Kreis $\\omega_2$ mit dem Radius $15$. Die Punkte $C$ und $D$ liegen auf $\\omega_2$, sodass $\\overline{BC}$ ein Durchmesser von $\\omega_2$ ist und $\\overline{BC} \\perp \\overline{AD}$. Das Rechteck $EFGH$ ist in $\\omega_1$ eingeschrieben, sodass $\\overline{EF} \\perp \\overline{BC}$, $C$ näher an $\\overline{GH}$ ist als an $\\overline{EF}$ und $D$ näher an $\\overline{FG}$ ist als an $\\overline{EH}$, wie gezeigt. Die Dreiecke $\\triangle DGF$ und $\\triangle CHG$ haben gleich große Flächen. Die Fläche des Rechtecks $EFGH$ ist $\\frac{m}{n}$, wobei $m$ und $n$ relativ prim positive ganze Zahlen sind. Finde $m + n$."
       }
     ],
     "final_answer": "293",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $A$ die Menge der positiven ganzen Teiler von $2025$. Sei $B$ eine zufällig ausgewählte Teilmenge von $A$. Die Wahrscheinlichkeit, dass $B$ eine nicht leere Menge mit der Eigenschaft ist, dass das kleinste gemeinsame Vielfache ihrer Elemente $2025$ ist, beträgt $\\frac{m}{n}$, wobei $m$ und $n$ relativ prim sind und positive ganze Zahlen sind. Finde $m + n$."
       }
     ],
     "final_answer": "237",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Aus einem unbegrenzten Vorrat an $1$-Cent-Münzen, $10$-Cent-Münzen und $25$-Cent-Münzen möchte Silas eine Sammlung von Münzen finden, die einen Gesamtwert von $N$ Cent hat, wobei $N$ eine positive ganze Zahl ist. Er verwendet den sogenannten \\textit{gierigen Algorithmus}, bei dem er nacheinander die Münze mit dem größten Wert auswählt, die den Wert seiner Sammlung nicht über $N$ hinaus erhöht. Zum Beispiel, um $42$ Cent zu erhalten, wählt Silas eine $25$-Cent-Münze, dann eine $10$-Cent-Münze und dann $7$ $1$-Cent-Münzen. Diese Sammlung von $9$ Münzen verwendet jedoch mehr Münzen als notwendig, um insgesamt $42$ Cent zu erreichen; tatsächlich erreicht die Wahl von $4$ $10$-Cent-Münzen und $2$ $1$-Cent-Münzen dasselbe Gesamt mit nur $6$ Münzen.\n\nIm Allgemeinen \\emph{erfolgt} der gierige Algorithmus für ein gegebenes $N$, wenn keine andere Sammlung von $1$-Cent-, $10$-Cent- und $25$-Cent-Münzen einen Gesamtwert von $N$ Cent mit strikt weniger Münzen als die vom gierigen Algorithmus gegebene Sammlung erzielt. Bestimmen Sie die Anzahl der Werte von $N$ zwischen $1$ und $1000$ einschließlich, für die der gierige Algorithmus erfolgreich ist."
       }
     ],
     "final_answer": "610",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es gibt $n$ Werte von $x$ im Intervall $0 < x < 2\\pi$, für die $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$ gilt. Für $t$ dieser $n$ Werte von $x$ ist der Graph von $y = f(x)$ tangential zur $x$-Achse. Finde $n + t$."
       }
     ],
     "final_answer": "149",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sechzehn Stühle sind in einer Reihe angeordnet. Acht Personen wählen jeweils einen Stuhl, um zu sitzen, sodass keine Person neben zwei anderen Personen sitzt. Sei $N$ die Anzahl der Teilmengen der 16 Stühle, die ausgewählt werden können. Finde den Rest, wenn $N$ durch $1000$ geteilt wird."
       }
     ],
     "final_answer": "907",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $S$ die Menge der Ecken eines regelmäßigen $24$-Ecks. Finde die Anzahl der Möglichkeiten, $12$ Segmente gleicher Längen zu zeichnen, sodass jede Ecke in $S$ ein Endpunkt genau eines der $12$ Segmente ist."
       }
     ],
     "final_answer": "113",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $A_1 A_2 A_3 \\ldots A_{11}$ ein $11$-seitiges nicht-konvexes einfaches Polygon mit den folgenden Eigenschaften:\n\n\\begin{itemize}\n\\item Für jede ganze Zahl $2 \\le i \\le 10$ ist die Fläche von $\\triangle A_i A_{1} A_{i+1}$ gleich $1$.\n\\item Für jede ganze Zahl $2 \\le i \\le 10$ gilt $\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$.\n\\item Der Umfang des $11$-Ecks $A_1 A_2 A_3 \\dots A_{11}$ ist gleich $20$.\n\\end{itemize}\n\nDann gilt $A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$, wobei $m, n, p$ und $q$ positive ganze Zahlen sind, $n$ nicht durch das Quadrat einer Primzahl teilbar ist und keine Primzahl alle von $m, p$ und $q$ teilt. Finde $m + n + p + q$."
       }
     ],
     "final_answer": "19",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $x_1, x_2, x_3, \\ldots$ eine Folge von rationalen Zahlen, definiert durch $x_1 = \\frac{25}{11}$ und\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\nfür alle $k \\ge 1$. Dann kann $x_{2025}$ als $\\frac{m}{n}$ ausgedrückt werden, wobei $m$ und $n$ relativ prim zu einander stehende positive ganze Zahlen sind. Finde den Rest, wenn $m + n$ durch $1000$ geteilt wird."
       }
     ],
     "final_answer": "248",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei $\\triangle ABC$ ein rechtwinkliges Dreieck mit $\\angle A = 90^\\circ$ und $BC = 38$. Es gibt Punkte $K$ und $L$ im Inneren des Dreiecks, sodass\n$$AK = AL = BK = CL = KL = 14.$$\nDie Fläche des Vierecks $BKLC$ kann als $n\\sqrt{3}$ für eine positive ganze Zahl $n$ ausgedrückt werden. Finde $n$."
       }
     ],
     "final_answer": "104",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es gibt genau drei positive reelle Zahlen $k$, so dass die Funktion\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\ndefiniert über den positiven reellen Zahlen ihr Minimum genau an zwei positiven reellen Zahlen $x$ erreicht. Finde die Summe dieser drei Werte von $k$."
       }
     ],
     "final_answer": "240",

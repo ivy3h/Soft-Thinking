@@ -2,7 +2,7 @@
 #SBATCH -p overcap
 #SBATCH --account=nlprx-lab
 #SBATCH -t 12:00:00
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
 #SBATCH -J st_qwen3_4b_continue
 #SBATCH -o logs/mgsm_qwen3_4b_instruct_st_continue_%j.log

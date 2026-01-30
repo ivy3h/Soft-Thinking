@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cada mañana, Aya sale a caminar una distancia de $9$ kilómetros y se detiene en una cafetería después. Cuando camina a una velocidad constante de $s$ kilómetros por hora, la caminata le toma 4 horas, incluyendo $t$ minutos pasados en la cafetería. Cuando camina a $s+2$ kilómetros por hora, la caminata le toma 2 horas y 24 minutos, incluyendo $t$ minutos pasados en la cafetería. Supongamos que Aya camina a $s+\\frac{1}{2}$ kilómetros por hora. Encuentra el número de minutos que le toma la caminata, incluyendo los $t$ minutos pasados en la cafetería."
       }
     ],
     "final_answer": "204",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $ABC$ un triángulo inscrito en el círculo $\\omega$. Sean las tangentes a $\\omega$ en $B$ y $C$ que se intersectan en el punto $D$, y sea $\\overline{AD}$ la que intersecta $\\omega$ en $P$. Si $AB=5$, $BC=9$, y $AC=10$, $AP$ se puede escribir en la forma $\\frac{m}{n}$, donde $m$ y $n$ son enteros relativamente primos. Encuentra $m + n$."
       }
     ],
     "final_answer": "113",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cada vértice de un octágono regular se colorea de manera independiente ya sea de rojo o azul con igual probabilidad. La probabilidad de que el octágono pueda ser rotado de manera que todos los vértices azules terminen en posiciones donde originalmente había vértices rojos es $\\tfrac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. ¿Cuál es $m+n$?"
       }
     ],
     "final_answer": "371",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Define $f(x)=|| x|-\\tfrac{1}{2}|$ y $g(x)=|| x|-\\tfrac{1}{4}|$. Encuentra el número de intersecciones de los gráficos de \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ y }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]"
       }
     ],
     "final_answer": "385",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $p$ el menor número primo para el cual existe un entero positivo $n$ tal que $n^{4}+1$ es divisible por $p^{2}$. Encuentra el menor entero positivo $m$ tal que $m^{4}+1$ es divisible por $p^{2}$."
       }
     ],
     "final_answer": "110",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $ABCD$ un tetraedro tal que $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$, y $BC=AD= \\sqrt{89}$. Existe un punto $I$ dentro del tetraedro tal que las distancias desde $I$ a cada una de las caras del tetraedro son todas iguales. Esta distancia se puede escribir en la forma $\\frac{m \\sqrt n}{p}$, donde $m$, $n$, y $p$ son enteros positivos, $m$ y $p$ son coprimos, y $n$ no es divisible por el cuadrado de ningún primo. Encuentra $m+n+p$."
       }
     ],
     "final_answer": "104",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $\\mathcal{B}$ el conjunto de cajas rectangulares con área superficial $54$ y volumen $23$. Sea $r$ el radio de la esfera más pequeña que puede contener cada una de las cajas rectangulares que son elementos de $\\mathcal{B}$. El valor de $r^2$ se puede escribir como $\\frac{p}{q}$, donde $p$ y $q$ son enteros positivos relativamente primos. Encuentra $p+q$."
       }
     ],
     "final_answer": "721",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Existen números reales $x$ e $y$, ambos mayores que 1, tales que $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Encuentra $xy$."
       }
     ],
     "final_answer": "025",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice y Bob juegan el siguiente juego. Una pila de $n$ fichas está frente a ellos. Los jugadores se turnan, siendo Alice la que comienza. En cada turno, el jugador puede quitar $1$ ficha o $4$ fichas de la pila. Quien quite la última ficha gana. Encuentra el número de enteros positivos $n$ menores o iguales a $2024$ para los cuales existe una estrategia para Bob que garantiza que Bob ganará el juego independientemente de la jugada de Alice."
       }
     ],
     "final_answer": "809",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jen participa en una lotería eligiendo $4$ números distintos de $S=\\{1,2,3,\\cdots,9,10\\}.$ Se eligen $4$ números al azar de $S.$ Ella gana un premio si al menos dos de sus números fueron $2$ de los números elegidos al azar, y gana el gran premio si los cuatro de sus números fueron los números elegidos al azar. La probabilidad de que ella gane el gran premio dado que ganó un premio es $\\tfrac{m}{n}$ donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$."
       }
     ],
     "final_answer": "116",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Los rectángulos $ABCD$ y $EFGH$ están dibujados de tal manera que $D,E,C,F$ son colineales. Además, $A,D,H,G$ todos yacen sobre un círculo. Si $BC=16$, $AB=107$, $FG=17$ y $EF=184$, ¿cuál es la longitud de $CE$?"
       }
     ],
     "final_answer": "104",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Considere los caminos de longitud $16$ que siguen las líneas desde la esquina inferior izquierda hasta la esquina superior derecha en una cuadrícula de $8\\times 8$. Encuentre el número de tales caminos que cambian de dirección exactamente cuatro veces, como en los ejemplos mostrados a continuación."
       }
     ],
     "final_answer": "294",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra la parte real máxima posible de \\[(75+117i)z+\\frac{96+144i}{z}\\] donde $z$ es un número complejo con $|z|=4$."
       }
     ],
     "final_answer": "540",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ocho círculos de radio $34$ son tangentes secuencialmente, y dos de los círculos son tangentes a $AB$ y $BC$ del triángulo $ABC$, respectivamente. $2024$ círculos de radio $1$ pueden ser dispuestos de la misma manera. El inradio del triángulo $ABC$ se puede expresar como $\\frac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$."
       }
     ],
     "final_answer": "197",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $A$, $B$, $C$ y $D$ puntos en la hipérbola $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ tal que $ABCD$ es un rombo cuyas diagonales se intersectan en el origen. Encuentra el mayor número real que es menor que $BD^2$ para todos esos rombos."
       }
     ],
     "final_answer": "480",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Entre los 900 residentes de Aimeville, hay 195 que poseen un anillo de diamantes, 367 que poseen un juego de palos de golf, y 562 que poseen una pala de jardín. Además, cada uno de los 900 residentes posee una bolsa de caramelos en forma de corazón. Hay 437 residentes que poseen exactamente dos de estas cosas, y 234 residentes que poseen exactamente tres de estas cosas. Encuentra el número de residentes de Aimeville que poseen las cuatro de estas cosas."
       }
     ],
     "final_answer": "073",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $\\triangle ABC$ con circuncentro $O$ e incentro $I$ tal que $\\overline{IA}\\perp\\overline{OI}$, radio circunscrito $13$ y radio inscrito $6$. Encuentra $AB\\cdot AC$."
       }
     ],
     "final_answer": "468",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra el número de tríos de enteros no negativos \\((a,b,c)\\) que satisfacen \\(a + b + c = 300\\) y\n\\begin{equation*}\na^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6,000,000.\n\\end{equation*}"
       }
     ],
     "final_answer": "601",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\) y \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) puntos en el plano de coordenadas. Sea \\(\\mathcal{F}\\) la familia de segmentos \\(\\overline{PQ}\\) de longitud unitaria que se encuentran en el primer cuadrante con \\(P\\) en el eje \\(x\\) y \\(Q\\) en el eje \\(y\\). Hay un único punto \\(C\\) en \\(\\overline{AB}\\), distinto de \\(A\\) y \\(B\\), que no pertenece a ningún segmento de \\(\\mathcal{F}\\) aparte de \\(\\overline{AB}\\). Entonces \\(OC^2=\\tfrac{p}{q}\\), donde \\(p\\) y \\(q\\) son enteros positivos relativamente primos. Encuentra \\(p+q\\)."
       }
     ],
     "final_answer": "023",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $\\omega\\neq 1$ una raíz 13 de la unidad. Encuentra el residuo cuando\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\nse divide por 1000."
       }
     ],
     "final_answer": "321",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea \\(b\\ge 2\\) un entero. Llamamos a un entero positivo \\(n\\) \\(b\\text-\\textit{hermoso}\\) si tiene exactamente dos dígitos cuando se expresa en base \\(b\\) y estos dos dígitos suman \\(\\sqrt n\\). Por ejemplo, \\(81\\) es \\(13\\text-\\textit{hermoso}\\) porque \\(81 = \\underline{6} \\ \\underline{3}_{13}\\) y \\(6 + 3 = \\sqrt{81}\\). Encuentra el menor entero \\(b\\ge 2\\) para el cual hay más de diez enteros \\(b\\text-\\textit{hermosos}\\)."
       }
     ],
     "final_answer": "211",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra el número de rectángulos que se pueden formar dentro de un dodecágono regular fijo ($12$-gon) donde cada lado del rectángulo se encuentra sobre un lado o una diagonal del dodecágono. El diagrama a continuación muestra tres de esos rectángulos.\n[asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy]"
       }
     ],
     "final_answer": "315",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Un conjunto de enteros positivos tiene las siguientes propiedades:\n$\\bullet$ La suma de los elementos en el conjunto es $30$.\n$\\bullet$ La moda única del conjunto es $9$.\n$\\bullet$ La mediana del conjunto es un entero positivo que no aparece en el propio conjunto.\nEncuentra la suma de los cuadrados de todos los elementos en el conjunto."
       }
     ],
     "final_answer": "236",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Encuentra el número de maneras de colocar un dígito en cada celda de una cuadrícula de 2x3 de modo que la suma de los dos números formados al leer de izquierda a derecha sea $999$, y la suma de los tres números formados al leer de arriba hacia abajo sea $99$. La cuadrícula a continuación es un ejemplo de tal disposición porque $8+991=999$ y $9+9+81=99$.\n\\[\\begin{array}{|c|c|c|} \\hline 0 & 0 & 8 \\\\ \\hline 9 & 9 & 1 \\\\ \\hline \\end{array}\\]"
       }
     ],
     "final_answer": "045",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $x,y$ y $z$ números reales positivos que satisfacen el siguiente sistema de ecuaciones:\n\\[\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}\\]\\[\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}\\]\\[\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}\\]\nEntonces el valor de $\\left|\\log_2(x^4y^3z^2)\\right|$ es $\\tfrac{m}{n}$ donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$."
       }
     ],
     "final_answer": "033",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea ABCDEF un hexágono convexo equilátero en el que todos los pares de lados opuestos son paralelos. El triángulo cuyos lados son extensiones de los segmentos AB, CD y EF tiene longitudes de lado 200, 240 y 300. Encuentra la longitud del lado del hexágono."
       }
     ],
     "final_answer": "080",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice elige un conjunto $A$ de enteros positivos. Luego, Bob enumera todos los conjuntos finitos no vacíos $B$ de enteros positivos con la propiedad de que el elemento máximo de $B$ pertenece a $A$. La lista de Bob tiene 2024 conjuntos. Encuentra la suma de los elementos de $A$."
       }
     ],
     "final_answer": "055",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sea $N$ el mayor número entero positivo de cuatro dígitos con la propiedad de que siempre que uno de sus dígitos se cambie a $1$, el número resultante es divisible por $7$. Sea $Q$ y $R$ el cociente y el residuo, respectivamente, cuando $N$ se divide por $1000$. Encuentra $Q+R$."
       }
     ],
     "final_answer": "699",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "El toro $T$ es la superficie producida al girar un círculo con radio $3$ alrededor de un eje en el plano del círculo que está a una distancia $6$ del centro del círculo (como un donut). Sea $S$ una esfera con un radio de $11$. Cuando $T$ descansa en el exterior de $S$, es tangente externamente a $S$ a lo largo de un círculo con radio $r_i$, y cuando $T$ descansa en el exterior de $S$, es tangente externamente a $S$ a lo largo de un círculo con radio $r_o$. La diferencia $r_i - r_o$ se puede escribir como $\\tfrac{m}{n}$, donde $m$ y $n$ son enteros positivos relativamente primos. Encuentra $m+n$."
       }
     ],
     "final_answer": "127",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hay una colección de $25$ fichas blancas indistinguibles y $25$ fichas negras indistinguibles. Encuentra el número de maneras de colocar algunas de estas fichas en las $25$ celdas unitarias de una cuadrícula de $5\\times5$ de tal manera que:\n\ncada celda contenga como máximo una ficha\ntodas las fichas en la misma fila y todas las fichas en la misma columna tengan el mismo color\ncualquier ficha adicional colocada en la cuadrícula violaría una o más de las dos condiciones anteriores."
       }
     ],
     "final_answer": "902",

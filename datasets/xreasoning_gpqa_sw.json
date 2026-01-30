@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hali mbili za quantum zikiwa na nishati E1 na E2 zina maisha ya sekunde 10^-9 na 10^-8, mtawalia. Tunataka kutofautisha wazi wazi viwango hivi viwili vya nishati. Ni ipi kati ya chaguzi zifuatazo inaweza kuwa tofauti yao ya nishati ili ziweze kutambulika wazi?\n\n(A) 10^-11 eV  \n(B) 10^-8 eV  \n(C) 10^-9 eV  \n(D) 10^-4 eV  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "trans-cinnamaldehyde ilitibiwa na methylmagnesium bromide, ikaunda bidhaa 1.\n\n1 ilitibiwa na pyridinium chlorochromate, ikaunda bidhaa 2.\n\n2 ilitibiwa na (dimethyl(oxo)-l6-sulfaneylidene)methane katika DMSO kwa joto la juu, ikaunda bidhaa 3.\n\nni atomu ngapi za kaboni zipo katika bidhaa 3?\n\n(A) 10  \n(B) 12  \n(C) 14  \n(D) 11  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kipande cha chembe kinachozunguka nusu kiko katika mchanganyiko wa moja kwa moja 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle wa hali zake za spin-up na spin-down. Ikiwa |\\uparrow\\rangle na |\\downarrow\\rangle ni hali za eigen za \\sigma{z}, basi ni nini thamani ya matarajio hadi sehemu moja ya desimali, ya opereta 10\\sigma{z}+5\\sigma_{x}? Hapa, alama zina maana zao za kawaida.\n\n(A) 0.85  \n(B) -0.7  \n(C) -1.4  \n(D) 1.65  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika ulimwengu wa sambamba ambapo sumaku inaweza kuwa na pole ya Kaskazini au Kusini iliyotengwa, kanuni za Maxwell zinaonekana tofauti. Lakini, hasa, ni zipi kati ya hizo kanuni ambazo ni tofauti?\n\n(A) Zile zinazohusiana na divergence na curl ya uwanja wa magnetic.\n(B) Zile zinazohusiana na mzunguko wa uwanja wa umeme na divergence ya uwanja wa magnetic.\n(C) Ile inayohusiana na divergence ya uwanja wa magnetic.\n(D) Ile inayohusiana na mzunguko wa uwanja wa magnetic na mtiririko wa uwanja wa umeme.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hesabu eigenvector ya opereta ya mekanika quantum $\\vec{P}$ kwa muoni katika mwelekeo wowote $\\vec{n}$ ulio katika ndege ya x-z inayohusiana na eigenvalue $+\\hbar/2$. Imepewa kwamba $X-$component, $P_x$ wa opereta $P$ ni $\\hbar/2$ mara ya matrix ya mraba ya 2 kwa 2 yenye vipengele katika safu ya kwanza kama $(0 1)$, na kwamba katika safu ya pili kama $(1, 0)$. $Y-$component, $P_y$ wa opereta unapatikana kwa bidhaa ya $\\hbar/2$ na matrix ya mraba ya 2 kwa 2 yenye vipengele katika safu ya kwanza kama $(0, -i)$, na kwamba katika safu ya pili kama $(i, 0)$. Hatimaye, $Z-$component, $P_z$ wa opereta unapatikana kwa bidhaa ya $\\hbar/2$ na matrix nyingine ya mraba ya 2 kwa 2 yenye vipengele katika safu ya kwanza kama $(1, 0)$, na kwamba katika safu ya pili kama $(0, -1)$. Ni nini vipengele vya eigenvector iliyosawazishwa?\n\n(A) (\\sqrt{2/3}\\hbar, \\sqrt{1/3}\\hbar)  \n(B) (\\sqrt{2/3}\\hbar \\cos(\\theta/2), \\sqrt{1/3}\\hbar \\sin (\\theta/2))  \n(C) (\\cos(\\theta/2), \\sin (\\theta/2))  \n(D) (\\cos(\\theta), e^{i\\phi}\\sin (\\theta))  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nKichomo cha quantum chenye wingi m kinahamia katika vipimo viwili katika uwezo ufuatao, kama kazi ya (r,θ): V (r, θ) = 1/2 kr^2 + 3/2 kr^2 cos^2(θ)\nPata spektra ya nishati.\n\n(A) E = (n_x+3*n_y+3/2) ℏ*sqrt(k/m))\n(B) E = (2n_x+n_y+3/2)ℏ*sqrt(k/m)\n(C) E = (2n_x+3n_y+1/2) ℏ*sqrt(k/m))\n(D) E = (3n_x+2n_y+1/2) ℏ*sqrt(k/m))\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ulimwengu umejaa Mionzi ya Microwave ya Kijumla. Fikiria juu ya kuangamizwa kwa \\gamma-rays za nishati ya juu na fotoni kutoka kwa Mionzi ya CMB kuwa elektron-positron, yaani, $\\gamma\\gamma\\rightarrow e^{+}e^{-}$. Kutoka kwa nishati ipi \\gamma-rays zingeweza kuwa na muda wa kuishi katika ulimwengu ukipunguzwa na mchakato huu? Tukijua kuwa nishati ya wastani ya fotoni ya CMB ni $10^{-3}eV$.\n\n(A) 1.8*1e5 GeV  \n(B) 3.9*1e5 GeV  \n(C) 9.5*1e4 GeV  \n(D) 2.6*1e5 GeV  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unafanya majaribio ya kiwango cha juu kwenye lupini mweupe ili kutafuta jeni zinazochangia upinzani dhidi ya ugonjwa wa fangasi anthracnose. Kama matokeo, unapata jeni tatu za wagombea zenye kazi isiyojulikana – G1, G2, na G3. Unaunda mutants tatu za knock-out, g1, g2, na g3, na seti ya double-mutants, g1g2, g1g3, na g2g3. Unajua kwamba angalau moja ya hizi jeni ni kipengele cha uandishi kinachofanya kazi juu ya (jeni) nyingine. Unaanza kujaribu mimea hiyo ya mutant: je, zina hisia kubwa zaidi kwa anthracnose kuliko aina ya mwituni kwa sababu hawawezi kuzalisha bidhaa fulani za jeni? \nBaada ya majaribio na patojeni, unapata matokeo yafuatayo ambapo 100% ni kiwango cha upinzani kwa patojeni katika udhibiti; 50% ni nusu ya upinzani wa udhibiti; 25% ni robo ya upinzani wa udhibiti; 0% ‒ mimea yote inaonyesha dalili za maambukizi:\n- upinzani wa g1: 75% ya udhibiti\n- upinzani wa g2: 0% kutoka udhibiti\n- upinzani wa g3: 50% kutoka udhibiti\n- upinzani wa g1g3: 10% kutoka udhibiti\n- upinzani wa g2g3: 0% kutoka udhibiti\n- upinzani wa g1g2: 0% kutoka udhibiti\n\nNi hitimisho gani kuhusu mwingiliano wa hizo jeni unaweza kutoa kutokana na majaribio haya?\n\n(A) G2 ni kipengele cha uandishi, G1 na G3 zinaonyesha pleiotropy, G1 ni epistatic kwa G3  \n(B) G2 ni kipengele cha uandishi, G1 na G3 zinaonyesha redundancy ya jeni, G1 ni epistatic kwa G3  \n(C) G2 ni kipengele cha uandishi, G1 na G3 zina promota sawa, G3 ni epistatic kwa G1  \n(D) G1 ni kipengele cha uandishi, G2 na G3 zinaonyesha pleiotropy, G2 ni epistatic kwa G1  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni molekuli ipi kati ya zifuatazo ina symmetry ya c3h?\ntriisopropyl borate\nquinuclidine\nbenzo[1,2-c:3,4-c':5,6-c'']trifuran-1,3,4,6,7,9-hexaone\ntriphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-1,3,6,8,11,13-hexaone\n\n(A) triisopropyl borate  \n(B) triphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-1,3,6,8,11,13-hexaone  \n(C) quinuclidine  \n(D) benzo[1,2-c:3,4-c':5,6-c'']trifuran-1,3,4,6,7,9-hexaone  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kati ya exoplanets zifuatazo, ni ipi ina wingi mkubwa zaidi?\n\na) Sayari yenye uzito wa Dunia na miondoko ya Dunia.\nb) Sayari yenye uzito wa Dunia 2 na wingi wa takriban 5.5 g/cm^3.\nc) Sayari yenye muundo sawa na Dunia lakini yenye uzito mara 5 zaidi ya Dunia.\nd) Sayari yenye muundo sawa na Dunia lakini yenye uzito nusu ya Dunia.\n\n(A) a  \n(B) b  \n(C) c  \n(D) d  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Taarifa zote zifuatazo kuhusu biolojia ya molekuli ya Virusi vya Korona vya Hali Mbaya ya Kupumua 2 (SARS-CoV-2) ni sahihi isipokuwa\n\n(A) Mabadiliko ya mpangilio wa ribosomu yaliyopangwa yanaunda poliproteini mbili karibu na mwisho wa 5` wa genome kwa kuhamia nyuma kwa nucleotidi 1 kwa msaada wa nucleotidi zenye kuteleza, na pseudoknot. Mabadiliko ya mpangilio wa ribosomu yaliyopangwa ya SARS-CoV-2 mara nyingi yana muundo sawa na mabadiliko ya mpangilio wa ribosomu yaliyopangwa ya SARS-CoV.\n(B) Kiwango cha mabadiliko ya mpangilio katika vitro kina uhusiano wa moja kwa moja na idadi ya muundo ambayo pseudoknot inaweza kuchukua. Mambo yote mawili ya SARS-CoV na SARS-CoV-2 Programmed -1 Frameshift Signals yanaonyesha muundo mbili wakati wa mvutano, sawa na pseudoknots nyingine zinazochochea viwango vya mabadiliko ya mpangilio vinavyofanana.\n(C) SARS-CoV-2 ORF3a ina uwezo wa kuchochea kuanzishwa/kukata kwa caspase-8, bila kuathiri viwango vya uonyeshaji vya Bcl-2. Kuanzishwa kwa caspase-8 inatambuliwa kama kipengele cha kipekee cha njia ya kifo ya nje kupitia wapokeaji wa kifo, wakati Bcl-2 ina jukumu muhimu katika kuanzisha njia ya mitochondrial. Hii inaashiria kuwa mekanismu ambayo SARS-CoV-2 ORF3a inachochea apoptosis ni kupitia njia ya kifo ya nje.\n(D) SARS-CoV-2 nsp10/nsp14-ExoN inafanya kazi kama heterodimers katika mekanismu ya kurekebisha makosa. Eneo la N-terminal ExoN la nsp14 linaweza kuungana na nsp10 kuunda mchanganyiko wa exonuclease unaofanya kazi unaozuia uharibifu wa dsRNA.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Pata KE ya chembe za bidhaa katika,\nPi(+) = mu(+) + nu\nhapa Pi(+) iko stationary.\nMisa ya kupumzika ya Pi(+) na mu(+) ni 139.6 MeV na 105.7 MeV mtawalia.\n\n(A) 2.84 MeV, 26.8 MeV  \n(B) 7.2 MeV, 32.8 MeV  \n(C) 4.12 MeV, 29.8 MeV  \n(D) 3.52 MeV, 20.8 MeV  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Suluhisho la methanoli la (R)-(+)-Limonene linachanganywa na Pd/C chini ya anga ya Hidrojeni. Baada ya ekivalenti 1 ya hidrojeni kutumika, bidhaa 1 inapatikana kama bidhaa kuu.\n\nBidhaa 1 inatibiwa na asidi ya 3-chloroperbenzoic, na kuunda bidhaa 2.\n\nBidhaa 2 inatibiwa na sodium methoxide, na kuunda bidhaa 3.\n\nBidhaa 3 inatibiwa na asidi ya propanoic, dicyclohexylcarbodiimide, na kiasi kidogo cha 4-dimethylaminopyridine, na kuunda bidhaa 4.\n\nNi muundo gani halali wa bidhaa 4? (bidhaa 4 inapatikana kama mchanganyiko wa isomeri. jibu sahihi ni moja ya hizo).\n\n(A) (1S,2R,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate  \n(B) (1S,2S,4R)-4-isopropyl-2-methoxy-1-methylcyclohexyl propionate  \n(C) (1S,2S,5R)-5-isopropyl-2-methoxy-2-methylcyclohexyl propionate  \n(D) 1-methoxy-2-((S)-4-methylcyclohex-3-en-1-yl)propan-2-yl propionate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "ChIP-seq kwenye sampuli iliyowekwa na PFA na antibodi kwa kipengele cha transcription cha IKAROS katika seli za B za binadamu ikifuatiwa na upigaji picha wa kizazi kijacho na hatua za udhibiti wa ubora wa kawaida, usawazishaji na hatua za kuita kilele zilisababisha kilele za ChIP ambazo ziliondoka wakati urekebishaji wa PFA+DSG ulitumika. Tunatarajia kupata kilele hizo zinazotoweka wapi?\n\n(A) Katika maeneo ya nasibu kwenye genome\n(B) Katika kurudiwa\n(C) Katika introni za jeni kubwa\n(D) Katika waendelezaji na wakandamizaji wanaofanya kazi\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Watafiti wanajaribu kugundua kupita kwa sayari mbili zinazofanana na Dunia: Planet_1 na Planet_2. Wana muda mdogo wa kuangalia na wanataka kuangalia ile ambayo ina uwezekano mkubwa wa kupita. Sayari hizi mbili tayari zimegundulika kupitia mbinu ya RV, ambayo inaturuhusu kujua uzito wao wa chini na kipindi chao cha mzunguko. Ingawa sayari zote zina uzito sawa, kipindi cha mzunguko cha Planet_1 ni fupi mara tatu kuliko kile cha Planet_2. Kwa kushangaza, zote zina mizunguko ya duara. Zaidi ya hayo, tunajua uzito na miondoko ya nyota zinazohifadhi sayari hizi mbili. Nyota inayohifadhi Planet_1 ina uzito mara mbili ya nyota inayohifadhi Planet_2. Kwa kuwa mwenyeji wa Planet_2 ameendelea kidogo, nyota zote zinazohifadhi zina miondoko sawa. Kulingana na taarifa zilizotolewa, watafiti wamechagua kuangalia:\n\n(A) Planet_1 inapendekezwa kwa sababu ya uwezekano wake wa kupita ambao ni ~2.7 mara zaidi.\n(B) Planet_2 inapendekezwa kwa sababu ya uwezekano wake wa kupita ambao ni ~2.25 mara zaidi.\n(C) Planet_1 inapendekezwa kwa sababu ya uwezekano wake wa kupita ambao ni ~1.65 mara zaidi.\n(D) Planet_2 inapendekezwa kwa sababu ya uwezekano wake wa kupita ambao ni ~1.5 mara zaidi.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni kiasi gani ya viunganishi vifuatavyo vitakuwa na shughuli za macho?\n\n(Z)-1-chloro-2-methylbut-1-ene  \n(3aR,7aS,E)-8-(chloromethylene)hexahydro-4,7-methanoisobenzofuran-1,3-dione  \n(2R,3S)-2,3-dimethylsuccinic acid  \n(2R,3R)-2,3-dimethylsuccinic acid  \n(R)-cyclohex-3-en-1-ol  \n(1s,3s,5s)-cyclohexane-1,3,5-triol  \n1-cyclopentyl-3-methylbutan-1-one  \n\n(A) 2  \n(B) 3  \n(C) 4  \n(D) 5  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo: Ni nini mkusanyiko wa ioni za kalsiamu katika suluhisho lenye 0.02 M stochiometric Ca-EDTA complex (tunadhani kwamba pH ni bora, T = 25 °C). KCa-EDTA = 5x10^10.\n\n(A) 2.0x10^-2 M  \n(B) 1.0x10^-2 M  \n(C) 5.0x10^-3 M  \n(D) 6.3x10^-7 M  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mbingu mbili (Star_1 na Star_2) kila moja ina uzito wa mara 1.5 na 1.2 wa Jua letu, mtawalia. Tukichukulia LTE na kutumia njia ya EW, wanaastronomia wameamua viwango vya elementi vya nyota hizi mbili: [Si/Fe]_1 = 0.3 dex, [Mg/Si]_2 = 0.3 dex, [Fe/H]_1 = 0 dex, na [Mg/H]_2 = 0 dex. Fikiria muundo wa picha wa Jua: 12 + log10(nFe/nH) = 7.5 na 12 + log10(nMg/nH) = 7. Hesabu uwiano wa atomi za silicon katika picha za Star_1 na Star_2.\n\n(A) ~3.9  \n(B) ~1.2  \n(C) ~0.8  \n(D) ~12.6  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Majibu ya Michael ni mchakato wa kemikali katika kemia ya kikaboni ambapo nucleophile inaongeza kwenye molekuli inayokuwa na kiunganishi maalum cha kaboni-kaboni (C=C) karibu na kundi la carbonyl (C=O). Majibu haya yanaunda kiunganishi kipya cha kaboni-kaboni, na kusababisha kuongezeka kwa nucleophile kwenye molekuli. Inatumika sana katika kujenga misombo tata ya kikaboni yenye vikundi maalum vya kazi na stereochemistry, ikipata matumizi katika dawa, usanisi wa bidhaa za asili, na usanisi wa kemikali.\n\nBidhaa za mwisho za majibu yafuatayo ni:\nmethyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) ---> A\nethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) ---> B\n\n(A) A = methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = 4-ethyl 1-methyl 2-cyclopentyl-3,3-diethyl-2-phenylsuccinate  \n(B) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = 4-ethyl 1-methyl 2-cyclopentyl-3,3-diethyl-2-phenylsuccinate  \n(C) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate  \n(D) A = methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kiwango kinachotumika mara nyingi katika hesabu za nyuklia za mwingiliano wa mwili mwingi (kwa mfano mwingiliano wa electroweak) ni kudhani kwamba nucleons katika nyuklia zinatenda kama nucleons huru. Ni ipi kati ya dhana nne zifuatazo inamaanisha pamoja \"\"kikadirio\"\" hiki?\n\n1. Mwingiliano wa sasa unawasiliana tu na nucleons binafsi.\n2. Nyuklia ni wazi isipokuwa kwa nucleon iliyochaguliwa.\n3. Quarks ndani ya nucleon iliyochaguliwa si wa relativistic.\n4. Mwingiliano unaendelea kana kwamba nucleon iliyochaguliwa haina nguvu za kuunganisha.\n\n(A) 1,2,3  \n(B) 1,3,4  \n(C) 2,3,4  \n(D) 1,2,4  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mchanganyiko ambao una fomula ya molekuli sawa lakini unatofautiana katika mpangilio wao wa muundo unajulikana kama isomeri. Isomeri zina aina mbili, isomeri za katiba na isomeri za stere. Isomeri za katiba zina fomula sawa ya molekuli lakini zinatofautiana katika muundo wao. Katika isomeri za stere, molekuli zimeunganishwa kwa njia sawa, lakini mpangilio wao katika nafasi ni tofauti. \nKati ya mchanganyiko uliotolewa (benzoquinone & cyclohexane-1,3,5-trione) mchanganyiko ambao hauonyeshi tautomerism (A) na kati ya methyl 2-hydroxypropanoate na dimethyl fumarate ni ipi itakayonyesha isomeri ya kioo (B).\n\n(A) A = cyclohexane-1,3,5-trione, B = methyl 2-hydroxypropanoate  \n(B) A = benzoquinone, B = methyl 2-hydroxypropanoate  \n(C) A = benzoquinone, B = dimethyl fumarate  \n(D) A = cyclohexane-1,3,5-trione, B = dimethyl fumarate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mwanafunzi anajutia kwamba alilala wakati wa mhadhara katika elektrokemistri, akikabiliwa na taarifa isiyokamilika katika mtihani:\nKwa thermodynamically, oksijeni ni …… oxidant katika suluhisho za msingi. Kinetically, oksijeni inajibu …… katika suluhisho za asidi.\nNi mchanganyiko gani wa dhaifu/na nguvu na haraka/polepole ni sahihi?\n\n(A) nguvu – polepole  \n(B) dhaifu – haraka  \n(C) dhaifu - polepole  \n(D) nguvu – haraka  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika majaribio, mtafiti alijibu ((2,2-dimethylbut-3-en-1-yl)oxy)benzene na bromidi ya hidrojeni. Baada ya muda fulani, walikagua maendeleo ya majibu kwa kutumia TLC. Waligundua kuwa alama ya reagenti ilikuwa imepungua, na alama mbili mpya zilikuwa zimeundwa. Ni ipi kati ya zifuatazo inaweza kuwa miundo ya bidhaa?\n\n(A) (4-bromo-2,2-dimethylbutoxy)benzene na (3-bromo-2,2-dimethylbutoxy)benzene  \n(B) 2-(2,2-dimethylbutyl)phenol na 4-(2,2-dimethylbutyl)phenol  \n(C) (4-bromo-2,2-dimethylbutoxy)benzene na ((2,3-dimethylbut-2-en-1-yl)oxy)benzene  \n(D) 3,3,4-trimethylchromane na 3-isopropyl-3-methyl-2,3-dihydrobenzofuran  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ikiwa mchanganyiko wa sawia X wa kioevu viwili, ambavyo vinakosa rangi ya maji ya bromini, unapotibiwa na platini wakati wa kupasha moto, basi mchanganyiko wa sawia Y wa kioevu viwili vingine unaundwa kama matokeo ya disproportionation, ambao haukosi rangi ya maji ya bromini. Hidrojeni ya mchanganyiko wote X na mchanganyiko Y kwa uwepo wa platini chini ya hali kali inatoa kitu kimoja tu, hidrokarboni fulani Z (sehemu ya wingi wa hidrojeni ni 14.28%), ambayo ni sehemu ya mchanganyiko Y na inatumika sana kama kutengenezea. Kitu Z hakijajibu zaidi na hidrojeni. Hakuna viungio vya mara nyingi vilivyo katika molekuli za misombo ya mchanganyiko X. \nOnyesha jumla ya idadi ya atomi za hidrojeni katika kioevu viwili vya mchanganyiko X.\n\n(A) 12  \n(B) 16  \n(C) 18  \n(D) 22  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Majibu ya majina katika kemia yanarejelea seti maalum ya majibu maarufu ya kemikali ambayo kwa kawaida yanapewa majina baada ya wanasayansi walioyagundua au wale waliochangia kwa kiasi kikubwa katika maendeleo yao. Majibu haya yamekuwa na athari kubwa katika uwanja wa kemia na mara nyingi hutumiwa kama msingi wa kimsingi katika synthetis mbalimbali za kemikali. \nTambua reagenti za majibu yafuatayo ya majina.\nA + H2SO4 ---> 2,8-dimethylspiro[4.5]decan-6-one\nB + BuLi + H+ ---> 4-methyl-1-phenylpent-3-en-1-ol\n\n(A) A = 2,8-dimethylspiro[4.5]decan-6-ol, B = 4-methyl-1-phenylpent-3-en-1-one\n(B) A = 2,7-dimethyloctahydronaphthalene-4a,8a-diol, B = (((3-methylbut-2-en-1-yl)oxy)methyl)benzene\n(C) A = 2,8-dimethylspiro[4.5]decan-6-ol, B = (((3-methylbut-2-en-1-yl)oxy)methyl)benzene\n(D) A = 2,7-dimethyloctahydronaphthalene-4a,8a-diol, B = 4-methyl-1-phenylpent-3-en-1-one\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Dienes ni viwanja vya kikaboni vyenye vifungo viwili vya karibu vya mara mbili katika muundo wao, na vinaonyesha reactivity ya kipekee kutokana na mfumo wao wa pi-electron uliounganishwa. Wanacheza jukumu muhimu katika kemia ya kikaboni na wanahusika katika mchakato mbalimbali wa kemikali na mchakato wa asili. \nKati ya chaguzi zilizotolewa, ipi ni reaktanti inayowezekana (A) kwa mchakato uliopewa na pia taja mpangilio sahihi wa dienes kulingana na reactivity yao (iliyokuwa na reactivity kubwa hadi ndogo) B.\nCyclohexene + A ---> 8,8-diiodobicyclo[4.2.0]octan-7-one\n(B) 1. 2,3-dimethylbuta-1,3-diene, 2. (2E,4E)-hexa-2,4-diene, 3. cyclopenta-1,3-diene, 4. (2Z,4Z)-hexa-2,4-diene\n\n(A) A = 2,2-diiodoethen-1-one, B = 3, 1, 2, 4  \n(B) A = 4,4-diiodocyclobut-2-en-1-one, B = 3, 1, 2, 4  \n(C) A = 2,2-diiodoethen-1-one, B = 4, 2, 1, 3  \n(D) A = 4,4-diiodocyclobut-2-en-1-one, B = 4, 2, 1, 3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Oh, nakujua,\" chembechembe ya ribonucleoprotein inasema kwa mnyororo unaozaliwa wanapokutana. \"Simama hapo kwa dakika moja. Niachie niingize; unahitaji sukari.\"\n\"Inaonekana kama ni ngumu kidogo. Nadhani hii ni kwaheri; nahitaji kuendelea,\" mnyororo anajibu. Walikutana wapi, na mnyororo anakoelekea ni wapi?\n\n(A) Golgi hadi mitochondrion\n(B) cytosol hadi nafasi ya extracellular\n(C) membrane hadi nucleus\n(D) ribosome hadi proteasome\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "S)-4-hydroxycyclohex-2-en-1-one inatibiwa na tert-Butyldimethylsilyl chloride na triethylamine, ikizalisha bidhaa 1.\n\n1 inatibiwa na Ph2CuLi kwa joto la chini, ikifuatiwa na benzyl bromide, ikizalisha bidhaa 2.\n\n2 inatibiwa na LDA na iodomethane kwa joto la chini, ikizalisha bidhaa 3.\n\nBidhaa 3 inatibiwa na HCl ya maji, ikizalisha bidhaa ya mwisho 4. Je, muundo wa bidhaa 4 ni upi?\n\n(A) (1S,2S,4S)-1-(benzyloxy)-2-methyl-1,2,3,4-tetrahydro-[1,1'-biphenyl]-4-ol  \n(B) (2S,3S,4S)-2-benzyl-4-hydroxy-2-methyl-3-phenylcyclohexan-1-one  \n(C) (2S,3R,4S,6S)-2-benzyl-4-hydroxy-6-methyl-3-phenylcyclohexan-1-one  \n(D) (2R,3R,4S)-2-benzyl-4-hydroxy-2-methyl-3-phenylcyclohexan-1-one  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Una aina ya shayiri inayostahimili ukame, ambayo, kwa bahati mbaya, ina kiwanja kisichokuwa na virutubisho. Kiwanja hiki kinaufanya kuwa haiwezekani kutumia aina hii kwa madhumuni ya chakula. Baada ya uchunguzi wa kina, unagundua jeni inayohusika na usanisi wa kiwanja hiki. Jeni hii ina exons tano na introns nne. Unamua kutumia mbinu za zamani na kutengeneza mkusanyiko wa mutants kwa kutumia EMS chemical mutagen. Unaposequence jeni lengwa katika mistari yote ya mutant, unagundua mabadiliko fulani mwanzoni mwa mfuatano wake katika eneo la exon ya kwanza. Ni mabadiliko gani kati ya yafuatayo yatakayokuruhusu kuondoa kiwanja kisichokuwa na virutubisho katika aina hii?\n\nJeni lililo kamili:\n5’-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\n\nMutant 1:\n5’-ATGTTCTACGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3’\nMutant 2:\n5’-ATGTTCTAAGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3’\nMutant 3:\n5’-ATGTTTTACGCTGGTGTCACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\nMutant 4:\n5’-ATGTTTTACGCTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\n\n(A) Mutant 3  \n(B) Mutant 4  \n(C) Mutant 1  \n(D) Mutant 2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nRangi ya rangi ya nyuzi inayokuwa na pi-electrons iliyounganishwa kwa kiasi kikubwa inatoa mwanga wenye nishati ya 2.3393 eV. Ni rangi gani ya mwanga inayoshikwa na kiwanja hiki cha kikaboni?\n\n(A) Njano  \n(B) Buluu  \n(C) Zambarau  \n(D) Nyekundu  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -393,7 +393,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Toluene inatibiwa na asidi ya nitrojeni na asidi ya sulfuri, ikitengeneza bidhaa 1.\n\n1 inatibiwa na MnO2 na H2SO4, ikitengeneza bidhaa 2.\n\n2 inatibiwa na acetone na sodium hydroxide ya maji, ikitengeneza bidhaa 3.\n\nni kundi gani la simetria ya molekuli ya 3?\n\n(A) cs  \n(B) c2h  \n(C) d2h  \n(D) c3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -406,7 +406,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Je, ni nishati gani ya Relativistic Heavy Ion Collider (RHIC) ili kwamba kasi ya nyuklia X iwe sawa na 0.96c?\n\nTukijua kwamba X inafafanuliwa kama Li yenye neutroni 3.\n\nPS: usahihi wa nishati ni katika 1e-4.\n\n(A) 18.475 GeV  \n(B) 23.069 GeV  \n(C) 21.419  \n(D) 20.132 GeV  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -419,7 +419,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua bidhaa ya EXO ya mchakato ufuatao wa [4+2] cycloaddition.  \n2,5-dimethylthiophene + Furan-2,5-dione + Joto ---> ?\n\n(A) (3aR,4R,7S,7aS)-4,7-dimethyl-3a,4,7,7a-tetrahydro-4,7-epoxybenzo[c]thiophene-1,3-dione  \n(B) (3aR,4R,7S,7aS)-4,7-dimethyl-3a,4,7,7a-tetrahydro-4,7-epithioisobenzofuran-1,3-dione  \n(C) (3aR,4S,7R,7aS)-4,7-dimethyl-3a,4,7,7a-tetrahydro-4,7-epoxybenzo[c]thiophene-1,3-dione  \n(D) (3aR,4S,7R,7aS)-4,7-dimethyl-3a,4,7,7a-tetrahydro-4,7-epithioisobenzofuran-1,3-dione  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -432,7 +432,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Reaksioni ya 1,2-Rearrangement ambapo dioli za vicinal zinapojiruhusu kujibu na asidi inaitwa reaksioni ya Pinacol Pinacolone rearrangement. Reaksioni hii inaendelea kupitia uundaji wa carbocation ambayo husababisha kuhamasishwa kwa moja ya makundi.\nKwa viwanja vilivyopewa hapa chini, ni bidhaa zipi zinazowezekana za rearrangement ya Pinacol?\n3-methyl-4-phenylhexane-3,4-diol + H+ ---> A\n3-(4-hydroxyphenyl)-2-phenylpentane-2,3-diol + H+ ---> B\n1,1,2-tris(4-methoxyphenyl)-2-phenylethane-1,2-diol + H+ ---> C\n\n(A) A = 2-methyl-1-phenylbutan-1-one, B = 2-(4-hydroxyphenyl)-1-phenylbutan-1-one, C = 2,2,2-tris(4-methoxyphenyl)-1-phenylethan-1-one\n(B) A = 3-ethyl-3-phenylpentan-2-one, B = 3-(4-hydroxyphenyl)-3-phenylpentan-2-one, C = 1,2,2-tris(4-methoxyphenyl)-2-phenylethan-1-one\n(C) A = 2-methyl-1-phenylbutan-1-one, B = 2-(4-hydroxyphenyl)-1-phenylbutan-1-one, C = 1,2,2-tris(4-methoxyphenyl)-2-phenylethan-1-one\n(D) A = 3-ethyl-3-phenylpentan-2-one, B = 3-(4-hydroxyphenyl)-3-phenylpentan-2-one, C = 2,2,2-tris(4-methoxyphenyl)-1-phenylethan-1-one\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}.\""
       }
     ],
     "final_answer": "",
@@ -445,7 +445,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria sehemu ya Y ya opereta ya momentum ya angular ya ndani, A ya muoni inawakilishwa na matrix 2×2 Ay inayoridhisha sawa ya eigenvalue Ay(φ) = a(φ). Hapa, a ni eigenvalue, φ ni eigenfunction. Opereta ya matrix ina mfumo Ay = c∙S; ambapo thabiti c=h/4π na S ni matrix 2×2. Mstari wa kwanza wa matrix S ni (0   -i) na mstari wa pili ni (i  0). Unatarajiwa kuhesabu eigenvalue na eigenvectors wa opereta Ay. Wakati wa hesabu, ni kauli ipi hapa chini utachukulia kuwa sahihi?\n\n(A) Sehemu ya kufikirika ya eigenvalue ya Ay ni +1/2 au –1/2, na sehemu halisi ya hiyo ni +1 au –1.\n(B) Sehemu ya kufikirika ya eigenvalue ya Ay ni +2πh au –2πh, na sehemu halisi ya hiyo ni +h/4π au –h/4π.\n(C) Eigenfunction ya opereta Ay inaweza pia kuwa eigenfunction ya A^2, lakini si ya sehemu ya Z, Az.\n(D) Eigenfunctions φ wa opereta Ay ni kazi za msingi za opereta ya matrix Ay iliyotolewa hapo juu.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -458,7 +458,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Uchunguzi wa miundo iliyoko umbali wa takriban 2.1 gigaparsecs (2.1 Gpc) unafanywa. Nishati ya mstari wa kunyonya iliyogunduliwa ni takriban 3.9 micro electron volts (3.9 * 10^-6 eV).\n\nNini kinachoweza kuonekana kwa uwezekano mkubwa na mstari huu wa kunyonya katika Galaksi ya Milky Way?\n\n(A) Kati ya kati ya atomiki ya interstellar baridi.\n(B) Kati ya kati ya atomiki ya interstellar ya joto.\n(C) Kati ya kati ya molekuli ya interstellar baridi.\n(D) Kati ya kati ya molekuli ya interstellar ya joto.\n\nTafadhali andika jibu lako la mwisho kwa mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -471,7 +471,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua idadi ya ishara za 13C-NMR zinazozalishwa na bidhaa ya mwisho, inayoashiriwa kama E, inayotokana na mfululizo wa majibu yaliyoonyeshwa hapa chini.  \nPropionaldehyde + EDT / BF3 ---> A  \nA + BuLi ---> B  \nB + Bromoethane ---> C  \nC + HgCl2 / H2O / H+ ---> D  \nD + PPh3 / 3-bromopentane / BuLi ---> E  \n\n(A) 8  \n(B) 11  \n(C) 3  \n(D) 6  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -484,7 +484,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mmenyuko wa enamini unajumuisha ubadilishanaji wa nucleophilic, ongezeko la electrophilic, na kondensheni ya amini za sekondari na viwanja vya carbonyl ili kuzalisha enamini. Mmenyuko wa enamini ni mbinu muhimu za kuunda viwanja vya kipekee vyenye vikundi vya kazi vilivyotajwa na stereokemistri.\n\nTaja bidhaa ya mmenyuko ufuatao (B) na chagua mpangilio sahihi wa reagenti kulingana na hatua za mmenyuko (A).\n(E)-N-methyl-N-(pentan-2-ylidene)ethanaminium + A ---> B\n\n(A) (i) LDA, DME (ii) CH3CH2I (iii) H3O+ B = pentan-2-one + N,N-dimethylethanamine  \n(B) A = (i) LDA, DME (ii) CH3CH2I (iii) H3O+ B = heptan-4-one  \n(C) (i) LDA (ii) DME, CH3CH2I, H3O+, B = pentan-2-one + N,N-dimethylethanamine  \n(D) (i) LDA (ii) DME, CH3CH2I, H3O+, B = heptan-4-one  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -497,7 +497,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tuna kundi kubwa la mifumo 10,000 (elfu kumi) sawa. Kila mfumo una chembe ambayo ni sawa na chini ya hali sawa. Kila chembe inaweza kusonga ndani ya bomba (katika mwelekeo wa x-axis). \nTunajua kutoka kwa mfano wa nadharia kwamba kazi ya mawimbi (kutokana na mlingano wa Schrodinger) ya kila chembe, katika sehemu ya nafasi ambapo inaweza kuwepo, inaweza kuelezwa kama:\n( a / sqrt(1 + x) ) - 0.5*i; ambapo “i” ni mzizi wa -1, na “sqrt()” inamaanisha mzizi wa.\nWakati wa kupima nafasi ya chembe, hakuna iliyoonekana katika x<1 na x>3 (tu kati ya x=1 na x=3).\nNi thamani gani ya nambari ya “a”?\n\n(A) 1.1  \n(B) 0.6  \n(C) 0.35  \n(D) 0.85  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -510,7 +510,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unasikia wawili wanakemia wakizungumza kati yao wanapondoka kwenye maabara ya kemia ya kikaboni. Mmoja anauliza mwingine \"Basi, ilikuwaje?\" Kemisti wa pili anajibu, \"Siyo vizuri - viunganishi vyangu viko juu ya kila mmoja.\"\n\nKemisti wa pili anarejelea nini kwa uwezekano mkubwa?\n\n(A) Viunganishi wanavyofanya kazi navyo vina pointi za kuchemsha zinazofanana.\n(B) Viunganishi wanavyofanya kazi navyo vinajishikilia kwa njia za mwingiliano zisizo za covalent/van der Waals.\n(C) Viunganishi wanavyofanya kazi navyo vina polarities zinazofanana.\n(D) Viunganishi wanavyofanya kazi navyo vina mizunguko ya macho inayofanana.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -523,7 +523,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mionzi ya mwanga inasafiri kupitia kioo chenye index ya refractive n. Kioo kinaenda kwa kasi isiyobadilika v katika mwelekeo sawa na mionzi na kuelekea kwa mtazamaji katika maabara. Ni kasi gani ya mwanga katika kioo kulingana na mtazamaji katika maabara? Chukua kasi ya mwanga katika nafasi c=1.\n\n(A) \\(\\frac{1+n*v}{n+v}\\)  \n(B) 1  \n(C) \\(\\frac{1+n*v}{n-v}\\)  \n(D) \\(\\frac{1-n*v}{n+v}\\)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\(\\boxed{A}\\), \\(\\boxed{B}\\), \\(\\boxed{C}\\), au \\(\\boxed{D}\\)"
       }
     ],
     "final_answer": "",
@@ -536,7 +536,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanachunguza mfumo wa exoplanets tatu (Planet1, Planet2, na Planet3) zenye mizunguko ya duara zilizogunduliwa kupitia njia ya TTV. Wamegundua kuwa uwiano wa joto la usawa kati ya Planet1 na Planet2 ni takriban 1.4, na kati ya Planet2 na Planet3, ni takriban 2.3. Pia wamegundua kuwa uwiano wa mizunguko kati ya Planet1 na Planet2 ni takriban 1.15, na kati ya Planet2 na Planet3, ni takriban 1.35. Kwa kiasi gani muda wa mzunguko wa Planet3 ni mkubwa kuliko ule wa Planet1, ikiwa albedo ya sayari hizi tatu ni sawa na 0.3 (kama ilivyo kwa Dunia)?\n\n(A) ~ 3.2  \n(B) ~ 33.4  \n(C) ~ 10.4  \n(D) ~ 4.4  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -549,7 +549,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Pete ya benzini ina asidi ya carboxylic, aldehyde ya carbaldehyde, na kundi la cyano yote ikiwa meta kwa kila mmoja. Ortho kwa asidi ya carboxylic kuna hydroxyl na dimethyl amino, na para kwa asidi ya carboxylic kuna kundi la methoxy. Methoxy na pombe pia zote ziko ortho kwa nitrile. Jina sahihi la IUPAC kwa molekuli hii ni lipi?\n\n(A) 2-hydroxy-3-cyano-4-methoxy-5-formyl-6-(dimethylamino)benzoic acid  \n(B) 5-cyano-2-(dimethylamino)-3-formyl-6-hydroxy-4-methoxybenzoic acid  \n(C) 2-(dimethylamino)-3-formyl-4-methoxy-5-cyano-6-hydroxybenzoic acid  \n(D) 3-cyano-6-(dimethylamino)-5-formyl-2-hydroxy-4-methoxybenzoic acid  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -562,7 +562,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seli ya eukaryotic ilibuni mekanizma ya kubadilisha vichaka vikubwa vya molekuli kuwa nishati. Mchakato huu unafanyika katika mitochondria, ambazo ni viwanda vya nishati vya seli. Katika mfululizo wa majibu ya redox, nishati kutoka kwa chakula huhifadhiwa kati ya vikundi vya phosphate na kutumika kama sarafu ya kimataifa ya seli. Masi zenye nishati husafirishwa kutoka kwa mitochondrion ili kutumika katika mchakato wote wa seli. Umegundua dawa mpya ya kupambana na kisukari na unataka kuchunguza kama ina athari kwenye mitochondria. Umeanzisha safu ya majaribio na mstari wako wa seli wa HEK293. Ni majaribio gani yaliyoorodheshwa hapa chini hayata kusaidia kugundua jukumu la mitochondrial la dawa yako:\n\n(A) Utoaji wa mitochondria kwa kutumia centrifugation tofauti ukifuatia na Kit ya Mtihani wa Kupokea Glukosi\n(B) Cytometry ya mtiririko baada ya kuweka alama na 2.5 μM 5,5',6,6'-Tetrachloro-1,1',3,3'-tetraethylbenzimidazolylcarbocyanine iodide\n(C) Kubadilisha seli kwa luciferase ya recombinant na kusoma luminometer baada ya kuongeza 5 μM ya luciferin kwa supernatant\n(D) Maktaba ya fluorescence ya confocal baada ya kuchora Mito-RTP ya seli\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -575,7 +575,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nVikundi vinne sawa vya chembe za spin-1/2 vimewekwa katika kisima cha uwezo usio na mwisho wa urefu L. Hesabu nishati za hali ya chini, hali ya kwanza ya kusisimua, na hali ya pili ya kusisimua ya mfumo kwa kutumia nishati E. \n(Hapa E = \\frac{\\pi^2 \\hbar^2}{2mL^2} )\n\n(A) 30E, 39E, 50E  \n(B) 10E, 15E, 18E  \n(C) 4E, 10E, 15E  \n(D) 4E, 10E, 50E  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -588,7 +588,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Racemic 3-methylpent-1-ene inatibiwa na kichocheo cha Grubbs. Ni bidhaa ngapi zinazowezekana zipo (bila kuhesabu etheni)?\n\n(A) 2  \n(B) 4  \n(C) 8  \n(D) 6  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -601,7 +601,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua kiwanja C9H11NO2 kwa kutumia data iliyotolewa.  \nIR: bendi za kati hadi nguvu katika 3420 cm-1, 3325 cm-1  \nbendi yenye nguvu katika 1720 cm-1  \n1H NMR: 1.20 ppm (t, 3H); 4.0 ppm (bs, 2H); 4.5 ppm (q, 2H); 7.0 ppm (d, 2H), 8.0 ppm (d, 2H).  \n\n(A) ethyl 4-aminobenzoate  \n(B) 4-aminophenyl propionate  \n(C) N-(4-ethoxyphenyl)formamide  \n(D) 3-ethoxybenzamide  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -614,7 +614,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "cyclohexanone ilitibiwa na bromini, ikaunda bidhaa 1. \n1 ilipashwa moto na sodium hydroxide, ikaunda bidhaa 2. \n2 ilitibiwa na thionyl chloride na pyridine, ikaunda 3. \n3 ilitibiwa na Lithium tri-tert-butoxyaluminum hydride, ikaunda bidhaa 4.\n\nni atomi ngapi za hidrojeni zenye kemikali tofauti zipo kwenye bidhaa 4?\n\n(A) 7  \n(B) 8  \n(C) 6  \n(D) 10  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -627,7 +627,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Rearrangement ya sigmatropic ni darasa la mchakato wa pericyclic. Katika michakato hii, kiunganishi cha mwisho cha pi kinahamia kwenye kiunganishi cha sigma. Mabadiliko ya Cope na Claisen pia ni mabadiliko ya sigma tropic. Michakato hii kwa kawaida inafaidika kimaisha. Kamalisha michakato ifuatayo.\n1,1-dimethoxyethan-1-amine + but-3-en-2-ol + (H+ + Joto) ---> A\n(3R,4S)-3,4-dimethylhexa-1,5-diyne + Joto ---> B\n2-((vinyloxy)methyl)but-1-ene + Joto ---> C\n\n(A) A = (Z)-1-(but-2-en-2-yloxy)ethen-1-amine, B = (3Z,4E)-3,4-diethylidenecyclobut-1-ene, C = 4-methylenehexanal\n(B) A = 6-methyl-3,4-dihydro-2H-pyran-2-amine, B = (1Z,2E)-1,2-diethylidenecyclobutane, C = 4-methylenehexan-1-ol\n(C) A = (Z)-1-(but-2-en-2-yloxy)ethen-1-amine, B = (3Z,4E)-3,4-diethylidenecyclobut-1-ene, C = 4-methylenehexan-1-ol\n(D) A = 6-methyl-3,4-dihydro-2H-pyran-2-amine, B = (1Z,2E)-1,2-diethylidenecyclobutane, C = 4-methylenehexanal\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -640,7 +640,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mshirika wako amepanga nadharia mpya ya uwanja wa quantum katika wakati wa dimbwi nne, na anachunguza urekebishaji wa michoro fulani ya mzunguko wa juu katika nadharia hiyo. Juu ya meza yake unakutana na noti iliyoandikwa: mchoro wa Feynman, na kando yake, maneno \"kadirio la ukubwa\" yanayofuatwa na mfuatano wa vigezo vya kimwili, nambari, na uwiano kati ya kile kinachonekana kuwa viwango vya nishati. Alama zinaandika: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2.\n\nMchoro huo, kwa bahati mbaya, umeharibiwa na kahawa iliyoanguka. Una mizunguko mingapi ilikuwa nayo?\n\n(A) 1  \n(B) 2  \n(C) 6  \n(D) 3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -653,7 +653,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ikiwa chaji q imewekwa umbali d kutoka katikati ya mpira wa kuongoza uliounganishwa wa radius R. Hesabu nishati ya jumla ya uwezekano wa mfumo huu.\n\n(A) U=-(1/2) kq^2 R^2/(d^2 -R^2)  \n(B) U=- kq^2 d/(d^2 -R^2)  \n(C) U=- (1/2) kq^2 d/(d^2 +R^2)  \n(D) U=- (1/2) *kq^2 R/(d^2 -R^2)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -666,7 +666,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanachunguza nyota yenye radius ya jua 1.5 na massa ya jua 1.1. Wakati uso wa nyota haujafunikwa na madoa meusi, Teff yake ni 6000K. Hata hivyo, wakati asilimia 40 ya uso wake umefunikwa na madoa, joto la jumla la picha ya nyota linashuka hadi 5500 K. Katika picha ya nyota, wakati wakichunguza uwiano wa idadi ya atomi za Ti zisizo na chaji katika viwango viwili vya nishati (kiwango 1 na kiwango 2), wanastronomia wameona kwamba uwiano huu unashuka wakati nyota ina madoa. Ni kipengele gani ambacho uwiano huu hubadilika wakati nyota haina madoa ikilinganishwa na wakati ina madoa? Kumbuka kwamba mpito kati ya viwango vya nishati vinavyoshughulikiwa kinahusiana na urefu wa wimbi wa takriban 1448 Å. Dhani kwamba picha ya nyota iko katika LTE.\n\n(A) ~1.1  \n(B) ~4.5  \n(C) ~2.9  \n(D) ~7.8  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -679,7 +679,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umepata kiwanja cha ringi ya aromatiki yenye wanachama sita iliyosafishwa kwa di-substituted. Spektra ya FTIR ya kiwanja hiki inaonyesha kilele cha kunyonya kinachoashiria uwepo wa kundi la ester. Spektra ya 1H NMR inaonyesha ishara sita: ishara mbili zinazohusiana na aromatic-H, ishara mbili zinazohusiana na vinyl-H (doublet moja na doublet ya quartets moja), na ishara mbili zinazohusiana na vikundi vya –CH3. Hakuna ishara zinazohusiana na vikundi vya –CH2. Tambua formula ya kemikali ya kiwanja hiki kisichojulikana kama C11H12O2, C11H14O2, C12H12O2, au C12H14O2.\n\n(A) C11H12O2  \n(B) C11H14O2  \n(C) C12H12O2  \n(D) C12H14O2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -692,7 +692,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tathmini nyenzo za kuanzia zinazohitajika kutengeneza 5-isopropyl-3,4-dimethylcyclohex-1-ene kupitia metathesis ya kufunga pete.\n\n(A) 5-isopropyl-3,4-dimethylocta-2,6-diene  \n(B) 5-isopropyl-3,4-dimethylocta-1,7-diene  \n(C) 5-isopropyl-3,4-dimethylocta-1,6-diene  \n(D) 4-isopropyl-5,6-dimethylocta-1,7-diene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -705,7 +705,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umepata kiwanja kisichojulikana cha kikaboni. Takwimu zifuatazo za 1H NMR zilipatikana:\n1H NMR: rejea ya kemikali (ppm): 7.0 (1H, d, J = 16.0 Hz), 5.5 (1H, dq), 2.1 (3H, s), 1.6 (3H, d)\nTambua kiwanja kisichojulikana kama Cis-propenyl acetate, Trans-propenyl acetate, Cis-butenyl acetate, au Trans-butenyl acetate.\n\n(A) Cis-propenyl acetate  \n(B) Trans-butenyl acetate  \n(C) Trans-propenyl acetate  \n(D) Cis-butenyl acetate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -718,7 +718,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hali ya |3,0,0\\rangle katika noti ya kawaida |n,l,m\\rangle ya atomi ya H katika nadharia isiyo ya relativistic inaporomoka hadi hali |1,0,0\\rangle kupitia mpito wa dipole mbili. Njia ya mpito na uwezekano unaohusiana ni (tumia latex),\n\n(A) \\rangle\\rightarrow|2,1,0\\rangle\\rightarrow|1,0,0\\rangle  na \\frac{2}{3}\n(B) |3,0,0\\rangle\\rightarrow|2,1,1\\rangle\\rightarrow|1,0,0\\rangle\nna \\frac{1}{4}\n(C) |3,0,0\\rangle\\rightarrow|2,1,-1\\rangle\\rightarrow|1,0,0\\rangle na \\frac{1}{4}\n(D) |3,0,0\\rangle\\rightarrow|2,1,0\\rangle\\rightarrow|1,0,0\\rangle na \\frac{1}{3}\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -731,7 +731,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kutoa mabadiliko ya awamu yaliyopimwa $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55, \\delta_3=30^o$ na $\\delta_4=13^o$ katika majaribio ya kutawanya kwa elastiki ya elektroni $50~MeV$ kutoka kwa lengo la nyuklia. Puuza mabadiliko mengine ya awamu. Hesabu sehemu ya picha ya amplitude ya kutawanya katika mwelekeo wa miondoko ya kuingia.\n\n(A) 251.271 fm  \n(B) 177.675 fm  \n(C) 355.351 fm  \n(D) 87163.4 fm  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -744,7 +744,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni ipi kati ya nadharia za kimwili zifuatazo ambazo hazihitaji kurekebishwa katika nishati za juu?\n\n(A) Elektrodinamu ya K klasiki  \n(B) Elektrodinamu ya Kwanza  \n(C) Nadharia ya Superstring  \n(D) Kromodinamiki ya Kwanza  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -757,7 +757,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tathmini pH ya suluhu ya 500 mL ya 0.1 M CH3COOH, 400 mL ya 0.2 M HCl, na 300 mL ya 0.3 M Ba(OH)2.\n\n(A) 8.68  \n(B) 8.92  \n(C) 12.62  \n(D) 1.38  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -770,7 +770,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sivilizasi yenye akili katika Cloud ya Magellanic Kubwa imeunda chombo cha angani cha ajabu kinachoweza kusafiri kwa sehemu kubwa ya kasi ya mwanga. Muda wa wastani wa maisha ya viumbe hawa ni takriban miaka 150 ya jua. Sasa, wakiwa na Dunia kama marudio yao, wameamua kusafiri kwa chombo hiki cha angani kwa kasi isiyobadilika ya 0.99999987*c, ambapo c ni kasi ya mwanga. Takriban, itawachukua muda gani kwa astronaut wao mwenye umri wa miaka 22 (kutoka mtazamo wa astronaut) kufika Dunia wakitumia chombo hiki cha angani chenye kasi kubwa sana?\n\n(A) Miaka 72  \n(B) Astronaut atakufa kabla ya kufika Dunia.  \n(C) Miaka 81  \n(D) Miaka 77  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -783,7 +783,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Benzini inatibiwa na HNO3 na H2SO4, ikitengeneza bidhaa 1. \nBidhaa 1 inatibiwa na Br2 na poda ya chuma, ikitengeneza bidhaa 2. \nBidhaa 2 inachanganywa na Pd/C chini ya angahewa ya hidrojeni, ikitengeneza bidhaa 3. \nBidhaa 3 inatibiwa na NaNO2 na HBF4, ikitengeneza bidhaa 4. \nBidhaa 4 inapashwa moto kisha inatibiwa na anisole, ikitengeneza bidhaa ya mwisho 5.\n\n(A) 3'-bromo-2-methoxy-1,1'-biphenyl  \n(B) 4-bromo-4'-methoxy-1,1'-biphenyl  \n(C) 3-bromo-4'-fluoro-1,1'-biphenyl  \n(D) 3-bromo-4'-methoxy-1,1'-biphenyl  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -796,7 +796,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua mpangilio sahihi wa reagenti ili kusanisi 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde kutoka kwa ethynylcyclohexane.\n\n(A) 1. NaNH2, ethyl chloride  \n2. Li/liq. NH3  \n3. O3/ H2O  \n4. NH4OH  \n(B) 1. NaNH2, methyl chloride  \n2. H2/Pd  \n3. Ba(OH)2  \n4. H2SO4, HgSO4, H2O  \n(C) 1. NaNH2, methyl chloride  \n2. H2/Pd-calcium carbonate  \n3. O3/ (CH3)2S  \n4. Ba(OH)2  \n(D) 1. NaNH2, methanol  \n2. Li/liq. NH3  \n3. O3/ (CH3)2S  \n4. NH4OH  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -809,7 +809,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuwe na molekuli ya diatomiki, yenye elementi X na Y, ambayo inaweza kuundwa kwa kutumia mfano wa mzunguko wa quantum-vibration (au mfano wa rotor usio na rigid). Ikiwa molekuli iko katika hali yake ya msingi, ni momentum ipi ambayo photon iliyopokelewa inapaswa kuwa nayo, ili molekuli ibadilike kwenda kwenye hali inayofuata yenye nishati ya chini zaidi?\n\nMx: uzito wa atomu X = 20 amu  \nMy: uzito wa atomu Y = 2 amu  \nR: urefu wa kiunganishi cha molekuli = 2 angstroms  \nw: mzunguko wa angular wa vibration = 4*10^14 rad/s  \n\n(A) p = 1.9*10^(-28) N*s  \n(B) p = 2.3*10^(-27) N*s  \n(C) p = 1.1*10^(-27) N*s  \n(D) p = 1.4*10^(-28) N*s  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -822,7 +822,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mchanganyiko wa mchanganyiko wa chumvi A na B wenye uzito wa 7.20 g ulipashwa moto hadi 200°C bila hewa. Katika hali hii, mchanganyiko wa gesi tu ulitengenezwa, ambao, bila kupoa, ulipitishwa kwa mfululizo kupitia mabomba yaliyojaa Mg(ClO4)2 isiyo na unyevu (№1), suluhisho la Ca(OH)2 (№2), na shaba yenye joto kali (№3). Matokeo: uzito wa mabomba №1 na №3 uliongezeka kwa 3.60 g na 0.80 g, mtawalia (CuO ilitengenezwa katika bomba №3). Uzito wa bomba la pili haujabadilika. Kama matokeo, gesi C (joto na shinikizo la kawaida) ilibaki kuwa lita 2.24 pekee. \nOnyesha jumla ya idadi ya atomi zote katika chumvi A na B.\n\n(A) 13  \n(B) 15  \n(C) 17  \n(D) 19  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -835,7 +835,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kwa kuzingatia mambo mbalimbali kama joto, mazingira ya asidi na msingi, nk., chagua mekanizma inayofaa na eleza bidhaa kuu kutoka kwa majibu yafuatayo.  \n1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A  \n(E)-pent-2-en-1-ol + acetyl bromide (Msingi = LDA) ---> B  \n\n(A) A = decahydro-7H-benzo[7]annulen-7-one, B = 3-ethylpent-4-enoic acid  \n(B) A = (E)-bicyclo[5.3.1]undec-1(11)-en-4-one, B = 3-ethylpent-4-enoic acid  \n(C) A = (E)-bicyclo[5.3.1]undec-1(11)-en-4-one, B = lithium 3-ethylpent-4-enoate  \n(D) A = decahydro-7H-benzo[7]annulen-7-one, B = lithium 3-ethylpent-4-enoate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -848,7 +848,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni ipi kati ya usawa ufuatao ambayo lazima iheshimiwe na waendeshaji wote katika SMEFT?\n\n1. Usawa wa Lorentz\n2. Usawa wa Poincare\n3. Usawa wa CP\n4. Usawa wa CPT\n\n(A) 1,3,4  \n(B) 1,2,4  \n(C) 1,2  \n(D) 3,4  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -861,7 +861,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria elektroni mbili ziko katika hali ya momentum ya angular ya p orbital. Kwa kupuuza momentum yao ya angular ya spin, hali ya momentum ya angular iliyounganishwa ya mfumo wa elektroni 2 inawakilishwa na $|l_1, l_2, l, m> = |1,1, 2, -1>$. Hapa, $l_1, l_2$ ni nambari za quantum za momentum ya angular ya orbital za chembe 1 na 2 mtawalia. Na, $l, m$ ni nambari ya quantum ya momentum ya angular jumla na kipengele cha Z kinacholingana cha mfumo wa elektroni 2 mtawalia. Ikiwa kipimo kinachofanywa ni cha vipengele vya momentum ya angular ya orbital $L_{1z}$ na $L_{2z}$, ni nini uwezekano wa pamoja wa kupata eigenvalues za $L_{1z}$ na $L_{2z}$ zote kama $-\\hbar$?\n\n(A) 1/2  \n(B) 1  \n(C) 0  \n(D) 2/3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -874,7 +874,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna chembe ya spin 1/2 yenye moment ya magnetic mu (= gamma*Sz), iliyopangwa na uwanja wa magnetic unaoelekea katika mwelekeo wa +Z. Ghafla, uwanja wa magnetic unazimwa, na mwingine unawashwa katika mwelekeo wa +Y; viwanja vyote vina ukubwa sawa, B. Wastani wa sehemu ya z ya moment ya chembe huanza kutetereka. Ni ipi mzunguko wake wa kutetereka?\n\n(A) gamma*B/2  \n(B) gamma*B  \n(C) gamma*B/sqrt(2)  \n(D) sqrt(2)*gamma*B  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -887,7 +887,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika Chumba cha Bubble cha CERN, mchakato wa kuoza unafanyika, $X^{0}\\rightarrow Y^{+}Z^{-}$ katika \\tau_{0}=8\\times10^{-16}s, yaani, muda halisi wa maisha wa X^{0}. Ni kiwango gani cha chini cha ufafanuzi kinahitajika ili kuona angalau 30% ya mchakato wa kuoza? Tukijua kwamba nishati katika Chumba cha Bubble ni 27GeV, na uzito wa X^{0} ni 3.41GeV.\n\n(A) 2.08*1e-3 m  \n(B) 2.08*1e-1 m  \n(C) 2.08*1e-6 m  \n(D) 2.08*1e-9 m  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -900,7 +900,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Majibu ya imani ya imani A na sawa 8 za gesi B yanaunda bidhaa yenye rangi nyekundu C. Wakati C inapoingia kwenye mchakato na sawa 2 za gesi D, inazalisha bidhaa hatari sana E. C inajibu na maji ili kurejesha A pamoja na asidi mbili tofauti F na G. F ni asidi kali wakati G ni asidi dhaifu. D inajibu na B katika uwiano wa 1:1 ili kuunda H, ambayo inatumika kama solvent.\n\nJe, kundi la simetria ya molekuli ya E ni lipi?\n\n(A) D4h  \n(B) C2v  \n(C) C2  \n(D) D∞h  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -913,7 +913,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanachunguza mfumo wa sayari tano za nje (exoplanets) zenye mizunguko ya mviringo, zilizogunduliwa kupitia njia ya TTV. Sayari hizo (zinazoitwa Planet_1 hadi Planet_5), ambazo ziko katika resonance ya orbital, zina vipindi vya orbital katika uwiano wa 1:2:2.5:3.5:5. Tukichukulia kwamba sayari hizi zina albedo sawa, ni uwiano gani wa joto la usawa kati ya Planet_4 na Planet_2?\n\n(A) ~0.83  \n(B) ~0.75  \n(C) ~0.57  \n(D) ~0.69  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -926,7 +926,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "7-(tert-butoxy)bicyclo[2.2.1]hepta-2,5-diene inachanganywa na ekivalenti 2 za 5,6-bis(dibromomethyl)cyclohexa-1,3-diene na iodidi ya sodiamu katika joto la juu, ikitengeneza bidhaa 1.\n\n1 inatibiwa na asidi ya sulfuri ya maji, ikitengeneza 2.\n\n2 inatibiwa na SO3 na pyridine katika DMSO, ikitengeneza 3.\n\n3 inapashwa moto kwa 150C, ikitengeneza bidhaa ya mwisho 4. kuna atomi ngapi za hidrojeni ambazo ni tofauti kim kemia kwenye 4?\n\n(A) 4  \n(B) 7  \n(C) 8  \n(D) 10  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -939,7 +939,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanaanga wawili wenye massa 2m na 3m wanasafiri kwa kasi za relativistic za 0.6 c na 0.5 c, mtawalia, katika mwelekeo chanya wa x. Hapa, c ni kasi ya mwangaza. Kasi ya uhusiano na nishati jumla ya mfumo itakuwa nini?\n\n(A) v_rel = 0.1c, E = 4.96 mc^2  \n(B) v_rel = 1.1c, E = mc^2  \n(C) v_rel = 0.14c, E = 5.96 mc^2  \n(D) v_rel = 0.14c, E = 5mc^2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -952,7 +952,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tunataka kuangalia kuoza kwa atomu moja (nuklea ya atomu). Inawezekana kupata atomu hii (kwa mfano, kutoka kwa kuoza beta kwa atomu nyingine) na kuanza kufuatilia mara moja. Tunajua kutoka kwa majaribio ya awali kwamba uwezekano wa kuoza kwa atomu hii ni 32% ndani ya dakika 100. \n\nHadi sasa, dakika 50 zimepita na atomu haijaoza. Ni uwezekano gani kwamba itaoza katika dakika 150 zijazo?\n\n(A) 40%\n(B) 48%\n(C) 44%\n(D) 52%\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -965,7 +965,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unataka kujifunza jukumu la protini ya GADD45G katika mfano wa panya. Una hamu kubwa ya kujua kama protini inayosababishwa na IL-2 ina jukumu katika maambukizi ya SARS-CoV-2. Unamua kuunda mfano wa panya wa transgenic na kuongezeka kwa kiasi cha mfuatano wa kodhi wa jeni ya GADD45G. Unaweza kuitumia kusafisha protini kwa njia ya affinity na kubaini washirika wa protini wanaoshikamana na GADD45G baada ya kuambukiza panya na virusi. Kwa lengo hilo, utabadili mfuatano wa kodhi wa jeni kwa kuingiza mfuatano wa kipengele kimoja cha hemagglutinin ya influenza ambacho kitakuwa kwenye N-terminus ya protini yako ya recombinant. Unabuni kijenzi cha plasmid na, kwa msaada wa Lipofectamine®, unakiingiza kwenye seli za ovary za hamstera wa Kichina. Unachagua makoloni ya seli yanayostahimili antibiotics ili kujaribu kiwango cha uelekezaji wa muundo wako. Mara unapoanza, unagundua kwamba huwezi kuongezeka kwa protini yako kama ulivyotarajia. Katika mfululizo wa majaribio unayofanya kubaini sababu, unagundua kwamba mfuatano wa strand ya plus ya muundo wako unasomeka:\n\n5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTGTGCTGGCTGCGGGTGAGGAGGACGAGGGCGACATCGCGCTGCAGATCCATTTTACGCTGATCCAGGCTTTCTGCTGCGAGAACGACATCGACATAGTGCGCGTGGGCGATGTGCAGCGGCTGGCGGCTATCGTGGGCGCCGGCGAGGAGGCGGGTGCGCCGGGCGACCTGCACTGCATCCTCATTTCGAACCCCAACGAGGACGCCTGGAAGGATCCCGCCTTGGAGAAGCTCAGCCTGTTTTGCGAGGAGAGCCGCAGCGTTAACGACTGGGTGCCCAGCATCACCCTCCCCGAGTGA3'\n\nUnagundua kwa usumbufu sababu hiyo.\n\n(A) tRNA ya codoni ya UAA haipo katika panya\n(B) Ribosome ilisitisha tafsiri mapema\n(C) Mfuatano wa kipengele cha antigen una mabadiliko ya missense\n(D) Ukosefu wa mfuatano wa linker unasababisha proteolysis ya mnyororo mpya\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -978,7 +978,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unataka kuunda chimera ya kiinitete ya panya kwa kutumia seli za shina za pluripotent zilizochochewa kutoka kwa seli za mwili za tishu mbalimbali. Unavutiwa na hatima ya iPSCs katika kiinitete na ulinganifu wao na matukio ya apoptosis. Seli za iPSC zimewekwa alama na mRaspberry iliyounganishwa chini ya promoter maalum ya ukoo kwa kila aina ya seli. Unatia sindano seli zilizorejelewa katika blastocyst ya hatua ya seli 32 na kuziangalia kwa muda wa masaa 48. Kila masaa 12, unandaa viinitete kwa kutumia uchafuzi wa TUNEL - FITC na kuangalia chini ya darubini ya confocal.\n\nNini cha kwanza unachokiona?\n\n(A) ulinganifu wa cytoplasmic wa ishara nyekundu  \n(B) ishara ya kijani inalingana na ishara nyekundu  \n(C) hakuna ishara ya kijani  \n(D) ishara nyekundu maalum kwa mstari wa seli zinaashiria organelles tofauti  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -991,7 +991,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mabadiliko ya Cope ni mchakato wa kemikali ambapo molekuli ya 1,5-diene inapata mabadiliko, na kusababisha kubadilika kwa nafasi za viungio vya kaboni-kaboni. Mchakato huu unaweza kuanzishwa na joto au mwanga na ni muhimu kwa kutengeneza muundo tata wa kiorganiki wenye mabadiliko ya muundo. \nChagua bidhaa kuu kutoka kwa mabadiliko yafuatayo.\n(((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) ----> A\n3,4,5,7,8,9-hexamethyl-1,11-dimethylene-2,6,10,11,11a,11b-hexahydro-1H-benzo[cd]indeno[7,1-gh]azulene + Joto ---> B\n\n(A) A = 4-methyl-1-phenylpent-3-en-1-ol, B = 2,3,4,6,7,8-hexamethyl-5,9,9a,10,11,11a-hexahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluorene\n(B) A = (Z)-2-methyl-5-phenylpent-2-en-1-ol, B = 2,3,4,6,7,8-hexamethyl-5,9,10,11-tetrahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluorine\n(C) A = (Z)-2-methyl-5-phenylpent-2-en-1-ol, B = 2,3,4,6,7,8-hexamethyl-5,9,9a,10,11,11a-hexahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluorene\n(D) A = 4-methyl-1-phenylpent-3-en-1-ol, B = 2,3,4,6,7,8-hexamethyl-5,9,10,11-tetrahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluorine\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1004,7 +1004,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria chaji ya nukta q inasonga kwa njia $\\vec{s}(t)$, ambapo t ni muda, kuhusiana na asili. Acha $\\vec{r}$ iwe ni pointi ya uwanja, ambapo uwanja unakaguliwa, kuhusiana na asili ya mfumo huo wa rejea, na $\\vec{d}$ iwe ni vector kutoka pointi ambapo uwanja wa umeme ulitengenezwa katika muda fulani wa awali $tr$ hadi pointi ya uchunguzi $\\vec{r}$. Kasi ya chaji inayoendelea q katika wakati wa kutengeneza uwanja $tr$ ni $\\vec{v}$. Ni nini potention ya scalar (V) na potention ya vector (\\vec{A}) katika muda t, ikiridhisha $t > tr$, na nafasi $\\vec{r}$? Katika kupata maelezo, tumia alama ya $c->$ kasi ya mwanga katika nafasi ya bure, $\\epsilono ->$ ruhusa ya nafasi ya bure na $\\mu_o$ ni uhamasishaji.\n\n(A) V(\\vec{r},t) = \\dfrac{q}{4\\pi\\epsilon_o r}, \\vec{A(\\vec{r},t)} = \\dfrac{\\vec{v}}{c^2} V(\\vec{r},t)  \n(B) V(\\vec{r},t) = \\dfrac{q}{4\\pi\\epsilon_o r},  \\vec{A(\\vec{r},t)} = \\dfrac{\\vec{v^2}}{c^2} V(\\vec{r},t)  \n(C) V(\\vec{r},t) = \\dfrac{qc}{4\\pi\\epsilon_o (d c + \\vec{d}. \\vec{v})},  \\vec{A(\\vec{r},t)} = \\dfrac{\\mu qc \\vec{v}}{4\\pi (d c + \\vec{d}. \\vec{v})}  \n(D) V(\\vec{r},t) = \\dfrac{qc}{4\\pi\\epsilon_o (d c - \\vec{d}. \\vec{v})},  \\vec{A(\\vec{r},t)} = \\dfrac{\\mu_o qc \\vec{v}}{4\\pi (d c - \\vec{d}. \\vec{v})}  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1017,7 +1017,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika majaribio, kiwanja X (C11H12O) kilifanyiwa mchakato na 1,4-diazabicyclo[2.2.2]octane katika liwato lisilo na polar kwa joto la 403 K kwa muda wa siku 1. Spectra za nadharia za 1H-NMR na 13C-NMR za bidhaa inayotokana zinaonyesha mifumo ifuatayo ya ishara.  \n1H NMR: δ 2.28 (3H, s), 2.31 (3H, s), 6.75 (1H, d), 7.08 (2H, d), 7.68 (1H, d), 7.71 (2H, d).  \n13C NMR: δ 21.3 (1C, s), 28.4 (1C, s), 126.9 (2C, s), 127.1 (1C, s), 129.1 (2C, s), 130.3 (1C, s), 141.5 (1C, s), 144.1 (1C, s), 197.7 (1C, s).  \nTambua Kiwanja X.\n\n(A) 2-methyl-3-styryloxirane  \n(B) 2-(1-phenylprop-1-en-2-yl)oxirane  \n(C) 2-styrylepoxide  \n(D) 2-(4-methylstyryl)oxirane  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1030,7 +1030,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unakutana na algorithimu inayotoa matokeo yafuatayo (iliyandikwa kama ingizo -> matokeo):\n\nAGG -> 115  \nTGCTGA -> 176  \n\nThamani ya ACAGTGACC inatoa nini?\n\n(A) 185  \n(B) 333  \n(C) 351  \n(D) 315  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1043,7 +1043,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua mpangilio sahihi wa reagenti kwa ajili ya sintesi ya [1,1'-bi(cyclopentylidene)]-2-one kuanzia na 1,5-dichloropentane.\n\n(A) 1. Na, ether  \n2. Cl2/hv  \n3. KOH, EtOH  \n4. LiAlH4  \n5. NH4OH  \n(B) 1. Na, ether  \n2. Cl2/hv  \n3. Aq. KOH  \n4. KMnO4, joto  \n5. NaNH2  \n(C) 1. Zn, ether  \n2. HCl  \n3. Aq. KOH  \n4. Pyridine  \n5. Aq. NaOH  \n(D) 1. Zn, ether  \n2. Cl2/hv  \n3. Aq. KOH  \n4. Pyridine + CrO3 + HCl  \n5. Aq. NaOH  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1056,7 +1056,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cyclooctatetraene ilipashwa moto na maleic anhydride kwa uwiano wa 1:1, ikaunda bidhaa 1. \n1 ilipashwa moto na methanol na kiasi kidogo cha asidi ya sulfuri, ikaunda bidhaa 2. \n2 ilipashwa moto na cyclopentadiene, ikaunda bidhaa ya mwisho 3. \nni muundo wa isomeri kuu wa bidhaa 3 ni upi?\n\n(A) jina: dimethyl (1R,4S,4aR,4bR,5R,8S,8aS,8bS,10S,11R)-1,4,4a,4b,5,8,8a,8b-octahydro-1,4-ethano-5,8-methanobiphenylene-10,11-dicarboxylate\n\nSMILES: O=C(OC)[C@@H]1[C@H](C=C2)[C@@H]3[C@@H]([C@H]4[C@@H]3[C@@H]5C=C[C@H]4C5)[C@H]2[C@@H]1C(OC)=O\n(B) jina: dimethyl (1R,4S,4aS,4bR,5R,8S,8aS,8bR,10R,11R)-1,4,4a,4b,5,8,8a,8b-octahydro-1,4-ethano-5,8-methanobiphenylene-10,11-dicarboxylate\n\nSMILES: O=C(OC)[C@@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@@H]4[C@H]3[C@H]5C=C[C@@H]4C5)[C@@H]2[C@H]1C(OC)=O\n(C) jina: dimethyl (1S,4R,4aR,4bR,5S,8R,8aS,8bS,10S,11R)-1,4,4a,4b,5,8,8a,8b-octahydro-1,4-ethano-5,8-methanobiphenylene-10,11-dicarboxylate\n\nSMILES: O=C(OC)[C@@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@H]4[C@@H]3[C@H]5C=C[C@@H]4C5)[C@@H]2[C@@H]1C(OC)=O\n(D) jina: dimethyl (1R,4S,4aS,4bR,5S,8R,8aS,8bR,10S,11R)-1,4,4a,4b,5,8,8a,8b-octahydro-1,4-ethano-5,8-methanobiphenylene-10,11-dicarboxylate\n\nSMILES: O=C(OC)[C@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@@H]4[C@H]3[C@@H]5C=C[C@H]4C5)[C@@H]2[C@H]1C(OC)=O\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1069,7 +1069,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tunaondoa 20.00 cm3 0.05 M asidi ya acetic kwa kutumia 20.00 cm3 maji, kisha tunatitra suluhisho lililotokana na 0.1M NaOH (25 °C). Ni nini thamani ya pH katika titrasi ya 25% na katika hatua ya usawa? Ka ya asidi ya acetic ni 1.85x10^-5.\n\n(A) 3.17; 6.73  \n(B) 4.57; 6.92  \n(C) 4.26; 8.52  \n(D) 4.73; 7.00  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1082,7 +1082,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wakati wa kutatua mlinganyo wa joto wa vipimo vya juu chini ya hali za mwanzo na mipaka inayofaa kupitia makadirio ya tofauti za mwisho za kiwango cha juu na mgawanyiko wa sambamba, kazi ya eksponenshiali ya matrix inakadiriawa kwa makadirio ya sehemu. Kigezo muhimu cha kubadilisha algorithimu ya mfululizo kuwa algorithimu ya sambamba ni\n\n(A) Mizizi ngumu ya makadirio ya sehemu  \n(B) Sehemu ya kawaida ya sehemu ya makadirio  \n(C) Uwepo wa hali za mipaka zisizo za ndani  \n(D) Uchambuzi wa utulivu  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1095,7 +1095,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mipango miwili imegunduliwa ikizunguka nyota kwa kutumia mbinu za transit na radial velocity (RV). Nyota ina uzito mara 1.5 ya Jua, miondoko 1.2 mara ya Jua, na joto la ufanisi (Teff) la 6300 K. Planet1 ina uzito sawa na uzito wa sayari 7 za Dunia na miondoko 1.7 mara ya Dunia, wakati Planet2 ina uzito sawa na uzito wa sayari 5 za Dunia na miondoko 1.3 mara ya Dunia. Kwa kushangaza, mipango yote miwili iko katika mizunguko ya duara. Planet1 inasababisha mabadiliko ya mara kwa mara ya hadi 0.03 Å katika mstari wa marufuku [OI] katika 6300 Å, wakati athari ya mvutano ya Planet2 kwenye mstari huo huo inasababisha mabadiliko ya mara kwa mara ya Doppler ya hadi 0.04 Å. Tukichukulia kwamba mipango yote miwili ina albedo sawa, ni uwiano gani wa joto la usawa kati ya Planet1 na Planet2?\n\n(A) ~ 1.05  \n(B) ~ 1.30  \n(C) ~ 0.53  \n(D) ~ 0.98  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1108,7 +1108,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mwanakemia alifanya majibu mawili kwa kuchukua viunganishi viwili visivyojulikana na kuvitibu tofauti na wakala wawili tofauti wa kupunguza. Chagua nyenzo sahihi za kuanzia kwa majibu yote mawili.\nA + LiBH4 + H+ ---> (R)-4-ethyltetrahydro-2H-pyran-2-one\nB + BH3 + H+ ---> (S)-4-ethyltetrahydro-2H-pyran-2-one\n\n(A) A = (R)-3-ethyl-5-isobutoxy-5-oxopentanoic acid , B = (R)-3-ethyl-5-isobutoxy-5-oxopentanoic acid  \n(B) A = (S)-3-ethyl-5-isobutoxy-5-oxopentanoic acid , B = (S)-3-ethyl-5-isobutoxy-5-oxopentanoic acid  \n(C) A = (R)-3-ethyl-5-isobutoxy-5-oxopentanoic acid, B = (S)-3-ethyl-5-isobutoxy-5-oxopentanoic acid  \n(D) A = (S)-3-ethyl-5-isobutoxy-5-oxopentanoic acid, B = (R)-3-ethyl-5-isobutoxy-5-oxopentanoic acid  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1121,7 +1121,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umepata kiwanja cha ringi ya aromatiki yenye viungo viwili vilivyowekwa, chenye atomu 8 za kaboni kwa jumla. Mipango katika spektra ya FTIR ya kiwanja hiki inaonyesha uwepo wa kundi la carbonyl pamoja na kiunganishi cha aromatiki-halojeni. Tambua data sahihi ya 1H NMR kwa kiwanja hiki.\n\n(A) 1H NMR: rejea ya kemikali (ppm): 9.9 (1H, s), 7.8 (2H, d), 7.6 (2H, d), 3.7 (2H, s)  \n(B) 1H NMR: rejea ya kemikali (ppm): 6.9 (1H, s), 4.8 (2H, d), 4.6 (2H, d), 1.3 (2H, s)  \n(C) 1H NMR: rejea ya kemikali (ppm): 4.8 (2H, d), 4.6 (2H, d), 1.3 (3H, s)  \n(D) 1H NMR: rejea ya kemikali (ppm): 7.8 (2H, d), 7.6 (2H, d), 2.3 (3H, s)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1134,7 +1134,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unatia lebo protini za capsid za ndani za rotavirus kwa GFP na kuzipeleka kwa panya kupitia gavage ya kinywa. Kwa kutumia picha za ndani, unaona kwamba baadhi ya mwangaza uliharibiwa na asidi ya tumbo, na baadhi zilikuwa zimejifunga katika mkojo wa utumbo kabla ya kufika kwenye viungo vya limfu vya sekondari. Unatambua patches za Peyer zinazong'ara na kutenga idadi ya seli zinazoongezeka. Unapiga mswaki jeni yao ya mnyororo mzito wa kubadilika na kuona tofauti kubwa. Ni mchakato gani unafanyika?\n\n(A) VDJ recombination  \n(B) class switching recombination  \n(C) complement activation  \n(D) somatic hypermutation  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1147,7 +1147,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "1,3-dibromoadamantane inapashwa moto hadi 240C kwa ziada ya KOH, ikitengeneza bidhaa ya imara ya rangi ya njano nyepesi 1, ikiwa na spektra ya 1H nmr: 4.79(2H), 2.41-2.23(10H), 1.94(2H) na kunyonya sifa katika spektra ya IR kwa 1720cm-1.\n\nBidhaa hii ilipashwa moto pamoja na ziada ya aluminum isopropoxide, ikitengeneza bidhaa 2.\n\nozoni ilipitishwa kupitia suluhisho la 2 kwa -78C, ikifuatiwa na kuongeza dimethylsulfide, ikitengeneza bidhaa 3.\n\nkatika spektra ya 1H nmr ya 3, ni nini muundo wa kuunganishwa wa atomi ya hidrojeni isiyo na kinga zaidi (bila kuzingatia zile ambazo zitabadilishwa na kutengeneza solvent ya deuterated)?\n\n(A) triplet  \n(B) pentet  \n(C) doublet of triplets  \n(D) triplet of triplets  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1160,7 +1160,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tathmini bidhaa inayopatikana wakati 3,4-dimethylhexanedial inapoingiliana na seti ifuatayo ya reagenti:\n\n1. KOH, H2O, THF, Joto\n2. CH3CH2MgBr, H3O+\n3. PCC, CH2Cl2\n4. O3, H2O\n\n(A) 4,5-dimethylnonane-2,6,7-trione  \n(B) 3,4-dimethyl-5,6-dioxooctanal  \n(C) 3,4-dimethyl-5,6-dioxooctanoic acid  \n(D) 4,5-dimethylnonane-2,6,7-trione  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1173,7 +1173,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "cyclohexanone inatibiwa na LDA kwa joto la chini, ikifuatiwa na benzaldehyde. mchanganyiko wa kemikali kisha unatiwa asidi, ukitengeneza bidhaa 1.\n\n1 kisha inatibiwa na ziada ya diethylaminosulfur trifluoride, ikitengeneza bidhaa 2. muundo wa bidhaa 2 ni upi?\n\n(A) (2R)-1-fluoro-2-((S)-fluoro(phenyl)methyl)cyclohexan-1-ol  \n(B) (S)-2-((R)-fluoro(phenyl)methyl)cyclohexan-1-one  \n(C) ((S)-((R)-2,2-difluorocyclohexyl)fluoromethyl)benzene  \n(D) ((R)-((R)-2,2-difluorocyclohexyl)fluoromethyl)benzene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1186,7 +1186,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hesabu enthalpy ya uundaji wa (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2. Imetolewa,\nEnthalpy ya atomization ya kaboni = 1000 kJ/mol.\nNishati ya kiunganishi ya H-H = 100 kJ/mol\nNishati ya kiunganishi ya C-C = 200 kJ/mol\nNishati ya kiunganishi ya C=C = 300 kJ/mol\nNishati ya kiunganishi ya C-H = 400 kJ/mol\n\n(A) 67.4 kJ/mol\n(B) 1900 kJ/g\n(C) 11.44 kJ/g\n(D) 11200 kJ/mol\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1199,7 +1199,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Mtaalamu anataka kufanya mchakato wa quantitative polymerase chain reaction (qPCR) kwenye sampuli fulani. Kwanza anataka kutengeneza mkondo wa kalibrishaji hivyo alichukua udhibiti chanya wenye nambari za nakala zinazojulikana na kufanya qPCR kwenye udhibiti chanya uliofanywa kwa mfululizo wa uhamasishaji mara tatu. Ufanisi wa qPCR ulikuwa 100%. R2 ilikuwa 1, na mwinuko ulikuwa -3.3. Matokeo yake yalikuwa kama ifuatavyo:\nKatika mk concentration wa 100000 copies per µl, ct za matokeo ya mara tatu zilikuwa 33.9, 34.2, 34.5.\nKatika mk concentration wa 10000 copies per µl, ct za matokeo ya mara tatu zilikuwa 30.6, 30.9, 31.2.\nKatika mk concentration wa 1000 copies per µl, ct za matokeo ya mara tatu zilikuwa 27.3, 27.6, 27.9.\nKatika mk concentration wa 100 copies per µl, ct za matokeo ya mara tatu zilikuwa 24, 24.3, 24.6.\nKatika mk concentration wa 10 copies per µl, ct za matokeo ya mara tatu zilikuwa 20.7, 21, 21.3.\nNi ipi kati ya zifuatazo inafafanua tofauti katika matokeo yake?\n\n\n\n(A) Uhamasishaji wa mara kumi ni zaidi ya mizunguko 3.3\n(B) Thamani za Ct hazikubaliki na kiasi cha asidi ya nucleic lengo katika sampuli\n(C) Tofauti ni zaidi ya 0.3 kati ya nakala za kiufundi\n(D) qPCR haiwezi kutumika kwa upimaji wa asidi ya nucleic katika sampuli\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}.\""
       }
     ],
     "final_answer": "",
@@ -1212,7 +1212,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua vifaa vya kuanzia vinavyohitajika kutengeneza methyl 2-propyl-1,2,4a,5,6,7,8,8a-octahydronaphthalene-1-carboxylate.\n\n(A) 1-vinylcyclohex-1-ene na methyl hex-2-ynoate  \n(B) methyl (2E,4E,10Z)-tetradeca-2,4,10-trienoate  \n(C) methyl (2E,8E,10E)-tetradeca-2,8,10-trienoate  \n(D) Cyclohexene na methyl 2,3-dimethylenehexanoate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1225,7 +1225,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\n3,3,6-trimethylhepta-1,5-dien-4-one inatibiwa na ekivalenti 1 ya meta-chloroperbenzoic acid. Bidhaa mbili tofauti zinaundwa, kwa uwiano wa takriban 1:1.\n\nKatika chombo tofauti, Methyllithium inatibiwa na shaba(I) iodidi. ziada ya suluhisho linalotokana na mchanganyiko huo inatolewa polepole kwenye mchanganyiko wa bidhaa wa mchakato wa kwanza. Jina moja ya bidhaa itakayoundwa na mchakato huu:\n\n(A) 2,3,4,5,5-pentamethylhept-6-ene-2,4-diol  \n(B) 5-hydroxy-3,3,6,6-tetramethylhept-1-en-4-one  \n(C) 4,4,5,7,7-pentamethyloctane-3,5-diol  \n(D) 6-hydroxy-2,2,5,5-tetramethyloctan-4-one  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1238,7 +1238,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ukubwa wa pembe wa upeo wa tukio la shimo jeusi kubwa katikati ya galaksi kwa umbali wa d=10^10 parsecs unapimwa kuwa θ=10^-17 digrii. Pata kiwango cha ukubwa wa entropi ya shimo jeusi.\n\n(A) 10^59 J/K  \n(B) 10^66 J/K  \n(C) 10^65 J/K  \n(D) 10^62 J/K  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1251,7 +1251,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika gametogenesis, mistari ya uzazi hupitia mizunguko miwili ya meiosis ili kutoa gameti za haploidi. Lengo la meiosis, tofauti na mitosis, ni kutenganisha siyo tu chromatids za dada zilizojirudia bali pia jozi za kromosomu homologous ili kuunda seli za haploidi. Gameti zilizofanywa kuwa na mimba zinaingia katika embriogenesis na hatimaye kuendeleza kuwa kiumbe. Meiosis siyo kila wakati inatekelezwa kwa ukamilifu, na kesi nyingi kama hizo husababisha kifo cha embriyo. Matukio yanayoweza kuishi yanaweza tayari kugundulika katika karyotype ya seli za embriyo kutoka kwa maji ya amniotic. Moja ya matukio kama hayo husababisha ugonjwa wa Klinefelter kwa wavulana. Ni mekanism gani ya molekuli inayohusika na matokeo ya phenotypic yasiyo ya wazi ya ugonjwa wa Klinefelter ikilinganishwa na ugonjwa wa Down?\n\n(A) kutatua chiasmata na separase katika diakinesis\n(B) maendeleo ya polymerase alpha katika morula/blastocyst\n(C) kiambatisho cha spindle kwa kinetochores katika metaphase I\n(D) methylation ya chromatin na histone methyltransferases katika post-zygote\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1264,7 +1264,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua nyenzo ya kuanzia, A, katika mchakato ufuatao.  \nA + kiwanja cha methyleneruthenium + 1-propene ---> 1-(prop-1-en-1-yl)-2-vinylcyclopentane  \n\n(A) bicyclo[3.2.0]hept-6-ene  \n(B) 2-methyl-3-methylenebicyclo[2.1.0]pentane  \n(C) 1,2-dimethylenecyclopentane  \n(D) 2-methylbicyclo[3.1.0]hex-2-ene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1277,7 +1277,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umepata kiwanja kisichojulikana. Ili kubaini bidhaa hiyo, umekitumia mbinu zifuatazo za uainishaji: FTIR na 1H NMR. Spektra ya FTIR inaonyesha kilele cha kunyonya pana sana katika 3000 wavenumbers. Kilele cha nguvu cha kunyonya pia kinapatikana katika 1700 wavenumbers. Kilele kadhaa ziligunduliwa katika spektra ya 1H NMR, hakuna kati yao kinachohusiana na hidrojeni za vinyl. Mojawapo ya ishara katika 1H NMR ni doublet ya triplets ya quartets wakati ishara tofauti ni doublet ya triplets ya triplets. Tambua kiwanja kama moja ya, CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH, au CH3C(H)(C2H5)C(H)(C2H5)CH2COOH\n\n(A) CH3CH2C(H)(CH3)C(H)(CH3)COOH  \n(B) CH3C(H)(CH3)C(H)(CH3)CH2COOH  \n(C) CH3C(H)(C2H5)C(H)(C2H5)CH2COOH  \n(D) CH3CH2C(H)(C2H5)C(H)(C2H5)COOH  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1290,7 +1290,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kiwanja A (C3H6) kinapata bromin katika uwepo wa kaboni tetrachloride ili kuunda kiwanja B. Wakati kiwanja B kinapojibu na KOH ya pombe, kinaunda kiwanja C. Kupitia kiwanja C kupitia bomba la chuma lililowaka moto huunda kiwanja D. Kiwanja D kinajibu na mchanganyiko wa asidi mbili kali ili kuunda kiwanja E. Kiwanja E, katika uwepo wa vipande vya chuma na asidi ya hydrochloric, kinaunda kiwanja F. Kiwanja F kinajibu na asidi ya nitrous ili kuunda G. Wakati G inajibu na sodium hydroxide, inaunda H. Tambua taarifa isiyo sahihi kuhusu bidhaa zilizopatikana katika mfululizo huu wa majibu.\n\n(A) F inatumika kwa ajili ya uzalishaji wa rangi.\n(B) H inatoa rangi ya njano kwa kuongeza suluhisho la ferric chloride.\n(C) D inatoa singlets mbili katika spektra za 1H NMR.\n(D) C ni gesi inayoweza kuwaka.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1303,7 +1303,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mwanafunzi alifanya mchakato wa kemikali ulio na asidi wa 3-methylpyrrolidine na kiwanja A, bidhaa ya mwisho ya mchakato ni 1-(cyclohexylidenemethyl)-3-methylpyrrolidine. Chagua reagensi inayofaa (A) na katalisiti (B) kwa ajili ya mchakato huu.\n3-methylpyrrolidine + A (B, Joto, liwaji) ---> 1-(cyclohexylidenemethyl)-3-methylpyrrolidine\n\n(A) A = cyclohexanecarbaldehyde, B = Acetic acid  \n(B) A = vinylcyclohexane, B = Acetic acid  \n(C) A = cyclohexanecarbaldehyde, B = TsOH  \n(D) A = vinylcyclohexane, B = TsOH  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1316,7 +1316,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umebaini jozi mpya ya ligand-receptor ambayo awali ilielezwa katika seli za neural crest na unataka kuelewa hatima ya maendeleo ya mwingiliano wao. Receptor ni monomeri ya transmembrane barrel yenye helices nane za alpha, helices nne za extracellular, na karatasi tatu za beta zinazounda eneo la kufunga kwa ligand. Ligand ni coiled-coil ya helices mbili za alpha. Unaunda vector ya bicistronic lox-Cre yenye ligand ORF katika nafasi ya 5', iliyounganishwa na mCherry; receptor ORF iko katika 3' na imeunganishwa na eGFP katika C-terminus. Ligand iko chini ya promoter ya CBA, na juu ya receptor kuna kipengele cha udhibiti cha IRES. Kati ya ligand ORF na mCherry, kuna stop katika kaseti ya loxP-stop-loxP, na kati ya receptor na eGFP, kuna stop katika kaseti ya lox2272-stop-lox2272. Pia ulitengeneza kingamwili dhidi ya protini zilizozidi kuonyeshwa na sasa unazitumia kujaribu uonyeshaji wa muundo kwenye Western blot baada ya transfection ya plasmid kwa utamaduni wa astrocyte wa msingi. Protini jumla zinatoa ishara inayolingana na upakiaji wa actin. Hatimaye, unalea mfano wa panya mwenye homozygous kwa muundo wako katika msingi wa wt. Unavuka na panya wa SOX10-Cre hemizygous; baada ya kizazi kuzaliwa unawatazama chini ya kipanya cha fluorescent confocal. Hauoni ishara ya kijani. Ni ipi kati ya majibu yafuatayo inaelezea sababu inayowezekana zaidi ya hali hiyo?\n\n(A) ligand na receptor wako katika uhusiano wa paracrine  \n(B) muundo wa receptor-eGFP umekwama katika Golgi  \n(C) enhancer wa uonyeshaji wa ligand na receptor unakosekana  \n(D) receptor na eGFP hawako katika fremu  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1329,7 +1329,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni mfululizo gani wa majibu kutoka kwa chaguo zifuatazo utasababisha sintofahamu yenye mavuno makubwa ya 1-(3-bromo-5-nitrophenyl)ethan-1-one, ukianza na benzene?\n\n(A) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) CH3COCl/AlCl3 ; iv) Br2/FeBr3 ; v) HNO3/H2SO4 ; vi) NaNO2/HCl ; vii) H3PO2  \n(B) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) NaNO2/HCl ; iv) H3PO2 ; v) Br2/FeBr3 ; vi) CH3COCl/AlCl3 ; vii) HNO3/H2SO4  \n(C) i) Br2/FeBr3 ; ii) HNO3/H2SO4 ; iii) CH3COCl/AlCl3 ; iv) HNO3/H2SO4 ; v) Fe/HCl ; vi) NaNO2/HCl ; vii) H3PO2  \n(D) i) CH3COCl/AlCl3 ; ii) Br2/FeBr3 ; iii) HNO3/H2SO4 ; iv) Fe/HCl ; v) HNO3/H2SO4 ; vi) NaNO2/HCl ; vii) H3PO2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1342,7 +1342,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanatafuta sayari za nje (exoplanets) kuzunguka nyota mbili zenye uzito sawa kabisa. Kwa kutumia mbinu ya RV, waligundua sayari moja kuzunguka kila nyota, zote zikiwa na uzito unaofanana na ule wa Neptune. Nyota wenyewe zina uzito unaofanana na ule wa Jua letu. Sayari zote zilipatikana zikiwa katika mizunguko ya duara.\n\nSayari #1 iligunduliwa kutokana na mabadiliko ya mara kwa mara ya 5 miliangstrom ya mstari wa spektra katika urefu wa mawimbi fulani. Mabadiliko ya mara kwa mara ya urefu wa wimbi wa mstari huo huo katika spektra ya mwenyeji wa sayari #2 yalikuwa 7 miliangstrom.\n\nSwali ni: Ni mara ngapi kipindi cha mzunguko wa sayari #2 ni kirefu zaidi kuliko kile cha sayari #1?\n\n(A) ~ 1.96  \n(B) ~ 1.40  \n(C) ~ 0.36  \n(D) ~ 0.85  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1355,7 +1355,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia kwa sasa wanatazama nyota yenye radius sawa na ile ya Jua. Hemisfera moja ya nyota hiyo imefunikwa na madoa meusi yenye kipengele cha kujaza cha 20%. Nyota ina joto la ufanisi (Teff) la 6000K, na madoa yanaonyesha tofauti ya joto ya 1000K. Kwa kuwa hemisfera moja tu ina madoa, uchunguzi wa muda wa fotometriki utaonyesha mabadiliko ya mara kwa mara katika mwangaza kutokana na moduli ya kuzunguka. Kwa kushangaza, hali hii inaweza kufanana kwa karibu na uwepo wa exoplanet. Ili kuzalisha ishara ya amplitude sawa katika curve ya mwanga ya nyota (ikiwa nyota haingewekwa na madoa!), radius ya exoplanet ya kufikiria inapaswa kuwa vipi ikilinganishwa na radius ya nyota mwenyeji (yaani, Rpl/Rstar)?\n\n(A) ~0.32  \n(B) ~0.11  \n(C) ~0.39  \n(D) ~0.07  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1368,7 +1368,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Majibu ya mmenyuko kati ya cyclohexanone na piperidine yanaweza kusababisha uundaji wa imini ya mzunguko, inayojulikana pia kama msingi wa Schiff. Aina hii ya mmenyuko ni mfano wa kawaida wa uundaji wa imini, ambayo inahusisha kondensheni ya ketoni (cyclohexanone katika kesi hii) na amini ya msingi (piperidine) kwa uwepo wa kichocheo cha asidi. \nNi asidi ipi itakayokuwa na faida (A) na bidhaa ya mwisho (B) ya mmenyuko ufuatao?\nCyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B\n\n(A) A = TsOH, B = 3-(2-oxocyclohexyl)propanal\n(B) A = HCl, B = 3-(2-oxocyclohexyl)propanal\n(C) A = HCl, B = 1-(2-(3-oxopropyl)cyclohexylidene)piperidin-1-ium\n(D) A = TsOH, B = 1-(2-(3-oxopropyl)cyclohexylidene)piperidin-1-ium\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1381,7 +1381,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria hali ambapo molekuli mpya ya asili, Xantheraquin, inagunduliwa na inachunguzwa kwa ajili ya majaribio ya in silico dhidi ya patojeni ya bakteria ambayo ina upinzani wa dawa nyingi. Utafiti wa awali unaonyesha kwamba Xantheraquin ina vitu vingi vya chiral na inaweza kuwepo katika aina mbalimbali za tautomeric. Ni hatua ipi kati ya zifuatazo itakuwa muhimu ZAIDI kabla ya kuendelea na masomo ya docking ya in silico, ikizingatiwa changamoto za bioinformatics katika ugunduzi wa dawa unaotegemea muundo?\n\n(A) Tumia aina ya chiral iliyo thabiti zaidi ya Xantheraquin, ukitegemea hesabu za kimakanika ya quantum kutabiri mwingiliano wake na lengo la bakteria.\n(B) Changanua aina zote za tautomeric na chiral, lakini uweke kipaumbele kwa aina hizo ambazo zina uwezekano mkubwa wa kuwa na shughuli za kibaiolojia kulingana na mali za fizikia na kemia.\n(C) Zingatia pharmacokinetics ya Xantheraquin na mali za ADME (Kumeza, Usambazaji, Metabolism, Kutolewa), ukitumia simulations za dynamics za molekuli kutabiri tabia yake katika mfumo wa kibaiolojia.\n(D) Changanya utabiri wa in silico na majaribio ya awali ya uhusiano wa uhusiano wa in vitro ili kuthibitisha aina zinazowezekana zaidi za Xantheraquin kabla ya masomo ya docking ya kina.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1394,7 +1394,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kwa uwanja wa magnetic \\vec{B}, sambamba na Oz, wenye thamani ndogo za m (nambari ya quantum ya magnetic ya orbital) na B=1T, linganisha kiwango cha ukubwa wa neno la kuunganisha paramagnetic na nishati ya mpito \\Delta E ya atomu ya Hidrojeni yenye urefu wa mawimbi \\lambda=0.4861\\mu m.\n\nPS: kwa hesabu tumia mhariri wa LaTeX mtandaoni.\n\n(A) \\left\\langle H\\right\\rangle \\gg\\Delta E  \n(B) \\left\\langle H\\right\\rangle \\ll\\Delta E  \n(C) \\left\\langle H\\right\\rangle =\\Delta E  \n(D) \\left\\langle H\\right\\rangle >\\Delta E  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1407,7 +1407,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfumo uliofungwa wa nucleons wawili (NN) katika hali ya 1S0 ambao wanatoa chembe X yenye parity ya ndani -1. Takwimu za Pauli zinahitaji kwamba isospin, momentum ya angular, na nambari za quantum za spin za hali ya mwisho ya NN zitimize T(NN) = S(NN) + L(NN) + 1 (mod 2).\n\nKukadiria hali ya mwisho ya NN ina T(NN) = 0. Ni moja ya mawimbi ya sehemu ifuatayo ambayo hayaruhusiwi, ambapo herufi ndogo inaashiria hali ya momentum ya angular ya X? Tumia uhifadhi wa momentum ya angular na parity.\n\nKumbuka kwamba alama ya neno (mfano 1S0) kwa ujumla inafafanuliwa kama (2S+1)L(J), ambapo S ni jumla ya spin, L ni jumla ya momentum ya angular ya orbital iliyoandikwa katika noti ya kispectroscopic, na J ni jumla ya momentum ya angular.\n\n(A) 1S0 -> 3S1 + p  \n(B) 1S0 -> 7D1 + p  \n(C) 1S0 -> 3D3 + f  \n(D) 1S0 -> 3P0 + s  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1420,7 +1420,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nNi nyota ipi kati ya zifuatazo inaweza kugunduliwa kwa kutumia spectrograph ya ESPRESSO katika Observatori ya Paranal na spectrograph ya HIRES katika Observatori ya Keck? Tafadhali rejelea viungo vilivyo hapa chini kwa maelezo zaidi kuhusu observatori. Inapaswa kuzingatiwa kwamba kwa kutumia ESPRESSO, nyota zenye magnitudes za V zinazonekana zenye mwangaza zaidi ya 17 mag zinaweza kuangaliwa, wakati kwa kutumia HIRES, nyota zenye mwangaza zaidi ya 16 V mag zinaweza kuangaliwa. Kwa ajili ya urahisi, tuchukulie kuwa hatuchukui kikomo cha kuelekeza cha teleskopu (kama vile urefu wa juu na wa chini) pamoja na viwango vya teleskopu.\n\nViungo:\nObservatori ya Paranal: https://en.wikipedia.org/wiki/Paranal_Observatory\nObservatori ya W. M. Keck: https://en.wikipedia.org/wiki/W._M._Keck_Observatory\n\nStar1 - RA = 15 deg na DEC = -75 deg, magnitude ya V ya kweli ya 15.5 mag na iko katika umbali wa 10 pc kutoka kwetu.\n\nStar2 - RA = 30 deg na DEC = 55 deg, magnitude ya V inayonekana ya 16.5 mag na iko katika umbali wa 5 pc kutoka kwetu.\n\nStar3 - RA = 11 h na DEC = 48 deg, magnitude ya V inayonekana ya 15.5 mag, E(B-V) = 0.6 mag na iko katika umbali wa 15 pc kutoka kwetu. Kumbuka kwamba kunyonya kwa jumla katika bendi ya V kunahusishwa na ziada ya rangi katika B-V kwa koefisienti sawa na 3.1.\n\nStar4 - RA = 85 deg na DEC = -48 deg, magnitude ya V ya kweli ya 15.5 mag, E(B-V) = 0.4 mag na iko katika umbali wa 10 pc kutoka kwetu. Kumbuka kwamba kunyonya kwa jumla katika bendi ya V kunahusishwa na ziada ya rangi katika B-V kwa koefisienti sawa na 3.1.\n\nStar5 - RA = 10 h na DEC = 60 deg, magnitude ya V ya kweli ya 16.5 mag na iko katika umbali wa 5 pc kutoka kwetu.\n\n(A) Star3 na Star5  \n(B) Star1 na Star4  \n(C) Star2 na Star3  \n(D) Star4 na Star5  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1433,7 +1433,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kamilisha majibu yafuatayo na uchague bidhaa kuu kwa kuzingatia vizuizi vya steriki, na utulivu wa bidhaa hizo.  \n2-ethyl-2,6-dimethylcyclohexan-1-one + ethyl acrylate (t-BuOK) ---> A  \n1-nitropropane + (KOH, (E)-but-2-enenitrile, H2O) ---> B  \n\n(A) A = ethyl 3-(3-ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoate, B = 3-methyl-4-nitrohexanenitrile  \n(B) A = ethyl 3-(3-ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoate, B = 2,3-dimethyl-4-nitrobutanenitrile  \n(C) A = ethyl 3-(3-ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoate, B = 3-methyl-4-nitrohexanenitrile  \n(D) A = ethyl 3-(3-ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoate, B = 2,3-dimethyl-4-nitrobutanenitrile  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1446,7 +1446,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha |alpha> iwe hali inayofafanua elektroni, ambapo ni sawia na (1+i) |up> + (2-i) |down>, ambapo |up> na |down> ni hali za eigen za mradi wa z wa opereta wa spin. Hesabu uwezekano wa kupima chembe hiyo katika kila moja ya hali za eigen za opereta ambao uwakilishi wa matrix unapatikana na vipengele Aij, ambapo Aij = hbar/2 ikiwa i ni tofauti na j, na 0 vinginevyo. Pia, pata thamani ya wastani ya opereta hiyo.\n\n(A) 0.54, 0.46 na 3*hbar / sqrt(7)  \n(B) 0.28, 0.72 na hbar / sqrt(7)  \n(C) 0.64, 0.36 na hbar / 7  \n(D) 0.61, 0.29 na 2*hbar / sqrt(7)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1459,7 +1459,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umepata kiwanja kisichojulikana. Ili kubaini bidhaa hiyo, umekitumia mbinu zifuatazo za uainishaji: FTIR, 1H NMR, na Spectrometry ya Misa. Spektra ya FTIR inaonyesha kilele cha kunyonya pana sana katika 3000 wavenumbers. Kilele kingine cha nguvu za kunyonya kinashuhudiwa katika 1700 na 1650 wavenumbers. Kilele kadhaa zimeshuhudiwa katika spektra ya 1H NMR ikiwa ni pamoja na kilele kinachohusiana na hidrojeni za vinyl. Spektra ya misa inaonyesha kilele cha kipande katika m/z = 45. Tambua formula ya kemikali ya kiwanja hiki kisichojulikana kama C6H12O, C6H10O, C6H10O2, au C6H12O2.\n\n(A) C6H10O2  \n(B) C6H12O  \n(C) C6H10O  \n(D) C6H12O2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1472,7 +1472,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Chagua reagenti zinazofaa kwa ajili ya mchakato ulioelezwa hapa chini.\nbutan-2-one + NaCN + A ---> 2-hydroxy-2-methylbutanenitrile\n2-(4-benzylphenyl)-2-hydroxybutanenitrile + B (H2O) ---> 2-(4-benzylphenyl)-2-hydroxybutanoic acid\n\n(A) A = H3O+, B = CH3COOH  \n(B) A = H3O+, B = HCl  \n(C) A = NaHSO3, B = HCl  \n(D) A = NaHSO3, B = CH3COOH  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1485,7 +1485,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mwanasheria anasonga kwenye mhimili wa usawa kutoka kushoto akiwa na kipengele cha Lorentz cha 4. Positron pia inasonga kwenye mhimili wa usawa, lakini kutoka kulia akiwa na kipengele cha Lorentz cha 2. Baada ya kugongana, wote wanajitenga na kuzalisha fotoni 2.\n\nNishati za fotoni zote mbili zilipimwa na zina thamani sawa. Mwelekeo pia ulipimwa. Moja ya fotoni ilikuwa inasonga katika mwelekeo wa juu-kulia, wakati nyingine ilikuwa inasonga katika mwelekeo wa chini-kulia.\n\nNi nini pembe kati ya mwelekeo wa fotoni?\n\n(A) 172  \n(B) 96  \n(C) 74  \n(D) 138  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1498,7 +1498,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kiwanja A kinaonyesha ishara mbili katika NMR ya proton, triplet katika 0.9 ppm kwa 6H na quartet katika 1.3 ppm kwa 4H. Kinapata monobromination ili kuunda kiwanja B. B inajibu na KOH ya pombe ili kuunda C, ambayo ina isomeri mbili za kijiografia. Isomeri ya cis ya C inajibu na (1E,3E)-penta-1,3-dien-1-ol ili kutoa kiwanja D. Tambua kiwanja D.\n\n(A) (1S,4R)-4,6,6-trimethylcyclohex-2-enol  \n(B) (1S,4S)-4,6,6-trimethylcyclohex-2-enol  \n(C) (1S,4R,5S,6S)-4,5,6-trimethylcyclohex-2-enol  \n(D) (1S,4R,5S,6R)-4,5,6-trimethylcyclohex-2-enol  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1511,7 +1511,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mchanganyiko ambao una fomula ya molekuli sawa lakini unatofautiana katika mpangilio wao wa muundo unajulikana kama isomeri. Isomeri zina aina mbili, isomeri za katiba na isomeri za stere. Isomeri za katiba zina fomula sawa ya molekuli lakini zinatofautiana katika muundo wao. Katika isomeri za stere, molekuli zimeunganishwa kwa njia sawa, lakini mpangilio wao katika nafasi unatatofautiana. \nNi ipi kati ya sehemu za kikaboni zifuatazo zinaonyesha isomeri ya kioo?\n\n1. dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate\n2. methyl 2-hydroxypropanoate\n3. benzophenone\n4. dimethyl fumarate\n\n(A) 1, 2 na 4\n(B) 3 na 4\n(C) 1 na 2\n(D) 2 na 3\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1524,7 +1524,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Je, ni matokeo makuu gani ya mmenyuko kati ya 4,4-dimethylcyclopent-1-enol na bromini?\n\n(A) 2-bromo-4,4-dimethylcyclopentanone  \n(B) 4-bromo-4,4-dimethylcyclopentanone  \n(C) (1R,2S)-1,2-dibromo-4,4-dimethylcyclopentanol  \n(D) (1R,2R)-1,2-dibromo-4,4-dimethylcyclopentanol  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1537,7 +1537,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua bidhaa D katika mfululizo ufuatao wa majibu.\n5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene + H2O ---> A  \nA + PDC ---> B  \nB + H2CPPh3 ---> C  \nC + TsOH ---> D  \n\n(A) 3a,5,5-trimethyl-1,2,3,3a,5,6,7,8-octahydrocyclopenta[1,4]cyclobuta[1,2]benzene  \n(B) 3a,5-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene  \n(C) 3a,4,5a-trimethyl-1,2,3,3a,5a,6,7,8-octahydrocyclopenta[c]pentalene  \n(D) 3a,4a,5,5-tetramethyl-2,3,3a,4,4a,5-hexahydro-1H-cyclobuta[1,2:1,4]di[5]annulene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1550,7 +1550,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tuchukulie nyota zinagawanyika kwa usawa angani. Katika hali hii, jinsi idadi ya nyota kwa kitengo cha umbali wa parallax (plx) inavyobadilika na plx?\n\n(A) ~ 1/plx^1  \n(B) ~ 1/plx^2  \n(C) ~ 1/plx^4  \n(D) ~ 1/plx^3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1563,7 +1563,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wakati epoksidi zilizoshikamana zinapojibiishwa na organocuprates, kundi la alkyl la reaktanti daima linaingizwa kwenye kaboni isiyo na vizuizi zaidi ya pete ya epoksidi. Katika epoksidi zenye viambato viwili, mabadiliko ya usanisi hutokea kwenye kaboni ambayo Nu inaongezwa. Tambua bidhaa wakati (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptane inajibiishwa na Me2CuLi:\n\n(A) (1R,4R,5R)-2,2,4,5-tetramethylcyclohexan-1-ol  \n(B) (1R,2S,4R,5R)-1,2,4,5-tetramethylcyclohexan-1-ol  \n(C) (1R,2R,4R,5R)-1,2,4,5-tetramethylcyclohexan-1-ol  \n(D) (1S,4R,5S)-2,2,4,5-tetramethylcyclohexan-1-ol  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1576,7 +1576,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Asidi ya asetiki inatibiwa na bromini, pyridine, na asidi ya asetiki isiyo na maji kwa kupasha moto, ikitengeneza bidhaa 1.\n\n1 inapashwa moto na ethanol na kiasi kidogo cha asidi ya sulfuri, ikitengeneza bidhaa 2.\n\n2 inatibiwa na sodium cyanide, ikitengeneza bidhaa 3.\n\n3 kisha inatibiwa na sodium hydride nyingi na 1,5-dibromopentane, ikitengeneza bidhaa ya mwisho 4.\n\nNi idadi ngapi ya ishara tofauti za hidrojeni zitakazoweza kuonekana katika spektra ya 1H NMR ya 4? (baadhi yao huenda wakawa karibu sana katika mabadiliko ya kemikali na hivyo si rahisi kutofautisha, lakini jibu linalotarajiwa ni idadi ya hidrojeni tofauti kim kemikali)\n\n(A) 5  \n(B) 8  \n(C) 10  \n(D) 12  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1589,7 +1589,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna supernova ilitokea katika Galaksi yetu. Sehemu ya ejecta ya supernova inasonga moja kwa moja kuelekea katikati ya Galaksi. Sehemu ya ejecta na Galaksi zote ni mifumo ya marejeleo isiyo na uzito. Kutoka kwenye mfumo wa marejeleo wa ejecta, katikati ya Galaksi inasonga kwa kasi ya 60 000 km/s (elfu sitini kilomita kwa sekunde) kuelekea kwake. \nNi umbali gani ejecta inasafiri katika mfumo wa marejeleo wa Galaksi wakati sekunde 50 zinapita katika mfumo wa marejeleo wa ejecta?\n\n(Kumbuka: Mvutano unaweza kupuuziliwa mbali, na mzunguko na mapinduzi ya Galaksi yanaweza kupuuziliwa mbali.)\n\n(A) 2 940 000 km.  \n(B) 3 060 000 km.  \n(C) 2 880 000 km.  \n(D) 3 000 000 km.  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1602,7 +1602,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Vihusishi vinagongana katikati ya kigezo cha sfera kinachozalisha aina mpya ya vihusishi vinavyosafiri bila kukatizwa kwa kasi za ultra-relativistic ambazo zinaelekezwa sana karibu na kipengele cha Lorentz cha ~20. Kwa wastani, theluthi moja ya vihusishi hivi vinavyooza haraka vinafikia kuta za ndani za kigezo. \nRadi ya kigezo ni mita 30.\n\nNi kipengele gani cha Lorentz kinachohitajika ili kuwa na takriban theluthi mbili ya vihusishi hivi vinavyofikia kuta za ndani za kigezo?\n\n(A) 40  \n(B) 28  \n(C) 68  \n(D) 54  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1615,7 +1615,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfumo wa mekanika ya quantum unaojumuisha chembe ya massa $m$ inayohamia katika potofu isiyotokana na mwelekeo wa tatu wa aina $V(r) = 1/2 m \\omega^2 r^2$ inayohusiana na nguvu inayotenda inayofuata sheria ya Hooke. Hapa, $\\omega$ ni mzunguko wa angular wa kutikisa na $r$ ni umbali wa radial wa chembe kutoka kwenye asili katika mfumo wa kuratibu wa polar wa spherikali. Ni nini thamani ya nishati ya hali ya tatu iliyochochewa, na ni idadi ngapi ya eigenfunctions huru kwa mstari inayowezekana kwa thamani hiyo ya nishati?\n\n(A) (9/2) \\hbar \\omega , 10  \n(B) 11 \\pi^2 \\hbar^2 / (2m r^2), 3  \n(C) 11 \\pi^2 \\hbar^2 / (2m r^2), 10  \n(D) (9/2) \\hbar \\omega, 3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1628,7 +1628,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mkemia wa kikaboni anafanya majibu mawili.\nMajibu I:\n(S)-5-methoxyhexan-3-one inatibiwa na LAH ikifuatiwa na kazi ya asidi.\nMajibu II:\nPentane-2,4-dione inatibiwa na NaBH4 kupita kiasi ikifuatiwa na kazi ya asidi.\nMaendeleo ya majibu yanakaguliwa kwa kutumia TLC. Baada ya majibu kukamilika kwa 100%, bidhaa kutoka majibu yote mawili zinachanganywa, na kupelekwa kwenye safu ya HPLC ya awamu ya kawaida na safu ya HPLC iliyojaa hatua ya chiral.\nNi kilele ngapi mkemia anayaona katika chromatograms?\n\n(A) Kilele 5 katika HPLC ya chiral na kilele 4 katika HPLC ya awamu ya kawaida\n(B) Kilele 4 katika HPLC ya chiral na kilele 2 katika HPLC ya awamu ya kawaida\n(C) Kilele 3 katika HPLC ya chiral na kilele 2 katika HPLC ya awamu ya kawaida\n(D) Kilele 3 katika HPLC ya chiral na kilele 3 katika HPLC ya awamu ya kawaida\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1641,7 +1641,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni molekuli ipi kati ya zifuatazo inaundwa wakati 5-butylnona-2,6-diene inapokanzwa?\n\n(A) 5-ethylundeca-2,6-diene  \n(B) 5-ethyl-4-methyldeca-2,6-diene  \n(C) 5-ethyl-4-methyldeca-2,6-diene  \n(D) 4-ethyl-3-methyldeca-1,5-diene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1654,7 +1654,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hongera, umepata kazi unayoiota katika moja ya maabara bora za biolojia ya muundo katika Chuo Kikuu cha Stanford, California. Bila kuchelewa, Mtafiti Mkuu anaeleza kwamba kipaumbele cha sasa ni kuzalisha katika E. coli BL21 kisha kusafisha kwa haraka iwezekanavyo protini ya Binadamu P53.\n\nMfuatano wa asidi amino wa protini hii ni kama ifuatavyo:\nMEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD\n\nUmepatiwa plasmidi 4 zenye mfuatano tofauti 4, ni ipi utatumia?\n\n(A) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCCGCATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGCGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGCGCGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\n\n(B) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCA\nCTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATA\nTTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTC\nAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGG\nGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\n\n(C) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGC"
       }
     ],
     "final_answer": "",
@@ -1667,7 +1667,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua kiwanja E katika mpango ufuatao wa kemikali. \nKiwanja A, kinapojibu na HCN, kinazalisha kiwanja B. \nKiwanja B, kinapopunguzwa na H2 kwa uwepo wa Pd, kinaunda kiwanja C. \nKiwanja C, kinapojibu na HNO2, kinaunda kiwanja D. \nKiwanja D, kinapotoa gesi isiyo na athari, kinaunda kiwanja E. \nVidokezo: \na) Kiwanja A, kinapojibu na ylide ya fosforasi isiyojulikana, kinaunda 1,2-dimethyl-4-(propan-2-ylidene)cyclopentane. \nb) Spektra ya IR ya kiwanja A inaonyesha kilele kikali karibu na 1750 cm^-1 wakati spektra ya IR ya kiwanja E inaonyesha kilele kikali karibu na 1715 cm^-1.\n\n(A) 3,4-dimethylcyclohexan-1-one \n(B) 2,3,4-trimethylcyclopentan-1-one \n(C) 2,2,3,4-tetramethylcyclobutan-1-one \n(D) 4-methylcycloheptan-1-one \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1680,7 +1680,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wingu kubwa la hidrojeni isiyo na chaji katika anga za mbali humeza mwanga kutoka kwa quasars za nyuma katika urefu wa wimbi la Lyman alpha ~1216 Angstrom. Kadiria kikomo cha chini juu ya redshift ya vitu hivi ili viweze kugundulika kwa teleskopu za ardhini za macho?\n\n(A) 1.9  \n(B) 1.2  \n(C) 2.4  \n(D) 3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1693,7 +1693,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Asidi ya dicarboxylic yenye cis-alkene ilikauka ili kupata anhidridi inayolingana. Anhidridi hii, ambayo ina kilele kimoja (7 ppm) katika spektra yake ya 1H NMR na kilele viwili (137 ppm, 165 ppm) katika spektra yake ya 13C, ilijibu na 1,2,3,4-tetramethyl-1,3-cyclopentadiene kutoa bidhaa mbili (bidhaa kuu na bidhaa ndogo). Bidhaa zote zina fomula ya molekuli C13H16O3.\n\nSpektra za 2D NOESY NMR za bidhaa kuu na ndogo zilichukuliwa. Kilele cha msalaba kilikuwepo katika spektra ya bidhaa kuu lakini hakikuwepo (au kilikuwa dhaifu sana) katika spektra ya bidhaa ndogo.\n\nKatika spektra ya bidhaa kuu, resonansi zipi mbili zimeunganishwa na kilele hiki cha msalaba (muhimu zinachukuliwa kutoka 1H NMR inayolingana)?\n\n(A) Singlet ya 6H karibu na 1.7 ppm na singlet ya 2H karibu na 3.5 ppm  \n(B) Singlet ya 6H karibu na 1 ppm na singlet ya 6H karibu na 1.7 ppm  \n(C) Singlet ya 6H karibu na 1 ppm na doublet ya 1H karibu na 1.5 ppm  \n(D) Doublet ya 1H karibu na 1.5 ppm na singlet ya 2H karibu na 3.5 ppm  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1706,7 +1706,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Spectra ya 1H NMR ya suluhu inayokuwa na mchanganyiko wa 1:1 wa misombo miwili ya aromatic yenye fomula ya molekuli C10H14 inaonyesha ishara mbili (singlets mbili) karibu na 6.7 ppm katika uwiano wa 1:1. Pia kuna ishara tatu karibu na 2.2 ppm (singlets zote) katika uwiano wa 2:1:1. Ni misombo ipi miwili iliyopo katika mchanganyiko kutoka chaguzi zifuatazo: 1,2,4,5-tetramethylbenzene, 1,2,3,5-tetramethylbenzene, 1,2,3,4-tetramethylbenzene, na 1,4-diethylbenzene.\n\n(A) 1,2,4,5-tetramethylbenzene na 1,2,3,5-tetramethylbenzene  \n(B) 1,2,3,4-tetramethylbenzene na 1,2,3,5-tetramethylbenzene  \n(C) 1,2,3,5-tetramethylbenzene na 1,4-diethylbenzene  \n(D) 1,2,4,5-tetramethylbenzene na 1,2,3,4-tetramethylbenzene  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1719,7 +1719,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tuna suluhisho ambalo lina ujazo wa 200.00 cm³ na lina 1.00 g KH2PO4 (Mw = 136.09 g/mol) na 1.00 g Na2HPO4●2H2O (Mw = 177.99 g/mol) (T = 25 °C). Je, ni kiasi gani cha ioni za orthophosphate katika suluhisho hili? Thamani za Ka1, Ka2 na Ka3 za H3PO4 ni 7.5x10^-3, 6.2x10^-8 na 1.8x10^-12, mtawalia.\n\n(A) 6.24x10^-7 M  \n(B) 5.48x10^-7 M  \n(C) 2.81x10^-7 M  \n(D) 3.97x10^-7 M  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1732,7 +1732,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hesabu enthalpy ya neutralization wakati 500 mL 0.2 M HCl, 300 mL 0.3 M H2SO4 na 200 mL 0.5 M Ba(OH)2 vinapochanganywa.\n\n(A) -3.80 kcal  \n(B) -2.72 kcal  \n(C) -16.0 kJ  \n(D) -11.42 kcal  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1745,7 +1745,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mingiliano kati ya uwanja wa bosoni X na fermioni inatolewa na\n\n\\mathcal{L}\\left(y\\right)=-\\lambda{f}\\bar{\\psi}{f}\\left(y\\right)\\left(\\upsilon+X\\left(y\\right)\\right)\\psi_{f}\\left(y\\right)\n\nUzito wa bosoni X ni 6 GeV.\nNi mchakato gani wa kuanguka unaoruhusiwa kinematikali wa bosoni X katika kiwango cha chini zaidi?\n\nPS: kwa hesabu tumia mhariri wa LaTeX.\n\n(A) X\\rightarrow c\\bar{c},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n(B) X\\rightarrow b\\bar{b},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},e^{+}e^{-}\n(C) X\\rightarrow c\\bar{c},s\\bar{s},u\\bar{u},d\\bar{d},t\\bar{t},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n(D) X\\rightarrow b\\bar{b},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1758,7 +1758,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Uwanja wa vector f(r) unashuka kwa mwelekeo wa radial kama 1/r^2 kutoka kwenye asili, yaani, ukubwa wa uwanja ni f(r) = 1/r^2. Uwanja una sehemu isiyo na sifuri tu katika mwelekeo wa radial katika mfumo wa spherical coordinates. Kadiria ujazo wa kiintegrali wa divergence ya uwanja, ∇.f ndani ya ujazo wa mpira wa radius R ulio katikati ya asili. Hapa, ∇ na f zote zinamaanisha kama vectors. Ni jibu gani hapa chini ndilo sahihi zaidi kwa jibu la kiintegrali?\n\n(A) 0  \n(B) 4 π  \n(C) 1  \n(D) 4/3 π R  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1771,7 +1771,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Synchrocyclotron ni aina maalum ya cyclotron. Proton inasukumwa kwa \\$t=0\\$ na nishati ya kinetic isiyo na maana, yaani \\$T\\simeq0\\$ inapata kasi mara mbili katika mchakato wa kuharakisha ili kufikia nishati ya kinetic \\$T{1}=950MeV\\$. Voltage inayobadilika inayotumika katika mchakato wa kuharakisha inatolewa na\nU\\left(t\\right)=U{0}\\cos\\left[2\\pi\\nu\\left(\\alpha\\right)t+\\Phi_{0}\\right].\n\nNi mapinduzi mangapi proton inafanya katika synchrocyclotron?\nData: \\$\\Phi{0}=\\frac{\\pi}{4},U{0}=190kV\\$.\n\n(A) 3536  \n(B) 2500  \n(C) 1864  \n(D) 5300  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1784,7 +1784,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mchakato wa kemikali wa uzalishaji wa bidhaa inayojumuisha ion ya H+ ulikuwa ukiendelea kwa joto la kawaida na pH 1. Kwa bahati mbaya, dutu isiyojulikana ilidondokea kwenye mchakato unaoendelea na kufanya kiwango cha mchakato kuwa polepole katika uundaji wa bidhaa na chombo kikapata joto kutokana na mchakato wa exothermic. Thamani ya pH ya suluhisho ilibadilika kuwa 4 baada ya kuongeza hii isiyokusudiwa. Ni nini kinaweza kuwa sababu inayowezekana ya kubadilika kwa kiwango cha mchakato?\n\n(A) Kuongezeka kwa shinikizo la suluhisho  \n(B) Kuongezeka kwa kiasi cha suluhisho  \n(C) Kuongezeka kwa pH ya suluhisho  \n(D) Kuongezeka kwa joto la suluhisho  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1797,7 +1797,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mchanganyiko wawili A na B unachukuliwa tofauti na asidi ya hydrochloric, sodium nitrite, na maji. Kupitia matibabu yaliyotajwa, diketoni mbili tofauti zinazalishwa. Chagua vifaa sahihi vya kuanzia A na B kwa ajili ya mchakato huo.  \nA + (NaNO2, HCl, H2O) ---> 4-isopropylcyclohexane-1,2-dione  \nB + (NaNO2, HCl, H2O) ---> 5-methylhexane-2,3-dione  \n\n(A) A = 4-isopropyl-2-methoxycyclohexan-1-ol, B = 5-methylhexan-2-one  \n(B) A = 4-isopropylcyclohexan-1-one, B = 5-methylhexan-2-one  \n(C) A = 4-isopropylcyclohexan-1-one, B = 5-methylhexane-2,3-diol  \n(D) A = 4-isopropyl-2-methoxycyclohexan-1-ol, B = 5-methylhexane-2,3-diol  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1810,7 +1810,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kichocheo X, kinachojulikana kwa kuunganisha isotopu nzito ya mmoja wa vipengele vyake, kinajibu kwa nguvu na kioevu Y huku ikitoa gesi W ambayo molekuli yake ina idadi sawa ya neutroni na protoni, na precipitate G inaundwa, ambayo, inapokanzwa, inatoa B. Kiwango cha kuyeyuka cha B (chini ya hali za kawaida) kiko karibu sana na 277 K. Bidhaa ya majibu ya asidi fulani ya keto na kichocheo X ina atomi 2 za oksijeni. Kichocheo X na hasa analogi yake ya karibu sana inatumika kama reaktanti katika kemia ya kikaboni. Hesabu uzito wa atomiki wa jumla wa vipengele vyepesi na vizito vilivyopo ndani ya Kichocheo X, ukizingatia kwamba ikiwa kuna matukio mengi ya kipengele, uzito wa isotopu zote nzito na nyepesi lazima uhesabiwe.\n\n(A) 35  \n(B) 31  \n(C) 29  \n(D) 25  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1823,7 +1823,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "1-bromobenzene-2-d inatibiwa na NaNH2 katika kutu ya ammonia. Ni bidhaa ngapi za kikaboni zinazowezekana katika mchakato huu?\n\n(A) 1  \n(B) 2  \n(C) 3  \n(D) 4  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1836,7 +1836,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria hii matrix ya wiani\n\n$\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$\n\nNafasi yake ya kijiometri katika nafasi ya qubits ni ipi?\n\n(A) r=(0,0,0)  \n(B) r=(1,1,0)  \n(C) r=(0,0,1)  \n(D) r=(1,1,1)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1849,7 +1849,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mabadiliko ya Pinacol-Pinacolone ni mchakato wa kemikali unaohusisha kubadilisha molekuli ya pinacol, yenye vikundi viwili vya alkoholi vilivyo karibu, kuwa pinacolone chini ya hali za asidi. Inafanyika kupitia protonation ya kundi moja la alkoholi, ikifuatiwa na mabadiliko ya 1,2-hydride, na kusababisha uundaji wa ketoni (pinacolone) na mabadiliko ya muundo wa molekuli.\n\nNi vifaa vya kuanzia na bidhaa za mchakato wa mabadiliko ya Pinacol Pinacolone zifuatazo?\nA + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-one\nmethyl 2,3-dihydroxy-2-(p-tolyl)butanoate + H2SO4 ---> B\n\n(A) A = 1-(hydroxydi-p-tolylmethyl)cyclopentan-1-ol, B = methyl 3-oxo-2-(p-tolyl)butanoate  \n(B) A = 1-(hydroxydi-p-tolylmethyl)cyclopentan-1-ol, B = methyl 2-methyl-3-oxo-2-(p-tolyl)propanoate  \n(C) A = 1-(hydroxydi-p-tolylmethyl)cyclohexan-1-ol, B = methyl 3-oxo-2-(p-tolyl)butanoate  \n(D) A = 1-(hydroxydi-p-tolylmethyl)cyclohexan-1-ol, B = methyl 2-methyl-3-oxo-2-(p-tolyl)propanoate  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1862,7 +1862,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "X ni resonance ya meson. Ni umbali gani wa wastani wa kuoza? Tukijua kwamba nishati ya uzalishaji ni $E_{X}=8GeV$, massa $m_{X}=1.2GeV$, na upana $\\Gamma_{X}=320MeV$.\n\n(A) 5.0223 * 10^{-16} m  \n(B) 4.0655 * 10^{-16} m  \n(C) 5.0223 * 10^{-15} m  \n(D) 4.0655 * 10^{-15} m  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1875,7 +1875,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni stereoisomeri wangapi wapo kwa kiwanja 6-chloro-9-ethyl-2-methylundeca-3,7-dien-5-ol?\n\n(A) 16  \n(B) 4  \n(C) 8  \n(D) 32  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1888,7 +1888,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "5-fluorocyclopenta-1,3-diene inajibu na maleic anhydride. Ni bidhaa ipi kuu?\n\n(A) (3aR,4S,7R,7aS,8r)-8-fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(B) (3aR,4R,7S,7aS,8r)-8-fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(C) (3aR,4R,7S,7aS,8s)-8-fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(D) (3aR,4S,7R,7aS,8s)-8-fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1901,7 +1901,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mchakato huu wa kuangamiza\n\n$p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$\n\nAntiprotoni inasonga polepole na $m_{A}c^{2}=300MeV$.\n\nNi kasi gani ya chembe A?\n\n(A) 0.96c  \n(B) 0.86c  \n(C) 0.77c  \n(D) 0.91c  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1914,7 +1914,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nMchanganyiko tano wa binary wa fluorine na elementi Y unajulikana. Kichanganyiko chenye rangi nyekundu A1 kinaporomoka kwa 293 K kuwa A2 (ɷF=31,96%) na fluorine. A1 inafanya oksidishaji wa xenon katika hali za kawaida. A3 pia inaweza kuingiliana na xenon. A3 inapatikana kwa fluorination ya elementi Y na fluorine. Kwa kuongeza Y kwa uwiano wa molari wa 1:1 kwenye suluhisho la A4 lililo na joto na lisilo na rangi, A5 inaweza kupatikana. Katika maji, A5 inaporomoka kwa kuunda vitu viwili. Onyesha wigo ambao uzito wa molekuli wa kichanganyiko A4 unapatikana.\n\n(A) 140-160  \n(B) 160-180  \n(C) 220-240  \n(D) 110-130  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1927,7 +1927,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unachambua kiwanja kidogo cha peptidi ambacho kimeundwa kwa kemikali. Spektra ya 1H NMR ya kiwanja ghafi inaonekana kuwa sawa na molekuli inayotarajiwa, isipokuwa kwa kilele viwili ambavyo vyote vinahusiana na proton ya alfa. Kilele hivi viwili vina mabadiliko ya kemikali yanayofanana na jumla sawa (pamoja vinajumlisha hadi 1H - jumla inayotarajiwa); kulingana na muundo wa uhusiano, unaweza kuondoa uhusiano wa spin-spin kama maelezo ya kilele za nakala. Uchambuzi wa LC-MS wa kiwanja ghafi kwa joto la juu unaonyesha kilele viwili vilivyo wazi vya nguvu sawa. Kilele vyote vina spektra sawa ya wingi, ambayo inafanana na molekuli inayotarajiwa. Ni maelezo gani yanayowezekana zaidi kwa uchunguzi huu?\n\n(A) Kiwanja kimechafuliwa na kiambato cha awali\n(B) Kiwanja ghafi kinapatikana kama mchanganyiko wa enantiomers\n(C) 'Uhusiano wa mara mbili' umefanyika wakati wa mchakato wa kuunda kiunganishi cha amidi\n(D) Kiwanja ghafi kinapatikana kama mchanganyiko wa diastereoisomers\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1940,7 +1940,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nKiwanja chenye fomula ya molekuli C8H9NO na data ya NMR iliyopewa kinajibiwa na seti ifuatayo ya reagenti:\n\n1. NaNO2 + HCl\n2. H2O\n3. aq. KOH, Joto \n\n1H-NMR (ppm): 9.72 (t, 1H), 6.98 (d, 2H), 6.51 (d, 2H), 6.27 (bs, 2H), 3.66 (d, 2H). Tambua bidhaa ya mwisho.\n\n(A) 2,4-bis(4-hydroxyphenyl)but-2-enal  \n(B) 4-(4-hydroxyphenyl)but-3-enal  \n(C) 2,4-diphenylbut-3-enal  \n(D) 3-hydroxy-2,4-bis(4-hydroxyphenyl)butanal  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1953,7 +1953,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hali ya mfumo katika wakati t inatolewa na matrix ya safu yenye vipengele (-1, 2, 1). Kitu kinachoweza kupimwa cha mfumo kinawakilishwa na opereta ya matrix P yenye vipengele katika safu ya kwanza kama (0, 1/ \\sqrt{2}, 0), katika safu ya pili kama (1/ \\sqrt{2}, 0, 1/ \\sqrt{2}) na katika safu ya tatu kama (0, 1/ \\sqrt{2}, 0). Hesabu uwezekano kwamba kipimo cha kitu kinachoweza kupimwa kitatoa 0 katika wakati t.\n\n(A) \\sqrt{2/3}  \n(B) 2/3  \n(C) 1/3  \n(D) 1  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1966,7 +1966,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Umebaini peptidi mpya ya quorum-sensing katika bakteria Lactobacillus acidophilus. Una hamu kubwa kujua kama jukumu lake katika mawasiliano ya seli ni la kudumu miongoni mwa eukaryotes. Unatibu chachu Saccharomyces cerevisiae kwa peptidi hiyo na kwa kushangaza unashuhudia uundaji wa shmoo. Unataka kujifunza kuhusu proteome ya chromatin hai katika shmoo na kuipata kwa kutumia chromatin immunoprecipitation ikifuatiwa na mass spectrometry. Ni kundi gani la protini ambazo utashuhudia katika uchunguzi wako?\n\n(A) pre-initiation complex  \n(B) enhancer protein complex  \n(C) nucleosome histone complex  \n(D) pre-replication complex  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1979,7 +1979,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "α-β isokaboni zisizo na unsaturated zina uhusiano wa kaboni wa double ambao ni wa electrophilic zaidi. Hizi double bonds hufanya kama asidi nzuri ya Lewis na kujibu na nucleophiles ili kuzalisha ioni za enolate. Katika kesi hii, wakati nucleophile inashambulia nafasi ya β, inazalisha kati ya resonance-stabilized. Wakati nucleophile inashambulia kaboni ya β ni enolate, aina hii ya mchakato inajulikana kama mchakato wa Michael. \nNi vichocheo na bidhaa kuu za mwisho za mchakato ufuatao wa ongezeko la Michael?\ndimethyl malonate + methyl (E)-3-(p-tolyl)acrylate + (NaOEt, EtOH) -->(A)\n1-(cyclohex-1-en-1-yl)piperidine + (E)-but-2-enenitrile + (MeOH, H3O+) --> (B)\nC + but-3-en-2-one + (KOH, H2O) ---> 2-(3-oxobutyl)cyclohexane-1,3-dione\n\n(A) A = trimethyl 2-(p-tolyl)propane-1,1,3-tricarboxylate, B = 3-(2-oxocyclohexyl)butanenitrile, C = cyclohexane-1,3-dione\n(B) A = trimethyl 3-(p-tolyl)propane-1,1,2-tricarboxylate, B = 3-(2-hydroxycyclohex-1-en-1-yl)butanenitrile, C = cyclohexane-1,3-dione\n(C) A = trimethyl 3-(p-tolyl)propane-1,1,2-tricarboxylate, B = 3-(2-hydroxycyclohex-1-en-1-yl)butanenitrile, C = 2-hydroxycyclohexane-1,3-dione\n(D) A = trimethyl 2-(p-tolyl)propane-1,1,3-tricarboxylate, B = 3-(2-oxocyclohexyl)butanenitrile, C = 2-hydroxycyclohexane-1,3-dione\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1992,7 +1992,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika maabara, kemikali anagundua chupa isiyo na jina yenye thibitisho jeupe ndani. Anakusanya taarifa zifuatazo za spektrali ili kubaini kioevu hicho. Fanya pendekezo la muundo wa mantiki kwa dawa isiyojulikana ukitumia taarifa zilizotolewa. \nMasi: kilele cha ioni ya molekuli katika m/z = 156 (100%)\nkilele katika m/z = 158 (32%)\nIR: kilele pana kutoka 3500-2700 cm^-1, kilele chenye nguvu na kali katika 1720 cm-1\n1H NMR: 11.0 ppm (s, 1H), 8.02 ppm (d, 2H), 7.72 (d, 2H)\n\n(A) Asidi 2-klorobenzoic\n(B) Phenyl chloroformate\n(C) Asidi 4-klorobenzoic\n(D) 3-Chloro-2-hydroxybenzaldehyde\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2005,7 +2005,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria opereta $\\vec{P}$ wa mfumo una sehemu $P_x, P_y$ na $P_z$. Fomu ya matrix ya opereta $P_x$ ina sehemu katika safu ya kwanza kama $(0, \\hbar/\\sqrt{2}, 0)$, katika safu ya pili kama $(\\hbar/\\sqrt{2}, 0, \\hbar/\\sqrt{2})$ na katika safu ya tatu kama $(0,\\hbar/\\sqrt{2},0)$. Fomu ya matrix ya opereta $P_y$ ina sehemu katika safu ya kwanza kama $(0, -i \\hbar/\\sqrt{2}, 0)$, katika safu ya pili kama $(i \\hbar/\\sqrt{2}, 0, -i \\hbar/\\sqrt{2})$ na katika safu ya tatu kama $(0,i \\hbar/\\sqrt{2},0)$. Vivyo hivyo, fomu ya matrix ya opereta $P_z$ ina sehemu katika safu ya kwanza kama $(\\hbar, 0, 0)$, katika safu ya pili kama $(0, 0, 0)$ na katika safu ya tatu kama $(0,0, -\\hbar)$. Vektori za msingi hapa ni eigenvectors wa $P_z$. Mfumo upo katika hali ya eigen ya $P_x$ inayohusiana na eigenvalue $-\\hbar$. Ili kuwa maalum zaidi, fomu wazi ya hali ya mfumo inatolewa na vector ya safu yenye vipengele $(-1/2, 1/\\sqrt{2}, -1/2)$. Ni nini kutokuwa na uhakika $\\Delta P_z $ ya $P_z$?\n\n(A) \\hbar  \n(B) \\sqrt{2}\\hbar  \n(C) \\hbar/2  \n(D) \\hbar/\\sqrt{2}  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2018,7 +2018,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mkemia anafanya mchakato mbili:\n\nMchakato 1: (E)-oct-4-ene inatibiwa na mlingano mmoja wa mCPBA, ikifuatiwa na asidi ya majimaji.\n\nMchakato 2: (Z)-oct-4-ene inatibiwa na mlingano mmoja wa mCPBA, ikifuatiwa na asidi ya majimaji.\n\nMchakato zote zinafikia asilimia 100 ya kukamilika. Mkemia anachanganya bidhaa za mchakato zote mbili, kisha anafanya uchambuzi wa mchanganyiko wa bidhaa kwenye safu ya HPLC ya kawaida (isiyo na chiral) na safu ya HPLC ya chiral.\n\nIkiwa tunadhani kwamba ufumbuzi wa chromatographic uko juu kama inavyowezekana kidhana katika kesi zote mbili, ni nini mkemia anachokiona katika kila moja ya chromatograms hizi?\n\n(A) Mipigo 2 katika HPLC ya kawaida na chiral\n(B) Mipigo 2 katika HPLC ya kawaida na mipigo 3 katika HPLC ya chiral\n(C) Mipigo 3 katika HPLC ya kawaida na mipigo 4 katika HPLC ya chiral\n(D) Mipigo 4 katika HPLC ya kawaida na chiral\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2031,7 +2031,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kumekuwa na mlipuko wa ugonjwa wa kuambukiza wa virusi katika jiji lako. Umekuwa ukitakiwa kubuni kifaa cha uchunguzi wa molekuli kwa ajili ya kugundua haraka virusi hivi. Utafanya vipi kubuni kifaa hiki?\n\n(A) Kwanza unatambua virusi kwa kutumia taarifa kuhusu dalili, zilizotolewa na wagonjwa walioathirika. Kisha unabuni kifaa cha PCR kilichopangwa kwa kutumia taarifa hizo kwa ajili ya uchunguzi wa haraka.\n(B) Kwanza unatambua virusi kwa kufanya upimaji wa cDNA. Kisha unakua na kifaa cha PCR cha wakati halisi kwa ajili ya uchunguzi wa haraka na sahihi.\n(C) Kwanza unatambua vichocheo vya IgG kwa ajili ya maambukizi. Kisha unakua na kifaa cha ELISA kinacholenga vichocheo vya IgG kwa ajili ya uchunguzi wa haraka na sahihi.\n(D) Kwanza unatambua virusi kwa kufanya upimaji wa DNA. Kisha unakua na kifaa cha PCR kwa ajili ya uchunguzi wa haraka na sahihi.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2044,7 +2044,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika hali isiyo hai, sehemu ya kipengele cha uandishi inasubiri ishara ya kuamsha kutoka kwa mchakato wa fosforilasi wa membrane. Baada ya fosforilasi kwenye mabaki ya Ser katika eneo la transactivation, inajidimiza, inahamia kwenye nucleus, na inatumika katika uandishi wa jeni. Mabadiliko ya missense X katika eneo la transactivation ni mabadiliko ya kupoteza kazi ya recessive. Unabaini kwamba mabadiliko ya heterozygous Y katika eneo la dimerization yanafanya kazi kama mabadiliko ya dominant-negative. Ni phenotypes zipi za molekuli zinazoweza kuonekana zaidi katika uwepo wa mabadiliko Y?\n\n(A) mabadiliko ya muundo wa protini na phenotypi ya kupata kazi\n(B) kupoteza dimerization ya protini na phenotypi ya aina ya mwituni\n(C) mkusanyiko wa protini na phenotypi ya kupoteza kazi\n(D) uharibifu wa protini na kupoteza kazi ya alleli ya aina ya mwituni\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2057,7 +2057,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Uchunguzi wa quasar katika wigo wa umeme unafanywa. Kwa kuzingatia wigo wa karibu infrared na wa macho, kuna kilele katika urefu wa mawimbi wa takriban 790 nm, na katika urefu wa mawimbi mfupi < 790 nm, mtiririko unashuka kwa kiasi kikubwa.\n\nIkiwa tungeishi katika ulimwengu ulioelezwa na mfano wa Lambda-CDM ambapo thamani ya sasa ya nambari ya Hubble ni 70 km s^-1 Mpc^-1, parameter ya wingi wa nyenzo ni 0.3, parameter ya wingi wa nishati ya giza ni 0.7, na ulimwengu ni tambarare,\nni nini kinaweza kudhaniwa kuhusu thamani ya umbali wa pamoja (kwa sababu ya kiwango a=1) wa quasar hii kutoka Duniani?\n\n(A) 9 Gpc  \n(B) 8 Gpc  \n(C) 7 Gpc  \n(D) 6 Gpc  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2070,7 +2070,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria aperture, ambayo inaumbo la poligoni yenye N-pembe. Mipaka yote ni ya urefu sawa a. Wakati mwanga wa monokromatiki (wa urefu wa mawimbi \\lambda), unaosafiri kwenye mhimili wa z, unapoanguka kwa wima kwenye aperture hii, inaunda mfululizo wa maxima na minima za nguvu katika eneo la mbali. Ni umbali gani wa pembe kati ya minima mbili za kwanza wakati N ni kubwa sana? Kadiria kwamba pembe zinazohusiana ni ndogo hivyo kwamba approximation ya tan theta = theta inaweza kutumika.\n\n(A) 0.506 \\lambda / a  \n(B) 1.220 \\lambda / a  \n(C) 0.500 \\lambda / a  \n(D) 0.610 \\lambda / a  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2083,7 +2083,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wakati akitengeneza kipimo cha elektroniki cha hali ya juu kinachofanya kazi kwa voltage ya kuharakisha ya 1000 kV, Mike alihusisha pampu za vacuum ili kuunda hali ya vacuum ya juu sana (< 10^-9 Torr) katika sehemu ya sampuli, akilenga kupunguza uwepo wa molekuli za gesi ili kuboresha mikroskopi ya elektroni. Hata hivyo, kama ilivyotarajiwa, baadhi ya chembe za gesi zilikuwa bado ndani ya sehemu hiyo, kama ilivyogunduliwa na spectrometer ya wingi. Mike alitathmini kwa usahihi njia ya bure ya wastani ya molekuli hizi za gesi katika hali ya vacuum (< 10^-9 Torr) kuwa λ1, kulingana na mambo kama vile ujazo wa sehemu ya sampuli, shinikizo, na joto. Hata hivyo, alipoanzisha mionzi ya elektroni, alifanya uchunguzi wa kushangaza kuhusu njia ya bure ya wastani kulingana na kutawanyika kwa elektroni na molekuli za gesi. Aligundua kwamba njia ya bure ya wastani haikuwa tena sawa na λ1; badala yake, ilikuwa λ2, ingawa joto la sehemu ya sampuli lilikuwa sawa.\n\nTunaweza kuhitimisha nini kuhusu λ2 kulingana na hali iliyotajwa hapo juu?\n\n(A) λ2 >= 1.22*λ1  \n(B) λ2 < λ1  \n(C) λ1 < λ2 < 1.22*λ1  \n(D) λ2 = λ1, ikionyesha tofauti katika uchunguzi wa Mike  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2096,7 +2096,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria metrikifuatayo:\n\nds^{2}=\\frac{32}{\\left(4-x^{2}-y^{2}\\right)}\\left(dx^{2}+dy^{2}\\right)\n\nNi eneo gani la pseudosphere ya radius r=2?\n\nPS: kwa hesabu tumia mhariri wa LaTeX.\n\n(A) 0  \n(B) +\\infty  \n(C) 4\\pi\\left(x^{2}-y^{2}\\right)  \n(D) 4\\pi\\left(x^{2}+y^{2}\\right)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2109,7 +2109,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tunataka kuyeyusha (katika 25°С) 0.1 g Fe(OH)3 katika 100 cm3 jumla ya ujazo. Ni ujazo mdogo zaidi (cm3) wa asidi yenye nguvu ya monobasic 0.1 M inayohitajika kuandaa suluhisho na ni pH ya suluhisho lililotokana?\n\n(A) pH 2.04; 28.05 cm3  \n(B) pH 4.94; 20.40 cm3  \n(C) pH 2.69; 30.09 cm3  \n(D) pH 3.16; 32.14 cm3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2122,7 +2122,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanachunguza mifumo miwili ya nyota za binary: system_1 na system_2. Uchunguzi unaonyesha kwamba mifumo yote inaonyesha kuzuiliwa kwa vipindi vya miaka 2 na mwaka 1, mtawalia, kwa system_1 na system_2. Vipindi hivi vinakokotolewa kama muda kati ya kuzuiliwa kuu mbili zinazofuatana. Uchunguzi zaidi wa spektroskopi unaonyesha kwamba katika system_1, nyota hizo mbili zinaonyesha mabadiliko ya sinusoidal ya kasi za radial zenye amplitudi za 10 km/s na 5 km/s. Katika system_2, amplitudi za mabadiliko ya RV sinusoidal ni 15 km/s na 10 km/s. Kwa kipimo gani system_1 ni nzito zaidi kuliko system_2? Fikiria uzito wa mfumo kuwa jumla ya uzito wa nyota zake mbili.\n\n(A) ~ 1.2  \n(B) ~ 0.7  \n(C) ~ 0.4  \n(D) ~ 0.6  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2135,7 +2135,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika maabara ya utafiti wa viwandani, mwanasayansi anafanya polymerization ya ethylene kwa kutumia mfumo wa katalisiti wa organometallic wenye umoja, akizalisha polymer yenye wiani wa juu. Anakusudia kuongeza mfumo wa pili wa katalisiti ili kuanzisha matawi ya kawaida katika mgongo wa polymer, akitumia ethylene pekee kama reagenti. Anamshauri mwanasayansi mzee, ambaye anatoa taarifa zifuatazo. “Mifumo kama hii ya pamoja tayari imewekwa kwa kiwango cha viwanda nchini Marekani. Mtu anaweza kutumia katalisiti ya metali za mpito za kundi VIa kwa pamoja na wakala maalum. Wakala wa msingi wa alumini hawawezi kufanya kazi kwa hatua muhimu ya ziada ya majibu. Katalisiti fulani za metali za thamani zinaweza kutumika lakini ni ghali sana.”\nNi ipi kati ya taarifa hizi nne ni sahihi kuhusu uundaji wa polymer yenye matawi ya kawaida kwa kutumia ethylene pekee kama monomeri na mfumo wa katalisiti mbili?\n\n(A) Mifumo kama hii ya pamoja tayari imewekwa kwa kiwango cha viwanda nchini Marekani.\n(B) Mtu anaweza kutumia katalisiti ya metali za mpito za kundi VIa kwa pamoja na wakala maalum.\n(C) Katalisiti fulani za metali za thamani zinaweza kutumika lakini ni ghali sana.\n(D) Wakala wa msingi wa alumini hawawezi kufanya kazi kwa hatua muhimu ya ziada ya majibu.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2148,7 +2148,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria upanuzi wa Mfano wa Kawaida uliopewa na Lagrangian ifuatayo\n\n\\mathcal{L}\\subset i\\bar{N}_{R}\\gamma^{\\mu}\\partial_{\\mu}N_{R}+\\frac{1}{2}\\left(\\partial^{\\mu}\\phi\\right)^{2}+\\left|D^{\\mu}S\\right|^{2}-\\frac{y_{i}}{2}\\phi\\bar{N}_{iR}^{c}N_{iR}^{c}-g_{i\\alpha}\\bar{N}_{iR}L_{\\alpha}S-V\\left(\\phi,S,H\\right)\nikiwa na fermioni za singlet, $N_{iR}\\sim\\left(1,1,0\\right)$, scalar-doublet $S\\sim\\left(1,2,1\\right)$, na scalar wa singlet $\\phi\\sim\\left(1,1,0\\right)$. Tunatoa $\\left\\langle \\phi\\right\\rangle ^{2}=\\left(x^{2}+\\upsilon^{2}\\right)$, ambapo $\\left\\langle \\phi\\right\\rangle =x$ na $\\left\\langle h\\right\\rangle =v$.\n\nJe, ni nini makadirio ya wingi wa bosoni wa pseudo-Goldstone $H_{2}$ kupitia marekebisho ya mionzi? \n\n(A) M_{h_{2}}^{2}=\\frac{\\left(x^{2}+v^{2}\\right)}{8\\pi^{2}}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}+\\alpha_{7}M_{A^{0}}^{4}-\\alpha_{8}\\sum M_{N_{i}}^{4}\\right\\}\n(B) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}+\\alpha_{7}M_{A^{0}}^{4}-\\alpha_{8}\\sum M_{N_{i}}^{4}\\right\\}\n(C) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}-\\alpha_{7}\\sum M_{N_{i}}^{4}\\right\\}\n(D) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}+\\alpha_{4}M_{H^{\\pm}}^{4}+\\alpha_{5}M_{H^{0}}^{4}+\\alpha_{6}M_{A^{0}}^{4}-\\alpha_{7}\\sum M_{N_{i}}^{4}\\right\\}\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2161,7 +2161,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hesabu kiasi cha non-Gaussianity (nG) katika hali ya Schrödinger cat kwa kutumia kipimo cha entropy ya uhusiano. Hali hii inafafanuliwa kama,\n|psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N;\nHapa, alpha ni amplitude, phi ni awamu na N ni kipimo cha kawaida.\nN = sqrt(1+ sin(2*phi)*exp(-2*alpha^2)).\nKipimo cha entropy ya uhusiano kinatolewa kama,\ndel_b = [trace(rho* ln(rho))-trace(tau* ln(tau))]\nambapo tau ni matrix ya wiani ya hali ya Gaussian ya rejea na rho ni matrix ya wiani ya hali ya non-Gaussian iliyotajwa hapo juu.\nHesabu nG kwa phi =-pi /4 na alpha= 0.5.\n\n(A) 0  \n(B) 2.48  \n(C) 0.25  \n(D) 1.38  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2174,7 +2174,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ni ipi kati ya masuala yafuatayo ndiyo vyanzo vya kawaida zaidi vya matokeo makosa ambayo ni magumu kuyatambua yanayotokana na uchambuzi wa data za genomics:\n\n- Mifumo ya data isiyoweza kuendana\n- Confusion ya \"chr\" / \"no chr\"\n- Kutofautiana kwa mkusanyiko wa rejea\n- Kubadilisha ID isiyo sahihi\n\n(A) Yote hapo juu\n(B) 3 na 4\n(C) 2 na 3\n(D) 2, 3 na 4\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2187,7 +2187,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unasoma miondoko ya nyuklia inayobadilisha nucleon mbili nzito za ladha A kuwa ladha nyingine B, huku ikitoa kwa wakati mmoja chembe mbili nyepesi zaidi E na V. Kwa kifupi, 2A -> 2B + 2E + 2V. Inajulikana kwamba spektra ya jumla ya nishati ya chembe za E zinazotoka ni endelevu, ikiwa na thamani fulani ya mwisho Q.\n\nTofauti ya miondoko hii inatoa chembe moja ya kigeni, isiyo na uzito M badala ya 2V. Katika kesi hii, je, spektra ya jumla ya nishati ya chembe za E zinazotoka inalinganishwaje na ile ya miondoko ya awali?\n\n(A) Spektra inabaki kuwa endelevu na umbo lililorekebishwa, na thamani ya mwisho inapungua.\n(B) Spektra inakuwa ya kutengwa, na thamani ya mwisho inaongezeka.\n(C) Spektra inabaki kuwa endelevu na umbo lililorekebishwa, na thamani ya mwisho inaongezeka.\n(D) Spektra inakuwa ya kutengwa, na thamani ya mwisho inapungua.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2200,7 +2200,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Melektroni iko katika hali ya spin (3i, 4). Pata thamani ya matarajio ya spin yake katika mwelekeo wa y, S_y.  \nKumbuka: \\sigma_y (katika muundo wa latex) ni:  \n\\begin{pmatrix}  \n0 & -i \\\\  \ni & 0  \n\\end{pmatrix}  \n\n(A) -12*hbar/25  \n(B) 12*hbar/25  \n(C) 25*hbar/2  \n(D) -25*hbar/2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2213,7 +2213,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Vifaa 1-6 vinapata mchakato wa ubadilishaji wa electrophilic na ziada ya bromini (inadhaniwa kuwa derivative moja ya monobromo pekee inaundwa):\n1) С6H5-CH3\n2) C6H5-COOC2H5\n3) C6H5-Cl\n4) C6H5-NO2\n5) C6H5-C2H5\n6) C6H5-COOH\nC6H5 - inamaanisha pete ya benzene\nPanga vifaa hivyo kwa mpangilio wa kuongezeka kwa sehemu ya uzito wa mavuno ya para-isomeri.\n\n(A) 4<2<6<3<1<5\n(B) 6<2<4<5<1<3\n(C) 4<6<2<1<5<3\n(D) 3<5<1<6<2<4\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2226,7 +2226,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nNyota mbili zinachunguzwa. Imekuwa ikionekana kwamba atomi za chuma katika fotosiferi ya nyota_1 zimehamasishwa mara mbili katika kiwango maalum cha nishati ikilinganishwa na atomi za chuma katika nyota_2. Kwa kweli, tofauti ya nishati kati ya viwango vya nishati vilivyotajwa iligundulika kuwa takriban 1.38 x 10^(-23) J. Tukichukulia kwamba fotosiferi za nyota ziko katika LTE, ni ipi kati ya hizi sawa za joto bora la nyota (T_1 na T_2) ni sahihi?\n\n(A) ln(2) = [ (T_1 - T_2) / (T1*T2)^2 ]\n(B) ln(2) = [ (T_1 - T_2) / (T1*T2)]\n(C) ln(2) = [ (T_1 + T_2) / (T1*T2)]\n(D) ln(2) = [ T_2 / T_1]\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2239,7 +2239,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ikiwa kutokuwa na uhakika katika nafasi ya eneo la elektroni, ambayo inasafiri kwa kasi v = 2 * 10^8 m/s katika mwelekeo wa x ni Δx = 0.1 nm. Kulingana na taarifa hii, estimate kutokuwa na uhakika kwa chini katika nishati ΔE ya elektroni.\n\n(A) ~10^(-16) J  \n(B) ~10^(-17) J  \n(C) ~10^(-18) J  \n(D) ~10^(-19) J  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2252,7 +2252,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Nuklea ya atomu yenye massa M iko katika hali ya kupumzika ikiwa na nishati ya massa ya kupumzika ya 300 GeV. Fisikia ya kujitokeza inatokea ambapo inagawanyika katika vipande viwili (na hakuna kingine), ambapo kipande kimoja kina massa mara 2 zaidi kuliko kingine (kwa kuzingatia massa zao za kupumzika). Jumla ya massa za kupumzika za vipande viwili ni 99% ya massa ya awali M.\n\nNishati ya kinetic ya kipande chenye massa zaidi ni T1. Ni tofauti gani kati ya thamani sahihi ya T1, na thamani ya T1 iliyohesabiwa kwa kutumia makadirio ya jadi (yasiyo ya relativistic)?\n\n(Puuzia elektroni.)\n\n(A) 2 MeV.  \n(B) 5 MeV.  \n(C) 10 MeV.  \n(D) 20 MeV.  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2265,7 +2265,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria usambazaji wa chaji unaosogea, ambao una umbo la spheroid (ikiwa na mhimili wa simetria kando ya mhimili wa z). Kwa sababu unasisimka, utatoa mionzi kwa urefu wa wimbi \\lambda. Katika eneo la mionzi, nguvu inayotolewa kwa kila kipimo cha pembe itakuwa kazi f ya \\lambda na pembe \\theta (pamoja na mhimili wa z), ambapo nguvu inapimwa. Ikiwa nguvu ya juu inayotolewa ni A, sehemu ya A ambayo itatoa mionzi kwa pembe \\theta = 30^0 na aina inayowezekana ya f ni, mtawalia,\n\n(A) 3/4, \\lambda^(-6)  \n(B) 1/4, \\lambda^(-4)  \n(C) 1/4, \\lambda^(-3)  \n(D) 1/2, \\lambda^(-4)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2278,7 +2278,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Hali ya mfumo katika wakati t inatolewa na matrix ya safu yenye vipengele (-1, 2, 1), na waendeshaji wa vitu viwili P na Q vya mfumo vinawakilishwa na matrix mbili za mraba. Matrix inayohusiana na waendeshaji P ina vipengele katika safu ya kwanza kama (0, 1/ \\sqrt{2}, 0), vipengele katika safu ya pili kama (1/ \\sqrt{2}, 0, 1/ \\sqrt{2}) na vilevile katika safu ya tatu kama (0, 1/ \\sqrt{2}, 0). Matrix waendeshaji wa Q inawakilishwa na matrix ya mraba yenye vipengele katika safu ya kwanza kama (1, 0, 0), safu ya pili kama (0, 0, 0) na safu ya tatu kama (0, 0, -1). Sasa, ikiwa mtu atapima Q mara tu baada ya kipimo cha P, ni nini uwezekano wa kupata 0 kwa P na -1 kwa Q katika vipimo husika?\n\n(A) 1/3  \n(B) 1/2  \n(C) 2/3  \n(D) 1/6  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2291,7 +2291,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanavutiwa na mwangaza wa nyota mbili. Star_1 ina radius ambayo ni kubwa mara 1.5 kuliko ile ya Star_2. Masi ya Star_1 pia ni kubwa kwa kipimo hicho hicho (mara 1.5). Kupitia spectroscopy, wanastronomia walifanikiwa kubaini mawimbi ambayo nyota zilionekana kuwa na mwangaza mkubwa zaidi, na waligundua kuwa ni sawa. Wanastronomia pia walihesabu kasi za radial za nyota hizo mbili kuwa 0 na 700 km/s kwa Star_1 na Star_2 mtawalia. Wakichukulia kuwa nyota zinatoa mionzi kama miili ya giza, walikadiria mwangaza wa Star_1 kuwa mkubwa zaidi kuliko mwangaza wa Star_2 kwa kipimo cha:\n\n(A) ~2.25  \n(B) ~2.23  \n(C) ~2.35  \n(D) ~2.32  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2304,7 +2304,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kutolewa kwa Lagrangian ifuatayo\n\n\\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu}\n\nambapo \\sigma_{\\mu\\nu}=\\frac{i}{2}\\left[\\gamma_{\\mu},\\gamma_{\\nu}\\right].\n\nJe, kipimo cha wingi wa massa cha \\kappa ni nini? Je, nadharia hii inaweza kurekebishwa?\n\n(A) Kipimo cha wingi wa massa \\left[\\kappa\\right]_{M}=1. Nadharia hii haiwezi kurekebishwa.\n(B) Kipimo cha wingi wa massa \\left[\\kappa\\right]_{M}=-1. Nadharia hii haiwezi kurekebishwa.\n(C) Kipimo cha wingi wa massa \\left[\\kappa\\right]_{M}=1. Nadharia hii inaweza kurekebishwa.\n(D) Kipimo cha wingi wa massa \\left[\\kappa\\right]_{M}=-1. Nadharia hii inaweza kurekebishwa.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2317,7 +2317,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Masomo ya mekanika ya quantum yanahusisha matriki nyingi. Fikiria kuhusu matriki zifuatazo.\n\nW = (0, 0, 1; 0, 1, 0; 1, 0, 0),  \nX = (i, -1, 2i; 1, 0, 1; 2i, -1, -i),  \nY = (0.5, 0.1, 0.2; 0.1, 0.25, 0.1; 0.2, 0.1, 0.25)  \nZ = (3, 2i, 5; -2i, -2, -4i; 5, 4i, 4)  \n\nKumbuka. Matriki zimeandikwa kwa namna ambayo kila safu ya matriki inatenganishwa na alama ya semikolon.  \n\nKulingana na matriki hizi, chagua kauli sahihi.\n\n(A) Z na X zinawakilisha vitu vinavyoweza kuangaziwa.  \n(B) (e^X)*Y*(e^{-X}) inawakilisha hali ya quantum.  \n(C) Kuna vector ambayo ikiwa itazidishwa na e^X, norm ya vector inabadilika.  \n(D) W na X zinawakilisha opereta ya maendeleo ya mfumo fulani wa quantum.  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2330,7 +2330,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfumo uliojitegemea wa chembe 13 sawa, kila moja ikiwa na chaji 2e na uzito usio na maana. 12 ya hizi chaji zimefungwa kubaki umbali wa 2 m kutoka kwenye pointi P. Chaji ya 13 imewekwa kwenye P. Ni nishati ndogo zaidi (katika Joules) ya mfumo huu sahihi hadi tarakimu tatu baada ya alama ya decimal?\n\n(A) 5.645 x 10^-26  \n(B) 122.330  \n(C) 7.056 x 10^-27  \n(D) 2.822 x 10^-26  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2343,7 +2343,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo la fizikia:\nIdadi kubwa sana ya neutrinos inayozalishwa na Jua inafikia Dunia (mchango mkubwa sana wa neutrinos, unaofafanuliwa kama idadi ya neutrinos kwa cm^2, kwa sekunde).\n\nTuchukulie kwamba, kwa dhana, tawi la pp-III lilisimama ghafla katika kiini cha Jua takriban dakika 8 na nusu zilizopita, wakati mchakato mingine yote ilibaki kama ilivyo.\n\nJe, uwiano wa takriban wa mchango kati ya bendi mbili za nishati za neutrino za 700-800 KeV (bendi 1) na 800-900 keV (bendi 2) ungekuwa nini?\n\nMchango (bendi 1) / mchango (bendi 2) ni:\n\n(Kumbuka: tunazungumzia kusimamisha tawi la pp-III, si pp-II, pp-I au nyingine yoyote. Si makosa ya uchapaji au kitu kama hicho.)\n(Kumbuka 2: mabadiliko ya ladha za neutrino za jua hutokea, lakini hayawezi kuwa na jukumu hapa.)\n\n(A) 0.1 (10^-1).\n(B) 1.\n(C) 0.01 (10^-2).\n(D) 10.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2356,7 +2356,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Msingi wa Mott-Gurney unaelezea tabia ya sasa ya giza (J) dhidi ya voltage (V) ya kifaa cha semiconductor katika hali ya sasa iliyo na mipaka ya malipo (SCLC). Msingi huu unaweza kuandikwa kama\n$ J = \\frac{9}{8} \\epsilon \\mu \\frac{V^2}{L^3}$\nambapo $\\epsilon$ ni kipimo cha dielectri, $\\mu$ ni uhamaji wa kubeba malipo, na L ni urefu wa kifaa. Ni ipi kati ya taarifa zifuatazo ni kweli kuhusu uhalali wa msingi huu?\n\n(A) Msingi wa Mott-Gurney ni halali kwa kifaa chenye kubeba malipo kimoja chenye muunganisho wa Schottky na sasa ya diffusion isiyo na maana.\n(B) Msingi wa Mott-Gurney ni halali kwa kifaa chenye kubeba malipo mawili chenye muunganisho wa Ohmic na sasa ya diffusion isiyo na maana.\n(C) Msingi wa Mott-Gurney ni halali kwa kifaa chenye kubeba malipo kimoja kisicho na mtrap na hakuna kizuizi cha kuingiza malipo na sasa ya diffusion isiyo na maana.\n(D) Msingi wa Mott-Gurney ni halali kwa kifaa chenye kubeba malipo kimoja kisicho na mtrap chenye muunganisho wa Ohmic na sasa ya drift isiyo na maana.\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2369,7 +2369,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Je, ni nini index ya ukosefu wa hidrojeni ya bidhaa inayopatikana wakati asidi ya 2-formyl-5-vinylcyclohex-3-enecarboxylic inapoingiliana na fosforasi nyekundu na ziada ya HI?\n\n(A) 0  \n(B) 3  \n(C) 1  \n(D) 5  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2382,7 +2382,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo: Ni mfululizo upi wa majibu kutoka kwa chaguo zifuatazo utasababisha sintesi yenye mavuno makubwa ya 2-(tert-butyl)-1-ethoxy-3-nitrobenzene, ukianza na benzene?\n\n(A) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) tert-butyl chloride/AlCl3 ; iv) HNO3/H2SO4 ; v) NaNO2/HCl ; vi) SO3/H2SO4 ; vii) dilute H2SO4 ; viii) H3O+, H2O/Heat ; ix) NaOH/EtBr  \n(B) i) tert-butyl chloride/AlCl3 ; ii) SO3/H2SO4 ; iii) HNO3/H2SO4 ; iv) Fe/HCl ; v) NaNO2/HCl ; vi) HNO3/H2SO4 ; vii) H3O+, H2O/Heat ; viii) dilute H2SO4 ; ix) NaOH/EtBr  \n(C) i) tert-butyl chloride/AlCl3 ; ii) HNO3/H2SO4 ; iii) SO3/H2SO4 ; iv) NaNO2/HCl ; v) dilute H2SO4 ; vi) H3O+, H2O/Heat ; vii) NaOH/EtBr ; viii) Fe/HCl ; ix) HNO3/H2SO4  \n(D) i) tert-butyl chloride/AlCl3 ; ii) HNO3/H2SO4 ; iii) Fe/HCl ; iv) HNO3/H2SO4 ; v) NaNO2/HCl ; vi) H3O+, H2O/Heat ; vii) NaOH/EtBr ; viii) SO3/H2SO4 ; ix) dilute H2SO4  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2395,7 +2395,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfumo wenye opereta ya Hamiltoni $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$. Hapa, $\\vec{n}$ ni vector ya kitengo isiyo na mwelekeo maalum, $\\varepsilon $ ni thibitisho la kipimo cha nishati, na vipengele vya $\\vec{\\sigma}$ ni matrices za spin za Pauli. Ni nini thamani za eigen za opereta ya Hamiltoni?\n\n(A) +\\hbar/2, -\\hbar/2  \n(B) + \\varepsilon, -\\varepsilon  \n(C) +1, -1  \n(D) +\\varepsilon \\hbar/2, - \\varepsilon \\hbar/2  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2408,7 +2408,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tambua bidhaa inayowezekana wakati (1S,4R)-2-vinyl-2-azabicyclo[2.2.1]hept-5-ene inapofanya mabadiliko ya Cope.\n\n(A) 4,6,7,7a-tetrahydro-3H-cyclopenta[c]pyridine  \n(B) 4,4a,5,6-tetrahydro-1H-cyclopenta[c]pyridine  \n(C) 4,4a,7,7a-tetrahydro-1H-cyclopenta[c]pyridine  \n(D) 4,4a,5,7a-tetrahydro-3H-cyclopenta[c]pyridine  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2421,7 +2421,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Je, ni ngapi kati ya nyota zilizo orodheshwa hapa chini ambazo zitaweza kugundulika kwa kutumia spectrograph ya ESPRESSO, wakati inapounganishwa na moja ya teleskopu za 8m VLT katika Observatory ya Paranal? Nyota inachukuliwa kuwa inagundulika ikiwa uwiano wa ishara hadi kelele (S/N) wa angalau 10 kwa pixel iliyopangwa wakati wa mionekano ya saa 1 unapatikana.\n\nKwa maelezo zaidi kuhusu spectrograph ya ESPRESSO, tafadhali rejelea kiungo kifuatacho:\nhttps://www.eso.org/sci/facilities/paranal/instruments/espresso/overview.html\n\na) Canopus  \nb) Polaris  \nc) Nyota yenye RA = 0 deg na DEC = 0 deg, Magnitudo ya V ya Kipekee ya 15 mag na iliyoko katika umbali wa 10 pc kutoka kwetu.  \nd) Nyota yenye RA = 0 deg na DEC = 0 deg, Magnitudo ya V ya Kipekee ya 15 mag na iliyoko katika umbali wa 200 pc kutoka kwetu.  \ne) Nyota yenye RA = 0 deg na DEC = 0 deg, Magnitudo ya V ya Kipekee ya 15 mag na iliyoko katika umbali wa 5 pc kutoka kwetu.  \nf) Nyota yenye RA = 0 deg na DEC = 0 deg, Magnitudo ya V ya Kipekee ya 15 mag na iliyoko katika umbali wa 50 pc kutoka kwetu.  \n\n(A) 3  \n(B) 2  \n(C) 4  \n(D) 5  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2434,7 +2434,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria kioo cha rhombohedral, chenye umbali wa interatomic wa 10 Angstrom na pembe $\\quad\\alpha=\\beta=\\gamma=30^{0}$. Ni umbali gani wa interplanar wa ndege ya (111) ya kioo hicho?\n\n(A) 9.54 Angstrom  \n(B) 9.08 Angstrom  \n(C) 10.05 Angstrom  \n(D) 8.95 Angstrom  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2447,7 +2447,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tatizo hili la fizikia linaweza kutafsiriwa kwa Kiswahili kama ifuatavyo:\n\nNi ipi kati ya chembe (efektifu) zifuatazo haina uhusiano na symmetry iliyovunjika kwa hiari?\n\n(A) Phonon  \n(B) Skyrmion  \n(C) Magnon  \n(D) Pion  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2460,7 +2460,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Majibu ya mchanganyiko wa donari wa jozi ya elektroni, nucleophile (Nu) na mpokeaji wa jozi ya elektroni huitwa mchakato wa uingizaji wa nucleophilic. Electrophile iliyo na sp3-hybridization inahitaji kuwa na kundi la kuondoka ili kuendelea na mchakato. Mchakato wa uingizaji una aina mbili. Moja ni SN1 na nyingine ni mchakato wa SN2. Kinyume na mchakato wa uingizaji, mchakato wa kuondoa unahusisha kuondolewa kwa jozi au vikundi vya atomi kutoka kwa molekuli. Hizi ni mchakato wa kemikali ambapo viwanja vya kikaboni vilivyounganishwa kwa kaboni moja kwa moja vinabadilishwa kuwa viwanja vyenye viunganishi vya mara mbili/tatu (viwanja visivyo na saturi).\n\nPanga nucleophiles zifuatazo kutoka kwa zenye nguvu zaidi hadi zenye nguvu kidogo katika suluhisho la maji.\n\n1. 4-methylcyclohexan-1-olate\n2. Hydroxide\n3. Propionate\n4. Methanol\n5. Ethanethiolate\n\n(A) 5, 2, 1, 3 na 4  \n(B) 2, 5, 1, 4 na 3  \n(C) 5, 2, 3, 1 na 4  \n(D) 2, 5, 3, 4 na 3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2473,7 +2473,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "3-(hydroxymethyl)-5-(prop-1-en-2-yl)cyclohexan-1-one inatibiwa na sodium hydride, ikifuatiwa na benzyl bromide, na kuunda bidhaa 1.\n\nBidhaa 1 inatibiwa na p-toluenesulfonyl hydrazide katika uwepo wa kiasi kidogo cha HCl, na kuunda bidhaa 2.\n\nBidhaa 2 inatibiwa kwa joto la chini na n-butyllithium, ikifuatiwa na ammonium chloride ya maji, na kuunda bidhaa 3.\n\nBidhaa 3 inachanganywa na Pd/C chini ya anga ya hidrojeni, na kuunda bidhaa 4.\n\nJe, muundo wa bidhaa 4 ni upi?\n\n(A) (((3-isopropylcyclohexyl)methoxy)methyl)benzene  \n(B) 3-((benzyloxy)methyl)-1-butyl-5-isopropylcyclohexan-1-ol  \n(C) (3-isopropylcyclohexyl)methanol  \n(D) N'-(3-(hydroxymethyl)-5-isopropylcyclohexyl)-4-methylbenzenesulfonohydrazide  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2486,7 +2486,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfuatano wa sfera isiyo na chaji yenye radius $R$ ikiwa na cavity ndogo ya sfera ndani yake. Kituo cha cavity kimeachwa kwa umbali $s$ kutoka kituo cha mfuatano wa sfera. Radius ya cavity ni $r$, na $r<R$. Sasa fikiria kiasi kidogo cha chaji chanya $+q$ kimewekwa mahali fulani ndani ya cavity. Ni kiasi gani cha uwanja wa umeme $\\vec{E}$ katika pointi P (nje ya mfuatano wa sfera) ya umbali $L$ kutoka kituo cha mfuatano wa sfera? Kumbuka, umbali wa pointi P kutoka kituo cha cavity ni $l$. Hapa, l, L > R. Angle kati ya $l$ na $s$ ni $\\theta$.\n\n(A) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{l^2}$\n(B) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{L^2}$\n(C) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{(l+s \\cos\\theta)^2}$\n(D) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{(l-s \\cos\\theta)^2}$\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2499,7 +2499,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika eneo maalum la anga, wanajimu wameona kwamba idadi ya nyota inabadilika na parallax kama 1/plx^5. Jinsi gani idadi ya nyota katika eneo hilo la anga inabadilika na umbali (kwa kila kitengo cha umbali, r)?\n\n(A) ~ r^2  \n(B) ~ r^4  \n(C) ~ r^5  \n(D) ~ r^3  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2512,7 +2512,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria mfumo wa spins tatu S1, S2 na S3. Kila moja inaweza kuwa na spin +1 na -1. Nguvu ya mfumo inatolewa na, E= -J[ S1S2 +S1S3+S2S3 ]. \nPata kazi ya sehemu Z ya mfumo. (\\beta = 1/kT , k= kipimo cha boltzmann na T= joto)\n\n(A) Z= 6e^(2J\\beta)+2e^(-2J\\beta)  \n(B) Z= 2 e^(-3J\\beta)+6e^(J\\beta)  \n(C) Z= 2 e^(3J\\beta)+6e^(-J\\beta)  \n(D) Z= 2e^(2J\\beta)+6e^(-2J\\beta)  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2525,7 +2525,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wanastronomia wanatazama sayari yenye radius ya radius 1 ya Dunia katika obiti ya mzunguko, ikiwa na kipimo cha athari ya kupita cha 0.2, kuzunguka nyota ambayo ina radius mara 1.5 ya ile ya Jua. Sayari hii ina kipindi cha obiti cha siku 3. Ni kipindi kipi kikubwa cha obiti cha sayari ya pili, yenye radius mara 2.5 ya ile ya Dunia, katika mfumo huo huo ambayo itakuwa na matukio ya kupita na kufichwa? Kadiria kwamba sayari ya pili pia ina obiti ya mzunguko na inashiriki ndege ile ile ya obiti kama sayari ya kupita iliyotajwa hapo awali.\n\n(A) ~ 7.5  \n(B) ~ 33.5  \n(C) ~ 37.5  \n(D) ~ 12.5  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2538,7 +2538,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria oscillator wa harmonic wa relativistic wa dimensional moja wenye massa $m$ na amplitude ya juu $A$ inayofuata sheria ya Hook ($F=-kx$). Ni nini kasi ya juu $v_{max}$ ya massa? Kasi ya mwanga ni $c$.\n\n(A) $v_{max}=c\\sqrt{1+\\frac{1}{(1-\\frac{kA^2}{2mc^2})}}$  \n(B) $v_{max}=c\\sqrt{1-\\frac{1}{(1+\\frac{kA^2}{2mc^2})^2}}$  \n(C) $v_{max}=c\\sqrt{1+\\frac{1}{(1-\\frac{kA^2}{2m})^2}}$  \n(D) $v_{max}=\\sqrt{\\frac{kA^2}{m}}$  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2551,7 +2551,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kiwango X, ambacho kina data zifuatazo za IR na NMR, kinajibu na fosforasi nyekundu na HI. Tambua bidhaa ya mwisho.\nIR: 3400–2500 cm-1, 1720 cm-1, 1610 cm-1, 1450 cm-1\n1H NMR: 10.5 ppm (bs, 1H), 8.0 ppm (d, 2H), 7.2 ppm (d, 2H), 2.9 ppm (m, 1H), 1.7 ppm (m, 2H), 1.4 ppm (d, 3H), 0.9 ppm (t, 3H).\n\n(A) 4-(sec-butyl)benzoic acid  \n(B) 1-isobutyl-4-methylbenzene  \n(C) 1-(sec-butyl)-4-methylbenzene  \n(D) 2-(4-ethylphenyl)propanoic acid  \n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2564,7 +2564,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tuna suluhisho lenye ioni za Co(II) na thiocyanate, ambapo mkusanyiko wa jumla wa kobalti ni c(Co) = 10^-2 M na mkusanyiko wa [SCN-] ni 0.1 M. Mifumo ya uthibitisho ya mchanganyiko wa thiocyanato wa kobalti(II) ni β1=9, β2=40, β3=63 na β4=16. Ni asilimia ngapi ya mchanganyiko wa buluu wa dithiocyanato wa kobalti(II) kati ya aina zote za kobalti zilizopo katika suluhisho?\n\n(A) 38.1%\n(B) 16.9%\n(C) 42.3%\n(D) 25.6%\n\nTafadhali andika jibu lako la mwisho katika mfumo wa \\boxed{A}, \\boxed{B}, \\boxed{C}, au \\boxed{D}"
       }
     ],
     "final_answer": "",

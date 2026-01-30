@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kila asubuhi Aya anatembea kwa umbali wa $9$ kilomita na anasimama katika duka la kahawa baada ya hapo. Wakati anatembea kwa kasi ya $s$ kilomita kwa saa, matembezi yanachukua masaa 4, ikiwa ni pamoja na dakika $t$ alizotumia katika duka la kahawa. Wakati anatembea $s+2$ kilomita kwa saa, matembezi yanachukua masaa 2 na dakika 24, ikiwa ni pamoja na dakika $t$ alizotumia katika duka la kahawa. Kiasi Aya anatembea kwa $s+\\frac{1}{2}$ kilomita kwa saa. Pata idadi ya dakika matembezi yanachukua, ikiwa ni pamoja na dakika $t$ alizotumia katika duka la kahawa."
       }
     ],
     "final_answer": "204",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $ABC$ iwe pembetatu iliyoandikwa ndani ya duara $\\omega$. Acha mipaka kwa $\\omega$ katika $B$ na $C$ ikutane katika pointi $D$, na acha $\\overline{AD}$ ikutane na $\\omega$ katika $P$. Ikiwa $AB=5$, $BC=9$, na $AC=10$, $AP$ inaweza kuandikwa katika mfumo wa $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari za msingi zisizo na sehemu. Pata $m + n$."
       }
     ],
     "final_answer": "113",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kila kilele cha octagon ya kawaida kina rangi tofauti ya red au blue kwa uwezekano sawa. Uwezekano kwamba octagon inaweza kuzungushwa hivyo kwamba kilele vyote vya blue vinakuwa katika nafasi ambapo awali kulikuwa na kilele vya red ni $\\tfrac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya ambazo hazina sehemu ya kawaida. Ni nini $m+n$?"
       }
     ],
     "final_answer": "371",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Taja $f(x)=|| x|-\\tfrac{1}{2}|$ na $g(x)=|| x|-\\tfrac{1}{4}|$. Tafuta idadi ya makutano ya grafu za \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ na }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]"
       }
     ],
     "final_answer": "385",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $p$ iwe nambari ya kwanza ndogo zaidi ambayo kuna nambari chanya $n$ ambayo $n^{4}+1$ inagawanyika kwa $p^{2}$. Tafuta nambari chanya ndogo zaidi $m$ ambayo $m^{4}+1$ inagawanyika kwa $p^{2}$."
       }
     ],
     "final_answer": "110",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $ABCD$ iwe tetrahedoni ambapo $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$, na $BC=AD= \\sqrt{89}$. Kuna pointi $I$ ndani ya tetrahedoni ambapo umbali kutoka $I$ hadi kila uso wa tetrahedoni ni sawa. Umbali huu unaweza kuandikwa katika mfumo wa $\\frac{m \\sqrt n}{p}$, ambapo $m$, $n$, na $p$ ni nambari chanya, $m$ na $p$ ni nambari zisizo na sehemu ya pamoja, na $n$ haiwezi kugawanywa na mraba wa nambari ya msingi yoyote. Tafuta $m+n+p$."
       }
     ],
     "final_answer": "104",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $\\mathcal{B}$ iwe seti ya masanduku ya mraba yenye eneo la uso $54$ na ujazo $23$. Acha $r$ iwe radius ya duara ndogo zaidi inayoweza kubeba kila mmoja wa masanduku ya mraba ambao ni vipengele vya $\\mathcal{B}$. Thamani ya $r^2$ inaweza kuandikwa kama $\\frac{p}{q}$, ambapo $p$ na $q$ ni nambari chanya ambazo hazina sehemu ya kawaida. Tafuta $p+q$."
       }
     ],
     "final_answer": "721",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna nambari halisi $x$ na $y$, zote zikiwa kubwa kuliko 1, kiasi kwamba $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Tafuta $xy$."
       }
     ],
     "final_answer": "025",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice na Bob wanacheza mchezo ufuatao. Kifungu cha $n$ alama kiko mbele yao. Wachezaji wanachukua zamu ambapo Alice anaanza kwanza. Kila zamu, mchezaji anaondoa ama $1$ alama au $4$ alama kutoka kwenye kifungu. Yule anayeondoa alama ya mwisho ndiye anashinda. Tafuta idadi ya nambari chanya $n$ zilizo chini au sawa na $2024$ ambazo zina mkakati kwa Bob unaohakikisha kuwa Bob atashinda mchezo bila kujali jinsi Alice anavyocheza."
       }
     ],
     "final_answer": "809",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Jen anaingia kwenye bahati nasibu kwa kuchagua $4$ nambari tofauti kutoka $S=\\{1,2,3,\\cdots,9,10\\}.$ Nambari $4$ zinachaguliwa kwa bahati nasibu kutoka $S.$ Anashinda zawadi ikiwa angalau mbili kati ya nambari zake zilikuwa $2$ kati ya nambari zilizochaguliwa kwa bahati nasibu, na anashinda zawadi kuu ikiwa nambari zake zote nne zilikuwa nambari zilizochaguliwa kwa bahati nasibu. Uwezekano wa yeye kushinda zawadi kuu ikiwa alishinda zawadi ni $\\tfrac{m}{n}$ ambapo $m$ na $n$ ni nambari chanya ambazo hazina sehemu ya kawaida. Pata $m+n$."
       }
     ],
     "final_answer": "116",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Masanduku $ABCD$ na $EFGH$ yamechorwa kwa namna ambayo $D,E,C,F$ wako kwenye mstari mmoja. Pia, $A,D,H,G$ wote wako kwenye duara. Ikiwa $BC=16$, $AB=107$, $FG=17$, na $EF=184$, je, urefu wa $CE$ ni nini?"
       }
     ],
     "final_answer": "104",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fikiria njia za urefu $16$ zinazofuata mistari kutoka kona ya chini kushoto hadi kona ya juu kulia kwenye gridi ya $8\\times 8$. Pata idadi ya njia hizo ambazo hubadilisha mwelekeo mara nne tu, kama katika mifano iliyoonyeshwa hapa chini."
       }
     ],
     "final_answer": "294",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tafuta sehemu kubwa zaidi inayowezekana ya halisi ya \\[(75+117i)z+\\frac{96+144i}{z}\\] ambapo $z$ ni nambari tata yenye $|z|=4$."
       }
     ],
     "final_answer": "540",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Nne mizunguko yenye radius $34$ inagusa kwa mfululizo, na mizunguko miwili inagusa $AB$ na $BC$ ya pembetatu $ABC$, mtawalia. Mizunguko $2024$ yenye radius $1$ inaweza kuandaliwa kwa njia ile ile. Radius ya ndani ya pembetatu $ABC$ inaweza kuonyeshwa kama $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizoweza kugawanywa. Tafuta $m+n$."
       }
     ],
     "final_answer": "197",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $A$, $B$, $C$, na $D$ kuwa pointi kwenye hyperbola $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ ambapo $ABCD$ ni rhombus ambao diagonali zake zinakutana kwenye asili. Tafuta nambari halisi kubwa zaidi ambayo ni ndogo kuliko $BD^2$ kwa ajili ya rhombus zote kama hizo."
       }
     ],
     "final_answer": "480",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kati ya wakaazi 900 wa Aimeville, kuna 195 ambao wana pete ya almasi, 367 ambao wana seti ya vifaa vya gofu, na 562 ambao wana spade ya bustani. Zaidi ya hayo, kila mmoja wa wakaazi 900 ana mfuko wa pipi za moyo. Kuna wakaazi 437 ambao wana hasa vitu viwili kati ya hivi, na wakaazi 234 ambao wana hasa vitu vitatu kati ya hivi. Pata idadi ya wakaazi wa Aimeville wanaomiliki vitu vyote vinne kati ya hivi."
       }
     ],
     "final_answer": "073",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $\\triangle ABC$ iwe na kituo cha mzunguko $O$ na kituo cha ndani $I$ ambapo $\\overline{IA}\\perp\\overline{OI}$, mzunguko wa mzunguko ni $13$, na mzunguko wa ndani ni $6$. Tafuta $AB\\cdot AC$."
       }
     ],
     "final_answer": "468",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tafuta idadi ya triples za nambari zisizo na hasi \\((a,b,c)\\) zinazos satisfy \\(a + b + c = 300\\) na\n\\begin{equation*}\na^2b + a^2c + b^2a + b^2c + c^2a + c^2b = 6,000,000.\n\\end{equation*}"
       }
     ],
     "final_answer": "601",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\), na \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) kuwa pointi katika ndege ya kuratibu. Acha \\(\\mathcal{F}\\) iwe familia ya vipande \\(\\overline{PQ}\\) vya urefu wa kitengo vinavyopatikana katika quadranti ya kwanza ambapo \\(P\\) iko kwenye mhimili wa \\(x\\) na \\(Q\\) iko kwenye mhimili wa \\(y\\). Kuna pointi ya kipekee \\(C\\) kwenye \\(\\overline{AB}\\), tofauti na \\(A\\) na \\(B\\), ambayo haitumii katika kipande chochote kutoka \\(\\mathcal{F}\\) isipokuwa \\(\\overline{AB}\\). Kisha \\(OC^2=\\tfrac{p}{q}\\), ambapo \\(p\\) na \\(q\\) ni nambari chanya zisizo na sehemu ya kawaida. Tafuta \\(p+q\\)."
       }
     ],
     "final_answer": "023",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $\\omega\\neq 1$ iwe mzizi wa umoja wa 13. Pata baki wakati\n\\[\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})\\]\ninatenganishwa na 1000."
       }
     ],
     "final_answer": "321",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha \\(b\\ge 2\\) iwe nambari kamili. Kuita nambari chanya \\(n\\) iwe \\(b\\text-\\textit{mrembo}\\) ikiwa ina tarakimu mbili tu inapowakilishwa katika msingi \\(b\\) na tarakimu hizi mbili zinajumlisha hadi \\(\\sqrt n\\). Kwa mfano, \\(81\\) ni \\(13\\text-\\textit{mrembo}\\) kwa sababu \\(81 = \\underline{6} \\ \\underline{3}_{13}\\) na \\(6 + 3 = \\sqrt{81}\\). Tafuta nambari ndogo zaidi \\(b\\ge 2\\) kwa ambayo kuna zaidi ya kumi ya nambari \\(b\\text-\\textit{mrembo}\\)."
       }
     ],
     "final_answer": "211",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Pata idadi ya mraba ambao unaweza kuundwa ndani ya dodekagoni iliyowekwa (poligoni ya $12$) ambapo kila upande wa mraba unakaa kwenye upande au diagonal ya dodekagoni. Mchoro hapa chini unaonyesha miongoni mwa mraba hao watatu.\n[asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy]"
       }
     ],
     "final_answer": "315",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Orodha ya nambari chanya ina sifa zifuatazo:\n$\\bullet$ Jumla ya vitu katika orodha ni $30$.\n$\\bullet$ Msimamo wa kipekee wa orodha ni $9$.\n$\\bullet$ Kati ya orodha ni nambari chanya ambayo haionekani katika orodha yenyewe.\nPata jumla ya mraba wa vitu vyote katika orodha."
       }
     ],
     "final_answer": "236",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Pata idadi ya njia za kuweka kidijitali katika kila seli ya gridi ya 2x3 ili jumla ya nambari mbili zinazoundwa kwa kusoma kutoka kushoto kwenda kulia iwe $999$, na jumla ya nambari tatu zinazoundwa kwa kusoma kutoka juu hadi chini iwe $99$. Gridi iliyo hapa chini ni mfano wa mpangilio kama huo kwa sababu $8+991=999$ na $9+9+81=99$.\n\\[\\begin{array}{|c|c|c|} \\hline 0 & 0 & 8 \\\\ \\hline 9 & 9 & 1 \\\\ \\hline \\end{array}\\]"
       }
     ],
     "final_answer": "045",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $x,y$ na $z$ kuwa nambari halisi chanya ambazo zinakidhi mfumo ufuatao wa sawa:\n\\[\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}\\]\\[\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}\\]\\[\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}\\]\nBasi thamani ya $\\left|\\log_2(x^4y^3z^2)\\right|$ ni $\\tfrac{m}{n}$ ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya pamoja. Pata $m+n$."
       }
     ],
     "final_answer": "033",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha ABCDEF iwe hexagoni yenye pembe sita sawa na yenye mwelekeo wa pande zote. Pembetatu ambayo pande zake ni nyongeza za sehemu AB, CD, na EF ina urefu wa pande 200, 240, na 300. Tafuta urefu wa upande wa hexagoni."
       }
     ],
     "final_answer": "080",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alice anachagua seti $A$ ya nambari chanya. Kisha Bob anaorodhesha seti zote zisizo na mwisho na zisizo tupu $B$ za nambari chanya zenye sifa kwamba kipengele kikubwa cha $B$ kinapatikana katika $A$. Orodha ya Bob ina seti 2024. Pata jumla ya vipengele vya $A$."
       }
     ],
     "final_answer": "055",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $N$ iwe nambari kubwa zaidi ya tarakimu nne chanya yenye sifa kwamba kila wakati moja ya tarakimu zake inabadilishwa kuwa $1$, nambari inayotokana na hiyo inakuwa na uwezo wa kugawanywa kwa $7$. Acha $Q$ na $R$ wawe sehemu na mabaki, mtawalia, wakati $N$ inagawanywa kwa $1000$. Pata $Q+R$."
       }
     ],
     "final_answer": "699",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Torus $T$ ni uso unaozalishwa kwa kuzungusha mduara wenye radius $3$ kuzunguka mhimili katika ndege ya mduara ambao uko umbali wa $6$ kutoka katikati ya mduara (kama donati). Acha $S$ iwe ni sfera yenye radius $11$. Wakati $T$ inapoegemea nje ya $S$, inakuwa na mguso wa nje na $S$ kando ya mduara wenye radius $r_i$, na wakati $T$ inapoegemea nje ya $S$, inakuwa na mguso wa nje na $S$ kando ya mduara wenye radius $r_o$. Tofauti $r_i-r_o$ inaweza kuandikwa kama $\\tfrac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya ambazo hazina sehemu ya kawaida. Pata $m+n$."
       }
     ],
     "final_answer": "127",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna mkusanyiko wa $25$ chips za rangi nyeupe zisizoweza kutofautishwa na $25$ chips za rangi nyeusi zisizoweza kutofautishwa. Tafuta idadi ya njia za kuweka baadhi ya chips hizi katika seli $25$ za gridi ya $5\\times5$ kwa njia ambayo:\n\nkila seli ina chip moja tu kwa kiwango cha juu\nchips zote katika safu moja na chips zote katika nguzo moja zina rangi sawa\nchip yoyote ya ziada iliyowekwa kwenye gridi itakiuka moja au zaidi ya masharti mawili ya awali."
       }
     ],
     "final_answer": "902",

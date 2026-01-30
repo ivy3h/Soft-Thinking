@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Quantenzustände mit den Energien E1 und E2 haben eine Lebensdauer von 10^-9 sec bzw. 10^-8 sec. Wir möchten diese beiden Energieniveaus klar unterscheiden. Welcher der folgenden Optionen könnte ihre Energiedifferenz sein, damit sie klar aufgelöst werden können?\n\n(A) 10^-11 eV  \n(B) 10^-8 eV  \n(C) 10^-9 eV  \n(D) 10^-4 eV  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "trans-Cinnamaldehyd wurde mit Methylmagnesiumbromid behandelt, was Produkt 1 bildete.\n\nProdukt 1 wurde mit Pyridiniumchlorochromat behandelt, was Produkt 2 bildete.\n\nProdukt 2 wurde mit (Dimethyl(oxo)-l6-sulfaneylidene)methan in DMSO bei erhöhter Temperatur behandelt, was Produkt 3 bildete.\n\nWie viele Kohlenstoffatome sind in Produkt 3 enthalten?\n\n(A) 10  \n(B) 12  \n(C) 14  \n(D) 11  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Spin-1/2-Teilchen befindet sich in einer linearen Überlagerung 0.5|\\uparrow\\rangle+\\sqrt{3}/2|\\downarrow\\rangle seiner Spin-up- und Spin-down-Zustände. Wenn |\\uparrow\\rangle und |\\downarrow\\rangle die Eigenzustände von \\sigma{z} sind, was ist dann der Erwartungswert bis auf eine Dezimalstelle des Operators 10\\sigma{z}+5\\sigma_{x}? Hier haben die Symbole ihre üblichen Bedeutungen.\n\n(A) 0.85  \n(B) -0.7  \n(C) -1.4  \n(D) 1.65  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einem parallelen Universum, in dem ein Magnet einen isolierten Nord- oder Südpol haben kann, sehen Maxwells Gleichungen anders aus. Aber welche dieser Gleichungen sind speziell anders?\n\n(A) Die, die mit der Divergenz und dem Wirbel des Magnetfeldes zusammenhängen.  \n(B) Die, die mit der Zirkulation des elektrischen Feldes und der Divergenz des Magnetfeldes zusammenhängen.  \n(C) Die, die mit der Divergenz des Magnetfeldes zusammenhängt.  \n(D) Die, die mit der Zirkulation des Magnetfeldes und dem Fluss des elektrischen Feldes zusammenhängt.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Berechnen Sie den Eigenvektor eines quantenmechanischen Operators $\\vec{P}$ für ein Myon entlang einer beliebigen Richtung $\\vec{n}$, die in der x-z-Ebene liegt, entsprechend dem Eigenwert $+\\hbar/2$. Gegeben ist die $X$-Komponente $P_x$ des Operators $P$ als $\\hbar/2$ mal einer 2x2-Matrix mit den Elementen in der ersten Zeile als $(0, 1)$ und in der zweiten Zeile als $(1, 0)$. Die $Y$-Komponente $P_y$ des Operators wird durch das Produkt von $\\hbar/2$ und einer 2x2-Matrix gegeben, die in der ersten Zeile die Elemente $(0, -i)$ und in der zweiten Zeile die Elemente $(i, 0)$ hat. Schließlich wird die $Z$-Komponente $P_z$ des Operators durch das Produkt von $\\hbar/2$ und einer weiteren 2x2-Matrix gegeben, die in der ersten Zeile die Elemente $(1, 0)$ und in der zweiten Zeile die Elemente $(0, -1)$ hat. Was sind die Elemente des normierten Eigenvektors?\n\n(A) (\\sqrt{2/3}\\hbar, \\sqrt{1/3}\\hbar)  \n(B) (\\sqrt{2/3}\\hbar \\cos(\\theta/2), \\sqrt{1/3}\\hbar \\sin (\\theta/2))  \n(C) (\\cos(\\theta/2), \\sin (\\theta/2))  \n(D) (\\cos(\\theta), e^{i\\phi}\\sin (\\theta))  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein quantenmechanisches Teilchen der Masse m bewegt sich in zwei Dimensionen im folgenden Potential, als Funktion von (r,θ): V (r, θ) = 1/2 kr^2 + 3/2 kr^2 cos^2(θ)  \nBestimmen Sie das Energiespektrum.\n\n(A) E = (n_x+3*n_y+3/2) ℏ*sqrt(k/m))  \n(B) E = (2n_x+n_y+3/2)ℏ*sqrt(k/m)  \n(C) E = (2n_x+3n_y+1/2) ℏ*sqrt(k/m))  \n(D) E = (3n_x+2n_y+1/2) ℏ*sqrt(k/m))  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Das Universum ist gefüllt mit der kosmischen Mikrowellen-Hintergrundstrahlung. Betrachten Sie die Annihilation von hochenergetischen \\gamma-Strahlen mit einem Photon aus der CMB-Strahlung in Elektron-Positron-Paare, d.h. $\\gamma\\gamma\\rightarrow e^{+}e^{-}$. Ab welcher Energie würden \\gamma-Strahlen ihre Lebensdauer im Universum durch diesen Prozess begrenzt haben? Dabei ist bekannt, dass die durchschnittliche Photonenergie der CMB $10^{-3}eV$ beträgt.\n\n(A) 1.8*1e5 GeV  \n(B) 3.9*1e5 GeV  \n(C) 9.5*1e4 GeV  \n(D) 2.6*1e5 GeV  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie führen ein Hochdurchsatzexperiment an weißer Lupine durch, um Gene zu finden, die zur Resistenz gegen die Pilzkrankheit Anthraknose beitragen. Infolgedessen erhalten Sie drei Kandidatengene unbekannter Funktion – G1, G2 und G3. Sie erstellen drei Knock-out-Mutanten, g1, g2 und g3, sowie eine Reihe von Doppelmutanten, g1g2, g1g3 und g2g3. Sie wissen, dass mindestens eines dieser Gene ein Transkriptionsfaktor ist, der stromaufwärts von (einem) anderen Gen(en) wirkt. Sie beginnen, diese Mutantenpflanzen zu testen: Haben sie eine höhere Empfindlichkeit gegenüber Anthraknose als der Wildtyp, weil sie bestimmte Genprodukte nicht produzieren können? \nNach Tests mit dem Erreger erhalten Sie die folgenden Ergebnisse, wobei 100% das Resistenzniveau gegenüber dem Erreger in der Kontrolle ist; 50% ist die Hälfte der Resistenz der Kontrolle; 25% ist ein Viertel der Resistenz der Kontrolle; 0% ‒ alle Pflanzen zeigen Anzeichen einer Infektion:\n- Resistenz von g1: 75% der Kontrolle\n- Resistenz von g2: 0% der Kontrolle\n- Resistenz von g3: 50% der Kontrolle\n- Resistenz von g1g3: 10% der Kontrolle\n- Resistenz von g2g3: 0% der Kontrolle\n- Resistenz von g1g2: 0% der Kontrolle\n\nWelche Schlussfolgerung bezüglich der Interaktion dieser Gene können Sie aus diesem Experiment ziehen?\n\n(A) G2 ist ein Transkriptionsfaktor, G1 und G3 zeigen Pleiotropie, G1 ist epistatisch gegenüber G3  \n(B) G2 ist ein Transkriptionsfaktor, G1 und G3 zeigen Genredundanz, G1 ist epistatisch gegenüber G3  \n(C) G2 ist ein Transkriptionsfaktor, G1 und G3 haben denselben Promotor, G3 ist epistatisch gegenüber G1  \n(D) G1 ist ein Transkriptionsfaktor, G2 und G3 zeigen Pleiotropie, G2 ist epistatisch gegenüber G1  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden Moleküle hat C3h-Symmetrie?\nTriisopropylborat\nQuinuclidin\nBenzo[1,2-c:3,4-c':5,6-c'']trifuran-1,3,4,6,7,9-hexaon\nTriphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-1,3,6,8,11,13-hexaon\n\n(A) Triisopropylborat  \n(B) Triphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-1,3,6,8,11,13-hexaon  \n(C) Quinuclidin  \n(D) Benzo[1,2-c:3,4-c':5,6-c'']trifuran-1,3,4,6,7,9-hexaon  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Unter den folgenden Exoplaneten, welcher hat die höchste Dichte?\n\na) Ein Planet mit Erdmasse und Erdradius.  \nb) Ein Planet mit 2 Erdmassen und einer Dichte von ungefähr 5,5 g/cm^3.  \nc) Ein Planet mit der gleichen Zusammensetzung wie die Erde, aber 5-mal massereicher als die Erde.  \nd) Ein Planet mit der gleichen Zusammensetzung wie die Erde, aber halb so schwer wie die Erde.  \n\n(A) a  \n(B) b  \n(C) c  \n(D) d  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alle folgenden Aussagen über die molekulare Biologie des Schweren Akuten Atemwegssyndroms Coronavirus 2 (SARS-CoV-2) sind korrekt, mit Ausnahme von\n\n\n\n\n(A) Programmiertes ribosomales Frameshifting erzeugt zwei Polyproteine nahe dem 5` Ende des Genoms, indem es sich mit Hilfe von rutschenden Nukleotiden und Pseudoknoten um 1 Nukleotid zurückbewegt. Das programmierte ribosomale Frameshifting von SARS-CoV-2 hat größtenteils die gleiche Konformation wie das programmierte ribosomale Frameshifting von SARS-CoV.\n(B) Die Rate des Frameshiftings in vitro korreliert linear mit der Anzahl der Konformationen, die ein Pseudoknoten annehmen kann. Sowohl die programmierten -1 Frameshift-Signale von SARS-CoV als auch SARS-CoV-2 zeigen zwei Konformationen unter Spannung, ähnlich wie andere Pseudoknoten, die vergleichbare Frameshifting-Raten induzieren.\n(C) SARS-CoV-2 ORF3a hat die Fähigkeit, die Aktivierung/Cleavage von Caspase-8 auszulösen, ohne die Expressionsniveaus von Bcl-2 zu beeinflussen. Die Aktivierung von Caspase-8 wird als charakteristisches Merkmal des extrinsischen apoptotischen Weges über Todesrezeptoren erkannt, während Bcl-2 eine entscheidende Rolle bei der Einleitung des mitochondrialen Weges spielt. Dies deutet darauf hin, dass der Mechanismus, durch den SARS-CoV-2 ORF3a Apoptose induziert, über den extrinsischen apoptotischen Weg erfolgt.\n(D) SARS-CoV-2 nsp10/nsp14-ExoN funktioniert als Heterodimere in einem Mechanismus zur Reparatur von Fehlpaarungen. Die N-terminale ExoN-Domäne von nsp14 könnte an nsp10 binden und einen aktiven Exonuklease-Komplex bilden, der den Abbau von dsRNA verhindert.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Finde die kinetische Energie (KE) der Produktteilchen in,\nPi(+) = mu(+) + nu\nhier ist Pi(+) stationär.\nDie Ruhemasse von Pi(+) & mu(+) beträgt 139.6 MeV bzw. 105.7 MeV.\n\n(A) 2.84 MeV, 26.8 MeV  \n(B) 7.2 MeV, 32.8 MeV  \n(C) 4.12 MeV, 29.8 MeV  \n(D) 3.52 MeV, 20.8 MeV  \n\nBitte schreibe deine endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine Methanollösung von (R)-(+)-Limonen wird mit Pd/C unter einer Wasserstoffatmosphäre gerührt. Nachdem 1 Äquivalent Wasserstoff verbraucht wurde, wird Produkt 1 als Hauptprodukt isoliert.\n\nProdukt 1 wird mit 3-Chlorperbenzoesäure behandelt, was Produkt 2 bildet.\n\nProdukt 2 wird mit Natriummethoxid behandelt, was Produkt 3 bildet.\n\nProdukt 3 wird mit Propansäure, Dicyclohexylcarbodiimid und einer katalytischen Menge von 4-Dimethylaminopyridin behandelt, was Produkt 4 bildet.\n\nWas ist eine gültige Struktur von Produkt 4? (Produkt 4 existiert als Gemisch von Isomeren. Die richtige Antwort ist eines davon).\n\n(A) (1S,2R,4R)-4-Isopropyl-2-methoxy-1-methylcyclohexylpropionat  \n(B) (1S,2S,4R)-4-Isopropyl-2-methoxy-1-methylcyclohexylpropionat  \n(C) (1S,2S,5R)-5-Isopropyl-2-methoxy-2-methylcyclohexylpropionat  \n(D) 1-Methoxy-2-((S)-4-methylcyclohex-3-en-1-yl)propan-2-ylpropionat  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "ChIP-seq an einer PFA-fixierten Probe mit einem Antikörper gegen den IKAROS Transkriptionsfaktor in menschlichen B-Zellen, gefolgt von Next-Generation-Sequencing und standardmäßigen Qualitätskontrollen, Ausrichtung und Peak-Calling-Schritten, ergab ChIP-Peaks, die verschwanden, als PFA+DSG-Fixierung verwendet wurde. Wo ist es am wahrscheinlichsten, dass wir solche verschwindenden Peaks finden?\n\n(A) An zufälligen Stellen im Genom  \n(B) An Wiederholungen  \n(C) In den Introns großer Gene  \n(D) An aktiven Promotoren und Enhancern  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Forscher versuchen, Transite von zwei erdähnlichen Planeten zu detektieren: Planet_1 und Planet_2. Sie haben begrenzte Beobachtungszeit und möchten denjenigen beobachten, der die höchste Wahrscheinlichkeit hat, einen Transit zu zeigen. Beide Planeten wurden bereits mittels der RV-Methode entdeckt, was es uns ermöglicht, ihre minimalen Massen und Umlaufzeiten zu kennen. Obwohl beide Planeten die gleichen Massen haben, ist die Umlaufzeit von Planet_1 dreimal kürzer als die von Planet_2. Interessanterweise haben beide Planeten kreisförmige Umlaufbahnen. Darüber hinaus kennen wir die Massen und Radien der Wirtssterne dieser beiden Planeten. Der Stern, der Planet_1 beherbergt, hat eine Masse, die doppelt so groß ist wie die des Wirtssterns von Planet_2. Da der Wirt von Planet_2 leicht entwickelt ist, haben beide Wirtssterne die gleichen Radien. Basierend auf den bereitgestellten Informationen haben die Forscher entschieden, zu beobachten:\n\n(A) Planet_1 wird bevorzugt aufgrund seiner ~2,7-mal höheren Wahrscheinlichkeit für einen Transit.\n(B) Planet_2 wird bevorzugt aufgrund seiner ~2,25-mal höheren Wahrscheinlichkeit für einen Transit.\n(C) Planet_1 wird bevorzugt aufgrund seiner ~1,65-mal höheren Wahrscheinlichkeit für einen Transit.\n(D) Planet_2 wird bevorzugt aufgrund seiner ~1,5-mal höheren Wahrscheinlichkeit für einen Transit.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wie viele der folgenden Verbindungen zeigen optische Aktivität?\n\n(Z)-1-Chloro-2-methylbut-1-en  \n(3aR,7aS,E)-8-(Chloromethylen)hexahydro-4,7-methanoisobenzofuran-1,3-dion  \n(2R,3S)-2,3-Dimethylsuccinsäure  \n(2R,3R)-2,3-Dimethylsuccinsäure  \n(R)-Cyclohex-3-en-1-ol  \n(1s,3s,5s)-Cyclohexan-1,3,5-triol  \n1-Cyclopentyl-3-methylbutan-1-on  \n\n(A) 2  \n(B) 3  \n(C) 4  \n(D) 5  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Was ist die Konzentration von Calciumionen in einer Lösung, die 0,02 M stöchiometrischen Ca-EDTA-Komplex enthält (wir nehmen an, dass der pH-Wert ideal ist, T = 25 °C). KCa-EDTA = 5x10^10.\n\n(A) 2,0x10^-2 M  \n(B) 1,0x10^-2 M  \n(C) 5,0x10^-3 M  \n(D) 6,3x10^-7 M  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Sterne (Star_1 und Star_2) haben jeweils Massen von 1,5 und 1,2 Mal der Masse unserer Sonne. Unter der Annahme von LTE und unter Verwendung der EW-Methode haben Astronomen die elementaren Häufigkeiten dieser beiden Sterne bestimmt: [Si/Fe]_1 = 0,3 dex, [Mg/Si]_2 = 0,3 dex, [Fe/H]_1 = 0 dex und [Mg/H]_2 = 0 dex. Betrachten Sie die folgende photosphärische Zusammensetzung der Sonne: 12 + log10(nFe/nH) = 7,5 und 12 + log10(nMg/nH) = 7,0. Berechnen Sie das Verhältnis der Siliziumatome in den Photosphären von Star_1 und Star_2.\n\n(A) ~3,9  \n(B) ~1,2  \n(C) ~0,8  \n(D) ~12,6  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Michael-Reaktion ist ein chemischer Prozess in der organischen Chemie, bei dem ein Nucleophil an ein Molekül addiert, das eine spezifische Kohlenstoff-Kohlenstoff-Doppelbindung (C=C) benachbart zu einer Carbonylgruppe (C=O) enthält. Diese Reaktion bildet eine neue Kohlenstoff-Kohlenstoff-Bindung, was zur Addition des Nucleophils an das Molekül führt. Sie wird häufig verwendet, um komplexe organische Verbindungen mit spezifischen funktionellen Gruppen und Stereochemie aufzubauen und findet Anwendung in der Pharmazie, der Synthese natürlicher Produkte und der chemischen Synthese.\n\nDie Endprodukte der folgenden Reaktionen sind:\nmethyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) ---> A  \nethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) ---> B  \n\n(A) A = methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = 4-ethyl 1-methyl 2-cyclopentyl-3,3-diethyl-2-phenylsuccinat  \n(B) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = 4-ethyl 1-methyl 2-cyclopentyl-3,3-diethyl-2-phenylsuccinat  \n(C) A = methyl 3-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoat  \n(D) A = methyl 1-(2-((2,4-dimethylphenyl)sulfinyl)ethyl)-2-oxocyclohexane-1-carboxylate, B = ethyl 2-ethyl-2-(1-(2-methoxy-2-oxo-1-phenylethyl)cyclopentyl)butanoat  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine gängige Annahme in vielen Körperkernberechnungen einer bestimmten Wechselwirkung (zum Beispiel einer elektroschwachen Wechselwirkung) ist, dass Nukleonen in einem Kern sich genauso verhalten wie freie Nukleonen. Welche der folgenden vier Annahmen implizieren gemeinsam diese \"\"Impuls\"\"-Annäherung?\n\n1. Der Wechselstrom interagiert nur mit einzelnen Nukleonen.\n2. Der Kern ist transparent, abgesehen von dem ausgewählten Nukleon.\n3. Die Quarks, die im ausgewählten Nukleon enthalten sind, sind nicht-relativistisch.\n4. Die Wechselwirkung verläuft so, als ob das ausgewählte Nukleon keine Bindungskräfte erfährt.\n\n(A) 1,2,3  \n(B) 1,3,4  \n(C) 2,3,4  \n(D) 1,2,4  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Verbindungen, die die gleiche molekulare Formel haben, sich jedoch in ihrer strukturellen Anordnung unterscheiden, werden als Isomere bezeichnet. Isomere haben zwei Typen: konstitutionelle Isomere und Stereoisomere. Konstitutionelle Isomere haben die gleiche molekulare Formel, unterscheiden sich jedoch in ihren Strukturen. Bei Stereoisomeren sind die Moleküle auf die gleiche Weise verbunden, aber ihre Anordnungen im Raum sind unterschiedlich. \n\nUnter den gegebenen Verbindungen (Benzochinon & Cyclohexan-1,3,5-trion) ist die Verbindung, die kein Tautomerismus zeigt (A), und unter Methyl-2-hydroxypropanoat und Dimethylfumarat, welche wird optischen Isomerismus zeigen (B).\n\n(A) A = Cyclohexan-1,3,5-trion, B = Methyl-2-hydroxypropanoat  \n(B) A = Benzochinon, B = Methyl-2-hydroxypropanoat  \n(C) A = Benzochinon, B = Dimethylfumarat  \n(D) A = Cyclohexan-1,3,5-trion, B = Dimethylfumarat  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Student bedauert, dass er während einer Vorlesung in Elektrochemie eingeschlafen ist und sieht sich in einem Test mit folgender unvollständiger Aussage konfrontiert: \nThermodynamisch ist Sauerstoff ein …… Oxidationsmittel in basischen Lösungen. Kinetisch reagiert Sauerstoff …… in sauren Lösungen. \nWelche Kombination von schwächer/stärker und schneller/langsamer ist korrekt?\n\n(A) stärker – langsamer  \n(B) schwächer – schneller  \n(C) schwächer – langsamer  \n(D) stärker – schneller  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einem Experiment reagierte ein Forscher mit ((2,2-Dimethylbut-3-en-1-yl)oxy)benzol mit Bromwasserstoff. Nach einiger Zeit überprüften sie den Fortschritt der Reaktion mit TLC. Sie stellten fest, dass der Reaktantenfleck abgenommen hatte und zwei neue Flecken entstanden waren. Welche der folgenden Strukturen könnten die Produkte sein?\n\n(A) (4-Bromo-2,2-Dimethylbutoxy)benzol und (3-Bromo-2,2-Dimethylbutoxy)benzol  \n(B) 2-(2,2-Dimethylbutyl)phenol und 4-(2,2-Dimethylbutyl)phenol  \n(C) (4-Bromo-2,2-Dimethylbutoxy)benzol und ((2,3-Dimethylbut-2-en-1-yl)oxy)benzol  \n(D) 3,3,4-Trimethylchroman und 3-Isopropyl-3-Methyl-2,3-Dihydrobenzofuran  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wenn ein äquimolares Gemisch X aus zwei Flüssigkeiten, das Bromwasser entfärbt, bei Erwärmung mit Platin behandelt wird, entsteht als Ergebnis der Disproportionierung ein äquimolares Gemisch Y aus zwei anderen Flüssigkeiten, das Bromwasser nicht entfärbt. Die Hydrierung sowohl des Gemisches X als auch des Gemisches Y in Gegenwart von Platin unter ziemlich strengen Bedingungen ergibt nur eine Substanz, ein bestimmtes Kohlenwasserstoff Z (Massenanteil von Wasserstoff beträgt 14,28 %), die ein Bestandteil des Gemisches Y ist und weit verbreitet als Lösungsmittel verwendet wird. Substanz Z reagiert nicht weiter mit Wasserstoff. In den Molekülen der Verbindungen des Gemisches X gibt es keine konjugierten Mehrfachbindungen. Geben Sie die Gesamtzahl der Wasserstoffatome in den beiden Flüssigkeiten des Gemisches X an.\n\n(A) 12  \n(B) 16  \n(C) 18  \n(D) 22  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Namensreaktionen in der Chemie beziehen sich auf eine spezifische Gruppe von gut bekannten chemischen Reaktionen, die typischerweise nach ihren Entdeckern oder den Wissenschaftlern benannt sind, die bedeutende Beiträge zu ihrer Entwicklung geleistet haben. Diese Reaktionen haben einen tiefgreifenden Einfluss auf das Gebiet der Chemie gehabt und werden oft als grundlegende Bausteine in verschiedenen chemischen Synthesen verwendet. \nIdentifizieren Sie die Reaktanten für die folgenden Namensreaktionen.\nA + H2SO4 ---> 2,8-dimethylspiro[4.5]decan-6-one  \nB + BuLi + H+ ---> 4-methyl-1-phenylpent-3-en-1-ol  \n\n(A) A = 2,8-dimethylspiro[4.5]decan-6-ol, B = 4-methyl-1-phenylpent-3-en-1-one  \n(B) A = 2,7-dimethyloctahydronaphthalene-4a,8a-diol, B = (((3-methylbut-2-en-1-yl)oxy)methyl)benzene  \n(C) A = 2,8-dimethylspiro[4.5]decan-6-ol, B = (((3-methylbut-2-en-1-yl)oxy)methyl)benzene  \n(D) A = 2,7-dimethyloctahydronaphthalene-4a,8a-diol, B = 4-methyl-1-phenylpent-3-en-1-one  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Diene sind organische Verbindungen mit zwei benachbarten Doppelbindungen in ihrer Struktur und zeigen aufgrund ihres konjugierten Pi-Elektronensystems eine einzigartige Reaktivität. Sie spielen eine bedeutende Rolle in der organischen Chemie und sind an verschiedenen chemischen Reaktionen und natürlichen Prozessen beteiligt. \nUnter den gegebenen Optionen, welche ist das mögliche Reaktant (A) für die gegebene Reaktion und nenne auch die korrekte Reihenfolge der Diene gemäß ihrer Reaktivität (von am reaktivsten bis am wenigsten reaktiv) B.\nCyclohexen + A ---> 8,8-Diiodobicyclo[4.2.0]octan-7-on\n(B) 1. 2,3-Dimethylbuta-1,3-dien, 2. (2E,4E)-hexa-2,4-dien, 3. Cyclopenta-1,3-dien, 4. (2Z,4Z)-hexa-2,4-dien\n\n(A) A = 2,2-Diiodoethen-1-on, B = 3, 1, 2, 4  \n(B) A = 4,4-Diiodocyclobut-2-en-1-on, B = 3, 1, 2, 4  \n(C) A = 2,2-Diiodoethen-1-on, B = 4, 2, 1, 3  \n(D) A = 4,4-Diiodocyclobut-2-en-1-on, B = 4, 2, 1, 3  \n\nBitte schreibe deine endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Oh, ich kenne dich,\" sagt das Ribonukleoproteinpartikel zur entstehenden Kette, als sie sich treffen. \"Bleib dort eine Minute stehen. Lass mich dir helfen; du brauchst wirklich etwas Zucker.\"  \n\"Es scheint etwas rau zu sein. Ich schätze, das ist der Abschied; ich muss weiter,\" antwortet die Kette. Wo haben sie sich getroffen, und wohin geht die Kette?\n\n(A) Golgi zum Mitochondrium  \n(B) Zytosol zum extrazellulären Raum  \n(C) Membran zum Zellkern  \n(D) Ribosom zum Proteasom  \n\nBitte schreibe deine endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "S)-4-Hydroxycyclohex-2-en-1-on wird mit tert-Butyldimethylsilylchlorid und Triethylamin behandelt, was Produkt 1 ergibt.\n\n1 wird bei niedriger Temperatur mit Ph2CuLi behandelt, gefolgt von Benzylbromid, was Produkt 2 ergibt.\n\n2 wird bei niedriger Temperatur mit LDA und Iodomethan behandelt, was Produkt 3 ergibt.\n\nProdukt 3 wird mit wässrigem HCl behandelt, was das Endprodukt 4 ergibt. Wie lautet die Struktur von Produkt 4?\n\n(A) (1S,2S,4S)-1-(Benzyloxy)-2-methyl-1,2,3,4-tetrahydro-[1,1'-biphenyl]-4-ol  \n(B) (2S,3S,4S)-2-Benzyl-4-hydroxy-2-methyl-3-phenylcyclohexan-1-on  \n(C) (2S,3R,4S,6S)-2-Benzyl-4-hydroxy-6-methyl-3-phenylcyclohexan-1-on  \n(D) (2R,3R,4S)-2-Benzyl-4-hydroxy-2-methyl-3-phenylcyclohexan-1-on  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine interessante dürreresistente Sorte von Gerste, die leider eine antinutritive Verbindung enthält. Diese Verbindung macht es unmöglich, diese Sorte für Nahrungszwecke zu verwenden. Nach einer umfangreichen Untersuchung entdecken Sie das Gen, das für die Synthese dieser Verbindung verantwortlich ist. Dieses Gen besteht aus fünf Exons und vier Introns. Sie entscheiden sich, alte Methoden anzuwenden und eine Sammlung von Mutanten mit dem chemischen Mutagen EMS zu erzeugen. Sie sequenzieren ein Zielgen in allen Mutantenlinien und entdecken einige Veränderungen am Anfang seiner Sequenz im Bereich des ersten Exons. Welche der folgenden Mutationen wird höchstwahrscheinlich dazu führen, dass Sie die antinutritive Verbindung in der Sorte eliminieren können?\n\nIntaktes Gen:\n5’-ATGTTTCTCGCTGGTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\n\nMutant 1:\n5’-ATGTTCTACGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3’\nMutant 2:\n5’-ATGTTCTAAGCTGGTACTTCTGTGGATGAACATATTTATTGTCGC…TGA-3’\nMutant 3:\n5’-ATGTTTTACGCTGGTGTCACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\nMutant 4:\n5’-ATGTTTTACGCTACTTCTGTGGATGAACATATTTATTGTCGT…TGA-3’\n\n(A) Mutant 3  \n(B) Mutant 4  \n(C) Mutant 1  \n(D) Mutant 2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Textilfarbstoff, der aus umfangreich konjugierten Pi-Elektronen besteht, emittiert Licht mit einer Energie von 2.3393 eV. Welche Farbe des Lichts wird von der organischen Verbindung absorbiert?\n\n(A) Gelb  \n(B) Blau  \n(C) Violett  \n(D) Rot  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -393,7 +393,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Toluol wird mit Salpetersäure und Schwefelsäure behandelt, wobei Produkt 1 entsteht.\n\nProdukt 1 wird mit MnO2 und H2SO4 behandelt, wobei Produkt 2 entsteht.\n\nProdukt 2 wird mit Aceton und wässrigem Natriumhydroxid behandelt, wobei Produkt 3 entsteht.\n\nWas ist die molekulare Symmetriegruppe von Produkt 3?\n\n(A) cs  \n(B) c2h  \n(C) d2h  \n(D) c3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -406,7 +406,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Was ist die Energie des Relativistic Heavy Ion Collider (RHIC), sodass die Geschwindigkeit des Kerns X gleich 0,96c ist?\n\nDabei ist X definiert als Li mit 3 Neutronen.\n\nHinweis: Die Genauigkeit der Energie liegt bei 1e-4.\n\n(A) 18.475 GeV  \n(B) 23.069 GeV  \n(C) 21.419  \n(D) 20.132 GeV  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -419,7 +419,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie das EXO-Produkt der folgenden [4+2] Cycloadditionsreaktion.  \n2,5-Dimethylthiophen + Furan-2,5-dion + Wärme ---> ?\n\n(A) (3aR,4R,7S,7aS)-4,7-Dimethyl-3a,4,7,7a-tetrahydro-4,7-epoxybenzo[c]thiophen-1,3-dion  \n(B) (3aR,4R,7S,7aS)-4,7-Dimethyl-3a,4,7,7a-tetrahydro-4,7-epithioisobenzofuran-1,3-dion  \n(C) (3aR,4S,7R,7aS)-4,7-Dimethyl-3a,4,7,7a-tetrahydro-4,7-epoxybenzo[c]thiophen-1,3-dion  \n(D) (3aR,4S,7R,7aS)-4,7-Dimethyl-3a,4,7,7a-tetrahydro-4,7-epithioisobenzofuran-1,3-dion  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -432,7 +432,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Die 1,2-Umlagerungsreaktion, bei der vicinale Diolen mit Säure reagieren, wird als Pinacol-Pinacolon-Umlagerungsreaktion bezeichnet. Diese Reaktion verläuft über die Bildung eines Carbokations, das das Verschieben einer der Gruppen verursacht. \nFür die unten angegebenen Verbindungen, welche sind die möglichen Produkte der Pinacol-Umlagerung?\n3-Methyl-4-phenylhexan-3,4-diol + H+ ---> A\n3-(4-Hydroxyphenyl)-2-phenylpentan-2,3-diol + H+ ---> B\n1,1,2-Tris(4-methoxyphenyl)-2-phenylethan-1,2-diol + H+ ---> C\n\n(A) A = 2-Methyl-1-phenylbutan-1-on, B = 2-(4-Hydroxyphenyl)-1-phenylbutan-1-on, C = 2,2,2-Tris(4-methoxyphenyl)-1-phenylethan-1-on\n(B) A = 3-Ethyl-3-phenylpentan-2-on, B = 3-(4-Hydroxyphenyl)-3-phenylpentan-2-on, C = 1,2,2-Tris(4-methoxyphenyl)-2-phenylethan-1-on\n(C) A = 2-Methyl-1-phenylbutan-1-on, B = 2-(4-Hydroxyphenyl)-1-phenylbutan-1-on, C = 1,2,2-Tris(4-methoxyphenyl)-2-phenylethan-1-on\n(D) A = 3-Ethyl-3-phenylpentan-2-on, B = 3-(4-Hydroxyphenyl)-3-phenylpentan-2-on, C = 2,2,2-Tris(4-methoxyphenyl)-1-phenylethan-1-on\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}.\""
       }
     ],
     "final_answer": "",
@@ -445,7 +445,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie die Y-Komponente des intrinsischen Drehimpulsoperators A eines Myons, dargestellt durch eine 2×2-Matrix Ay, die die Eigenwertgleichung Ay(φ) = a(φ) erfüllt. Hierbei ist a der Eigenwert und φ die Eigenfunktion. Der Matrixoperator hat die Form Ay = c∙S; wobei die Konstante c=h/4π und S eine 2×2-Matrix ist. Die erste Zeile der Matrix S ist (0   -i) und die zweite Zeile ist (i  0). Sie werden gebeten, den Eigenwert und die Eigenvektoren des Operators Ay zu berechnen. Während der Berechnung, welche der folgenden Aussagen werden Sie als korrekt betrachten?\n\n(A) Der Imaginärteil des Eigenwerts von Ay ist +1/2 oder –1/2, und der Realteil davon ist +1 oder –1.  \n(B) Der Imaginärteil des Eigenwerts von Ay ist +2πh oder –2πh, und der Realteil davon ist +h/4π oder –h/4π.  \n(C) Die Eigenfunktion des Operators Ay kann auch eine Eigenfunktion von A^2 sein, jedoch nicht von der Z-Komponente Az.  \n(D) Die Eigenfunktionen φ des Operators Ay sind die Basisfunktionen des oben gegebenen Matrixoperators Ay.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -458,7 +458,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Beobachtungen von Strukturen, die sich in einer Entfernung von etwa 2,1 Gigaparsecs (2,1 Gpc) befinden, werden durchgeführt. Die detektierte Energieäquivalenz der Absorptionslinie beträgt etwa 3,9 Mikroelektronvolt (3,9 * 10^-6 eV).\n\nWas wird mit dieser Absorptionslinie in der Milchstraße am wahrscheinlichsten beobachtet?\n\n(A) Kaltes atomaren interstellares Medium.  \n(B) Warmes atomaren interstellares Medium.  \n(C) Kaltes molekulares interstellares Medium.  \n(D) Warmes molekulares interstellares Medium.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -471,7 +471,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie die Anzahl der 13C-NMR-Signale, die vom Endprodukt, bezeichnet als E, erzeugt werden, das aus der unten gezeigten Reaktionsreihe resultiert.  \nPropionaldehyd + EDT / BF3 ---> A  \nA + BuLi ---> B  \nB + Bromoethan ---> C  \nC + HgCl2 / H2O / H+ ---> D  \nD + PPh3 / 3-Brompentan / BuLi ---> E  \n\n(A) 8  \n(B) 11  \n(C) 3  \n(D) 6  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -484,7 +484,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Enaminreaktionen umfassen nucleophile Substitutionen, elektrophile Additionen und die Kondensation von sekundären Aminen mit Carbonylverbindungen zur Erzeugung von Enaminen. Enaminreaktionen sind nützliche Techniken zur Herstellung komplexer Verbindungen mit bestimmten funktionellen Gruppen und Stereochemie. \nNennen Sie das Produkt der folgenden Reaktion (B) und wählen Sie die korrekte Reihenfolge der Reagenzien gemäß den Reaktionsschritten (A).\n(E)-N-methyl-N-(pentan-2-ylidene)ethanaminium + A ---> B\n\n(A) (i) LDA, DME (ii) CH3CH2I (iii) H3O+ B = Pentan-2-on + N,N-Dimethylethanamin\n(B) A = (i) LDA, DME (ii) CH3CH2I (iii) H3O+ B = Heptan-4-on\n(C) (i) LDA (ii) DME, CH3CH2I, H3O+, B = Pentan-2-on + N,N-Dimethylethanamin\n(D) (i) LDA (ii) DME, CH3CH2I, H3O+, B = Heptan-4-on\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -497,7 +497,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir haben ein großes Ensemble von 10.000 (zehntausend) identischen Systemen. Jedes System hat ein Teilchen, das gleich ist und unter den gleichen Bedingungen steht. Jedes Teilchen kann sich entlang eines Rohres (in Richtung der x-Achse) bewegen. \nWir wissen aus theoretischen Modellen, dass die Wellenfunktion (aus der Schrödinger-Gleichung) jedes Teilchens in einem Teil des Raumes, in dem es existieren kann, beschrieben werden kann als:\n( a / sqrt(1 + x) ) - 0.5*i; wobei “i” die Quadratwurzel von -1 ist und “sqrt()” die Quadratwurzel von bedeutet. \nBei der Messung der Position der Teilchen wurde keines bei x<1 und x>3 gefunden (nur dazwischen bei x=1 und x=3). \nWas ist der numerische Wert von “a”?\n\n(A) 1.1  \n(B) 0.6  \n(C) 0.35  \n(D) 0.85  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -510,7 +510,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie hören zwei Chemiker miteinander sprechen, während sie ein Labor für synthetische organische Chemie verlassen. Einer fragt den anderen: \"Wie ist es gelaufen?\" Der zweite Chemiker antwortet: \"Nicht gut - meine Verbindungen liegen übereinander.\"\n\nWorauf bezieht sich der zweite Chemiker höchstwahrscheinlich?\n\n(A) Die Verbindungen, mit denen sie arbeiten, haben ähnliche Siedepunkte.  \n(B) Die Verbindungen, mit denen sie arbeiten, binden sich durch nicht-kovalente/van-der-Waals-Interaktionen.  \n(C) Die Verbindungen, mit denen sie arbeiten, haben ähnliche Polaritäten.  \n(D) Die Verbindungen, mit denen sie arbeiten, haben ähnliche optische Drehungen.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -523,7 +523,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Lichtstrahl breitet sich durch ein Glas mit dem Brechungsindex n aus. Das Glas bewegt sich mit konstanter Geschwindigkeit v in die gleiche Richtung wie der Strahl und auf den Beobachter im Labor zu. Wie hoch ist die Lichtgeschwindigkeit im Glas relativ zum Beobachter im Labor? Nehmen Sie die Lichtgeschwindigkeit im Vakuum c=1 an.\n\n(A) \\(\\frac{1+n*v}{n+v}\\)  \n(B) 1  \n(C) \\(\\frac{1+n*v}{n-v}\\)  \n(D) \\(\\frac{1-n*v}{n+v}\\)  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\(\\boxed{A}\\), \\(\\boxed{B}\\), \\(\\boxed{C}\\) oder \\(\\boxed{D}\\) an."
       }
     ],
     "final_answer": "",
@@ -536,7 +536,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen untersuchen ein System von drei Exoplaneten (Planet1, Planet2 und Planet3) mit kreisförmigen Umlaufbahnen, die durch die TTV-Methode entdeckt wurden. Sie haben festgestellt, dass das Verhältnis der Gleichgewichtstemperaturen zwischen Planet1 und Planet2 ungefähr 1,4 beträgt, und zwischen Planet2 und Planet3 etwa 2,3. Sie haben auch herausgefunden, dass das Verhältnis der Massen zwischen Planet1 und Planet2 ungefähr 1,15 beträgt, und zwischen Planet2 und Planet3 etwa 1,35. Um welchen Faktor ist die Umlaufzeit von Planet3 größer als die von Planet1, wenn das Albedo für alle drei Planeten gleich 0,3 ist (ähnlich dem der Erde)?\n\n(A) ~ 3,2  \n(B) ~ 33,4  \n(C) ~ 10,4  \n(D) ~ 4,4  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -549,7 +549,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Benzolring hat eine Carbonsäure, ein Carbaldehyd und eine Cyanogruppe, die alle meta zueinander stehen. Ortho zur Carbonsäure befinden sich eine Hydroxyl- und eine Dimethylamino-Gruppe, und para zur Carbonsäure ist eine Methoxygruppe. Die Methoxy- und die Alkoholgruppe sind ebenfalls beide ortho zur Nitrilgruppe. Was ist der korrekte IUPAC-Name für dieses Molekül?\n\n(A) 2-Hydroxy-3-cyano-4-methoxy-5-formyl-6-(dimethylamino)benzoesäure  \n(B) 5-Cyano-2-(dimethylamino)-3-formyl-6-hydroxy-4-methoxybenzoesäure  \n(C) 2-(dimethylamino)-3-formyl-4-methoxy-5-cyano-6-hydroxybenzoesäure  \n(D) 3-Cyano-6-(dimethylamino)-5-formyl-2-hydroxy-4-methoxybenzoesäure  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -562,7 +562,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine eukaryotische Zelle hat einen Mechanismus entwickelt, um makromolekulare Bausteine in Energie umzuwandeln. Der Prozess findet in Mitochondrien statt, die als zelluläre Energie-Fabriken fungieren. In der Reihe von Redoxreaktionen wird die Energie aus der Nahrung zwischen den Phosphatgruppen gespeichert und als universelle zelluläre Währung verwendet. Die energieladenden Moleküle werden aus dem Mitochondrium transportiert, um in allen zellulären Prozessen zu dienen. Sie haben ein neues Antidiabetikum entdeckt und möchten untersuchen, ob es einen Einfluss auf die Mitochondrien hat. Sie richten eine Reihe von Experimenten mit Ihrer HEK293-Zelllinie ein. Welches der unten aufgeführten Experimente wird Ihnen nicht helfen, die mitochondriale Rolle Ihres Medikaments zu entdecken:\n\n(A) Differentialzentrifugation zur Extraktion von Mitochondrien, gefolgt vom Glucose Uptake Colorimetric Assay Kit  \n(B) Durchflusszytometrie nach Markierung mit 2,5 μM 5,5',6,6'-Tetrachloro-1,1',3,3'-tetraethylbenzimidazolylcarbocyaniniodid  \n(C) Transformation von Zellen mit rekombinanter Luciferase und Luminometer-Messung nach Zugabe von 5 μM Luciferin zum Überstand  \n(D) Konfokale Fluoreszenzmikroskopie nach Mito-RTP-Färbung der Zellen  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -575,7 +575,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Vier identische Spin-1/2-Teilchen werden in einem eindimensionalen unendlichen Potentialtopf der Länge L platziert. Berechnen Sie die Energien des Grundzustands, des ersten angeregten Zustands und des zweiten angeregten Zustands des Systems in Bezug auf die Energie E.  \n(Hier E = \\frac{\\pi^2 \\hbar^2}{2mL^2})\n\n(A) 30E, 39E, 50E  \n(B) 10E, 15E, 18E  \n(C) 4E, 10E, 15E  \n(D) 4E, 10E, 50E  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -588,7 +588,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Racemisches 3-Methylpent-1-en wird mit dem Grubbs-Katalysator behandelt. Wie viele mögliche Produkte gibt es (ohne Ethen)?\n\n(A) 2  \n(B) 4  \n(C) 8  \n(D) 6  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -601,7 +601,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie die Verbindung C9H11NO2 anhand der gegebenen Daten.  \nIR: mittlere bis starke Intensitätsbänder bei 3420 cm-1, 3325 cm-1  \nstarkes Band bei 1720 cm-1  \n1H NMR: 1.20 ppm (t, 3H); 4.0 ppm (bs, 2H); 4.5 ppm (q, 2H); 7.0 ppm (d, 2H), 8.0 ppm (d, 2H).  \n\n(A) Ethyl 4-Aminobenzoat  \n(B) 4-Aminophenylpropionat  \n(C) N-(4-Ethoxyphenyl)formamid  \n(D) 3-Ethoxybenzamid  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -614,7 +614,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cyclohexanon wurde mit Brom behandelt, was Produkt 1 bildete. \n1 wurde mit Natriumhydroxid erhitzt, was Produkt 2 bildete. \n2 wurde mit Thionylchlorid und Pyridin behandelt, was 3 bildete. \n3 wurde mit Lithium-tri-tert-butoxyaluminiumhydrid behandelt, was Produkt 4 bildete.\n\nWie viele chemisch unterschiedliche Wasserstoffatome gibt es in Produkt 4?\n\n(A) 7  \n(B) 8  \n(C) 6  \n(D) 10  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -627,7 +627,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sigmatropische Umlagerung ist eine Klasse von pericyclischen Reaktionen. Bei diesen Reaktionen wandert die terminale pi-Bindung in die sigma-Bindung. Cope- und Claisen-Umlagerungen sind ebenfalls sigma-tropische Umlagerungen. Diese Reaktionen sind normalerweise thermodynamisch begünstigt. Vervollständigen Sie die folgenden Reaktionen.\n1,1-Dimethoxyethan-1-amin + But-3-en-2-ol + (H+ + Wärme) ---> A  \n(3R,4S)-3,4-Dimethylhexa-1,5-diyne + Wärme ---> B  \n2-((vinyloxy)methyl)but-1-ene + Wärme ---> C  \n\n(A) A = (Z)-1-(but-2-en-2-yloxy)ethen-1-amin, B = (3Z,4E)-3,4-diethylidenecyclobut-1-ene, C = 4-Methylenhexanal  \n(B) A = 6-Methyl-3,4-dihydro-2H-pyran-2-amin, B = (1Z,2E)-1,2-diethylidenecyclobutan, C = 4-Methylenhexan-1-ol  \n(C) A = (Z)-1-(but-2-en-2-yloxy)ethen-1-amin, B = (3Z,4E)-3,4-diethylidenecyclobut-1-ene, C = 4-Methylenhexan-1-ol  \n(D) A = 6-Methyl-3,4-dihydro-2H-pyran-2-amin, B = (1Z,2E)-1,2-diethylidenecyclobutan, C = 4-Methylenhexanal  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -640,7 +640,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ihr Kollege hat eine neue Quantenfeldtheorie auf vierdimensionalem Raum-Zeit entwickelt und untersucht die Regularisierung bestimmter höherer Loop-Diagramme in dieser Theorie. Auf seinem Schreibtisch entdecken Sie eine kritzelige Notiz: ein Feynman-Diagramm, und daneben die Worte \"Größenabschätzung\" gefolgt von einer Reihe physikalischer Konstanten, Zahlen und Verhältnissen zwischen dem, was wie Energieniveaus aussieht. Die Symbole lauten: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2.\n\nDas Diagramm ist leider durch einen verschütteten Kaffee unleserlich geworden. Wie viele Schleifen enthielt es?\n\n(A) 1  \n(B) 2  \n(C) 6  \n(D) 3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -653,7 +653,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wenn eine Ladung q in einem Abstand d vom Zentrum einer geerdeten leitenden Kugel mit dem Radius R platziert wird. Berechnen Sie die gesamte potenzielle Energie dieses Systems.\n\n(A) U=-(1/2) kq^2 R^2/(d^2 -R^2)  \n(B) U=- kq^2 d/(d^2 -R^2)  \n(C) U=- (1/2) kq^2 d/(d^2 +R^2)  \n(D) U=- (1/2) *kq^2 R/(d^2 -R^2)  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -666,7 +666,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen untersuchen einen Stern mit einem 1,5-fachen Sonnenradius und 1,1-fachen Sonnenmassen. Wenn die Oberfläche des Sterns nicht von dunklen Flecken bedeckt ist, beträgt seine Teff 6000 K. Wenn jedoch 40 % seiner Oberfläche von Flecken bedeckt sind, sinkt die effektive Temperatur der Photosphäre auf 5500 K. In der stellaren Photosphäre haben Astronomen beim Untersuchen des Verhältnisses der Anzahl neutraler Atome von Ti in zwei energetischen Niveaus (Niveau 1 und Niveau 2) beobachtet, dass dieses Verhältnis abnimmt, wenn der Stern Flecken hat. Wie groß ist der Faktor, um den sich dieses Verhältnis ändert, wenn der Stern keine Flecken hat im Vergleich zu dem Fall, wenn er Flecken hat? Beachten Sie, dass der Übergang zwischen den betrachteten Energieniveaus einer Wellenlänge von ungefähr 1448 Å entspricht. Nehmen Sie an, dass die stellare Photosphäre im LTE ist.\n\n(A) ~1.1  \n(B) ~4.5  \n(C) ~2.9  \n(D) ~7.8  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -679,7 +679,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine di-substituierte 6-gliedrige aromatische Ringverbindung vorbereitet. Das FTIR-Spektrum dieser Verbindung zeigt Absorptionsspitzen, die auf das Vorhandensein einer Estergruppe hinweisen. Das 1H NMR-Spektrum zeigt sechs Signale: zwei Signale, die aromatischen Wasserstoffen (aromatic-H) entsprechen, zwei Signale, die Vinyl-Wasserstoffen (vinyl-H) entsprechen (ein Doppel und ein Doppel von Quartetten), und zwei Signale, die –CH3-Gruppen entsprechen. Es gibt keine Signale, die –CH2-Gruppen entsprechen. Bestimmen Sie die chemische Formel dieser unbekannten Verbindung als entweder C11H12O2, C11H14O2, C12H12O2 oder C12H14O2.\n\n(A) C11H12O2  \n(B) C11H14O2  \n(C) C12H12O2  \n(D) C12H14O2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -692,7 +692,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Bestimmen Sie das Ausgangsmaterial, das benötigt wird, um 5-Isopropyl-3,4-dimethylcyclohex-1-en durch Ring-Schließmetathese zu synthetisieren.\n\n(A) 5-Isopropyl-3,4-dimethylocta-2,6-dien\n(B) 5-Isopropyl-3,4-dimethylocta-1,7-dien\n(C) 5-Isopropyl-3,4-dimethylocta-1,6-dien\n(D) 4-Isopropyl-5,6-dimethylocta-1,7-dien\n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -705,7 +705,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine unbekannte organische Verbindung vorbereitet. Die folgenden 1H NMR-Daten wurden erhalten:\n1H NMR: chemische Referenz (ppm): 7.0 (1H, d, J = 16.0 Hz), 5.5 (1H, dq), 2.1 (3H, s), 1.6 (3H, d)\nIdentifizieren Sie die unbekannte Verbindung als entweder Cis-Propenylacetat, Trans-Propenylacetat, Cis-Butenylacetat oder Trans-Butenylacetat.\n\n(A) Cis-Propenylacetat  \n(B) Trans-Butenylacetat  \n(C) Trans-Propenylacetat  \n(D) Cis-Butenylacetat  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -718,7 +718,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Der Zustand |3,0,0\\rangle in der Standardnotation |n,l,m\\rangle des H-Atoms in der nicht-relativistischen Theorie zerfällt in den Zustand |1,0,0\\rangle über zwei Dipolübergänge. Der Übergangsweg und die entsprechende Wahrscheinlichkeit sind (verwenden Sie LaTeX),\n\n(A) \\rangle\\rightarrow|2,1,0\\rangle\\rightarrow|1,0,0\\rangle  und \\frac{2}{3}\n(B) |3,0,0\\rangle\\rightarrow|2,1,1\\rangle\\rightarrow|1,0,0\\rangle und \\frac{1}{4}\n(C) |3,0,0\\rangle\\rightarrow|2,1,-1\\rangle\\rightarrow|1,0,0\\rangle und \\frac{1}{4}\n(D) |3,0,0\\rangle\\rightarrow|2,1,0\\rangle\\rightarrow|1,0,0\\rangle und \\frac{1}{3}\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -731,7 +731,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Gegeben sind die gemessenen Phasenverschiebungen $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55^o, \\delta_3=30^o$ und $\\delta_4=13^o$ in einem Experiment zur elastischen Streuung von $50~MeV$ Elektronen an einem nuklearen Ziel. Ignorieren Sie die restlichen Phasenverschiebungen. Berechnen Sie den Imaginärteil der Streuamplitude entlang der Richtung des einfallenden Strahls.\n\n(A) 251.271 fm  \n(B) 177.675 fm  \n(C) 355.351 fm  \n(D) 87163.4 fm  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -744,7 +744,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden physikalischen Theorien erfordert niemals eine Regularisierung bei hohen Energien?\n\n(A) Klassische Elektrodynamik  \n(B) Quanten-Elektrodynamik  \n(C) Superstring-Theorie  \n(D) Quanten-Chromodynamik  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -757,7 +757,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Bestimmen Sie den pH-Wert der Lösung aus 500 mL von 0,1 M CH3COOH, 400 mL von 0,2 M HCl und 300 mL von 0,3 M Ba(OH)2.\n\n(A) 8,68  \n(B) 8,92  \n(C) 12,62  \n(D) 1,38  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -770,7 +770,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine intelligente Zivilisation in der Großen Magellanschen Wolke hat ein außergewöhnliches Raumschiff entwickelt, das in der Lage ist, mit einem erheblichen Bruchteil der Lichtgeschwindigkeit zu reisen. Die durchschnittliche Lebensdauer dieser Aliens beträgt ungefähr 150 Sonnenjahre. Nun, mit der Erde als ihrem Ziel, sind sie entschlossen, mit diesem Raumschiff bei einer konstanten Geschwindigkeit von 0,99999987*c zu reisen, wobei c die Lichtgeschwindigkeit ist. Wie lange wird es ungefähr dauern, bis ihr 22-jähriger Astronaut (aus der Sicht des Astronauten) die Erde mit diesem unglaublich schnellen Raumschiff erreicht?\n\n(A) 72 Jahre  \n(B) Der Astronaut wird sterben, bevor er die Erde erreicht.  \n(C) 81 Jahre  \n(D) 77 Jahre  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -783,7 +783,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Benzol wird mit HNO3 und H2SO4 behandelt, wobei Produkt 1 entsteht.  \nProdukt 1 wird mit Br2 und Eisenpulver behandelt, wobei Produkt 2 entsteht.  \nProdukt 2 wird unter einer Wasserstoffatmosphäre mit Pd/C gerührt, wobei Produkt 3 entsteht.  \nProdukt 3 wird mit NaNO2 und HBF4 behandelt, wobei Produkt 4 entsteht.  \nProdukt 4 wird erhitzt und dann mit Anisol behandelt, wobei das Endprodukt 5 entsteht.  \n\n(A) 3'-Bromo-2-methoxy-1,1'-biphenyl  \n(B) 4-Bromo-4'-methoxy-1,1'-biphenyl  \n(C) 3-Bromo-4'-fluoro-1,1'-biphenyl  \n(D) 3-Bromo-4'-methoxy-1,1'-biphenyl  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -796,7 +796,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie die korrekte Reihenfolge der Reagenzien zur Synthese von 1-(cyclohexyl(hydroxy)methyl)cyclohexancarbaldehyd aus Ethinylcyclohexan.\n\n(A) 1. NaNH2, Ethylchlorid  \n2. Li/liq. NH3  \n3. O3/ H2O  \n4. NH4OH  \n(B) 1. NaNH2, Methylchlorid  \n2. H2/Pd  \n3. Ba(OH)2  \n3. H2SO4, HgSO4, H2O  \n(C) 1. NaNH2, Methylchlorid  \n2. H2/Pd-Calciumcarbonat  \n3. O3/ (CH3)2S  \n4. Ba(OH)2  \n(D) 1. NaNH2, Methanol  \n2. Li/liq. NH3  \n3. O3/ (CH3)2S  \n4. NH4OH  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -809,7 +809,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei ein diatomisches Molekül mit den Elementen X und Y gegeben, das mit dem quantenmechanischen Rotations-Schwingungsmodell (oder nicht-starren Rotor-Modell) modelliert werden kann. Wenn sich das Molekül im Grundzustand befindet, welchen Impuls sollte ein absorbiertes Photon haben, damit das Molekül in den nächsten Zustand mit der niedrigsten möglichen Energie wechselt?  \nMx: Masse des Atoms X = 20 amu  \nMy: Masse des Atoms Y = 2 amu  \nR: molekulare Bindungslänge = 2 Ångström  \nw: Winkelgeschwindigkeit der Schwingung = 4*10^14 rad/s  \n\n(A) p = 1.9*10^(-28) N*s  \n(B) p = 2.3*10^(-27) N*s  \n(C) p = 1.1*10^(-27) N*s  \n(D) p = 1.4*10^(-28) N*s  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -822,7 +822,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine äquimolare Mischung der Salze A und B mit einem Gewicht von 7,20 g wurde ohne Luft auf 200 °C erhitzt. In diesem Fall entstand nur eine Mischung von Gasen, die ohne Abkühlung nacheinander durch Röhren geleitet wurde, die mit wasserfreiem Mg(ClO4)2 (Nr. 1), Ca(OH)2 (Nr. 2) Lösung und glühendem Kupfer (Nr. 3) gefüllt waren. Ergebnisse: Die Gewichte der Röhren Nr. 1 und Nr. 3 erhöhten sich um 3,60 g bzw. 0,80 g (CuO bildete sich in Röhre Nr. 3). Das Gewicht der zweiten Röhre hat sich nicht verändert. Als Ergebnis blieben nur 2,24 Liter Gas C (Standardtemperatur und -druck) übrig. \nGeben Sie die Gesamtanzahl aller Atome in den Salzen A und B an.\n\n(A) 13  \n(B) 15  \n(C) 17  \n(D) 19  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -835,7 +835,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Durch Berücksichtigung verschiedener Faktoren wie Wärme, saure und basische Medien usw. wählen Sie einen geeigneten Mechanismus aus und weisen Sie die Hauptprodukte aus den folgenden Reaktionen aus.\n1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) ---> A  \n(E)-pent-2-en-1-ol + Acetylbromid (Base = LDA) ---> B  \n\n(A) A = Decahydro-7H-benzo[7]annulen-7-on, B = 3-Ethylpent-4-ensäure  \n(B) A = (E)-bicyclo[5.3.1]undec-1(11)-en-4-on, B = 3-Ethylpent-4-ensäure  \n(C) A = (E)-bicyclo[5.3.1]undec-1(11)-en-4-on, B = Lithium 3-Ethylpent-4-enoat  \n(D) A = Decahydro-7H-benzo[7]annulen-7-on, B = Lithium 3-Ethylpent-4-enoat  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -848,7 +848,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden Symmetrien müssen von allen Operatoren im SMEFT respektiert werden?\n\n1. Lorentzsymmetrie\n2. Poincaré-Symmetrie\n3. CP-Symmetrie\n4. CPT-Symmetrie\n\n(A) 1,3,4  \n(B) 1,2,4  \n(C) 1,2  \n(D) 3,4  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -861,7 +861,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie zwei Elektronen, die sich im p-Orbital-Drehimpulszustand befinden. Ignorieren wir ihren Spin-Drehimpuls, wird der gekoppelte Drehimpulszustand des 2-Elektronensystems durch $|l_1, l_2, l, m> = |1,1, 2, -1>$ dargestellt. Hier sind $l_1, l_2$ die quantenmechanischen Zahlen des orbitalen Drehimpulses der Teilchen 1 und 2, respektive. Und $l, m$ sind die Gesamt-Drehimpulsquantenzahl und die entsprechende Z-Komponente des 2-Elektronensystems, respektive. Wenn eine Messung der orbitalen Drehimpuls-Komponenten $L_{1z}$ und $L_{2z}$ durchgeführt wird, wie hoch ist die gemeinsame Wahrscheinlichkeit, die Eigenwerte von sowohl $L_{1z}$ als auch $L_{2z}$ als $-\\hbar$ zu erhalten?\n\n(A) 1/2  \n(B) 1  \n(C) 0  \n(D) 2/3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -874,7 +874,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Es gibt ein Spin-1/2-Teilchen mit einem magnetischen Moment mu (= gamma*Sz), das mit einem Magnetfeld ausgerichtet ist, das in die +Z-Richtung zeigt. Plötzlich wird das Magnetfeld abgeschaltet und ein anderes wird in die +Y-Richtung eingeschaltet; beide Felder haben die gleiche Stärke, B. Der Durchschnitt der z-Komponente des Moments des Teilchens beginnt zu oszillieren. Wie hoch ist seine Oszillationsfrequenz?\n\n(A) gamma*B/2  \n(B) gamma*B  \n(C) gamma*B/sqrt(2)  \n(D) sqrt(2)*gamma*B  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -887,7 +887,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Im CERN-Blasenkammer findet ein Zerfall statt, $X^{0}\\rightarrow Y^{+}Z^{-}$ in \\tau_{0}=8\\times10^{-16}s, d.h. die Eigenlebensdauer von X^{0}. Welche minimale Auflösung ist erforderlich, um mindestens 30% der Zerfälle zu beobachten? Es ist bekannt, dass die Energie in der Blasenkammer 27GeV beträgt und die Masse von X^{0} 3.41GeV ist.\n\n(A) 2.08*1e-3 m  \n(B) 2.08*1e-1 m  \n(C) 2.08*1e-6 m  \n(D) 2.08*1e-9 m  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -900,7 +900,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Reaktion von festem A mit 8 Äquivalenten von Gas B bildet das leuchtend rote Produkt C. Wenn C mit 2 Äquivalenten von Gas D reagiert, produziert es das extrem gefährliche Produkt E. C reagiert mit Wasser, um A sowie zwei verschiedene Säuren F und G zu reformieren. F ist eine starke Säure, während G eine schwache Säure ist. D reagiert mit B im Verhältnis 1:1, um H zu bilden, das als Lösungsmittel verwendet wird.\n\nWas ist die molekulare Symmetriegruppe von E?\n\n(A) D4h  \n(B) C2v  \n(C) C2  \n(D) D∞h  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -913,7 +913,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen untersuchen ein System von fünf Exoplaneten mit kreisförmigen Umlaufbahnen, die durch die TTV-Methode entdeckt wurden. Die Planeten (bezeichnet als Planet_1 bis Planet_5), die sich in orbitaler Resonanz befinden, haben Umlaufzeiten im Verhältnis von 1:2:2.5:3.5:5. Angenommen, diese Planeten besitzen dasselbe Albedo, wie ist das Verhältnis der Gleichgewichtstemperaturen zwischen Planet_4 und Planet_2?\n\n(A) ~0.83  \n(B) ~0.75  \n(C) ~0.57  \n(D) ~0.69  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -926,7 +926,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "7-(tert-butoxy)bicyclo[2.2.1]hepta-2,5-dien wird mit 2 Äquivalenten von 5,6-bis(dibromomethyl)cyclohexa-1,3-dien und Natriumiodid bei erhöhter Temperatur kombiniert, wobei Produkt 1 entsteht.\n\n1 wird mit wässriger Schwefelsäure behandelt, wodurch 2 entsteht.\n\n2 wird mit SO3 und Pyridin in DMSO behandelt, wodurch 3 entsteht.\n\n3 wird bei 150°C erhitzt, wodurch das Endprodukt 4 entsteht. Wie viele chemisch unterschiedliche Wasserstoffatome gibt es in 4?\n\n(A) 4  \n(B) 7  \n(C) 8  \n(D) 10  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -939,7 +939,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Astronauten mit den Massen 2m und 3m reisen mit relativistischen Geschwindigkeiten von 0.6 c bzw. 0.5 c in positiver x-Richtung. Hierbei ist c die Lichtgeschwindigkeit. Was wird die relative Geschwindigkeit und die Gesamtenergie des Systems sein?\n\n(A) v_rel = 0.1c , E = 4.96 mc^2  \n(B) v_rel = 1.1c , E = mc^2  \n(C) v_rel = 0.14c , E = 5.96 mc^2  \n(D) v_rel = 0.14c , E = 5mc^2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -952,7 +952,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir möchten den Zerfall eines einzelnen Atoms (Atomkerns) beobachten. Es ist möglich, dieses Atom zu erhalten (z.B. aus einem Betazerfall eines anderen Atoms) und sofort mit der Überwachung zu beginnen. Wir wissen aus früheren Experimenten, dass die Zerfallswahrscheinlichkeit dieses Atoms innerhalb von 100 Minuten 32% beträgt. Bisher sind 50 Minuten vergangen und das Atom ist nicht zerfallen. Wie hoch ist die Wahrscheinlichkeit, dass es in den nächsten 150 Minuten zerfällt?\n\n(A) 40%\n(B) 48%\n(C) 44%\n(D) 52%\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -965,7 +965,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie möchten die Rolle des GADD45G-Proteins in einem Mausmodell untersuchen. Sie sind sehr daran interessiert, ob das IL-2-induzierte Protein eine Rolle bei der SARS-CoV-2-Infektion spielt. Sie entscheiden sich, ein transgenes Mausmodell mit der induzierbaren Überexpression der kodierenden Sequenz für das GADD45G-Gen zu erstellen. Damit können Sie das Protein affinitätsreinigen und die Proteinpartner identifizieren, die an GADD45G binden, nachdem Sie die Mäuse mit dem Virus infiziert haben. Zu diesem Zweck werden Sie die kodierende Sequenz des Gens modifizieren, indem Sie die Sequenz für ein einzelnes Influenza-Hämagglutinin-antigenisches Determinante einfügen, die sich am N-Terminus Ihres rekombinanten Proteins befindet. Sie konstruieren das Plasmid genetisch und transfizieren es mithilfe von Lipofectamine® in die chinesischen Hamster-Ovarzellen. Sie wählen die antibiotikaresistenten Zellkolonien aus, um das Expressionsniveau Ihres Konstrukts zu testen. Sobald Sie beginnen, stellen Sie fest, dass Sie Ihr Protein nicht wie erwartet überexprimieren können. In der Reihe von Tests, die Sie durchführen, um die Ursache zu identifizieren, erkennen Sie, dass die Sequenz des Plusstrangs Ihres Konstrukts lautet:\n\n5'ATGTACCCATACGATGTTCCAGATTACGCCAAATGACTCTGGAAGAAGTCCGCGGCCAGGACACAGTTCCGGAAAGCACAGCCAGGATGCAGGGTGCCGGGAAAGCGCTGCATGAGTTGCTGCTGTCGGCGCAGCGTCAGGGCTGCCTCACTGCCGGCGTCTACGAGTCAGCCAAAGTCTTGAACGTGGACCCCGACAATGTGACCTTCTGTGTGCTGGCTGCGGGTGAGGAGGACGAGGGCGACATCGCGCTGCAGATCCATTTTACGCTGATCCAGGCTTTCTGCTGCGAGAACGACATCGACATAGTGCGCGTGGGCGATGTGCAGCGGCTGGCGGCTATCGTGGGCGCCGGCGAGGAGGCGGGTGCGCCGGGCGACCTGCACTGCATCCTCATTTCGAACCCCAACGAGGACGCCTGGAAGGATCCCGCCTTGGAGAAGCTCAGCCTGTTTTGCGAGGAGAGCCGCAGCGTTAACGACTGGGTGCCCAGCATCACCCTCCCCGAGTGA3'\n\nSie bemerken ärgerlicherweise den Grund.\n\n(A) Die tRNA für das UAA-Codon existiert nicht in der Maus  \n(B) Das Ribosom hat die Translation vorzeitig beendet  \n(C) Die Sequenz für das antigenische Determinante hat eine Missense-Mutation  \n(D) Das Fehlen der Linker-Sequenz löst die Proteolyse der entstehenden Kette aus  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -978,7 +978,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie möchten eine Maus-embryonale Chimäre mit induzierten pluripotenten Stammzellen aus somatischen Zellen verschiedener Gewebe erstellen. Sie sind an dem Schicksal der iPSCs im Embryo und deren Ko-Lokalisation mit apoptotischen Ereignissen interessiert. Die iPSC-Zellen sind mit einem mRaspberry markiert, das unter einem linien-spezifischen Promotor für jeden Zelltyp exprimiert wird. Sie injizieren die dedifferenzierten Zellen in den Blastozysten im 32-Zell-Stadium und verfolgen sie über 48 Stunden. Alle 12 Stunden bereiten Sie Embryonen mit der TUNEL - FITC Färbung vor und beobachten sie unter dem konfokalen Mikroskop.\n\nWas ist das erste, was Ihnen auffällt?\n\n(A) zytoplasmatische Lokalisation des roten Signals  \n(B) grünes Signal ko-localisiert mit dem roten Signal  \n(C) es gibt kein grünes Signal  \n(D) zelllinien-spezifische rote Signale markieren verschiedene Organellen  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -991,7 +991,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Cope-Umlagerung ist eine chemische Reaktion, bei der ein 1,5-Dien-Molekül eine Umlagerung durchläuft, was zu einer Änderung der Positionen seiner Kohlenstoff-Kohlenstoff-Doppelbindungen führt. Diese Umlagerung kann durch Wärme oder Licht initiiert werden und ist wertvoll für die Herstellung komplexer organischer Verbindungen mit veränderten Strukturen. Wählen Sie die Hauptprodukte aus den folgenden Umlagerungen aus.  \n(((3-Methylbut-2-en-1-yl)oxy)methyl)benzol + (1. BuLi, 2. H+) ----> A  \n3,4,5,7,8,9-Hexamethyl-1,11-dimethylen-2,6,10,11,11a,11b-Hexahydro-1H-benzo[cd]indeno[7,1-gh]azulen + Wärme ---> B  \n\n(A) A = 4-Methyl-1-phenylpent-3-en-1-ol, B = 2,3,4,6,7,8-Hexamethyl-5,9,9a,10,11,11a-Hexahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluoren  \n(B) A = (Z)-2-Methyl-5-phenylpent-2-en-1-ol, B = 2,3,4,6,7,8-Hexamethyl-5,9,10,11-Tetrahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluor  \n(C) A = (Z)-2-Methyl-5-phenylpent-2-en-1-ol, B = 2,3,4,6,7,8-Hexamethyl-5,9,9a,10,11,11a-Hexahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluoren  \n(D) A = 4-Methyl-1-phenylpent-3-en-1-ol, B = 2,3,4,6,7,8-Hexamethyl-5,9,10,11-Tetrahydro-1H-benzo[3,4]azuleno[1,8,7,6-cdef]fluor  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1004,7 +1004,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Stellen Sie sich vor, eine Punktladung q bewegt sich mit einer Trajektorie $\\vec{s}(t)$, wobei t die Zeit ist, relativ zum Ursprung. Lassen Sie $\\vec{r}$ den Feldpunkt sein, an dem das Feld beobachtet wird, relativ zum Ursprung desselben Bezugssystems, und $\\vec{d}$ sei der Vektor vom Punkt, an dem das elektromagnetische Feld zu einem früheren Zeitpunkt $tr$ erzeugt wurde, zum Beobachtungspunkt $\\vec{r}$. Die Geschwindigkeit der sich bewegenden Ladung q zum Zeitpunkt der Feldgenerierung $tr$ ist $\\vec{v}$. Was sind das skalare Potential (V) und das Vektorpotential (\\vec{A}) zur Zeit t, wobei $t > tr$ und der Position $\\vec{r}$? Bei der Ableitung der Ausdrücke verwenden Sie die Notation von $c->$ Lichtgeschwindigkeit im Vakuum, $\\epsilon_o ->$ Permittivität des freien Raums und $\\mu_o$ ist die Permeabilität.\n\n(A) V(\\vec{r},t) = \\dfrac{q}{4\\pi\\epsilon_o r}, \\vec{A(\\vec{r},t)} = \\dfrac{\\vec{v}}{c^2} V(\\vec{r},t)  \n(B) V(\\vec{r},t) = \\dfrac{q}{4\\pi\\epsilon_o r},  \\vec{A(\\vec{r},t)} = \\dfrac{\\vec{v^2}}{c^2} V(\\vec{r},t)  \n(C) V(\\vec{r},t) = \\dfrac{qc}{4\\pi\\epsilon_o (d c + \\vec{d}. \\vec{v})},  \\vec{A(\\vec{r},t)} = \\dfrac{\\mu qc \\vec{v}}{4\\pi (d c + \\vec{d}. \\vec{v})}  \n(D) V(\\vec{r},t) = \\dfrac{qc}{4\\pi\\epsilon_o (d c - \\vec{d}. \\vec{v})},  \\vec{A(\\vec{r},t)} = \\dfrac{\\mu_o qc \\vec{v}}{4\\pi (d c - \\vec{d}. \\vec{v})}  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1017,7 +1017,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einem Experiment wurde die Verbindung X (C11H12O) einer Reaktion mit 1,4-Diazabicyclo[2.2.2]octan in einem unpolaren Lösungsmittel bei einer Temperatur von 403 K über einen Zeitraum von 1 Tag unterzogen. Die theoretischen 1H-NMR- und 13C-NMR-Spektren des resultierenden Produkts zeigen die folgenden Signalverteilungen.\n1H NMR: δ 2.28 (3H, s), 2.31 (3H, s), 6.75 (1H, d), 7.08 (2H, d), 7.68 (1H, d), 7.71 (2H, d).\n13C NMR: δ 21.3 (1C, s), 28.4 (1C, s), 126.9 (2C, s), 127.1 (1C, s), 129.1 (2C, s), 130.3 (1C, s), 141.5 (1C, s), 144.1 (1C, s), 197.7 (1C, s).\nIdentifizieren Sie die Verbindung X.\n\n(A) 2-Methyl-3-styryloxiran  \n(B) 2-(1-Phenylprop-1-en-2-yl)oxiran  \n(C) 2-Styrylepoxid  \n(D) 2-(4-Methylstyryl)oxiran  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1030,7 +1030,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie stoßen auf einen Algorithmus, der die folgende Ausgabe liefert (geschrieben als Eingabe -> Ausgabe):\n\nAGG -> 115  \nTGCTGA -> 176  \n\nWelchen Wert gibt ACAGTGACC?\n\n(A) 185  \n(B) 333  \n(C) 351  \n(D) 315  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1043,7 +1043,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie die richtige Reihenfolge der Reagenzien für die Synthese von [1,1'-bi(cyclopentylidene)]-2-on, beginnend mit 1,5-Dichlorpentan.\n\n(A) 1. Na, Ether  \n2. Cl2/hv  \n3. KOH, EtOH  \n4. LiAlH4  \n5. NH4OH  \n(B) 1. Na, Ether  \n2. Cl2/hv  \n3. Aq. KOH  \n4. KMnO4, Wärme  \n5. NaNH2  \n(C) 1. Zn, Ether  \n2. HCl  \n3. Aq. KOH  \n4. Pyridin  \n5. Aq. NaOH  \n(D) 1. Zn, Ether  \n2. Cl2/hv  \n3. Aq. KOH  \n4. Pyridin + CrO3 + HCl  \n5. Aq. NaOH  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1056,7 +1056,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cyclooctatetraen wurde mit Maleinsäureanhydrid im Verhältnis 1:1 erhitzt, was Produkt 1 bildete. \n1 wurde mit Methanol und einer kleinen Menge Schwefelsäure erhitzt, was Produkt 2 bildete. \n2 wurde mit Cyclopentadien erhitzt, was das Endprodukt 3 bildete. \nWas ist die Struktur des Hauptisomers von Produkt 3?\n\n(A) Name: Dimethyl (1R,4S,4aR,4bR,5R,8S,8aS,8bS,10S,11R)-1,4,4a,4b,5,8,8a,8b-Oktahydro-1,4-ethano-5,8-methanobiphenylen-10,11-dicarboxylat\n\nSMILES: O=C(OC)[C@@H]1[C@H](C=C2)[C@@H]3[C@@H]([C@H]4[C@@H]3[C@@H]5C=C[C@H]4C5)[C@H]2[C@@H]1C(OC)=O  \n(B) Name: Dimethyl (1R,4S,4aS,4bR,5R,8S,8aS,8bR,10R,11R)-1,4,4a,4b,5,8,8a,8b-Oktahydro-1,4-ethano-5,8-methanobiphenylen-10,11-dicarboxylat\n\nSMILES: O=C(OC)[C@@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@@H]4[C@H]3[C@H]5C=C[C@@H]4C5)[C@@H]2[C@H]1C(OC)=O  \n(C) Name: Dimethyl (1S,4R,4aR,4bR,5S,8R,8aS,8bS,10S,11R)-1,4,4a,4b,5,8,8a,8b-Oktahydro-1,4-ethano-5,8-methanobiphenylen-10,11-dicarboxylat\n\nSMILES: O=C(OC)[C@@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@H]4[C@@H]3[C@H]5C=C[C@@H]4C5)[C@@H]2[C@@H]1C(OC)=O  \n(D) Name: Dimethyl (1R,4S,4aS,4bR,5S,8R,8aS,8bR,10S,11R)-1,4,4a,4b,5,8,8a,8b-Oktahydro-1,4-ethano-5,8-methanobiphenylen-10,11-dicarboxylat\n\nSMILES: O=C(OC)[C@H]1[C@@H](C=C2)[C@@H]3[C@@H]([C@@H]4[C@H]3[C@@H]5C=C[C@H]4C5)[C@@H]2[C@H]1C(OC)=O\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1069,7 +1069,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir verdünnen 20,00 cm³ 0,05 M Essigsäure mit 20,00 cm³ Wasser und titrieren dann die resultierende Lösung mit 0,1 M NaOH (25 °C). Welchen pH-Wert hat die Lösung bei 25 % Titration und am Äquivalenzpunkt? Der Ka der Essigsäure beträgt 1,85 x 10^-5.\n\n(A) 3,17; 6,73  \n(B) 4,57; 6,92  \n(C) 4,26; 8,52  \n(D) 4,73; 7,00  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1082,7 +1082,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Beim Lösen höherdimensionaler Wärmegleichungen, die geeigneten Anfangs- und Randbedingungen unterliegen, durch höherordentliche finite Differenzenapproximationen und parallele Aufspaltung, wird die Matrixexponentialfunktion durch eine fraktionale Approximation angenähert. Der Schlüsselfaktor zur Umwandlung eines sequenziellen Algorithmus in einen parallelen Algorithmus ist\n\n(A) Komplexe Wurzeln der fraktionalen Approximation  \n(B) Lineare Partialbruchzerlegung der fraktionalen Approximation  \n(C) Existenz nichtlokaler Randbedingungen  \n(D) Stabilitätsanalyse  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1095,7 +1095,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Planeten wurden entdeckt, die einen Stern sowohl mit der Transit- als auch mit der Radialgeschwindigkeitsmethode (RV) umkreisen. Der Stern hat eine Masse von 1,5 Mal der der Sonne, einen Radius von 1,2 Mal der der Sonne und eine effektive Temperatur (Teff) von 6300 K. Planet1 hat eine Masse, die 7 Erdmassen entspricht, und einen Radius, der 1,7 Mal der Erde beträgt, während Planet2 eine Masse hat, die 5 Erdmassen entspricht, und einen Radius von 1,3 Mal der Erde. Interessanterweise befinden sich beide Planeten in kreisförmigen Umlaufbahnen. Planet1 induziert eine periodische Verschiebung von bis zu 0,03 Å in der verbotenen Linie [OI] bei 6300 Å, während der gravitative Einfluss von Planet2 auf dieselbe Linie eine periodische Dopplerverschiebung von bis zu 0,04 Å zur Folge hat. Angenommen, beide Planeten besitzen das gleiche Albedo, wie ist das Verhältnis der Gleichgewichtstemperaturen zwischen Planet1 und Planet2?\n\n(A) ~ 1.05  \n(B) ~ 1.30  \n(C) ~ 0.53  \n(D) ~ 0.98  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1108,7 +1108,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Chemiker führte zwei Reaktionen durch, indem er zwei unbekannte Verbindungen nahm und sie separat mit zwei verschiedenen Reduktionsmitteln behandelte. Wählen Sie das geeignete Ausgangsmaterial für beide Reaktionen aus.  \nA + LiBH4 + H+ ---> (R)-4-Ethyltetrahydro-2H-pyran-2-on  \nB + BH3 + H+ ---> (S)-4-Ethyltetrahydro-2H-pyran-2-on  \n\n(A) A = (R)-3-Ethyl-5-isobutoxy-5-oxopentansäure, B = (R)-3-Ethyl-5-isobutoxy-5-oxopentansäure  \n(B) A = (S)-3-Ethyl-5-isobutoxy-5-oxopentansäure, B = (S)-3-Ethyl-5-isobutoxy-5-oxopentansäure  \n(C) A = (R)-3-Ethyl-5-isobutoxy-5-oxopentansäure, B = (S)-3-Ethyl-5-isobutoxy-5-oxopentansäure  \n(D) A = (S)-3-Ethyl-5-isobutoxy-5-oxopentansäure, B = (R)-3-Ethyl-5-isobutoxy-5-oxopentansäure  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1121,7 +1121,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine di-substituierte 6-gliedrige aromatische Ringverbindung mit insgesamt 8 Kohlenstoffatomen vorbereitet. Peaks im FTIR-Spektrum dieser Verbindung weisen auf das Vorhandensein einer Carbonylgruppe sowie einer aromatischen Halogenbindung hin. Identifizieren Sie die korrekten 1H NMR-Daten für diese Verbindung.\n\n(A) 1H NMR: chemische Referenz (ppm): 9.9 (1H, s), 7.8 (2H, d), 7.6 (2H, d), 3.7 (2H, s)  \n(B) 1H NMR: chemische Referenz (ppm): 6.9 (1H, s), 4.8 (2H, d), 4.6 (2H, d), 1.3 (2H, s)  \n(C) 1H NMR: chemische Referenz (ppm): 4.8 (2H, d), 4.6 (2H, d), 1.3 (3H, s)  \n(D) 1H NMR: chemische Referenz (ppm): 7.8 (2H, d), 7.6 (2H, d), 2.3 (3H, s)  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1134,7 +1134,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie markieren die inneren Kapsidproteine des Rotavirus mit einem GFP und liefern sie den Mäusen durch orale Gabe. Durch In-vivo-Bildgebung beobachten Sie, dass ein Teil der Fluoreszenz durch die Magensäure zerstört wurde und ein anderer Teil im intestinalen Schleim verheddert war, bevor sie die sekundären lymphatischen Organe erreichten. Sie identifizieren die fluoreszierenden Peyer-Plaques und isolieren die proliferierende Zellpopulation. Sie sequenzieren ihr variablen schweren Ketten-Gen und beobachten eine hohe Variabilität. Welcher Prozess findet statt?\n\n(A) VDJ-Rekombination  \n(B) Klassenwechsel-Rekombination  \n(C) Komplementaktivierung  \n(D) somatische Hypermutation  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1147,7 +1147,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "1,3-Dibromoadamantane wird auf 240 °C mit einem Überschuss an KOH erhitzt, was ein hellgelbes Festprodukt 1 erzeugt, mit folgendem 1H NMR-Spektrum: 4,79 (2H), 2,41-2,23 (10H), 1,94 (2H) und einer charakteristischen Absorption im IR-Spektrum bei 1720 cm⁻¹.\n\nDieses Produkt wurde dann mit einem Überschuss an Aluminiumisopropoxid erhitzt, was Produkt 2 bildet.\n\nOzon wurde durch eine Lösung von 2 bei -78 °C geleitet, gefolgt von der Zugabe von Dimethylsulfid, was Produkt 3 bildet.\n\nIm 1H NMR-Spektrum von 3, wie sieht das Kopplungsmuster des am stärksten deschildierten Wasserstoffatoms aus (außer denjenigen, die mit deuteriertem Lösungsmittel austauschen)?\n\n(A) Triplet  \n(B) Pentett  \n(C) Doppeltriplet  \n(D) Triplet von Triplets  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1160,7 +1160,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Bestimmen Sie das Produkt, das erhalten wird, wenn 3,4-Dimethylhexandial mit dem folgenden Reagenzien-Satz reagiert:\n\n1. KOH, H2O, THF, Wärme\n2. CH3CH2MgBr, H3O+\n3. PCC, CH2Cl2\n4. O3, H2O\n\n(A) 4,5-Dimethylnonan-2,6,7-trion  \n(B) 3,4-Dimethyl-5,6-dioxooctanal  \n(C) 3,4-Dimethyl-5,6-dioxooctansäure  \n(D) 4,5-Dimethylnonan-2,6,7-trion  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1173,7 +1173,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Cyclohexanon wird bei niedriger Temperatur mit LDA behandelt, gefolgt von Benzaldehyd. Das Reaktionsgemisch wird dann acidifiziert, wodurch Produkt 1 entsteht.\n\nProdukt 1 wird dann mit einem Überschuss an Diethylaminosulfurtrifluorid behandelt, wodurch Produkt 2 entsteht. Wie lautet die Struktur von Produkt 2?\n\n(A) (2R)-1-Fluor-2-((S)-fluoro(phenyl)methyl)cyclohexan-1-ol  \n(B) (S)-2-((R)-fluoro(phenyl)methyl)cyclohexan-1-on  \n(C) ((S)-((R)-2,2-Difluorocyclohexyl)fluoromethyl)benzol  \n(D) ((R)-((R)-2,2-Difluorocyclohexyl)fluoromethyl)benzol  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1186,7 +1186,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Berechnen Sie die Bildungsenthalpie von (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2. Gegeben sind:\nEnthalpie der Atomisierung von Kohlenstoff = 1000 kJ/mol.\nBindungsenergie von H-H = 100 kJ/mol\nBindungsenergie von C-C = 200 kJ/mol\nBindungsenergie von C=C = 300 kJ/mol\nBindungsenergie von C-H = 400 kJ/mol\n\n(A) 67.4 kJ/mol  \n(B) 1900 kJ/g  \n(C) 11.44 kJ/g  \n(D) 11200 kJ/mol  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1199,7 +1199,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "\"Wissenschaftler beabsichtigt, eine quantitative Polymerase-Kettenreaktion (qPCR) an einigen Proben durchzuführen. Zunächst möchte er eine Kalibrierkurve erstellen, daher nahm er eine positive Kontrolle mit bekannten Kopienzahlen und führte qPCR an der seriell verdünnten positiven Kontrolle in drei technischen Replikaten durch. Die Effizienz der qPCR betrug 100 %. Der R²-Wert war 1, und die Steigung betrug -3,3. Seine Ergebnisse waren wie folgt:\nBei einer Konzentration von 100000 Kopien pro µl lagen die ct-Werte der Triplikate bei 33,9, 34,2, 34,5.\nBei einer Konzentration von 10000 Kopien pro µl lagen die ct-Werte der Triplikate bei 30,6, 30,9, 31,2.\nBei einer Konzentration von 1000 Kopien pro µl lagen die ct-Werte der Triplikate bei 27,3, 27,6, 27,9.\nBei einer Konzentration von 100 Kopien pro µl lagen die ct-Werte der Triplikate bei 24, 24,3, 24,6.\nBei einer Konzentration von 10 Kopien pro µl lagen die ct-Werte der Triplikate bei 20,7, 21, 21,3.\nWelche der folgenden Erklärungen erklärt die Diskrepanzen in seinen Ergebnissen?\n\n(A) Zehnfache Verdünnung entspricht mehr als 3,3 Zyklen\n(B) Ct-Werte stimmen nicht mit der Menge an Ziel-Nukleinsäure in den Proben überein\n(C) Die Abweichung beträgt mehr als 0,3 zwischen technischen Replikaten\n(D) qPCR kann nicht zur Quantifizierung von Nukleinsäure in Proben verwendet werden\n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an.\""
       }
     ],
     "final_answer": "",
@@ -1212,7 +1212,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie das Ausgangsmaterial/die Ausgangsmaterialien, die erforderlich sind, um Methyl 2-propyl-1,2,4a,5,6,7,8,8a-octahydronaphthalen-1-carboxylat zu synthetisieren.\n\n(A) 1-Vinylcyclohex-1-en und Methylhex-2-ynoat  \n(B) Methyl (2E,4E,10Z)-tetradeca-2,4,10-trienoat  \n(C) Methyl (2E,8E,10E)-tetradeca-2,8,10-trienoat  \n(D) Cyclohexen und Methyl 2,3-dimethylenhexanoat  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1225,7 +1225,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "3,3,6-trimethylhepta-1,5-dien-4-on wird mit 1 Äquivalent meta-Chlorperbenzoesäure behandelt. Es entstehen zwei verschiedene Produkte in etwa einem 1:1-Verhältnis.\n\nIn einem separaten Gefäß wird Methyllithium mit Kupfer(I)-iodid behandelt. Ein Überschuss der resultierenden Lösung wird langsam zur Produktmischung der ersten Reaktion hinzugefügt. Nennen Sie ein Produkt, das durch diese Reaktion gebildet wird:\n\n(A) 2,3,4,5,5-pentamethylhept-6-en-2,4-diol  \n(B) 5-hydroxy-3,3,6,6-tetramethylhept-1-en-4-on  \n(C) 4,4,5,7,7-pentamethyloctan-3,5-diol  \n(D) 6-hydroxy-2,2,5,5-tetramethyloctan-4-on  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1238,7 +1238,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Winkelgröße des Ereignishorizonts eines supermassiven Schwarzen Lochs im Zentrum einer Galaxie, das sich in einer Entfernung von d=10^10 Parsec befindet, wird mit θ=10^-17 Grad gemessen. Bestimmen Sie die Größenordnung der Entropie des Schwarzen Lochs.\n\n(A) 10^59 J/K  \n(B) 10^66 J/K  \n(C) 10^65 J/K  \n(D) 10^62 J/K  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1251,7 +1251,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In der Gametogenese durchläuft die Keimbahn zwei Zyklen der Meiose, um haploide Gameten zu erzeugen. Das Ziel der Meiose, im Gegensatz zur Mitose, ist es, nicht nur die replizierten Schwesterchromatiden, sondern auch die homologen Chromosomenpaare zu trennen, um haploide Zellen zu bilden. Befruchtete Gameten treten in die Embryogenese ein und entwickeln sich letztendlich zu einem Organismus. Die Meiose wird nicht immer perfekt ausgeführt, und die meisten solcher Fälle führen zu embryonaler Letalität. Lebensfähige Ereignisse können bereits im Karyotyp embryonaler Zellen aus dem Fruchtwasser nachgewiesen werden. Ein solches Ereignis führt zum Klinefelter-Syndrom bei Jungen. Welcher molekulare Mechanismus ist verantwortlich für die weniger ausgeprägten phänotypischen Konsequenzen des Klinefelter-Syndroms im Vergleich zum bekannteren Down-Syndrom?\n\n(A) Chiasmata-Auflösung durch Separase in der Diakinese  \n(B) Progression der Polymerase Alpha in der Morula/Blastozyste  \n(C) Anheftung des Spindels an die Kinetochore in der Metaphase I  \n(D) Chromatin-Methylierung durch Histon-Methyltransferasen in der post-Zygote  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1264,7 +1264,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie das Ausgangsmaterial, A, in der folgenden Reaktion.  \nA + eine Methylenerutheniumverbindung + 1-Propen ---> 1-(prop-1-en-1-yl)-2-vinylcyclopentan\n\n(A) bicyclo[3.2.0]hept-6-en  \n(B) 2-Methyl-3-methylenerutheniumverbindung  \n(C) 1,2-Dimethylcyclopentan  \n(D) 2-Methylbicyclo[3.1.0]hex-2-en  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1277,7 +1277,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine unbekannte Verbindung vorbereitet. Um das Produkt zu identifizieren, haben Sie die folgenden Charakterisierungstechniken verwendet: FTIR und ^1H NMR. Das FTIR-Spektrum zeigt einen sehr breiten Absorptionspeak bei 3000 Wellenzahlen. Ein starker Absorptionspeak wird auch bei 1700 Wellenzahlen beobachtet. Im ^1H NMR-Spektrum wurden mehrere Peaks beobachtet, von denen keiner mit Vinyl-Wasserstoffen übereinstimmt. Ein Signal im ^1H NMR ist ein Doppeltriplet von Quartetts, während ein anderes Signal ein Doppeltriplet von Triplets ist. Identifizieren Sie die Verbindung als entweder CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH oder CH3C(H)(C2H5)C(H)(C2H5)CH2COOH.\n\n(A) CH3CH2C(H)(CH3)C(H)(CH3)COOH  \n(B) CH3C(H)(CH3)C(H)(CH3)CH2COOH  \n(C) CH3C(H)(C2H5)C(H)(C2H5)CH2COOH  \n(D) CH3CH2C(H)(C2H5)C(H)(C2H5)COOH  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1290,7 +1290,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Verbindung A (C3H6) wird in Gegenwart von Kohlenstofftetrachlorid bromiert, um Verbindung B zu bilden. Wenn Verbindung B mit alkoholischem KOH reagiert, entsteht Verbindung C. Das Durchleiten von Verbindung C durch ein rotglühendes Eiserohr produziert Verbindung D. Verbindung D reagiert mit einer Mischung aus zwei starken Säuren, um Verbindung E zu bilden. Verbindung E bildet in Gegenwart von Eisenfeilen und Salzsäure Verbindung F. Verbindung F reagiert mit salpetriger Säure, um G zu bilden. Wenn G mit Natriumhydroxid reagiert, entsteht H. Identifizieren Sie die falsche Aussage über die Produkte, die in dieser Reaktionsreihe erhalten werden.\n\n(A) F wird für die Synthese von Farbstoffen verwendet.\n(B) H gibt eine gelbe Farbe bei Zugabe von Eisen(III)-chlorid-Lösung.\n(C) D gibt zwei Singuletts in den 1H NMR-Spektren.\n(D) C ist ein brennbares Gas.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1303,7 +1303,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Student führte eine säurekatalysierte Reaktion von 3-Methylpyrrolidin mit Verbindung A durch, das Endprodukt der Reaktion ist 1-(cyclohexylidenmethyl)-3-methylpyrrolidin. Wählen Sie das geeignete Reagenz (A) und den Katalysator (B) für die Reaktion aus.  \n3-Methylpyrrolidin + A (B, Wärme, Lösungsmittel) ---> 1-(cyclohexylidenmethyl)-3-methylpyrrolidin\n\n(A) A = Cyclohexan-Carbaldehyd, B = Essigsäure  \n(B) A = Vinylcyclohexan, B = Essigsäure  \n(C) A = Cyclohexan-Carbaldehyd, B = TsOH  \n(D) A = Vinylcyclohexan, B = TsOH  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1316,7 +1316,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben ein neues Ligand-Rezeptor-Paar identifiziert, das zunächst in den Neuralleistenzellen exprimiert wird, und möchten das Entwicklungsschicksal ihrer Interaktion verstehen. Der Rezeptor ist ein monomeres transmembranäres Fass mit acht Alpha-Helices, vier extrazellulären Helices und drei Beta-Faltblättern, die eine Bindungsstelle für das Ligand schaffen. Das Ligand ist eine Coiled-Coil aus zwei Alpha-Helices. Sie erstellen einen bicistronischen lox-Cre-Vektor mit dem Ligand-ORF an der 5'-Position, fusioniert mit mCherry; der Rezeptor-ORF befindet sich an der 3'-Position und ist am C-Terminus mit eGFP fusioniert. Das Ligand steht unter dem CBA-Promotor, und stromaufwärts des Rezeptors befindet sich das IRES-regulatorische Element. Zwischen dem Ligand-ORF und mCherry gibt es ein Stoppsignal in einer loxP-stop-loxP-Kassette, und zwischen dem Rezeptor und eGFP gibt es ein Stoppsignal in der lox2272-stop-lox2272-Kassette. Sie haben auch Antikörper gegen die überexprimierten Proteine erzeugt und verwenden diese jetzt, um die Konstrukt-Expression im Western Blot nach der Plasmidtransfektion in der primären Astrozytenkultur zu testen. Gesamtproteine geben ein Signal, das proportional zur Aktinbeladung ist. Schließlich züchten Sie ein Mausmodell, das homozygot für Ihr Konstrukt im wt-Hintergrund ist. Sie kreuzen es mit SOX10-Cre-hemizygoten Mäusen; nachdem der Nachwuchs geboren ist, visualisieren Sie ihn unter dem fluoreszierenden konfokalen Mikroskop. Sie beobachten kein grünes Signal. Welche der folgenden Antworten erklärt den wahrscheinlichsten Grund dafür?\n\n(A) Ligand und Rezeptor befinden sich in einer parakrinen Beziehung  \n(B) Der Rezeptor-eGFP-Konstrukte ist im Golgi gefangen  \n(C) Der Enhancer für die Ligand- und Rezeptorexpression fehlt  \n(D) Der Rezeptor und das eGFP sind nicht im Rahmen  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1329,7 +1329,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche Reaktionsfolge aus den folgenden Optionen würde zur hochgradigen Synthese von 1-(3-Bromo-5-nitrophenyl)ethan-1-on führen, beginnend mit Benzol?\n\n(A) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) CH3COCl/AlCl3 ; iv) Br2/FeBr3 ; v) HNO3/H2SO4 ; vi) NaNO2/HCl ; vii) H3PO2  \n(B) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) NaNO2/HCl ; iv) H3PO2 ; v) Br2/FeBr3 ; vi) CH3COCl/AlCl3 ; vii) HNO3/H2SO4  \n(C) i) Br2/FeBr3 ; ii) HNO3/H2SO4 ; iii) CH3COCl/AlCl3 ; iv) HNO3/H2SO4 ; v) Fe/HCl ; vi) NaNO2/HCl ; vii) H3PO2  \n(D) i) CH3COCl/AlCl3 ; ii) Br2/FeBr3 ; iii) HNO3/H2SO4 ; iv) Fe/HCl ; v) HNO3/H2SO4 ; vi) NaNO2/HCl ; vii) H3PO2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1342,7 +1342,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen suchen nach Exoplaneten um zwei Sterne mit genau der gleichen Masse. Mit der RV-Methode entdeckten sie einen Planeten um jeden Stern, beide mit Massen, die der von Neptun ähnlich sind. Die Sterne selbst haben Massen, die der unserer Sonne ähnlich sind. Beide Planeten wurden in kreisförmigen Umlaufbahnen gefunden.\n\nPlanet #1 wurde anhand der bis zu 5 miliangstrom periodischen Verschiebung einer Spektrallinie bei einer bestimmten Wellenlänge detektiert. Die periodische Wellenlängenverschiebung derselben Spektrallinie im Spektrum des Wirts von Planet #2 betrug 7 miliangstrom.\n\nDie Frage ist: Wie oft ist die Umlaufzeit von Planet #2 länger als die von Planet #1?\n\n(A) ~ 1.96  \n(B) ~ 1.40  \n(C) ~ 0.36  \n(D) ~ 0.85  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1355,7 +1355,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen beobachten derzeit einen Stern mit einem Radius, der dem der Sonne entspricht. Eine Hemisphäre des Sterns ist mit dunklen Flecken bedeckt, die einen Füllfaktor von 20% aufweisen. Der Stern hat eine effektive Temperatur (Teff) von 6000K, und die Flecken zeigen einen Temperaturunterschied von 1000K. Da nur eine Hemisphäre fleckig ist, werden photometrische Zeitreihenbeobachtungen periodische Helligkeitsvariationen aufgrund der Rotationsmodulation offenbaren. Interessanterweise kann diese Situation der Anwesenheit eines Exoplaneten sehr ähnlich sein. Um das gleiche Amplitudensignal in der Lichtkurve des Sterns zu erzeugen (wenn der Stern nicht von Flecken bedeckt wäre!), wie groß sollte der Radius eines hypothetischen Exoplaneten im Verhältnis zum Radius des Wirtsterns sein (d.h. Rpl/Rstar)?\n\n(A) ~0.32  \n(B) ~0.11  \n(C) ~0.39  \n(D) ~0.07  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1368,7 +1368,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Reaktion zwischen Cyclohexanon und Piperidin kann zur Bildung eines zyklischen Imins führen, das auch als Schiff-Basis bekannt ist. Diese Art von Reaktion ist ein klassisches Beispiel für die Iminbildung, die die Kondensation eines Ketons (in diesem Fall Cyclohexanon) mit einer primären Amin (Piperidin) in Gegenwart eines Säurekatalysators umfasst. \nWas wird das günstige Säure (A) und das Endprodukt (B) der folgenden Reaktion sein?\nCyclohexanon + Piperidin + (A, Acrylaldehyd, H3O+) ---> B\n\n(A) A = TsOH, B = 3-(2-Oxocyclohexyl)propanal  \n(B) A = HCl, B = 3-(2-Oxocyclohexyl)propanal  \n(C) A = HCl, B = 1-(2-(3-Oxopropyl)cyclohexylidene)piperidin-1-ium  \n(D) A = TsOH, B = 1-(2-(3-Oxopropyl)cyclohexylidene)piperidin-1-ium  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1381,7 +1381,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Stellen Sie sich eine Situation vor, in der ein neuartiges natürliches Molekül, Xantheraquin, entdeckt wird und untersucht wird, um in silico-Tests gegen einen multiresistenten bakteriellen Pathogen durchzuführen. Vorläufige Studien deuten darauf hin, dass Xantheraquin mehrere chirale Zentren hat und in verschiedenen tautomerischen Formen existieren kann. Welche der folgenden Schritte wäre am wichtigsten, bevor mit in silico-Docking-Studien fortgefahren wird, angesichts der Komplexität der Bioinformatik in der strukturbasierten Arzneimittelentdeckung?\n\n(A) Verwenden Sie die stabilste chirale Form von Xantheraquin und verlassen Sie sich auf quantenmechanische Berechnungen, um ihre Wechselwirkung mit dem bakteriellen Ziel vorherzusagen.  \n(B) Analysieren Sie alle tautomerischen und chiralen Formen, priorisieren Sie jedoch diejenigen Formen, die basierend auf den physikochemischen Eigenschaften am wahrscheinlichsten biologisch aktiv sind.  \n(C) Konzentrieren Sie sich auf die Pharmakokinetik von Xantheraquin und die ADME (Absorption, Verteilung, Metabolismus, Exkretion)-Eigenschaften, indem Sie molekulare Dynamik-Simulationen verwenden, um ihr Verhalten in einem biologischen System vorherzusagen.  \n(D) Kombinieren Sie in silico-Vorhersagen mit vorläufigen in vitro-Bindungsaffinitätsassays, um die vielversprechendsten Formen von Xantheraquin vor umfangreichen Docking-Studien zu validieren.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1394,7 +1394,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Für ein Magnetfeld \\vec{B}, parallel zu Oz, mit kleinen Werten von m (orbitalem magnetischem Quantenzahl) und B=1T, vergleichen Sie die Größenordnung des paramagnetischen Kopplungsterms mit der Übergangsenergie \\Delta E des Wasserstoffatoms mit der Wellenlänge \\lambda=0.4861\\mu m.\n\nPS: Für die Mathematik verwenden Sie einen Online-LaTeX-Editor.\n\n(A) \\left\\langle H\\right\\rangle \\gg\\Delta E  \n(B) \\left\\langle H\\right\\rangle \\ll\\Delta E  \n(C) \\left\\langle H\\right\\rangle =\\Delta E  \n(D) \\left\\langle H\\right\\rangle >\\Delta E  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1407,7 +1407,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie ein gebundenes System von zwei Nukleonen (NN) im 1S0-Zustand, das ein Teilchen X mit intrinsischer Parität -1 emittiert. Die Pauli-Statistik erfordert, dass die Isospin-, Drehimpuls- und Spin-Quantenzahlen des finalen NN-Zustands die Bedingung T(NN) = S(NN) + L(NN) + 1 (mod 2) erfüllen.\n\nAngenommen, der finale NN-Zustand hat T(NN) = 0. Welches der folgenden Partialwellen ist nicht erlaubt, wobei der Kleinbuchstabe den Drehimpulszustand von X bezeichnet? Nutzen Sie die Erhaltung sowohl des Drehimpulses als auch der Parität.\n\nBeachten Sie, dass das Termsymbol (z. B. 1S0) allgemein definiert ist als (2S+1)L(J), wobei S der Gesamtdrehimpuls, L der gesamte orbitalen Drehimpuls in spektroskopischer Notation und J der gesamte Drehimpuls ist.\n\n(A) 1S0 -> 3S1 + p  \n(B) 1S0 -> 7D1 + p  \n(C) 1S0 -> 3D3 + f  \n(D) 1S0 -> 3P0 + s  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1420,7 +1420,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welcher der folgenden Sterne kann sowohl mit dem ESPRESSO-Spektrographen am Paranal-Observatorium als auch mit dem HIRES-Spektrographen am Keck-Observatorium detektiert werden? Bitte beziehen Sie sich auf die Links unten für weitere Informationen über die Observatorien. Es sollte beachtet werden, dass mit ESPRESSO Sterne mit scheinbaren V-Helligkeiten heller als 17 mag beobachtet werden können, während mit HIRES Sterne heller als 16 V mag beobachtet werden können. Der Einfachheit halber lassen wir die Zielgrenzen der Teleskope (wie maximale und minimale Elevationen) sowie die Höhenlagen der Teleskope außer Acht.\n\nLinks:\nParanal-Observatorium: https://de.wikipedia.org/wiki/Paranal-Observatorium\nW. M. Keck-Observatorium: https://de.wikipedia.org/wiki/W._M._Keck_Observatorium\n\nStern1 - RA = 15 deg und DEC = -75 deg, absolute V-Helligkeit von 15.5 mag und in 10 pc Entfernung von uns.\n\nStern2 - RA = 30 deg und DEC = 55 deg, scheinbare V-Helligkeit von 16.5 mag und in 5 pc Entfernung von uns.\n\nStern3 - RA = 11 h und DEC = 48 deg, scheinbare V-Helligkeit von 15.5 mag, E(B-V) = 0.6 mag und in 15 pc Entfernung von uns. Beachten Sie, dass die totale Absorption im V-Band mit dem Farbexzess in B-V mit einem Koeffizienten von 3.1 verbunden ist.\n\nStern4 - RA = 85 deg und DEC = -48 deg, absolute V-Helligkeit von 15.5 mag, E(B-V) = 0.4 mag und in 10 pc Entfernung von uns. Beachten Sie, dass die totale Absorption im V-Band mit dem Farbexzess in B-V mit einem Koeffizienten von 3.1 verbunden ist.\n\nStern5 - RA = 10 h und DEC = 60 deg, absolute V-Helligkeit von 16.5 mag und in 5 pc Entfernung von uns.\n\n(A) Stern3 und Stern5  \n(B) Stern1 und Stern4  \n(C) Stern2 und Stern3  \n(D) Stern4 und Stern5  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1433,7 +1433,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Vervollständigen Sie die folgenden Reaktionen und wählen Sie die Hauptprodukte aus, indem Sie die sterische Hinderung und die Stabilität der Produkte berücksichtigen.  \n2-Ethyl-2,6-dimethylcyclohexan-1-on + Ethylacrylat (t-BuOK) ---> A  \n1-Nitropropan + (KOH, (E)-But-2-en-nitril, H2O) ---> B  \n\n(A) A = Ethyl 3-(3-Ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoat, B = 3-Methyl-4-nitrohexanenitril  \n(B) A = Ethyl 3-(3-Ethyl-1,3-dimethyl-2-oxocyclohexyl)propanoat, B = 2,3-Dimethyl-4-nitrobutanenitril  \n(C) A = Ethyl 3-(3-Ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoat, B = 3-Methyl-4-nitrohexanenitril  \n(D) A = Ethyl 3-(3-Ethyl-3,5-dimethyl-4-oxocyclohexyl)propanoat, B = 2,3-Dimethyl-4-nitrobutanenitril  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1446,7 +1446,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sei |alpha> der Zustand, der ein Elektron beschreibt, so dass er proportional ist zu (1+i) |up> + (2-i) |down>, wobei |up> und |down> die Eigenzustände der z-Projektion des Spinoperators sind. Berechne die Wahrscheinlichkeit, das Teilchen in jedem der Eigenzustände des Operators zu messen, dessen Matrixdarstellung durch die Elemente Aij gegeben ist, so dass Aij = hbar/2, wenn i unterschiedlich von j ist, und 0 sonst. Bestimme auch den Erwartungswert dieses Operators.\n\n(A) 0.54, 0.46 und 3*hbar / sqrt(7)  \n(B) 0.28, 0.72 und hbar / sqrt(7)  \n(C) 0.64, 0.36 und hbar / 7  \n(D) 0.61, 0.29 und 2*hbar / sqrt(7)  \n\nBitte schreibe deine endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1459,7 +1459,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben eine unbekannte Verbindung hergestellt. Um das Produkt zu identifizieren, haben Sie die folgenden Charakterisierungstechniken verwendet: FTIR, ^1H NMR und Massenspektrometrie. Das FTIR-Spektrum zeigt einen sehr breiten Absorptionspeak bei 3000 Wellenzahlen. Zwei weitere starke Absorptionspeaks sind bei 1700 und 1650 Wellenzahlen zu beobachten. Im ^1H NMR-Spektrum wurden mehrere Peaks beobachtet, darunter Peaks, die mit Vinyl-Wasserstoffen korrespondieren. Das Massenspektrum zeigt einen Fragmentpeak bei m/z = 45. Bestimmen Sie die chemische Formel dieser unbekannten Verbindung als entweder C6H12O, C6H10O, C6H10O2 oder C6H12O2.\n\n(A) C6H10O2  \n(B) C6H12O  \n(C) C6H10O  \n(D) C6H12O2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1472,7 +1472,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wählen Sie die geeigneten Reagenzien für die folgenden genannten Reaktionen aus.  \nbutan-2-on + NaCN + A ---> 2-Hydroxy-2-methylbutanenitril  \n2-(4-Benzylphenyl)-2-Hydroxybutanenitril + B (H2O) ---> 2-(4-Benzylphenyl)-2-Hydroxybuttersäure  \n\n(A) A = H3O+, B = CH3COOH  \n(B) A = H3O+, B = HCl  \n(C) A = NaHSO3, B = HCl  \n(D) A = NaHSO3, B = CH3COOH  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1485,7 +1485,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Elektron bewegt sich entlang der horizontalen Achse von links mit einem Lorentzfaktor von 4. Ein Positron bewegt sich ebenfalls entlang der horizontalen Achse, jedoch von rechts mit einem Lorentzfaktor von 2. Nach der Kollision annihilieren beide und erzeugen 2 Photonen.\n\nDie Energien beider Photonen wurden gemessen und sie haben den gleichen Wert. Auch die Richtungen wurden gemessen. Eines der Photonen bewegte sich in die obere rechte Richtung, während das andere in die untere rechte Richtung bewegte.\n\nWie groß ist der Winkel zwischen den Richtungen der Photonen?\n\n(A) 172  \n(B) 96  \n(C) 74  \n(D) 138  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1498,7 +1498,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Verbindung A zeigt zwei Signale in der Protonen-NMR, ein Triplet bei 0,9 ppm für 6H und ein Quartet bei 1,3 ppm für 4H. Es unterliegt einer Monobromierung, um Verbindung B zu bilden. B reagiert mit alkoholischem KOH, um C zu bilden, das zwei geometrische Isomere hat. Das cis-Isomer von C reagiert mit (1E,3E)-penta-1,3-dien-1-ol, um Verbindung D zu produzieren. Identifizieren Sie Verbindung D.\n\n(A) (1S,4R)-4,6,6-trimethylcyclohex-2-enol  \n(B) (1S,4S)-4,6,6-trimethylcyclohex-2-enol  \n(C) (1S,4R,5S,6S)-4,5,6-trimethylcyclohex-2-enol  \n(D) (1S,4R,5S,6R)-4,5,6-trimethylcyclohex-2-enol  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1511,7 +1511,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Verbindungen, die dieselbe molekulare Formel haben, sich jedoch in ihrer strukturellen Anordnung unterscheiden, werden als Isomere bezeichnet. Isomere haben zwei Typen: konstitutionelle Isomere und Stereoisomere. Konstitutionelle Isomere haben die gleiche molekulare Formel, unterscheiden sich jedoch in ihren Strukturen. Bei Stereoisomeren sind die Moleküle auf die gleiche Weise verbunden, aber ihre Anordnungen im Raum sind unterschiedlich. \nWelche der folgenden organischen Gruppen zeigen optische Isomerie?\n\n1. Dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylat\n2. Methyl 2-hydroxypropanoat\n3. Benzophenon\n4. Dimethylfumarat\n\n(A) 1, 2 und 4  \n(B) 3 und 4  \n(C) 1 und 2  \n(D) 2 und 3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1524,7 +1524,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Was ist das Hauptprodukt der Reaktion zwischen 4,4-Dimethylcyclopent-1-enol und Brom?\n\n(A) 2-Bromo-4,4-dimethylcyclopentanon  \n(B) 4-Bromo-4,4-dimethylcyclopentanon  \n(C) (1R,2S)-1,2-Dibromo-4,4-dimethylcyclopentanol  \n(D) (1R,2R)-1,2-Dibromo-4,4-dimethylcyclopentanol  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1537,7 +1537,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie Produkt D in der folgenden Reaktionsreihe.  \n5-Bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzol + H2O ---> A  \nA + PDC ---> B  \nB + H2CPPh3 ---> C  \nC + TsOH ---> D  \n\n(A) 3a,5,5-trimethyl-1,2,3,3a,5,6,7,8-octahydrocyclopenta[1,4]cyclobuta[1,2]benzol  \n(B) 3a,5-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzol  \n(C) 3a,4,5a-trimethyl-1,2,3,3a,5a,6,7,8-octahydrocyclopenta[c]pentalen  \n(D) 3a,4a,5,5-tetramethyl-2,3,3a,4,4a,5-hexahydro-1H-cyclobuta[1,2:1,4]di[5]annulen  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1550,7 +1550,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Angenommen, Sterne sind gleichmäßig am Himmel verteilt. In diesem Szenario, wie ändert sich die Anzahl der Sterne pro Einheit des Parallaxen (plx) mit plx?\n\n(A) ~ 1/plx^1  \n(B) ~ 1/plx^2  \n(C) ~ 1/plx^4  \n(D) ~ 1/plx^3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1563,7 +1563,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wenn gesättigte Epoxide mit Organocupraten reagieren, wird die Alkylgruppe des Reagenz immer am weniger hinderte Kohlenstoff des Epoxidrings eingeführt. In den disubstituierten Epoxiden tritt eine Inversion der Konfiguration an dem Kohlenstoff auf, an den Nu addiert wird. Bestimmen Sie das Produkt, wenn (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptan mit Me2CuLi reagiert:\n\n(A) (1R,4R,5R)-2,2,4,5-tetramethylcyclohexan-1-ol  \n(B) (1R,2S,4R,5R)-1,2,4,5-tetramethylcyclohexan-1-ol  \n(C) (1R,2R,4R,5R)-1,2,4,5-tetramethylcyclohexan-1-ol  \n(D) (1S,4R,5S)-2,2,4,5-tetramethylcyclohexan-1-ol  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1576,7 +1576,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Essigsäure wird mit Brom, Pyridin und Essigsäureanhydrid unter Erhitzen behandelt, wobei Produkt 1 entsteht.\n\n1 wird mit Ethanol und einer kleinen Menge Schwefelsäure erhitzt, wodurch Produkt 2 entsteht.\n\n2 wird mit Natriumcyanid behandelt, was Produkt 3 ergibt.\n\n3 wird dann mit überschüssigem Natriumhydrid und 1,5-Dibrompentan behandelt, wodurch das Endprodukt 4 entsteht.\n\nWie viele verschiedene Wasserstoffsignale werden im ^1H NMR-Spektrum von 4 beobachtbar sein? (Einige von ihnen könnten sehr nahe beieinander im chemischen Verschiebungsbereich liegen und somit praktisch nicht unterscheidbar sein, aber die gewünschte Antwort ist die Anzahl der chemisch unterschiedlichen Wasserstoffe)\n\n(A) 5  \n(B) 8  \n(C) 10  \n(D) 12  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1589,7 +1589,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine Supernova trat in unserer Galaxie auf. Ein Teil der Supernova-Ejekta bewegt sich direkt auf das Zentrum der Galaxie zu. Sowohl der Ejekta-Teil als auch die Galaxie sind Inertialsysteme. Aus dem Bezugssystem der Ejekta bewegt sich das Zentrum der Galaxie mit 60 000 km/s (sechzigtausend Kilometer pro Sekunde) auf sie zu. \nWelche Strecke legt das Ejekta im Bezugssystem der Galaxie zurück, wenn 50 Sekunden im Bezugssystem der Ejekta vergehen?\n\n(Hinweis: Die Gravitation kann ignoriert werden, und die Rotation und Revolution der Galaxie können ignoriert werden.)\n\n(A) 2 940 000 km.  \n(B) 3 060 000 km.  \n(C) 2 880 000 km.  \n(D) 3 000 000 km.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1602,7 +1602,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Teilchen werden im Zentrum eines sphärischen Detektors kollidiert, wodurch eine neue Art von Teilchen erzeugt wird, die ununterbrochen mit ultra-relativistischen Geschwindigkeiten reisen, die stark um den Lorentzfaktor von ~20 zentriert sind. Im Durchschnitt erreicht ein Drittel dieser schnell zerfallenden Teilchen die inneren Wände des Detektors. Der Radius des Detektors beträgt 30 Meter.\n\nWelcher Lorentzfaktor ist erforderlich, um etwa zwei Drittel dieser Teilchen zu erreichen, die die inneren Wände des Detektors erreichen?\n\n(A) 40  \n(B) 28  \n(C) 68  \n(D) 54  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1615,7 +1615,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie ein quantenmechanisches System, das ein Teilchen der Masse $m$ enthält, das sich in einem isotropen dreidimensionalen Potential der Form $V(r) = \\frac{1}{2} m \\omega^2 r^2$ bewegt, was der wirkenden Kraft entspricht, die dem Hookeschen Gesetz gehorcht. Hierbei ist $\\omega$ die Winkelgeschwindigkeit der Schwingung und $r$ der radiale Abstand des Teilchens vom Ursprung in sphärischen Polarkoordinaten. Was ist der Wert der Energie des dritten angeregten Zustands, und wie viele linear unabhängige Eigenfunktionen sind für denselben Energieeigenwert möglich?\n\n(A) $\\frac{9}{2} \\hbar \\omega$, 10  \n(B) $\\frac{11 \\pi^2 \\hbar^2}{2m r^2}$, 3  \n(C) $\\frac{11 \\pi^2 \\hbar^2}{2m r^2}$, 10  \n(D) $\\frac{9}{2} \\hbar \\omega$, 3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1628,7 +1628,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein organischer Chemiker führt zwei Reaktionen durch.  \nReaktion I:  \n(S)-5-Methoxyhexan-3-on wird mit LAH behandelt, gefolgt von einer sauren Aufarbeitung.  \nReaktion II:  \nPentan-2,4-dion wird mit überschüssigem NaBH4 behandelt, gefolgt von einer sauren Aufarbeitung.  \nDer Fortschritt der Reaktionen wird mittels TLC überwacht. Nachdem die Reaktionen zu 100 % abgeschlossen sind, werden die Produkte beider Reaktionen kombiniert und sowohl auf einer Normalphasen-HPLC-Säule als auch auf einer HPLC-Säule mit der chiralen stationären Phase analysiert.  \nWie viele Peaks beobachtet der Chemiker in den Chromatogrammen?  \n\n(A) 5 Peaks in chiraler HPLC und 4 Peaks in Normalphasen-HPLC  \n(B) 4 Peaks in chiraler HPLC und 2 Peaks in Normalphasen-HPLC  \n(C) 3 Peaks in chiraler HPLC und 2 Peaks in Normalphasen-HPLC  \n(D) 3 Peaks in sowohl chiraler HPLC als auch Normalphasen-HPLC  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1641,7 +1641,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden Moleküle wird gebildet, wenn 5-Butylnona-2,6-dien erhitzt wird?\n\n(A) 5-Ethylundeca-2,6-dien  \n(B) 5-Ethyl-4-methyldeca-2,6-dien  \n(C) 5-Ethyl-4-methyldeca-2,6-dien  \n(D) 4-Ethyl-3-methyldeca-1,5-dien  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1654,7 +1654,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Herzlichen Glückwunsch, Sie haben gerade Ihren Traumjob in einem der besten strukturellen Biologielabore an der Stanford University in Kalifornien bekommen. Ohne weitere Umschweife erklärt der Hauptforscher, dass die Priorität im Moment darin besteht, das Human-P53-Protein in E. coli BL21 zu produzieren und so schnell wie möglich zu reinigen.\n\nDie Aminosäuresequenz dieses Proteins lautet wie folgt:\nMEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD\n\nIhnen stehen 4 Plasmide mit 4 verschiedenen Sequenzen zur Verfügung, welches werden Sie verwenden?\n\n(A) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCCGCATGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGCGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGCGCGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\n(B) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCA\nCTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATA\nTTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTC\nAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGG\nGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGA\n(C) ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCGCCTCTGAGTCAGGAAACATTTTCAGACCTATGGA\nAACTACTTCCTGAAAACAACGTTCTGTCCCCGTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCC\nGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCT\nCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGT\nCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGG\nGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACC\nTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACA\nAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGG\nTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAAC\nACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACT\nACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACT\nGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGA\nGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCGCC"
       }
     ],
     "final_answer": "",
@@ -1667,7 +1667,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie die Verbindung E im folgenden Reaktionsschema.  \nVerbindung A, wenn sie mit HCN reagiert, produziert Verbindung B.  \nVerbindung B, bei der Reduktion mit H2 in Gegenwart von Pd, bildet Verbindung C.  \nVerbindung C, bei der Reaktion mit HNO2, bildet Verbindung D.  \nVerbindung D, bei der Eliminierung eines inerten Gases, bildet Verbindung E.  \nHinweise:  \na) Verbindung A, wenn sie mit einem unbekannten phosphorhaltigen Ylid reagiert, bildet 1,2-Dimethyl-4-(propan-2-ylidene)cyclopentan.  \nb) Das IR-Spektrum von Verbindung A zeigt einen starken Peak bei etwa 1750 cm^-1, während das IR-Spektrum von Verbindung E einen starken Peak bei etwa 1715 cm^-1 zeigt.  \n\n(A) 3,4-Dimethylcyclohexan-1-on  \n(B) 2,3,4-Trimethylcyclopentan-1-on  \n(C) 2,2,3,4-Tetramethylcyclobutan-1-on  \n(D) 4-Methylcycloheptan-1-on  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1680,7 +1680,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Große Wolken aus neutralem Wasserstoff im tiefen Weltraum absorbieren das Licht von Hintergrundquasaren bei der Lyman-Alpha-Wellenlänge von ~1216 Angström. Schätzen Sie die untere Grenze für den Rotverschiebungswert dieser Objekte, sodass sie mit optischen bodengestützten Teleskopen detektiert werden können?\n\n(A) 1.9  \n(B) 1.2  \n(C) 2.4  \n(D) 3  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1693,7 +1693,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Dicarbonsäure, das ein cis-Alken enthält, wurde dehydratisiert, um das entsprechende Anhydrid zu erhalten. Dieses Anhydrid, das einen einzelnen Peak (7 ppm) in seinem ^1H NMR-Spektrum und zwei Peaks (137 ppm, 165 ppm) in seinem ^13C-Spektrum aufweist, wurde mit 1,2,3,4-Tetramethyl-1,3-cyclopentadien reagiert, um zwei Produkte (ein Haupt- und ein Nebenprodukt) zu erzeugen. Beide Produkte haben eine Summenformel von C13H16O3.\n\nDie 2D NOESY NMR-Spektren der Haupt- und Nebenprodukte wurden aufgenommen. Ein Kreuzpeak war im Spektrum des Hauptprodukts vorhanden, aber im Spektrum des Nebenprodukts abwesend (oder sehr schwach).\n\nIm Spektrum des Hauptprodukts, welche zwei Resonanzen sind durch diesen Kreuzpeak verbunden (Integrale stammen aus dem entsprechenden ^1H NMR)?\n\n(A) Ein 6H Singulett bei ~1.7 ppm und ein 2H Singulett bei ~3.5 ppm  \n(B) Ein 6H Singulett bei ~1 ppm und ein 6H Singulett bei ~1.7 ppm  \n(C) Ein 6H Singulett bei ~1 ppm und ein 1H Doppel bei ~1.5 ppm  \n(D) Ein 1H Doppel bei ~1.5 ppm und ein 2H Singulett bei ~3.5 ppm  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1706,7 +1706,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Das 1H NMR-Spektrum einer Lösung, die eine 1:1-Mischung von zwei aromatischen Verbindungen mit der Molekülformel C10H14 enthält, zeigt zwei Signale (zwei Singuletts) bei etwa 6,7 ppm in einem 1:1-Verhältnis. Es gibt auch drei Signale bei etwa 2,2 ppm (alle Singuletts) in einem 2:1:1-Verhältnis. Welche beiden Verbindungen sind in der Mischung aus den folgenden Optionen vorhanden: 1,2,4,5-Tetramethylbenzol, 1,2,3,5-Tetramethylbenzol, 1,2,3,4-Tetramethylbenzol und 1,4-Diethylbenzol.\n\n(A) 1,2,4,5-Tetramethylbenzol und 1,2,3,5-Tetramethylbenzol  \n(B) 1,2,3,4-Tetramethylbenzol und 1,2,3,5-Tetramethylbenzol  \n(C) 1,2,3,5-Tetramethylbenzol und 1,4-Diethylbenzol  \n(D) 1,2,4,5-Tetramethylbenzol und 1,2,3,4-Tetramethylbenzol  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1719,7 +1719,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir haben eine Lösung mit einem Volumen von 200,00 cm³, die 1,00 g KH2PO4 (Mw = 136,09 g/mol) und 1,00 g Na2HPO4●2H2O (Mw = 177,99 g/mol) enthält (T = 25 °C). Wie hoch ist die Konzentration der Orthophosphat-Ionen in dieser Lösung? Die Werte für Ka1, Ka2 und Ka3 von H3PO4 sind 7,5x10^-3, 6,2x10^-8 und 1,8x10^-12.\n\n(A) 6,24x10^-7 M  \n(B) 5,48x10^-7 M  \n(C) 2,81x10^-7 M  \n(D) 3,97x10^-7 M  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1732,7 +1732,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Berechnen Sie die Enthalpie der Neutralisation, wenn 500 mL 0,2 M HCl, 300 mL 0,3 M H2SO4 und 200 mL 0,5 M Ba(OH)2 gemischt werden.\n\n(A) -3,80 kcal  \n(B) -2,72 kcal  \n(C) -16,0 kJ  \n(D) -11,42 kcal  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1745,7 +1745,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Wechselwirkung zwischen dem bosonischen Feld X und Fermionen ist gegeben durch\n\n\\mathcal{L}\\left(y\\right)=-\\lambda{f}\\bar{\\psi}{f}\\left(y\\right)\\left(\\upsilon+X\\left(y\\right)\\right)\\psi_{f}\\left(y\\right)\n\nDie Masse des Bosons X beträgt 6 GeV. \nWelche kinematisch erlaubten Zerfälle des Bosons X gibt es in der niedrigsten Ordnung?\n\nPS: Für die Mathematik verwenden Sie einen LaTeX-Editor.\n\n(A) X\\rightarrow c\\bar{c},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n(B) X\\rightarrow b\\bar{b},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},e^{+}e^{-}\n(C) X\\rightarrow c\\bar{c},s\\bar{s},u\\bar{u},d\\bar{d},t\\bar{t},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n(D) X\\rightarrow b\\bar{b},s\\bar{s},u\\bar{u},d\\bar{d},\\tau^{+}\\tau^{-},\\mu^{+}\\mu^{-},e^{+}e^{-}\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1758,7 +1758,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Vektorfeld f(r) nimmt radial als 1/r^2 vom Ursprung ab, d.h. die Größe des Feldes ist f(r) = 1/r^2. Das Feld hat nur eine nicht-null Komponente entlang der radialen Richtung in sphärischen Koordinaten. Berechnen Sie das Volumenintegral der Divergenz des Feldes, ∇·f, innerhalb des Volumens einer Kugel mit dem Radius R, zentriert am Ursprung. Hier sind ∇ und f beide als Vektoren impliziert. Welche der folgenden Antworten ist die passendste für das Ergebnis des Integrals?\n\n(A) 0  \n(B) 4 π  \n(C) 1  \n(D) 4/3 π R  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1771,7 +1771,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Synchrozyklotron ist eine spezielle Art von Zyklotron. Ein Proton wird bei \\$t=0\\$ mit vernachlässigbarer kinetischer Energie, d.h. \\$T\\simeq0\\$, in den Beschleuniger injiziert und durchläuft zwei Beschleunigungen im Beschleuniger, um die kinetische Energie \\$T_{1}=950MeV\\$ zu erreichen. Die im Beschleuniger angelegte Wechselspannung ist gegeben durch\nU\\left(t\\right)=U_{0}\\cos\\left[2\\pi\\nu\\left(\\alpha\\right)t+\\Phi_{0}\\right].\n\nWie viele Umdrehungen macht das Proton im Synchrozyklotron?\nDaten: \\$\\Phi_{0}=\\frac{\\pi}{4},U_{0}=190kV\\$.\n\n(A) 3536  \n(B) 2500  \n(C) 1864  \n(D) 5300  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1784,7 +1784,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Eine chemische Reaktion zur Synthese eines Produkts, das H+ Ionen enthält, verlief bei Raumtemperatur und pH 1. Zufällig fiel eine unbekannte Substanz in die laufende Reaktion, wodurch die Reaktionsgeschwindigkeit für die Produktbildung langsamer wurde und der Behälter aufgrund einer exothermen Reaktion heiß wurde. Der pH-Wert der Lösung änderte sich nach dieser zufälligen Zugabe auf 4. Was könnte der mögliche Grund für die Änderung der Reaktionsgeschwindigkeit sein?\n\n(A) Der erhöhte Druck der Lösung  \n(B) Das erhöhte Volumen der Lösung  \n(C) Der erhöhte pH der Lösung  \n(D) Die erhöhte Temperatur der Lösung  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1797,7 +1797,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Verbindungen A und B werden getrennt mit Salzsäure, Natriumnitrit und Wasser behandelt. Durch die genannte Behandlung entstehen zwei verschiedene Diketone. Wählen Sie die geeigneten Ausgangsmaterialien A und B für die Reaktionen aus.  \nA + (NaNO2, HCl, H2O) ---> 4-Isopropylcyclohexan-1,2-dion  \nB + (NaNO2, HCl, H2O) ---> 5-Methylhexan-2,3-dion  \n\n(A) A = 4-Isopropyl-2-methoxycyclohexan-1-ol, B = 5-Methylhexan-2-on  \n(B) A = 4-Isopropylcyclohexan-1-on, B = 5-Methylhexan-2-on  \n(C) A = 4-Isopropylcyclohexan-1-on, B = 5-Methylhexan-2,3-diol  \n(D) A = 4-Isopropyl-2-methoxycyclohexan-1-ol, B = 5-Methylhexan-2,3-diol  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1810,7 +1810,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Substanz X, bekannt dafür, ein schwereres Isotop eines ihrer Bestandteile einzubauen, reagiert heftig mit der Flüssigkeit Y unter Freisetzung eines Gases W, dessen Molekül die gleiche Anzahl an Neutronen und Protonen enthält, und es bildet sich ein Niederschlag G, der beim Erhitzen B freisetzt. Der Schmelzpunkt von B (unter normalen Bedingungen) liegt sehr nahe bei 277 K. Das Produkt der Reaktion einer bestimmten Keto-Säure mit der Substanz X enthält 2 Atome Sauerstoff. Die Substanz X und insbesondere ihr sehr naher Analog wird als Reagenz in der organischen Chemie verwendet. Berechnen Sie die kumulierten Atommasse der leichtesten und schwersten Elemente, die in Substanz X vorhanden sind, wobei zu beachten ist, dass, falls mehrere Instanzen eines Elements existieren, die Massen aller schwereren und leichteren Isotope summiert werden müssen.\n\n(A) 35  \n(B) 31  \n(C) 29  \n(D) 25  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1823,7 +1823,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "1-Brombenzol-2-d wird mit NaNH2 in kondensiertem Ammoniak-Lösungsmittel behandelt. Wie viele mögliche organische Produkte gibt es in dieser Reaktion?\n\n(A) 1  \n(B) 2  \n(C) 3  \n(D) 4  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1836,7 +1836,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie diese Dichtematrix\n\n$\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$\n\nWas ist ihre geometrische Position im Qubit-Raum?\n\n(A) r=(0,0,0)  \n(B) r=(1,1,0)  \n(C) r=(0,0,1)  \n(D) r=(1,1,1)  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1849,7 +1849,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Pinacol-Pinacolone-Umlagerung ist eine chemische Reaktion, die die Umwandlung eines Pinacol-Moleküls, das zwei benachbarte Alkoholgruppen enthält, unter sauren Bedingungen in ein Pinacolon umfasst. Sie verläuft durch die Protonierung einer Alkoholgruppe, gefolgt von einem 1,2-Hydridverschiebung, was zur Bildung eines Ketons (Pinacolon) und zur Umlagerung der Struktur des Moleküls führt. \nWas sind die Ausgangsmaterialien und Produkte der folgenden Pinacol-Pinacolone-Umlagerungsreaktionen?\nA + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-on\nMethyl 2,3-dihydroxy-2-(p-tolyl)butanoat + H2SO4 ---> B\n\n(A) A = 1-(hydroxydi-p-tolylmethyl)cyclopentan-1-ol, B = methyl 3-oxo-2-(p-tolyl)butanoat\n(B) A = 1-(hydroxydi-p-tolylmethyl)cyclopentan-1-ol, B = methyl 2-methyl-3-oxo-2-(p-tolyl)propanoat\n(C) A = 1-(hydroxydi-p-tolylmethyl)cyclohexan-1-ol, B = methyl 3-oxo-2-(p-tolyl)butanoat\n(D) A = 1-(hydroxydi-p-tolylmethyl)cyclohexan-1-ol, B = methyl 2-methyl-3-oxo-2-(p-tolyl)propanoat\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1862,7 +1862,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "X ist eine Mesonenresonanz. Was ist die mittlere Zerstreuungsdistanz? Es ist bekannt, dass die Produktionsenergie $E_{X}=8GeV$, die Masse $m_{X}=1.2GeV$ und die Breite $\\Gamma_{X}=320MeV$ beträgt.\n\n(A) 5.0223 * 10^-16 m  \n(B) 4.0655 * 10^-16 m  \n(C) 5.0223 * 10^-15 m  \n(D) 4.0655 * 10^-15 m  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1875,7 +1875,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wie viele Stereoisomere gibt es für die Verbindung 6-Chlor-9-ethyl-2-methylundeca-3,7-dien-5-ol?\n\n(A) 16  \n(B) 4  \n(C) 8  \n(D) 32  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1888,7 +1888,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "5-Fluorcyclopenta-1,3-dien wird mit Maleinsäureanhydrid umgesetzt. Was ist das Hauptprodukt?\n\n(A) (3aR,4S,7R,7aS,8r)-8-Fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(B) (3aR,4R,7S,7aS,8r)-8-Fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(C) (3aR,4R,7S,7aS,8s)-8-Fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n(D) (3aR,4S,7R,7aS,8s)-8-Fluoro-3a,4,7,7a-tetrahydro-4,7-methanoisobenzofuran-1,3-dione  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1901,7 +1901,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie diesen Vernichtungsprozess\n\n$p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$\n\nDas Antiproton bewegt sich langsam und $m_{A}c^{2}=300MeV$.\n\nWie hoch ist die Geschwindigkeit des Teilchens A?\n\n(A) 0.96c  \n(B) 0.86c  \n(C) 0.77c  \n(D) 0.91c  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1914,7 +1914,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Fünf binäre Verbindungen von Fluor mit dem Element Y sind bekannt. Die leuchtend rote Substanz A1 zerfällt bei 293 K in A2 (ɷF=31,96%) und Fluor. A1 oxidiert Xenon unter normalen Bedingungen. A3 kann ebenfalls mit Xenon reagieren. A3 wird durch Fluorierung des Elements Y mit Fluor gewonnen. Durch Zugabe von Y im molaren Verhältnis 1:1 zu einer heißen, farblosen, konzentrierten Lösung von A4 kann A5 erhalten werden. In Wasser zerfällt A5 unter Bildung von zwei Substanzen. Geben Sie den Bereich an, in dem das Molekulargewicht der Substanz A4 liegt.\n\n(A) 140-160  \n(B) 160-180  \n(C) 220-240  \n(D) 110-130  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1927,7 +1927,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie analysieren eine kleine peptidische Verbindung, die chemisch synthetisiert wurde. Das 1H NMR-Spektrum der Rohverbindung erscheint konsistent mit dem erwarteten Molekül, mit der Ausnahme von zwei Peaks, die beide dem gleichen Alpha-Proton entsprechen. Diese beiden Peaks haben ähnliche chemische Verschiebungen und ungefähr gleiche Integrale (zusammen integrieren sie zu 1H - dem erwarteten Integral); basierend auf dem Kopplungsmuster können Sie Spin-Spin-Kopplung als Erklärung für die doppelten Peaks ausschließen. Die LC-MS-Analyse der Rohverbindung bei erhöhter Temperatur zeigt zwei klar definierte Peaks mit gleichen Intensitäten. Beide Peaks haben das gleiche Massenspektrum, das mit dem erwarteten Molekül übereinstimmt. Was ist die wahrscheinlichste Erklärung für diese Beobachtungen?\n\n(A) Die Verbindung ist mit einem Vorläufer kontaminiert  \n(B) Die Rohverbindung existiert als Mischung von Enantiomeren  \n(C) Es hat eine 'Doppelkopplung' während einer Amidbindung bildenden Reaktion stattgefunden  \n(D) Die Rohverbindung existiert als Mischung von Diastereoisomeren  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -1940,7 +1940,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Verbindungs mit der molekularen Formel C8H9NO und den gegebenen NMR-Daten wird mit folgendem Reagenssatz umgesetzt:\n\n1. NaNO2 + HCl  \n2. H2O  \n3. aq. KOH, Wärme  \n\n1H-NMR (ppm): 9.72 (t, 1H), 6.98 (d, 2H), 6.51 (d, 2H), 6.27 (bs, 2H), 3.66 (d, 2H). Bestimmen Sie das Endprodukt.\n\n(A) 2,4-bis(4-hydroxyphenyl)but-2-enal  \n(B) 4-(4-hydroxyphenyl)but-3-enal  \n(C) 2,4-diphenylbut-3-enal  \n(D) 3-hydroxy-2,4-bis(4-hydroxyphenyl)butanal  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1953,7 +1953,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Der Zustand eines Systems zu einem Zeitpunkt t wird durch die Spaltenmatrix mit den Elementen (-1, 2, 1) dargestellt. Ein Observable des Systems wird durch den Matrixoperator P repräsentiert, dessen Elemente in der ersten Zeile (0, 1/ \\sqrt{2}, 0), in der zweiten Zeile (1/ \\sqrt{2}, 0, 1/ \\sqrt{2}) und in der dritten Zeile (0, 1/ \\sqrt{2}, 0) sind. Berechnen Sie die Wahrscheinlichkeit, dass die Messung des Observablen zu einem Zeitpunkt t den Wert 0 ergibt.\n\n(A) \\sqrt{2/3}  \n(B) 2/3  \n(C) 1/3  \n(D) 1  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1966,7 +1966,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie haben ein neues Quorum-sensing-Peptid in den Bakterien Lactobacillus acidophilus identifiziert. Sie sind sehr daran interessiert, ob seine Rolle in der interzellulären Kommunikation auch bei den Eukaryoten erhalten bleibt. Sie behandeln die Hefe Saccharomyces cerevisiae mit dem Peptid und beobachten interessanterweise die Bildung des Shmoo. Sie möchten mehr über das Proteom der aktiven Chromatin im Shmoo erfahren und es durch Chromatin-Immunpräzipitation gefolgt von Massenspektrometrie zurückgewinnen. Welches der unten aufgeführten Proteinkomplexe werden Sie in Ihrem Assay am wenigsten beobachten?\n\n(A) Präinitiationskomplex  \n(B) Enhancer-Proteinkomplex  \n(C) Nukleosom-Histonkomplex  \n(D) Prä-Replikationskomplex  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -1979,7 +1979,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "α-β ungesättigte Carbonyle haben eine viel elektrophileren Kohlenstoff-Doppelbindung. Diese Doppelbindungen wirken als gute Lewis-Säure und reagieren mit Nucleophilen, um Enolat-Ionen zu erzeugen. In diesem Fall, wenn ein Nucleophil die β-Position angreift, entsteht ein resonanzstabilisiertes Zwischenprodukt. Wenn ein Nucleophil, das den β-Kohlenstoff angreift, ein Enolat ist, wird eine solche Reaktion als Michael-Reaktion bezeichnet.  \nWas sind die Reaktanten und die wichtigsten Endprodukte der folgenden Michael-Zusatzreaktionen?  \nDimethylmalonat + Methyl (E)-3-(p-tolyl)acrylat + (NaOEt, EtOH) -->(A)  \n1-(Cyclohex-1-en-1-yl)piperidin + (E)-but-2-enenitril + (MeOH, H3O+) --> (B)  \nC + But-3-en-2-on + (KOH, H2O) ---> 2-(3-oxobutyl)cyclohexan-1,3-dion  \n\n(A) A = Trimethyl 2-(p-tolyl)propane-1,1,3-tricarboxylat, B = 3-(2-oxocyclohexyl)butanenitril, C = Cyclohexan-1,3-dion  \n(B) A = Trimethyl 3-(p-tolyl)propane-1,1,2-tricarboxylat, B = 3-(2-hydroxycyclohex-1-en-1-yl)butanenitril, C = Cyclohexan-1,3-dion  \n(C) A = Trimethyl 3-(p-tolyl)propane-1,1,2-tricarboxylat, B = 3-(2-hydroxycyclohex-1-en-1-yl)butanenitril, C = 2-hydroxycyclohexan-1,3-dion  \n(D) A = Trimethyl 2-(p-tolyl)propane-1,1,3-tricarboxylat, B = 3-(2-oxocyclohexyl)butanenitril, C = 2-hydroxycyclohexan-1,3-dion  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -1992,7 +1992,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Im Labor entdeckt ein Chemiker eine unbenannte Flasche mit einem weißen Feststoff darin. Er sammelt die folgenden spektralen Informationen, um die Flüssigkeit zu identifizieren. Machen Sie einen vernünftigen strukturellen Vorschlag für das nicht identifizierte Medikament anhand der bereitgestellten Informationen.\nMasse: molekulares Ionensignal bei m/z = 156 (100%)\nein Peak bei m/z = 158 (32%)\nIR: breiter Peak von 3500-2700 cm^-1, starker scharfer Peak bei 1720 cm^-1\n1H NMR: 11.0 ppm (s, 1H), 8.02 ppm (d, 2H), 7.72 (d, 2H)\n\n(A) 2-Chlorbenzoesäure  \n(B) Phenylchloroformiat  \n(C) 4-Chlorbenzoesäure  \n(D) 3-Chloro-2-hydroxybenzaldehyd  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2005,7 +2005,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Stellen Sie sich vor, ein Operator $\\vec{P}$ eines Systems hat die Komponenten $P_x, P_y$ und $P_z$. Die Matrixform des Operators $P_x$ hat in der ersten Zeile die Komponenten $(0, \\hbar/\\sqrt{2}, 0)$, in der zweiten Zeile $(\\hbar/\\sqrt{2}, 0, \\hbar/\\sqrt{2})$ und in der dritten Zeile $(0,\\hbar/\\sqrt{2},0)$. Die Matrixform des Operators $P_y$ hat in der ersten Zeile die Komponenten $(0, -i \\hbar/\\sqrt{2}, 0)$, in der zweiten Zeile $(i \\hbar/\\sqrt{2}, 0, -i \\hbar/\\sqrt{2})$ und in der dritten Zeile $(0,i \\hbar/\\sqrt{2},0)$. Ähnlich hat die Matrixform des Operators $P_z$ in der ersten Zeile die Komponenten $(\\hbar, 0, 0)$, in der zweiten Zeile $(0, 0, 0)$ und in der dritten Zeile $(0,0, -\\hbar)$. Die Basisvektoren hier sind die Eigenvektoren von $P_z$. Das System befindet sich im Eigenzustand von $P_x$, der dem Eigenwert $-\\hbar$ entspricht. Genauer gesagt, die explizite Form des Zustands des Systems wird durch den Spaltenvektor mit den Elementen $(-1/2, 1/\\sqrt{2}, -1/2)$ gegeben. Was ist die Unsicherheit $\\Delta P_z$ von $P_z$?\n\n(A) \\hbar  \n(B) \\sqrt{2}\\hbar  \n(C) \\hbar/2  \n(D) \\hbar/\\sqrt{2}  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2018,7 +2018,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Chemiker führt zwei Reaktionen durch:\n\nReaktion 1: (E)-Oct-4-en wird mit einem Äquivalent von mCPBA behandelt, gefolgt von wässriger Säure.\n\nReaktion 2: (Z)-Oct-4-en wird mit einem Äquivalent von mCPBA behandelt, gefolgt von wässriger Säure.\n\nBeide Reaktionen gehen zu 100 % in die Vollständigkeit. Der Chemiker kombiniert die Produkte beider Reaktionen und führt dann die Produktmischung sowohl auf einer Standard-(achiralen) Umkehrphasen-HPLC-Säule als auch auf einer chiralen HPLC-Säule durch.\n\nVorausgesetzt, dass die chromatographische Auflösung in beiden Fällen so hoch ist, wie theoretisch möglich, was beobachtet der Chemiker in jedem dieser Chromatogramme?\n\n(A) 2 Peaks in sowohl der Standard- als auch der chiralen HPLC  \n(B) 2 Peaks in der Standard-HPLC und 3 Peaks in der chiralen HPLC  \n(C) 3 Peaks in der Standard-HPLC und 4 Peaks in der chiralen HPLC  \n(D) 4 Peaks in sowohl der Standard- als auch der chiralen HPLC  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2031,7 +2031,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In Ihrer Stadt hat ein Ausbruch einer viralen Infektionskrankheit stattgefunden. Sie wurden gebeten, ein molekulares Diagnosetool zur schnellen Erkennung dieses Retrovirus zu entwerfen. Wie würden Sie bei der Gestaltung dieses Kits vorgehen?\n\n(A) Zuerst identifizieren Sie das Virus anhand der Informationen über die Symptome, die von den betroffenen Patienten bereitgestellt werden. Dann entwerfen Sie ein Nested-PCR-Kit basierend auf den Informationen für eine schnelle Diagnose.  \n(B) Zuerst identifizieren Sie das Virus, indem Sie cDNA-Sequenzierung durchführen. Dann entwickeln Sie ein Real-Time-PCR-Kit für eine schnelle und genaue Diagnose.  \n(C) Zuerst identifizieren Sie die IgG-Antikörper für die Infektion. Dann entwickeln Sie ein ELISA-Kit, das auf IgG-Antikörper abzielt, für eine schnelle und genaue Diagnose.  \n(D) Zuerst identifizieren Sie das Virus, indem Sie DNA-Sequenzierung durchführen. Dann entwickeln Sie ein PCR-Kit für eine schnelle und genaue Diagnose.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2044,7 +2044,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einem inaktiven Zustand wartet eine Transkriptionsfaktor-Untereinheit auf ein Aktivierungssignal aus der Membran-Phosphorylierungs-Kaskade. Nach der Phosphorylierung an den Ser-Resten im Transaktivierungsbereich dimerisiert sie, wandert in den Zellkern und dient der Gen-Transkription. Eine Missense-Mutation X im Transaktivierungsbereich ist eine rezessive Verlust-of-Function-Mutation. Sie beobachten, dass eine heterozygote Mutation Y im Dimerisierungsbereich als dominante-negative Mutation wirkt. Welches der folgenden molekularen Phänotypen wird am wahrscheinlichsten in Anwesenheit der Mutation Y beobachtet?\n\n(A) Veränderung der Protein-Konformation und Gain-of-Function-Phänotyp  \n(B) Verlust der Protein-Dimerisierung und Wildtyp-Phänotyp  \n(C) Proteinaggregation und Verlust-of-Function-Phänotyp  \n(D) Proteinabbau und Verlust-of-Function des Wildtyp-Allel  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2057,7 +2057,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Beobachtungen eines Quasars über das elektromagnetische Spektrum werden durchgeführt. Fokussiert auf das nahe Infrarot- und optische Spektrum gibt es einen Peak bei einer Wellenlänge von etwa 790 nm, und bei kürzeren Wellenlängen < 790 nm sinkt der Fluss signifikant.\n\nWenn wir in einem Universum leben würden, das durch das Lambda-CDM-Modell definiert ist, sodass die aktuelle Hubble-Konstante 70 km s^-1 Mpc^-1 beträgt, der Materiedichteparameter 0.3, der dunkle Energiedichteparameter 0.7 ist und das Universum flach ist, \nwas kann über den Wert der komoving distance (für den Skalenfaktor a=1) dieses Quasars von der Erde angenommen werden?\n\n(A) 9 Gpc  \n(B) 8 Gpc  \n(C) 7 Gpc  \n(D) 6 Gpc  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2070,7 +2070,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie eine Apertur, die die Form eines N-seitigen Polygons hat. Alle Apothem sind von der gleichen Länge a. Wenn ein monochromatisches Licht (mit einer Wellenlänge \\lambda), das entlang der z-Achse reist, senkrecht auf diese Apertur fällt, erzeugt es eine Reihe von Intensitätsmaxima und -minima im Fernfeldbereich. Wie groß ist der Winkelabstand zwischen den ersten beiden Minima, wenn N unendlich groß ist? Nehmen Sie an, dass die betreffenden Winkel klein sind, sodass die Annäherung tan theta = theta verwendet werden kann.\n\n(A) 0.506 \\lambda / a  \n(B) 1.220 \\lambda / a  \n(C) 0.500 \\lambda / a  \n(D) 0.610 \\lambda / a  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2083,7 +2083,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Während der Konstruktion eines hochauflösenden Transmissionselektronenmikroskops, das bei einer Beschleunigungsspannung von 1000 kV betrieben wird, verband Mike Vakuumpumpen, um einen ultrahohen Vakuumzustand (< 10^-9 Torr) im Probenkompartment zu erzeugen, mit dem Ziel, die Anwesenheit von Gasmolekülen zu minimieren, um die Elektronenmikroskopie zu verbessern. Wie erwartet blieben jedoch einige Gasteilchen im Kompartment, was durch das Massenspektrometer festgestellt wurde. Mike bestimmte genau den mittleren freien Weg dieser Gasmoleküle im Vakuumzustand (< 10^-9 Torr) als λ1, basierend auf Faktoren wie dem Volumen des Probenkompartments, dem Druck und der Temperatur. Als er jedoch den Elektronenstrahl einleitete, machte er eine interessante Beobachtung bezüglich des mittleren freien Weges basierend auf der Streuung der Elektronen mit den Gasmolekülen. Er stellte fest, dass der mittlere freie Weg nicht mehr gleich λ1 war; vielmehr war er λ2, obwohl die Temperatur des Probenkompartments gleich blieb.\n\nWas können wir über λ2 basierend auf dem oben genannten Szenario schließen?\n\n(A) λ2 >= 1.22*λ1  \n(B) λ2 < λ1  \n(C) λ1 < λ2 < 1.22*λ1  \n(D) λ2 = λ1, was auf eine Diskrepanz in Mikes Beobachtung hinweist  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2096,7 +2096,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie die folgende Metrik:\n\nds^{2}=\\frac{32}{\\left(4-x^{2}-y^{2}\\right)}\\left(dx^{2}+dy^{2}\\right)\n\nWas ist die Fläche der Pseudosphäre mit dem Radius r=2?\n\nPS: Für die Mathematik verwenden Sie einen LaTeX-Editor.\n\n(A) 0  \n(B) +\\infty  \n(C) 4\\pi\\left(x^{2}-y^{2}\\right)  \n(D) 4\\pi\\left(x^{2}+y^{2}\\right)\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2109,7 +2109,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir möchten (bei 25°С) 0,1 g Fe(OH)3 in einem Gesamtvolumen von 100 cm3 lösen. Welches ist das minimale Volumen (cm3) einer 0,1 M monobasischen starken Säure, das benötigt wird, um die Lösung herzustellen, und wie hoch ist der pH-Wert der resultierenden Lösung?\n\n(A) pH 2,04; 28,05 cm3  \n(B) pH 4,94; 20,40 cm3  \n(C) pH 2,69; 30,09 cm3  \n(D) pH 3,16; 32,14 cm3  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2122,7 +2122,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen untersuchen zwei Doppelsternsysteme: system_1 und system_2. Beobachtungen zeigen, dass beide Systeme Eklipsen mit Perioden von 2 Jahren bzw. 1 Jahr aufweisen, für system_1 und system_2. Diese Perioden werden als die Zeit zwischen zwei aufeinanderfolgenden primären Eklipsen berechnet. Weitere spektroskopische Beobachtungen deuten darauf hin, dass in system_1 die beiden Sterne sinusoidale Variationen der radialen Geschwindigkeiten mit Amplituden von 10 km/s und 5 km/s zeigen. In system_2 betragen die Amplituden der sinusoidalen Variationen der radialen Geschwindigkeiten 15 km/s und 10 km/s. Um welchen Faktor ist system_1 massereicher als system_2? Betrachten Sie die Masse eines Systems als die Summe der Massen seiner beiden Sterne.\n\n(A) ~ 1.2  \n(B) ~ 0.7  \n(C) ~ 0.4  \n(D) ~ 0.6  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2135,7 +2135,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einem industriellen Forschungslabor führt ein Wissenschaftler die Polymerisation von Ethylen mit einem homogenen organometallischen Katalysatorsystem durch, das ein Polymer mit hoher Dichte erzeugt. Er beabsichtigt, ein zweites Katalysatorsystem hinzuzufügen, um regelmäßige Verzweigungen im Polymergerüst einzuführen, wobei ebenfalls nur Ethylen als Reaktant verwendet wird. Er konsultiert einen erfahrenen Wissenschaftler, der die folgenden Aussagen trifft. „Solche kombinierten Systeme sind bereits im industriellen Maßstab in den USA implementiert. Man kann einen Katalysator eines Übergangsmetalls der Gruppe VIa in Kombination mit spezifischen Aktivatoren verwenden. Aluminium-basierte Aktivatoren funktionieren nicht für den wesentlichen zusätzlichen Reaktionsschritt. Bestimmte Edelmetallkatalysatoren können verwendet werden, sind aber zu teuer.“\nWelche dieser vier Aussagen ist korrekt hinsichtlich der Bildung eines Polymers mit regelmäßigen Verzweigungen unter Verwendung von nur Ethylen als Monomer und einem dualen Katalysatorsystem?\n\n(A) Solche kombinierten Systeme sind bereits im industriellen Maßstab in den USA implementiert.  \n(B) Man kann einen Katalysator eines Übergangsmetalls der Gruppe VIa in Kombination mit spezifischen Aktivatoren verwenden.  \n(C) Bestimmte Edelmetallkatalysatoren können verwendet werden, sind aber zu teuer.  \n(D) Aluminium-basierte Aktivatoren funktionieren nicht für den wesentlichen zusätzlichen Reaktionsschritt.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2148,7 +2148,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie die Erweiterung des Standardmodells, die durch die folgende Lagrange-Funktion gegeben ist\n\n\\mathcal{L}\\subset i\\bar{N}_{R}\\gamma^{\\mu}\\partial_{\\mu}N_{R}+\\frac{1}{2}\\left(\\partial^{\\mu}\\phi\\right)^{2}+\\left|D^{\\mu}S\\right|^{2}-\\frac{y_{i}}{2}\\phi\\bar{N}_{iR}^{c}N_{iR}^{c}-g_{i\\alpha}\\bar{N}_{iR}L_{\\alpha}S-V\\left(\\phi,S,H\\right)\nmit Singlet-Fermionen, $N_{iR}\\sim\\left(1,1,0\\right)$, einem skalar-doppelten $S\\sim\\left(1,2,1\\right)$ und einem Singlet-Skalar $\\phi\\sim\\left(1,1,0\\right)$. Wir geben $\\left\\langle \\phi\\right\\rangle ^{2}=\\left(x^{2}+\\upsilon^{2}\\right)$ an, wobei $\\left\\langle \\phi\\right\\rangle =x$ und $\\left\\langle h\\right\\rangle =v$.\n\nWas ist die Näherung der Masse des Pseudo-Goldstone-Bosons $H_{2}$ durch radiative Korrekturen?\n\n(A) M_{h_{2}}^{2}=\\frac{\\left(x^{2}+v^{2}\\right)}{8\\pi^{2}}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}+\\alpha_{7}M_{A^{0}}^{4}-\\alpha_{8}\\sum M_{N_{i}}^{4}\\right\\}\n(B) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}+\\alpha_{7}M_{A^{0}}^{4}-\\alpha_{8}\\sum M_{N_{i}}^{4}\\right\\}\n(C) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}-\\alpha_{4}M_{t}^{4}+\\alpha_{5}M_{H^{\\pm}}^{4}+\\alpha_{6}M_{H^{0}}^{4}-\\alpha_{7}\\sum M_{N_{i}}^{4}\\right\\}\n(D) M_{h_{2}}^{2}=\\frac{1}{8\\pi^{2}\\left(x^{2}+v^{2}\\right)}\\left\\{ \\alpha_{1}M_{h_{1}}^{4}+\\alpha_{2}M_{W}^{4}+\\alpha_{3}M_{Z}^{4}+\\alpha_{4}M_{H^{\\pm}}^{4}+\\alpha_{5}M_{H^{0}}^{4}+\\alpha_{6}M_{A^{0}}^{4}-\\alpha_{7}\\sum M_{N_{i}}^{4}\\right\\}\n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2161,7 +2161,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Berechnen Sie die Menge der Nicht-Gaussianität (nG) im Schrödinger-Katzenzustand unter Verwendung des relativen Entropiemaßes. Der Zustand ist definiert als,\n|psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N;\nHierbei ist alpha die Amplitude, phi die Phase und N die Normierungskonstante.\nN = sqrt(1+ sin(2*phi)*exp(-2*alpha^2)).\nDas relative Entropiemaß wird angegeben als,\ndel_b = [trace(rho* ln(rho))-trace(tau* ln(tau))]\nwobei tau die Dichtematrix eines Referenz-Gaussian-Zustands und rho die Dichtematrix des oben genannten nicht-Gaussian-Zustands ist.\nBerechnen Sie die nG für phi =-pi /4 und alpha= 0.5.\n\n(A) 0  \n(B) 2.48  \n(C) 0.25  \n(D) 1.38  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2174,7 +2174,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden Probleme sind die häufigsten Quellen für schwer zu erkennende fehlerhafte Ergebnisse, die bei der Analyse von Genomdaten entstehen:\n\n- Gegenseitig inkompatible Datenformate\n- Die Verwirrung zwischen \"chr\" und \"no chr\"\n- Fehlanpassung der Referenzassemblierung\n- Falsche ID-Konvertierung\n\n(A) Alle oben genannten\n(B) 3 und 4\n(C) 2 und 3\n(D) 2, 3 und 4\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2187,7 +2187,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sie untersuchen einen radioaktiven Zerfall, der zwei schwere Nukleonen der Sorte A in eine andere Sorte B umwandelt, während gleichzeitig zwei viel leichtere Teilchen E und V emittiert werden. Kurz gesagt, 2A -> 2B + 2E + 2V. Es ist bekannt, dass das gesamte Energiespektrum der ausgehenden E-Teilchen kontinuierlich ist, mit einem bestimmten Endwert Q.\n\nEine Variante dieses Zerfalls emittiert ein exotisches, masseloses Teilchen M anstelle der 2V. In diesem Fall, wie vergleicht sich das gesamte Energiespektrum der ausgehenden E-Teilchen mit dem des ursprünglichen Zerfalls?\n\n(A) Das Spektrum bleibt kontinuierlich mit einer angepassten Form, und der Endwert verringert sich.\n(B) Das Spektrum wird diskret, und der Endwert erhöht sich.\n(C) Das Spektrum bleibt kontinuierlich mit einer angepassten Form, und der Endwert erhöht sich.\n(D) Das Spektrum wird diskret, und der Endwert verringert sich.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2200,7 +2200,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Elektron befindet sich im Spin-Zustand (3i, 4). Bestimmen Sie den Erwartungswert seines Spins entlang der y-Richtung, S_y. \nHinweis: \\sigma_y (im LaTeX-Format) ist: \n\\begin{pmatrix}\n0 & -i \\\\\ni & 0\n\\end{pmatrix}\n\n(A) -12*hbar/25  \n(B) 12*hbar/25  \n(C) 25*hbar/2  \n(D) -25*hbar/2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2213,7 +2213,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Substanzen 1-6 unterziehen sich einer elektrophilen Substitutionsreaktion mit einem Überschuss an Brom (es wird angenommen, dass nur ein Monobromderivat gebildet wird):\n1) С6H5-CH3\n2) C6H5-COOC2H5\n3) C6H5-Cl\n4) C6H5-NO2\n5) C6H5-C2H5\n6) C6H5-COOH\nC6H5 - bedeutet Benzolring\nOrdnen Sie die Substanzen in aufsteigender Reihenfolge des Gewichtsanteils des Ertrags des para-Isomers.\n\n(A) 4<2<6<3<1<5  \n(B) 6<2<4<5<1<3  \n(C) 4<6<2<1<5<3  \n(D) 3<5<1<6<2<4  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2226,7 +2226,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Zwei Sterne werden untersucht. Es wurde beobachtet, dass Eisenatome in der Photosphäre von star_1 in einem bestimmten Energieniveau doppelt so angeregt sind im Vergleich zu den Eisenatomen in star_2. Tatsächlich wurde der Energieunterschied zwischen den betrachteten Energieniveaus auf etwa 1,38 x 10^(-23) J bestimmt. Unter der Annahme, dass die stellaren Photosphären im LTE sind, welche dieser Gleichungen für die effektiven Temperaturen der Sterne (T_1 und T_2) ist korrekt?\n\n(A) ln(2) = [ (T_1 - T_2) / (T1*T2)^2 ]\n(B) ln(2) = [ (T_1 - T_2) / (T1*T2)]\n(C) ln(2) = [ (T_1 + T_2) / (T1*T2)]\n(D) ln(2) = [ T_2 / T_1]\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2239,7 +2239,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wenn die Unsicherheit im Raum bezüglich des Standorts des Elektrons, das sich mit einer Geschwindigkeit von v = 2 * 10^8 m/s in x-Richtung bewegt, Δx = 0,1 nm beträgt. Schätzen Sie basierend auf diesen Informationen die minimale Unsicherheit in der Energie ΔE des Elektrons.\n\n(A) ~10^(-16) J  \n(B) ~10^(-17) J  \n(C) ~10^(-18) J  \n(D) ~10^(-19) J  \n\nBitte geben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2252,7 +2252,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein Atomkern mit der Masse M ist in Ruhe und hat eine Ruhemasseenergie von 300 GeV. Es tritt eine spontane Spaltung auf, bei der er sich in zwei Fragmente (und nichts anderes) aufspaltet, sodass eines der Fragmente 2-mal massereicher ist als das andere (in Bezug auf ihre Ruhemasse). Die Summe der Ruhemasse der beiden Fragmente beträgt 99% der ursprünglichen Masse M.\n\nDie kinetische Energie des massereicheren Fragmentes ist T1. Was ist der Unterschied zwischen dem (korrekten) T1-Wert und dem T1-Wert, der unter Verwendung der klassischen (nicht-relativistischen) Näherung berechnet wurde?\n\n(Die Elektronen ignorieren.)\n\n(A) 2 MeV.  \n(B) 5 MeV.  \n(C) 10 MeV.  \n(D) 20 MeV.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2265,7 +2265,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie eine oszillierende Ladungsverteilung, die sphäroidal geformt ist (mit der Symmetrieachse entlang der z-Achse). Da sie oszilliert, wird sie bei einer Wellenlänge \\lambda strahlen. Im Strahlungsbereich wird die abgestrahlte Leistung pro Einheit fester Winkel eine Funktion f von \\lambda und dem Winkel \\theta (mit der z-Achse) sein, entlang dessen die Leistung gemessen wird. Wenn die maximale Leistung, die somit abgestrahlt wird, A beträgt, ist der Anteil von A, der unter einem Winkel \\theta = 30^0 abgestrahlt wird, und eine mögliche Form von f sind jeweils\n\n(A) 3/4, \\lambda^(-6)\n(B) 1/4, \\lambda^(-4)\n(C) 1/4, \\lambda^(-3)\n(D) 1/2, \\lambda^(-4)\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2278,7 +2278,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Der Zustand eines Systems zu einem Zeitpunkt t wird durch die Spaltenmatrix mit den Elementen (-1, 2, 1) dargestellt, und die Operatoren von zwei Observablen P und Q des Systems werden durch zwei quadratische Matrizen repräsentiert. Die Matrix, die dem Operator P entspricht, hat die Elemente in der ersten Zeile als (0, 1/ \\sqrt{2}, 0), die Elemente in der zweiten Zeile als (1/ \\sqrt{2}, 0, 1/ \\sqrt{2}) und die in der dritten Zeile als (0, 1/ \\sqrt{2}, 0). Der Matrixoperator für Q wird durch die quadratische Matrix dargestellt, die die Elemente in der ersten Zeile als (1, 0, 0), in der zweiten Zeile als (0, 0, 0) und in der dritten Zeile als (0, 0, -1) hat. Wenn nun jemand Q unmittelbar nach der Messung von P misst, wie hoch ist die Wahrscheinlichkeit, 0 für P und -1 für Q in den jeweiligen Messungen zu erhalten?\n\n(A) 1/3  \n(B) 1/2  \n(C) 2/3  \n(D) 1/6  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2291,7 +2291,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen sind an den Luminositäten von zwei Sternen interessiert. Star_1 hat einen Radius, der 1,5-mal größer ist als der von Star_2. Die Masse von Star_1 ist ebenfalls um denselben Faktor (1,5-mal) größer. Durch Spektroskopie gelang es den Astronomen, die Wellenlängen zu bestimmen, bei denen die Sterne am hellsten erscheinen, und sie fanden heraus, dass diese gleich sind. Die Astronomen berechneten auch die radialen Geschwindigkeiten der beiden Sterne, die für Star_1 0 km/s und für Star_2 700 km/s betrugen. Unter der Annahme, dass die Sterne wie schwarze Körper strahlen, berechneten sie, dass die Luminosität von Star_1 um einen Faktor größer ist als die Luminosität von Star_2:\n\n(A) ~2.25  \n(B) ~2.23  \n(C) ~2.35  \n(D) ~2.32  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2304,7 +2304,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Gegeben ist der folgende Lagrangian\n\n\\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu}\n\nwobei \\sigma_{\\mu\\nu}=\\frac{i}{2}\\left[\\gamma_{\\mu},\\gamma_{\\nu}\\right].\n\nWas ist die Massendimension von \\kappa? Ist die Theorie renormalisierbar?\n\n(A) Die Massendimension \\left[\\kappa\\right]_{M}=1. Die Theorie ist nicht renormalisierbar.  \n(B) Die Massendimension \\left[\\kappa\\right]_{M}=-1. Die Theorie ist nicht renormalisierbar.  \n(C) Die Massendimension \\left[\\kappa\\right]_{M}=1. Die Theorie ist renormalisierbar.  \n(D) Die Massendimension \\left[\\kappa\\right]_{M}=-1. Die Theorie ist renormalisierbar.  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2317,7 +2317,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Untersuchung der Quantenmechanik befasst sich mit vielen Matrizen. Betrachten Sie die folgenden Matrizen.\n\nW = (0, 0, 1; 0, 1, 0; 1, 0, 0),  \nX = (i, -1, 2i; 1, 0, 1; 2i, -1, -i),  \nY = (0.5, 0.1, 0.2; 0.1, 0.25, 0.1; 0.2, 0.1, 0.25)  \nZ = (3, 2i, 5; -2i, -2, -4i; 5, 4i, 4)\n\nHinweis. Die Matrizen sind so formatiert, dass jede Zeile der Matrix durch ein Semikolon getrennt ist.\n\nBasierend auf diesen Matrizen wählen Sie die richtige Aussage aus.\n\n(A) Z und X repräsentieren Observablen.  \n(B) (e^X)*Y*(e^{-X}) repräsentiert einen quantenmechanischen Zustand.  \n(C) Es existiert einen Vektor, mit dem, wenn man e^X multipliziert, sich die Norm des Vektors ändert.  \n(D) W und X repräsentieren den Evolutionsoperator eines quantenmechanischen Systems.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2330,7 +2330,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie ein isoliertes System von 13 identischen Teilchen, von denen jedes eine Ladung von 2e und eine vernachlässigbare Masse hat. 12 dieser Ladungen sind darauf beschränkt, sich 2 m von einem Punkt P zu befinden. Die 13. Ladung ist an P fixiert. Was ist die minimale Energie (in Joule) dieses Systems, gerundet auf drei Dezimalstellen?\n\n(A) 5.645 x 10^-26  \n(B) 122.330  \n(C) 7.056 x 10^-27  \n(D) 2.822 x 10^-26  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2343,7 +2343,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Ein sehr großer Teil der Neutrinos, die von der Sonne produziert werden, erreicht die Erde (sehr großer Neutrinofluss, definiert als die Anzahl der Neutrinos pro cm^2 und pro Sekunde).\n\nAngenommen, hypothetisch, dass der pp-III-Zweig vor etwa 8,5 Minuten plötzlich im Kern der Sonne gestoppt wurde, während alle anderen Reaktionen unverändert blieben.\n\nWas wäre das ungefähre Verhältnis des Flusses zwischen zwei Bändern von Neutrinoenergien von 700-800 KeV (Band 1) und 800-900 keV (Band 2)?\n\nFlux (Band 1) / Flux (Band 2) ist:\n\n(Hinweis: Wir sprechen davon, den pp-III-Zweig zu stoppen, nicht pp-II, pp-I oder irgendeinen anderen. Es ist kein Tippfehler oder ähnliches.)\n(Hinweis 2: Solare Neutrinogeschmackänderungen geschehen, spielen hier jedoch keine Rolle.)\n\n(A) 0.1 (10^-1).\n(B) 1.\n(C) 0.01 (10^-2).\n(D) 10.\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2356,7 +2356,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Mott-Gurney-Gleichung beschreibt das Verhalten des Dunkelstroms (J) in Abhängigkeit von der Spannung (V) eines Halbleiterbauelements im Bereich des raumladungsbegrenzten Stroms (SCLC). Die Gleichung kann ausgedrückt werden als\n$ J = \\frac{9}{8} \\epsilon \\mu \\frac{V^2}{L^3}$\nwobei $\\epsilon$ die Dielektrizitätskonstante, $\\mu$ die Ladungsträgermobilität und L die Länge des Bauelements ist. Welche der folgenden Aussagen ist wahr bezüglich der Gültigkeit dieser Gleichung?\n\n(A) Die Mott-Gurney-Gleichung ist gültig für ein Einzelträgerbauelement mit einem Schottky-Kontakt und vernachlässigbarem Diffusionsstrom.  \n(B) Die Mott-Gurney-Gleichung ist gültig für ein Zwei-Träger-Bauelement mit einem ohmschen Kontakt und vernachlässigbarem Diffusionsstrom.  \n(C) Die Mott-Gurney-Gleichung ist gültig für ein fallfreies Einzelträgerbauelement ohne Ladungsträgerinjektionsbarriere und vernachlässigbarem Diffusionsstrom.  \n(D) Die Mott-Gurney-Gleichung ist gültig für ein fallfreies Einzelträgerbauelement mit einem ohmschen Kontakt und vernachlässigbarem Driftstrom.  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2369,7 +2369,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Was ist der Index der Wasserstoffdefizienz des Produkts, das erhalten wird, wenn 2-Formyl-5-vinylcyclohex-3-enkarbonsäure mit rotem Phosphor und einem Überschuss an HI reagiert?\n\n(A) 0  \n(B) 3  \n(C) 1  \n(D) 5  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2382,7 +2382,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche Reaktionsfolge aus den folgenden Optionen würde zur hochgradigen Synthese von 2-(tert-butyl)-1-ethoxy-3-nitrobenzol führen, beginnend mit Benzol?\n\n(A) i) HNO3/H2SO4 ; ii) Fe/HCl ; iii) tert-Butylchlorid/AlCl3 ; iv) HNO3/H2SO4 ; v) NaNO2/HCl ; vi) SO3/H2SO4 ; vii) verdünnte H2SO4 ; viii) H3O+, H2O/Wärme ; ix) NaOH/EtBr  \n(B) i) tert-Butylchlorid/AlCl3 ; ii) SO3/H2SO4 ; iii) HNO3/H2SO4 ; iv) Fe/HCl ; v) NaNO2/HCl ; vi) HNO3/H2SO4 ; vii) H3O+, H2O/Wärme ; viii) verdünnte H2SO4 ; ix) NaOH/EtBr  \n(C) i) tert-Butylchlorid/AlCl3 ; ii) HNO3/H2SO4 ; iii) SO3/H2SO4 ; iv) NaNO2/HCl ; v) verdünnte H2SO4 ; vi) H3O+, H2O/Wärme ; vii) NaOH/EtBr ; viii) Fe/HCl ; ix) HNO3/H2SO4  \n(D) i) tert-Butylchlorid/AlCl3 ; ii) HNO3/H2SO4 ; iii) Fe/HCl ; iv) HNO3/H2SO4 ; v) NaNO2/HCl ; vi) H3O+, H2O/Wärme ; vii) NaOH/EtBr ; viii) SO3/H2SO4 ; ix) verdünnte H2SO4  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2395,7 +2395,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie ein System mit dem Hamilton-Operator $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$. Hier ist $\\vec{n}$ ein beliebiger Einheitsvektor, $\\varepsilon $ ist eine Konstante mit der Dimension Energie, und die Komponenten von $\\vec{\\sigma}$ sind die Pauli-Spinsmatrizen. Was sind die Eigenwerte des Hamilton-Operators?\n\n(A) +\\hbar/2, -\\hbar/2  \n(B) + \\varepsilon, -\\varepsilon  \n(C) +1, -1  \n(D) +\\varepsilon \\hbar/2, - \\varepsilon \\hbar/2  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2408,7 +2408,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Identifizieren Sie das mögliche Produkt, wenn (1S,4R)-2-vinyl-2-azabicyclo[2.2.1]hept-5-en eine Cope-Umlagerung durchläuft.\n\n(A) 4,6,7,7a-Tetrahydro-3H-cyclopenta[c]pyridin  \n(B) 4,4a,5,6-Tetrahydro-1H-cyclopenta[c]pyridin  \n(C) 4,4a,7,7a-Tetrahydro-1H-cyclopenta[c]pyridin  \n(D) 4,4a,5,7a-Tetrahydro-3H-cyclopenta[c]pyridin  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2421,7 +2421,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wie viele der unten aufgeführten Sterne wären mit dem ESPRESSO-Spektrographen nachweisbar, wenn er mit einem der 8m VLT-Teleskope am Paranal-Observatorium gekoppelt ist? Ein Stern wird als nachweisbar angesehen, wenn ein Signal-Rausch-Verhältnis (S/N) von mindestens 10 pro gebündeltem Pixel während einer 1-stündigen Belichtung erreicht wird.\n\nFür weitere Details zum ESPRESSO-Spektrographen siehe bitte den folgenden Link:  \nhttps://www.eso.org/sci/facilities/paranal/instruments/espresso/overview.html\n\na) Canopus  \nb) Polaris  \nc) Stern mit RA = 0 deg und DEC = 0 deg, absolute V-Helligkeit von 15 mag und in 10 pc Entfernung von uns.  \nd) Stern mit RA = 0 deg und DEC = 0 deg, absolute V-Helligkeit von 15 mag und in 200 pc Entfernung von uns.  \ne) Stern mit RA = 0 deg und DEC = 0 deg, absolute V-Helligkeit von 15 mag und in 5 pc Entfernung von uns.  \nf) Stern mit RA = 0 deg und DEC = 0 deg, absolute V-Helligkeit von 15 mag und in 50 pc Entfernung von uns.  \n\n(A) 3  \n(B) 2  \n(C) 4  \n(D) 5  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2434,7 +2434,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie einen rhomboedrischen Kristall mit einem interatomaren Abstand von 10 Angstrom und den Winkeln $\\quad\\alpha=\\beta=\\gamma=30^{0}$. Wie groß ist der Interplanarabstand der (111)-Ebene des Kristalls?\n\n(A) 9.54 Angstrom  \n(B) 9.08 Angstrom  \n(C) 10.05 Angstrom  \n(D) 8.95 Angstrom  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2447,7 +2447,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Welche der folgenden (effektiven) Teilchen ist nicht mit einer spontan gebrochenen Symmetrie assoziiert?\n\n(A) Phonon  \n(B) Skyrmion  \n(C) Magnon  \n(D) Pion  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2460,7 +2460,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Die Reaktion eines Elektronenpaardonors, Nucleophils (Nu) mit einem Elektronenpaarakzeptor wird als nucleophile Substitutionsreaktion bezeichnet. Ein sp3-hybridisierter Elektrophil muss eine Abgangsgruppe haben, um mit der Reaktion fortzufahren. Substitutionsreaktionen haben die folgenden zwei Typen. Eine ist die SN1- und die andere die SN2-Reaktion. Im Gegensatz zur Substitutionsreaktion beinhaltet die Eliminationsreaktion die Entfernung eines Paares oder von Gruppen von Atomen aus einem Molekül. Dies sind chemische Reaktionen, bei denen organische Verbindungen mit einfachen Kohlenstoff-Kohlenstoff-Bindungen in Verbindungen mit Doppel- oder Dreifachbindungen (ungesättigte Verbindungen) umgewandelt werden.\n\nOrdnen Sie die folgenden Nucleophile von der reaktivsten bis zur am wenigsten reaktiven in wässriger Lösung.\n\n1. 4-Methylcyclohexan-1-olat  \n2. Hydroxid  \n3. Propionat  \n4. Methanol  \n5. Ethanethiolat  \n\n(A) 5, 2, 1, 3 und 4  \n(B) 2, 5, 1, 4 und 3  \n(C) 5, 2, 3, 1 und 4  \n(D) 2, 5, 3, 4 und 3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2473,7 +2473,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "3-(Hydroxymethyl)-5-(prop-1-en-2-yl)cyclohexan-1-on wird mit Natriumhydrid behandelt, gefolgt von Benzylbromid, was Produkt 1 bildet.\n\nProdukt 1 wird mit p-Toluenesulfonylhydrazid in Anwesenheit einer katalytischen Menge HCl behandelt, was Produkt 2 bildet.\n\nProdukt 2 wird bei niedriger Temperatur mit n-Butyllithium behandelt, gefolgt von wässrigem Ammoniumchlorid, was Produkt 3 bildet.\n\nProdukt 3 wird mit Pd/C unter einer Wasserstoffatmosphäre gerührt, was Produkt 4 bildet.\n\nWas ist die Struktur von Produkt 4?\n\n(A) (((3-Isopropylcyclohexyl)methoxy)methyl)benzol  \n(B) 3-((Benzyloxy)methyl)-1-butyl-5-isopropylcyclohexan-1-ol  \n(C) (3-Isopropylcyclohexyl)methanol  \n(D) N'-(3-(Hydroxymethyl)-5-Isopropylcyclohexyl)-4-methylbenzenesulfonhydrazid  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2486,7 +2486,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Stellen Sie sich einen ungeladenen sphärischen Leiter mit einem Radius $R$ vor, der eine kleine sphärische Höhle im Inneren hat. Der Mittelpunkt der Höhle ist durch eine Distanz $s$ vom Mittelpunkt des sphärischen Leiters getrennt. Der Radius der Höhle ist $r$, und $r<R$. Nun betrachten Sie, dass eine kleine Menge positiver Ladung $+q$ irgendwie irgendwo im Inneren der Höhle platziert wird. Was ist die Größe des elektrischen Feldes $\\vec{E}$ an einem Punkt P (außerhalb des sphärischen Leiters) in einer Entfernung $L$ vom Mittelpunkt des sphärischen Leiters? Beachten Sie, dass die Entfernung des Punktes P vom Mittelpunkt der Höhle $l$ beträgt. Hier gilt: l, L > R. Der Winkel zwischen $l$ und $s$ ist $\\theta$.\n\n(A) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{l^2}$\n(B) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{L^2}$\n(C) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{(l+s \\cos\\theta)^2}$\n(D) $E = \\dfrac{1}{4 \\pi \\epsilon_o} \\dfrac{q}{(l-s \\cos\\theta)^2}$\n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2499,7 +2499,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "In einer bestimmten Region des Himmels haben Astronomen beobachtet, dass die Anzahl der Sterne mit der Parallaxe als 1/plx^5 variiert. Wie ändert sich die Anzahl der Sterne in dieser Region des Himmels mit der Entfernung (pro Einheit Entfernungsbereich, r)?\n\n(A) ~ r^2  \n(B) ~ r^4  \n(C) ~ r^5  \n(D) ~ r^3  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2512,7 +2512,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie ein System von drei Spins S1, S2 und S3. Jeder von ihnen kann den Spin +1 und -1 annehmen. Die Energie des Systems wird gegeben durch E = -J[ S1S2 + S1S3 + S2S3 ]. Finden Sie die Zustandssumme Z des Systems. (\\beta = 1/kT, k = Boltzmann-Konstante und T = Temperatur)\n\n(A) Z = 6e^(2J\\beta) + 2e^(-2J\\beta)  \n(B) Z = 2 e^(-3J\\beta) + 6e^(J\\beta)  \n(C) Z = 2 e^(3J\\beta) + 6e^(-J\\beta)  \n(D) Z = 2e^(2J\\beta) + 6e^(-2J\\beta)  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}."
       }
     ],
     "final_answer": "",
@@ -2525,7 +2525,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Astronomen beobachten einen Planeten mit einem Radius von 1 Erdradius in einer kreisförmigen Umlaufbahn, mit einem Transit-Einflussparameter von 0.2, um einen Stern, der einen Radius von 1.5 Mal dem der Sonne hat. Dieser Planet hat eine Umlaufzeit von 3 Tagen. Was ist die maximale Umlaufzeit eines zweiten Planeten, mit einem Radius von 2.5 Mal dem der Erde, im selben System, der sowohl Transit- als auch Okklusionsereignisse zeigen wird? Angenommen, der zweite Planet hat ebenfalls eine kreisförmige Umlaufbahn und teilt denselben Umlaufbahn-Ebenen wie der zuvor erwähnte transiterende Planet.\n\n(A) ~ 7.5  \n(B) ~ 33.5  \n(C) ~ 37.5  \n(D) ~ 12.5  \n\nBitte schreiben Sie Ihre endgültige Antwort in der Form von \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D}"
       }
     ],
     "final_answer": "",
@@ -2538,7 +2538,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Betrachten Sie einen eindimensionalen relativistischen harmonischen Oszillator mit der Masse $m$ und der maximalen Amplitude $A$, der dem Hooke'schen Gesetz ($F=-kx$) gehorcht. Was ist die maximale Geschwindigkeit $v_{max}$ der Masse? Die Lichtgeschwindigkeit ist $c$.\n\n(A) $v_{max}=c\\sqrt{1+\\frac{1}{(1-\\frac{kA^2}{2mc^2})}}$  \n(B) $v_{max}=c\\sqrt{1-\\frac{1}{(1+\\frac{kA^2}{2mc^2})^2}}$  \n(C) $v_{max}=c\\sqrt{1+\\frac{1}{(1-\\frac{kA^2}{2m})^2}}$  \n(D) $v_{max}=\\sqrt{\\frac{kA^2}{m}}$  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2551,7 +2551,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Verbindung X, die die folgenden IR- und NMR-Daten hat, reagiert mit rotem Phosphor und HI. Bestimmen Sie das Endprodukt.\nIR: 3400–2500 cm-1, 1720 cm-1, 1610 cm-1, 1450 cm-1  \n1H NMR: 10.5 ppm (bs, 1H), 8.0 ppm (d, 2H), 7.2 ppm (d, 2H), 2.9 ppm (m, 1H), 1.7 ppm (m, 2H), 1.4 ppm (d, 3H), 0.9 ppm (t, 3H).\n\n(A) 4-(sec-butyl)benzoesäure  \n(B) 1-Isobutyl-4-methylbenzol  \n(C) 1-(sec-butyl)-4-methylbenzol  \n(D) 2-(4-ethylphenyl)propansäure  \n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",
@@ -2564,7 +2564,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wir haben eine Lösung, die Co(II)-Ionen und Thiocyanat enthält, wobei die gesamte Kobaltkonzentration c(Co) = 10^-2 M und die [SCN-]-Konzentration 0,1 M beträgt. Die Stabilitätskonstanten der Kobalt(II)-Thiocyanatkomplexe sind β1=9, β2=40, β3=63 und β4=16. Wie hoch wird der Prozentsatz der blauen Dithiocyanato-Kobalt(II)-Komplexe unter allen kobalt-haltigen Spezies in der Lösung sein?\n\n(A) 38,1%\n(B) 16,9%\n(C) 42,3%\n(D) 25,6%\n\nBitte geben Sie Ihre endgültige Antwort in der Form \\boxed{A}, \\boxed{B}, \\boxed{C} oder \\boxed{D} an."
       }
     ],
     "final_answer": "",

@@ -3,7 +3,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Pata jumla ya msingi wote wa nambari nzima $b>9$ ambapo $17_{b}$ ni mgawanyiko wa $97_{b}$."
       }
     ],
     "final_answer": "70",
@@ -16,7 +16,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Katika $\\triangle ABC$, pointi $A, D, E$, na $B$ ziko katika mpangilio huo kwenye upande wa $\\overline{AB}$ ambapo $AD=4, DE=16$, na $EB=8$. Pointi $A, F, G$, na $C$ ziko katika mpangilio huo kwenye upande wa $\\overline{AC}$ ambapo $AF=13, FG=52$, na $GC=26$. Acha $M$ iwe kioo cha $D$ kupitia $F$, na acha $N$ iwe kioo cha $G$ kupitia $E$. Quadrilateral $DEGF$ ina eneo la 288. Pata eneo la heptagon $AFNBCEM$."
       }
     ],
     "final_answer": "588",
@@ -29,7 +29,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Wajumbe 9 wa timu ya baseball walikwenda kwenye duka la barafu baada ya mchezo wao. Kila mchezaji alikuwa na koni ya scoops moja ya ice cream ya chokoleti, vanilla, au strawberry. Angalau mchezaji mmoja alichagua kila ladha, na idadi ya wachezaji waliochagua chokoleti ilikuwa kubwa zaidi kuliko idadi ya wachezaji waliochagua vanilla, ambayo ilikuwa kubwa zaidi kuliko idadi ya wachezaji waliochagua strawberry. Acha $N$ iwe idadi ya usambazaji tofauti wa ladha kwa wachezaji ambao unakidhi masharti haya. Pata salio unapogawanya $N$ kwa 1000."
       }
     ],
     "final_answer": "16",
@@ -42,7 +42,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tafuta idadi ya jozi zilizopangwa $(x,y)$, ambapo $x$ na $y$ ni nambari nzima kati ya $-100$ na $100$, ikiwa ni pamoja, hivyo kwamba $12x^{2}-xy-6y^{2}=0$."
       }
     ],
     "final_answer": "117",
@@ -55,7 +55,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna $8!=40320$ nambari chanya za tarakimu nane ambazo zinatumia kila moja ya tarakimu $1,2,3,4,5,6,7,8$ mara moja tu. Acha $N$ iwe idadi ya nambari hizi ambazo zinaweza kugawanywa kwa 22. Tafuta tofauti kati ya $N$ na 2025."
       }
     ],
     "final_answer": "279",
@@ -68,7 +68,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mstatili wa isosceles una duara iliyoandikwa inayogusa kila upande wake wa nne. Radi ya duara ni 3, na eneo la mstatili ni 72. Wacha pande zinazolingana za mstatili ziwe na urefu $r$ na $s$, ambapo $r \\neq s$. Tafuta $r^{2}+s^{2}$."
       }
     ],
     "final_answer": "504",
@@ -81,7 +81,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Barua kumi na mbili $A,B,C,D,E,F,G,H,I,J,K$, na $L$ zimepangwa kwa bahati nasibu katika makundi sita ya barua. Barua mbili katika kila kundi zimewekwa karibu na kila mmoja kwa mpangilio wa alfabeti ili kuunda maneno sita ya herufi mbili, na maneno hayo sita yanaorodheshwa kwa mpangilio wa alfabeti. Kwa mfano, matokeo yanayoweza kutokea ni $AB,CJ,DG,EK,FL,HI$. Uwezekano kwamba neno la mwisho lililoorodheshwa lina $G$ ni $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya pamoja. Tafuta $m+n$."
       }
     ],
     "final_answer": "821",
@@ -94,7 +94,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $k$ kuwa nambari halisi hivyo mfumo $|25+20i-z|=5$ na $|z-4-k|=|z-3i-k|$ una suluhisho moja tu tata $z$. Jumla ya thamani zote zinazowezekana za $k$ inaweza kuandikwa kama $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu. Pata $m+n$. Hapa $i=\\sqrt{-1}$."
       }
     ],
     "final_answer": "77",
@@ -107,7 +107,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Parabola yenye mlinganyo $y=x^{2}-4$ inageuzwa $60^{\\circ$} kuelekea kushoto kuzunguka asili. Pointi pekee katika quadranti ya nne ambapo parabola ya awali na picha yake inakutana ina $y$-koordinati $\\frac{a-\\sqrt{b}}{c}$, ambapo $a$, $b$, na $c$ ni nambari chanya, na $a$ na $c$ hawana sehemu ya pamoja. Tafuta $a+b+c$."
       }
     ],
     "final_answer": "62",
@@ -120,7 +120,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seli 27 za gridi ya $3\\times9$ zimejaa kwa kutumia nambari 1 hadi 9 ili kila safu iwe na nambari 9 tofauti, na kila moja ya vizuizi vitatu vya $3\\times3$ vilivyoonyeshwa kwa mstari mzito katika mfano hapa chini iwe na nambari 9 tofauti, kama katika safu tatu za kwanza za puzzle ya Sudoku.  \n | 4 | 2 | 8 | 9 | 6 | 3 | 1 | 7 | 5 |  \n | 3 | 7 | 9 | 5 | 2 | 1 | 6 | 8 | 4 |  \n | 5 | 6 | 1 | 8 | 4 | 7 | 9 | 2 | 3 |  \n Idadi ya njia tofauti za kujaza gridi kama hiyo inaweza kuandikwa kama $p^a\\cdot q^b\\cdot r^c\\cdot s^d$, ambapo $p,q,r,$ na $s$ ni nambari za msingi tofauti na $a,b,c,$ na $d$ ni nambari chanya. Tafuta $p\\cdot a+q\\cdot b+r\\cdot c+s\\cdot d$."
       }
     ],
     "final_answer": "81",
@@ -133,7 +133,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kazi ya kipande cha mzunguko wa mara kwa mara inafafanuliwa na $f(x)=\\begin{cases}x&\\text{ikiwa }x\\in[-1,1)\\\\2-x&\\text{ikiwa }x\\in[1,3)\\end{cases}$ na $f(x+4)=f(x)$ kwa nambari halisi zote $x$. Mchoro wa $f(x)$ una muundo wa sawtooth. Parabola $x=34y^2$ inakutana na mchoro wa $f(x)$ katika maeneo machache tu. Jumla ya $y$-koordinati za maeneo haya ya kukutana inaweza kuonyeshwa kwa mfumo $\\frac{a+b\\sqrt{c}}{d}$, ambapo $a,b,c,$ na $d$ ni nambari chanya, $a,b,$ na $d$ zina gcd sawa na 1, na $c$ haiwezi kugawanywa na mraba wa nambari yoyote ya msingi. Tafuta $a+b+c+d$."
       }
     ],
     "final_answer": "259",
@@ -146,7 +146,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Seti ya pointi katika nafasi ya kuratibu ya dimbili ambayo iko katika ndege $x+y+z=75$ ambapo kuratibu zake zinakidhi ukomo $x-yz<y-zx<z-xy$ inaunda maeneo matatu yasiyo na muunganiko. Kila moja ya maeneo hayo ina eneo la mwisho. Eneo la eneo hili la mwisho linaweza kuonyeshwa katika mfumo $a\\sqrt{b}$, ambapo $a$ na $b$ ni nambari chanya na $b$ haiwezi kugawanywa na mraba wa nambari yoyote ya msingi. Pata $a+b$."
       }
     ],
     "final_answer": "510",
@@ -159,7 +159,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Alex anagawanya diski katika sehemu nne za quadrants kwa kutumia diamita mbili zinazokutana katikati ya diski. Anachora vipande 25 zaidi vya mistari kupitia diski, akichora kila kipande kwa kuchagua pointi mbili kwa bahati kwenye ukingo wa diski katika quadrants tofauti na kuunganisha pointi hizo mbili. Tafuta idadi inayotarajiwa ya maeneo ambayo vipande hivi 27 vya mistari vinagawanya diski."
       }
     ],
     "final_answer": "204",
@@ -172,7 +172,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $ABCDE$ iwe pentagoni yenye convex na $AB=14, BC=7, CD=24, DE=13, EA=26,$ na $\\angle B=\\angle E=60^\\circ$. Kwa kila pointi $X$ katika ndege, eleza $f(X)=AX+BX+CX+DX+EX$. Thamani ndogo zaidi ya $f(X)$ inaweza kuonyeshwa kama $m+n\\sqrt{p}$, ambapo $m$ na $n$ ni nambari chanya na $p$ haiwezi kugawanywa na mraba wa nambari yoyote ya msingi. Pata $m+n+p$."
       }
     ],
     "final_answer": "60",
@@ -185,7 +185,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $N$ iwe ni idadi ya triples zilizopangwa za nambari chanya $(a,b,c)$ ambazo $a,b,c\\leq3^6$ na $a^3+b^3+c^3$ ni kipande cha $3^7$. Tafuta baki unapogawanya $N$ kwa $1000$."
       }
     ],
     "final_answer": "735",
@@ -198,7 +198,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Sawa, hapa kuna tafsiri ya tatizo la hisabati katika Kiswahili:\n\nSawa, hapa kuna tafsiri ya tatizo la hisabati katika Kiswahili:\n\nAlama sita $A, B, C, D, E$ na $F$ ziko katika mstari mmoja kwa mpangilio huo. Fikiria kwamba $G$ ni alama ambayo haiko kwenye mstari na kwamba $AC = 26$, $BD = 22$, $CE = 31$, $DF = 33$, $AF = 73$, $CG = 40$, na $DG = 30$. Pata eneo la $\\triangle BGE$."
       }
     ],
     "final_answer": "468",
@@ -211,7 +211,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Tafuta jumla ya nambari zote chanya $n$ ambazo $n+2$ inagawanya bidhaa $3(n+3)(n^2+9)$."
       }
     ],
     "final_answer": "49",
@@ -224,7 +224,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Nne ya mraba wa kitengo yanaunda gridi ya $2\\times 2$. Kila moja ya vipande $12$ vya mstari wa kitengo vinavyounda pande za mraba imechorwa kwa rangi nyekundu au buluu kwa njia ambayo kila mraba wa kitengo una pande $2$ nyekundu na pande $2$ buluu. Mfano mmoja umeonyeshwa hapa chini (nyekundu ni thabiti, buluu ni ya mipasuko). Tafuta idadi ya rangi kama hizo.\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}"
       }
     ],
     "final_answer": "82",
@@ -237,7 +237,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Bidhaa\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\nni sawa na $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya kawaida. Pata $m + n$."
       }
     ],
     "final_answer": "106",
@@ -250,7 +250,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kufanya kazi na $\\triangle ABC$ kuna pembe $\\angle BAC = 84^\\circ$, $\\angle ABC = 60^\\circ$, na $\\angle ACB = 36^\\circ$. Acha $D$, $E$, na $F$ kuwa katikati ya pande $\\overline{BC}$, $\\overline{AC}$, na $\\overline{AB}$, mtawalia. Mzunguko wa circumcircle wa $\\triangle DEF$ unakata $\\overline{BD}$, $\\overline{AE}$, na $\\overline{AF}$ katika maeneo $G$, $H$, na $J$, mtawalia. Pointi $G$, $D$, $E$, $H$, $J$, na $F$ zinagawanya mzunguko wa circumcircle wa $\\triangle DEF$ katika sehemu sita ndogo, kama inavyoonyeshwa. Tafuta $\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$, ambapo sehemu zinapimwa kwa digrii."
       }
     ],
     "final_answer": "336",
@@ -263,7 +263,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Mduara $\\omega_1$ wenye radi $6$ ulio katikati ya pointi $A$ unagusa ndani kwa pointi $B$ mduara $\\omega_2$ wenye radi $15$. Pointi $C$ na $D$ ziko kwenye $\\omega_2$ ambapo $\\overline{BC}$ ni kipenyo cha $\\omega_2$ na $\\overline{BC} \\perp \\overline{AD}$. Mstatili $EFGH$ umewekwa ndani ya $\\omega_1$ ambapo $\\overline{EF} \\perp \\overline{BC}$, $C$ iko karibu na $\\overline{GH$ kuliko $\\overline{EF}$, na $D$ iko karibu na $\\overline{FG}$ kuliko $\\overline{EH}$, kama inavyoonyeshwa. Pembetatu $\\triangle DGF$ na $\\triangle CHG$ zina maeneo sawa. Eneo la mstatili $EFGH$ ni $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya pamoja. Tafuta $m + n$."
       }
     ],
     "final_answer": "293",
@@ -276,7 +276,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $A$ iwe seti ya sehemu za nambari nzima chanya za $2025$. Acha $B$ iwe subset iliyochaguliwa kwa bahati nasibu kutoka $A$. Uwezekano kwamba $B$ ni seti isiyo tupu yenye mali kwamba kiwango cha chini cha pamoja cha vipengele vyake ni $2025$ ni $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya pamoja. Tafuta $m + n$."
       }
     ],
     "final_answer": "237",
@@ -289,7 +289,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kutoka kwenye hifadhi isiyo na kikomo ya sarafu za senti $1$, senti $10$, na senti $25$, Silas anataka kupata mkusanyiko wa sarafu ambao una thamani ya jumla ya $N$ senti, ambapo $N$ ni nambari chanya. Anatumia kile kinachoitwa \\textit{algorithms ya tamaa}, akichagua kwa mfululizo sarafu yenye thamani kubwa zaidi ambayo haisababishi thamani ya mkusanyiko wake kupita $N$. Kwa mfano, ili kupata senti $42$, Silas atachagua sarafu ya senti $25$, kisha sarafu ya senti $10$, kisha sarafu $7$ za senti $1$. Hata hivyo, mkusanyiko huu wa sarafu $9$ unatumia sarafu nyingi zaidi kuliko inavyohitajika ili kupata jumla ya senti $42$; kwa kweli, kuchagua sarafu $4$ za senti $10$ na sarafu $2$ za senti $1$ kunapata jumla sawa kwa kutumia sarafu tu $6$.\n\nKwa ujumla, algorithm ya tamaa \\emph{inafanikiwa} kwa $N$ fulani ikiwa hakuna mkusanyiko mwingine wa sarafu za senti $1$, senti $10$, na senti $25$ unaotoa thamani ya jumla ya senti $N$ kwa kutumia sarafu chache zaidi kuliko mkusanyiko uliopewa na algorithm ya tamaa. Tafuta idadi ya thamani za $N$ kati ya $1$ na $1000$ ikiwa ni pamoja na ambazo algorithm ya tamaa inafanikiwa."
       }
     ],
     "final_answer": "610",
@@ -302,7 +302,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna $n$ thamani za $x$ katika kipindi $0 < x < 2\\pi$ ambapo $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$. Kwa $t$ kati ya hizi $n$ thamani za $x$, grafu ya $y = f(x)$ inagusa mhimili wa $x$. Pata $n + t$."
       }
     ],
     "final_answer": "149",
@@ -315,7 +315,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kiti kumi na sita kimepangwa katika mstari. Watu nane kila mmoja huchagua kiti ambacho atakalia ili hakuna mtu aketi karibu na watu wawili wengine. Acha $N$ iwe idadi ya sehemu za viti 16 ambazo zinaweza kuchaguliwa. Pata salio wakati $N$ inagawanywa na $1000$."
       }
     ],
     "final_answer": "907",
@@ -328,7 +328,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $S$ iwe seti ya vinyozi wa $24$-gon wa kawaida. Tafuta idadi ya njia za kuchora $12$ vipande vya urefu sawa ili kila vinyozi katika $S$ iwe mwisho wa moja tu ya vipande $12$."
       }
     ],
     "final_answer": "113",
@@ -341,7 +341,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $A_1 A_2 A_3 \\ldots A_{11}$ iwe poligoni rahisi isiyo na convex yenye upande $11$ yenye mali zifuatazo:\n\n\\begin{itemize}\n\\item Kwa kila nambari nzima $2 \\le i \\le 10$, eneo la $\\triangle A_i A_{1} A_{i+1}$ ni sawa na $1$.\n\\item Kwa kila nambari nzima $2 \\le i \\le 10$, $\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$.\n\\item Pembeni ya poligoni $11$ $A_1 A_2 A_3 \\dots A_{11}$ ni sawa na $20$.\n\\end{itemize}\n\nBasi $A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$ ambapo $m, n, p$, na $q$ ni nambari chanya, $n$ haiwezi kugawanywa na mraba wa nambari yoyote ya msingi, na hakuna nambari ya msingi inayogawanya zote $m, p$, na $q$. Tafuta $m + n + p + q$."
       }
     ],
     "final_answer": "19",
@@ -354,7 +354,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $x_1, x_2, x_3, \\ldots$ iwe mfululizo wa nambari za kihesabu ulioainishwa na $x_1 = \\frac{25}{11}$ na\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\nkwa kila $k \\ge 1$. Kisha $x_{2025}$ inaweza kuonyeshwa kama $\\frac{m}{n}$, ambapo $m$ na $n$ ni nambari chanya zisizo na sehemu ya kawaida. Pata mabaki wakati $m + n$ inagawanywa na $1000$."
       }
     ],
     "final_answer": "248",
@@ -367,7 +367,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Acha $\\triangle ABC$ iwe pembetatu ya kulia ambapo $\\angle A = 90^\\circ$ na $BC = 38$. Kuna pointi $K$ na $L$ ndani ya pembetatu hiyo ambapo\n$$AK = AL = BK = CL = KL = 14.$$\nEneo la mstatili $BKLC$ linaweza kuonyeshwa kama $n\\sqrt{3}$ kwa nambari chanya $n$. Tafuta $n$."
       }
     ],
     "final_answer": "104",
@@ -380,7 +380,7 @@
     "prompt": [
       {
         "from": "user",
-        "value": ""
+        "value": "Kuna nambari tatu halisi chanya $k$ ambazo zinafanya kazi\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\niliyofafanuliwa juu ya nambari halisi chanya kufikia thamani yake ya chini katika nambari halisi chanya mbili pekee $x$. Pata jumla ya hizi nambari tatu za $k$."
       }
     ],
     "final_answer": "240",
