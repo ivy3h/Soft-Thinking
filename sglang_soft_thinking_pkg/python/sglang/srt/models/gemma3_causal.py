@@ -366,10 +366,16 @@ class Gemma3RotaryEmbedding(nn.Module):
     def __init__(self, config: Gemma3TextConfig, device=None):
         super().__init__()
         # BC: "rope_type" was originally "type"
+        
         if hasattr(config, "rope_scaling") and config.rope_scaling is not None:
-            self.rope_type = config.rope_scaling.get(
-                "rope_type", config.rope_scaling.get("type")
-            )
+            if "rope_type" in config.rope_scaling or "type" in config.rope_scaling:
+                self.rope_type = config.rope_scaling.get(
+                    "rope_type", config.rope_scaling.get("type")
+                )
+            elif "sliding_attention" in config.rope_scaling:
+                self.rope_type = config.rope_scaling["sliding_attention"].get("rope_type", "default")
+            else:
+                self.rope_type = "default"
         else:
             self.rope_type = "default"
         self.max_seq_len_cached = config.max_position_embeddings
