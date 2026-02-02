@@ -14,7 +14,6 @@ conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-# HF_TOKEN should be set in environment or ~/.huggingface/token
 export HF_TOKEN="${HF_TOKEN}"
 
 # Evaluate AIME 2024

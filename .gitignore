@@ -3,6 +3,15 @@ results/*
 output*.txt
 data
 
+# Pip install artifacts
+=4.*
+
+# Binary wheels
+*.whl
+
+# Merged model files
+merged_models/
+
 *.egg-info
 __pycache__/*
 models/*

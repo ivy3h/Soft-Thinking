@@ -1,8 +1,7 @@
 #!/bin/bash
-#SBATCH -p overcap
-#SBATCH --account=overcap
-#SBATCH --qos short
-#SBATCH -t 12:00:00
+#SBATCH -p nlprx-lab
+#SBATCH --account=nlprx-lab
+#SBATCH -t 04:00:00
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=64G
@@ -14,7 +13,6 @@ conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-# HF_TOKEN should be set in environment or ~/.huggingface/token
 export HF_TOKEN="${HF_TOKEN}"
 
 python run_mgsm_evaluation.py \

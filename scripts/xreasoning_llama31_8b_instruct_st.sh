@@ -6,8 +6,8 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=64G
-#SBATCH -J xr_g3_12b_st
-#SBATCH -o logs/xreasoning_gemma3_12b_st_%j.log
+#SBATCH -J xr_l31_8bi_st
+#SBATCH -o logs/xreasoning_llama31_8b_instruct_st_%j.log
 
 source ~/.bashrc
 conda activate st
@@ -19,7 +19,7 @@ export HF_TOKEN="${HF_TOKEN}"
 # Evaluate AIME 2024 with soft thinking
 python run_xreasoning_evaluation.py \
     --dataset "aime2024" \
-    --model_name "google/gemma-3-12b-it" \
+    --model_name "meta-llama/Llama-3.1-8B-Instruct" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -33,7 +33,7 @@ python run_xreasoning_evaluation.py \
 # Evaluate AIME 2025 with soft thinking
 python run_xreasoning_evaluation.py \
     --dataset "aime2025" \
-    --model_name "google/gemma-3-12b-it" \
+    --model_name "meta-llama/Llama-3.1-8B-Instruct" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -47,7 +47,7 @@ python run_xreasoning_evaluation.py \
 # Evaluate GPQA with soft thinking
 python run_xreasoning_evaluation.py \
     --dataset "gpqa" \
-    --model_name "google/gemma-3-12b-it" \
+    --model_name "meta-llama/Llama-3.1-8B-Instruct" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
