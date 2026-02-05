@@ -300,6 +300,8 @@ def main():
     parser.add_argument("--enable_soft_thinking", action="store_true")
     parser.add_argument("--think_end_str", type=str, default="</think>")
     parser.add_argument("--max_topk", type=int, default=15)
+    parser.add_argument('--no_chat_template', action='store_true',
+                        help='Do not use chat template (for base models without chat template)')
 
     args = parser.parse_args()
 
@@ -466,11 +468,14 @@ Please solve the following multiple-choice question. Please show your choice in 
             idx_list = []
 
             for idx, sample in enumerate(samples):
-                chat = [{"role": "user", "content": query_template.format(
-                    Question=sample["prompt"][0]["value"]
-                )}]
-                prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
-                                                       tokenize=False)
+                question_text = query_template.format(Question=sample["prompt"][0]["value"])
+                if args.no_chat_template:
+                    # For base models without chat template
+                    prompt = question_text
+                else:
+                    chat = [{"role": "user", "content": question_text}]
+                    prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
+                                                           tokenize=False)
 
                 for _ in range(args.num_samples):
                     prompt_list.append(prompt)

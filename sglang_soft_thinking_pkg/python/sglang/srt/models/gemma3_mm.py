@@ -22,6 +22,7 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple, TypedDict
 import torch
 from torch import nn
 from transformers import AutoModel, Gemma3Config, PreTrainedModel
+from transformers.initialization import no_init_weights
 
 from sglang.srt.hf_transformers_utils import get_processor
 from sglang.srt.layers.layernorm import Gemma3RMSNorm
@@ -168,7 +169,10 @@ class Gemma3ForConditionalGeneration(PreTrainedModel):
         #     quant_config,
         #     prefix=add_prefix("vision_tower", prefix),
         # )
-        self.vision_tower = AutoModel.from_config(config=config.vision_config)
+        # Use no_init_weights to avoid segfault during weight initialization
+        # The segfault occurs in siglip's trunc_normal_ during _init_weights
+        with no_init_weights():
+            self.vision_tower = AutoModel.from_config(config=config.vision_config)
         self.multi_modal_projector = Gemma3MultiModalProjector(config)
         self.vocab_size = config.text_config.vocab_size
 

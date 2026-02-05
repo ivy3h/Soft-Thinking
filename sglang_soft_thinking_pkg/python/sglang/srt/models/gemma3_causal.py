@@ -19,7 +19,6 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from transformers import (
-    ROPE_INIT_FUNCTIONS,
     AutoModel,
     Gemma3TextConfig,
     PretrainedConfig,
@@ -167,19 +166,24 @@ class Gemma3Attention(nn.Module):
         )
 
         # Determine if layer uses sliding window based on pattern
-        self.is_sliding = bool((layer_id + 1) % config.sliding_window_pattern)
+        # Note: attribute is '_sliding_window_pattern' with underscore prefix
+        sliding_window_pattern = getattr(config, '_sliding_window_pattern', getattr(config, 'sliding_window_pattern', 6))
+        self.is_sliding = bool((layer_id + 1) % sliding_window_pattern)
 
         # Initialize the rotary embedding.
+        # Get rope parameters from config.rope_parameters (new format)
+        rope_params = getattr(config, 'rope_parameters', None) or {}
+
         if self.is_sliding:
-            # Local attention. Override the values in config.json.
-            self.rope_theta = config.rope_local_base_freq
-            self.rope_scaling = {"rope_type": "default"}
-            # FIXME(mick): idk why vllm does this
-            # self.sliding_window = config.interleaved_sliding_window
+            # Local/sliding attention. Use sliding_attention rope parameters.
+            sliding_params = rope_params.get('sliding_attention', {})
+            self.rope_theta = sliding_params.get('rope_theta', 10000.0)
+            self.rope_scaling = {"rope_type": "linear", "factor": 1.0}
             self.sliding_window = get_attention_sliding_window_size(config)
         else:
-            # Global attention. Use the values in config.json.
-            self.rope_theta = config.rope_theta
+            # Global/full attention. Use full_attention rope parameters.
+            full_params = rope_params.get('full_attention', {})
+            self.rope_theta = full_params.get('rope_theta', getattr(config, 'rope_theta', 1000000.0))
             self.rope_scaling = config.rope_scaling
             self.sliding_window = None
 
@@ -365,26 +369,37 @@ class Gemma3DecoderLayer(nn.Module):
 class Gemma3RotaryEmbedding(nn.Module):
     def __init__(self, config: Gemma3TextConfig, device=None):
         super().__init__()
-        # BC: "rope_type" was originally "type"
-        
-        if hasattr(config, "rope_scaling") and config.rope_scaling is not None:
-            if "rope_type" in config.rope_scaling or "type" in config.rope_scaling:
-                self.rope_type = config.rope_scaling.get(
-                    "rope_type", config.rope_scaling.get("type")
-                )
-            elif "sliding_attention" in config.rope_scaling:
-                self.rope_type = config.rope_scaling["sliding_attention"].get("rope_type", "default")
-            else:
-                self.rope_type = "default"
-        else:
-            self.rope_type = "default"
+        # Get rope parameters from config
         self.max_seq_len_cached = config.max_position_embeddings
         self.original_max_seq_len = config.max_position_embeddings
-
         self.config = config
-        self.rope_init_fn = ROPE_INIT_FUNCTIONS[self.rope_type]
 
-        inv_freq, self.attention_scaling = self.rope_init_fn(self.config, device)
+        # Get rope_theta (base frequency)
+        base = getattr(config, 'rope_theta', 10000.0)
+        if base is None:
+            base = 10000.0
+
+        # Get scaling factor (default 1.0 for no scaling)
+        factor = 1.0
+        if hasattr(config, 'rope_scaling') and config.rope_scaling is not None:
+            factor = config.rope_scaling.get('factor', 1.0)
+
+        # Get head dimension
+        head_dim = getattr(config, 'head_dim', None)
+        if head_dim is None:
+            head_dim = config.hidden_size // config.num_attention_heads
+
+        # Compute inverse frequencies directly (standard RoPE formula)
+        dim = head_dim
+        inv_freq = 1.0 / (base ** (torch.arange(0, dim, 2, dtype=torch.float32) / dim))
+
+        # Apply linear scaling
+        inv_freq = inv_freq / factor
+
+        if device is not None:
+            inv_freq = inv_freq.to(device)
+
+        self.attention_scaling = 1.0  # No post-processing scaling for basic RoPE
         self.register_buffer("inv_freq", inv_freq, persistent=False)
         self.original_inv_freq = self.inv_freq
 
@@ -393,31 +408,13 @@ class Gemma3RotaryEmbedding(nn.Module):
         dynamic RoPE layers should recompute `inv_freq` in the following situations:
         1 - growing beyond the cached sequence length (allow scaling)
         2 - the current sequence length is in the original scale (avoid losing precision with small sequences)
-        """
-        seq_len = torch.max(position_ids) + 1
-        if seq_len > self.max_seq_len_cached:  # growth
-            inv_freq, self.attention_scaling = self.rope_init_fn(
-                self.config, device, seq_len=seq_len
-            )
-            self.register_buffer(
-                "inv_freq", inv_freq, persistent=False
-            )  # TODO joao: may break with compilation
-            self.max_seq_len_cached = seq_len
 
-        if (
-            seq_len < self.original_max_seq_len
-            and self.max_seq_len_cached > self.original_max_seq_len
-        ):  # reset
-            # This .to() is needed if the model has been moved to a device after being initialized (because
-            # the buffer is automatically moved, but not the original copy)
-            self.original_inv_freq = self.original_inv_freq.to(device)
-            self.register_buffer("inv_freq", self.original_inv_freq, persistent=False)
-            self.max_seq_len_cached = self.original_max_seq_len
+        Note: For Gemma3 with basic RoPE, we don't need dynamic updates.
+        """
+        pass  # Not needed for basic RoPE
 
     @torch.no_grad()
     def forward(self, x, position_ids):
-        if "dynamic" in self.rope_type:
-            self._dynamic_frequency_update(position_ids, device=x.device)
 
         # Core RoPE block
         inv_freq_expanded = (
@@ -491,10 +488,13 @@ class Gemma3TextModel(PreTrainedModel):
         self.rotary_emb = Gemma3RotaryEmbedding(config=config)
         self.gradient_checkpointing = False
 
-        # when we want to create a local RoPE layer. Config defaults should hold values for global RoPE
+        # when we want to create a local RoPE layer. Config linears should hold values for global RoPE
         config = copy.deepcopy(config)
-        config.rope_theta = config.rope_local_base_freq
-        config.rope_scaling = {"rope_type": "default"}
+        # Get local rope theta from rope_parameters['sliding_attention']
+        rope_params = getattr(config, 'rope_parameters', None) or {}
+        sliding_params = rope_params.get('sliding_attention', {})
+        config.rope_theta = sliding_params.get('rope_theta', 10000.0)
+        config.rope_scaling = {"rope_type": "linear", "factor": 1.0}
         self.rotary_emb_local = Gemma3RotaryEmbedding(config=config)
 
         self.layers = make_layers(
@@ -554,7 +554,7 @@ class Gemma3ForCausalLM(PreTrainedModel):
     base_model_prefix = "language_model"
 
     # BitandBytes specific attributes
-    default_bitsandbytes_target_modules = [
+    linear_bitsandbytes_target_modules = [
         ".gate_proj.",
         ".down_proj.",
         ".up_proj.",

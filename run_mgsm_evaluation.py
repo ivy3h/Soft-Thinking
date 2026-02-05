@@ -283,6 +283,8 @@ def main():
                         help='Delay in seconds before starting new engine (for memory cleanup)')
 
     # Resume mode
+    parser.add_argument('--no_chat_template', action='store_true',
+                        help='Do not use chat template (for base models without chat template)')
     parser.add_argument('--resume', action='store_true',
                         help='Resume from existing results (skip completed languages)')
 
@@ -415,11 +417,14 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         idx_list = []
 
         for idx, sample in enumerate(samples):
-            chat = [{"role": "user", "content": MATH_QUERY_TEMPLATE.format(
-                Question=sample["prompt"][0]["value"]
-            )}]
-            prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
-                                                   tokenize=False)
+            question_text = MATH_QUERY_TEMPLATE.format(Question=sample["prompt"][0]["value"])
+            if args.no_chat_template:
+                # For base models without chat template
+                prompt = question_text
+            else:
+                chat = [{"role": "user", "content": question_text}]
+                prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
+                                                       tokenize=False)
 
             for _ in range(args.num_samples):
                 prompt_list.append(prompt)
