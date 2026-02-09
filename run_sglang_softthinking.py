@@ -72,6 +72,10 @@ def main():
     parser.add_argument("--think_end_str", type=str, default="</think>")
     parser.add_argument("--max_topk", type=int, default=15)
 
+    # Resume mode
+    parser.add_argument('--resume', action='store_true',
+                        help='Resume from existing results (skip completed samples)')
+
     args = parser.parse_args()
 
     dataset = args.dataset
@@ -199,6 +203,20 @@ Test Cases:
     results_statistics_file = f"{args.output_dir}/results/{dataset}/{base_filename}_statistics.json"
 
     results = []
+    completed_indices = set()
+
+    # Resume: load existing results if available
+    if args.resume and os.path.exists(results_file):
+        try:
+            with open(results_file, "r") as f:
+                existing_results = json.load(f)
+            results = existing_results
+            completed_indices = {r["idx"] for r in existing_results}
+            print(f"[Resume] Loaded {len(existing_results)} existing results, completed indices: {sorted(completed_indices)}", flush=True)
+        except Exception as e:
+            print(f"[Resume] Failed to load existing results: {e}, starting fresh", flush=True)
+            results = []
+            completed_indices = set()
 
     print("begin")
     start_time = time.time()
@@ -224,6 +242,9 @@ Test Cases:
         prompt_list = []
         idx_list = []
         for idx in range(start_idx, min(end_idx,len(samples))):
+            # Skip already completed indices when resuming
+            if idx in completed_indices:
+                continue
             sample = samples[idx]
 
             if dataset in ["aime2024", "aime2025", "math500", "gsm8k", "amc23"]:
@@ -246,6 +267,11 @@ Test Cases:
                 prompt_list.append(prompt)
 
             idx_list.append(idx)
+
+        # Print resume summary
+        total_requested = min(end_idx, len(samples)) - start_idx
+        skipped = len(completed_indices & set(range(start_idx, min(end_idx, len(samples)))))
+        print(f"[Resume Summary] Total requested: {total_requested}, Skipped (already completed): {skipped}, To process: {len(idx_list)}", flush=True)
 
         # generate results
         decoded_text_list = []
@@ -363,6 +389,13 @@ Test Cases:
         }
         results.append(result)
 
+        # Real-time saving: save results after each sample
+        with open(results_file, "w") as f:
+            results_sorted = sorted(results, key=lambda x: x["idx"])
+            json.dump(results_sorted, f, indent=4)
+        print(f"[Saved] {len(results)} results to {results_file}", flush=True)
+
+    # Final save (already done incrementally, but keep for consistency)
     with open(results_file, "w") as f:
         results.sort(key=lambda x: x["idx"])
         json.dump(results, f, indent=4)

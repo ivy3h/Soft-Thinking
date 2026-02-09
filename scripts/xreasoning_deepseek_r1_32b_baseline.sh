@@ -5,22 +5,19 @@
 #SBATCH -t 24:00:00
 #SBATCH --gres=gpu:a40:4
 #SBATCH --cpus-per-task=12
-#SBATCH --mem=192G
-#SBATCH -J xr_g3_27b_base
-#SBATCH -o logs/xreasoning_gemma3_27b_baseline_%j.log
+#SBATCH --mem=128G
+#SBATCH -J xr_dsr1_32b_base
+#SBATCH -o logs/xreasoning_deepseek_r1_32b_baseline_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-# HF_TOKEN should be set in environment or ~/.huggingface/token
-# export HF_TOKEN="your_token_here"
-
 # Evaluate AIME 2024
 python run_xreasoning_evaluation.py \
     --dataset "aime2024" \
-    --model_name "google/gemma-3-27b-it" \
+    --model_name "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -33,7 +30,7 @@ python run_xreasoning_evaluation.py \
 # Evaluate AIME 2025
 python run_xreasoning_evaluation.py \
     --dataset "aime2025" \
-    --model_name "google/gemma-3-27b-it" \
+    --model_name "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -46,7 +43,7 @@ python run_xreasoning_evaluation.py \
 # Evaluate GPQA
 python run_xreasoning_evaluation.py \
     --dataset "gpqa" \
-    --model_name "google/gemma-3-27b-it" \
+    --model_name "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \

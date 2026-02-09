@@ -2,7 +2,7 @@
 #SBATCH -p overcap
 #SBATCH --account=overcap
 #SBATCH --qos short
-#SBATCH -t 12:00:00
+#SBATCH -t 24:00:00
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=48G
@@ -15,7 +15,7 @@ conda activate st
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
 # HF_TOKEN should be set in environment or ~/.huggingface/token
-export HF_TOKEN="${HF_TOKEN}"
+# export HF_TOKEN="your_token_here"
 
 # Evaluate AIME 2024
 python run_xreasoning_evaluation.py \

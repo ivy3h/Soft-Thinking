@@ -25,6 +25,36 @@ from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
 
+def is_gemma_model(model_name: str) -> bool:
+    """Check if the model is a Gemma 3 model which needs special handling."""
+    model_name_lower = model_name.lower()
+    return "gemma-3" in model_name_lower or "gemma3" in model_name_lower
+
+
+def get_gemma_engine_kwargs(model_name: str, base_kwargs: dict) -> dict:
+    """
+    Get engine kwargs adapted for Gemma 3 models.
+
+    Gemma 3 models use head_dim=256 which requires special flashinfer kernels.
+    The cascade JIT compilation can take extremely long (>30 mins) or hang.
+
+    Solution: Disable radix cache to avoid cascade kernel compilation.
+    This trades off some KV cache efficiency for reliable startup.
+    """
+    kwargs = base_kwargs.copy()
+
+    if is_gemma_model(model_name):
+        print(f"[Gemma Adapter] Detected Gemma 3 model: {model_name}")
+        print(f"[Gemma Adapter] Disabling radix cache to avoid cascade JIT compilation issues")
+        kwargs["disable_radix_cache"] = True
+        # Gemma 3 requires flashinfer attention backend for sliding window attention
+        if kwargs.get("attention_backend") != "flashinfer":
+            print(f"[Gemma Adapter] Setting attention_backend to flashinfer (required for sliding window attention)")
+            kwargs["attention_backend"] = "flashinfer"
+
+    return kwargs
+
+
 # Language metadata
 LANGUAGE_NAMES = {
     "en": "English",
@@ -288,6 +318,10 @@ def main():
     parser.add_argument('--resume', action='store_true',
                         help='Resume from existing results (skip completed languages)')
 
+    # Engine parameters
+    parser.add_argument('--watchdog_timeout', type=float, default=300,
+                        help='Watchdog timeout in seconds. Set higher for slow models.')
+
     args = parser.parse_args()
 
     # Set languages
@@ -362,24 +396,29 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         gc.collect()
         torch.cuda.empty_cache()
 
-        shared_engine = sgl.Engine(
-            model_path=args.model_name,
-            tp_size=args.num_gpus,
-            log_level="info",
-            trust_remote_code=True,
-            random_seed=args.random_seed,
-            max_running_requests=args.max_running_requests,
-            mem_fraction_static=args.mem_fraction_static,
-            disable_cuda_graph=True,
-            disable_overlap_schedule=True,
-            enable_soft_thinking=args.enable_soft_thinking,
-            add_noise_dirichlet=args.add_noise_dirichlet,
-            add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
-            max_topk=args.max_topk,
-            cuda_graph_max_bs=args.cuda_graph_max_bs,
-            sampling_backend=args.sampling_backend,
-            attention_backend=args.attention_backend
-        )
+        # Base engine kwargs
+        base_engine_kwargs = {
+            "model_path": args.model_name,
+            "tp_size": args.num_gpus,
+            "log_level": "info",
+            "trust_remote_code": True,
+            "random_seed": args.random_seed,
+            "max_running_requests": args.max_running_requests,
+            "mem_fraction_static": args.mem_fraction_static,
+            "disable_cuda_graph": True,
+            "disable_overlap_schedule": True,
+            "enable_soft_thinking": args.enable_soft_thinking,
+            "add_noise_dirichlet": args.add_noise_dirichlet,
+            "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+            "max_topk": args.max_topk,
+            "cuda_graph_max_bs": args.cuda_graph_max_bs,
+            "sampling_backend": args.sampling_backend,
+            "attention_backend": args.attention_backend,
+            "watchdog_timeout": args.watchdog_timeout
+        }
+        # Apply Gemma-specific adaptations
+        engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+        shared_engine = sgl.Engine(**engine_kwargs)
         print("Shared engine created successfully.")
 
     # Evaluate each language
@@ -449,24 +488,29 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                 torch.cuda.empty_cache()
                 time.sleep(args.engine_startup_delay)  # Wait for memory to be released
 
-                llm = sgl.Engine(
-                    model_path=args.model_name,
-                    tp_size=args.num_gpus,
-                    log_level="info",
-                    trust_remote_code=True,
-                    random_seed=args.random_seed,
-                    max_running_requests=args.max_running_requests,
-                    mem_fraction_static=args.mem_fraction_static,
-                    disable_cuda_graph=True,
-                    disable_overlap_schedule=True,
-                    enable_soft_thinking=args.enable_soft_thinking,
-                    add_noise_dirichlet=args.add_noise_dirichlet,
-                    add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
-                    max_topk=args.max_topk,
-                    cuda_graph_max_bs=args.cuda_graph_max_bs,
-                    sampling_backend=args.sampling_backend,
-                    attention_backend=args.attention_backend
-                )
+                # Base engine kwargs
+                base_engine_kwargs = {
+                    "model_path": args.model_name,
+                    "tp_size": args.num_gpus,
+                    "log_level": "info",
+                    "trust_remote_code": True,
+                    "random_seed": args.random_seed,
+                    "max_running_requests": args.max_running_requests,
+                    "mem_fraction_static": args.mem_fraction_static,
+                    "disable_cuda_graph": True,
+                    "disable_overlap_schedule": True,
+                    "enable_soft_thinking": args.enable_soft_thinking,
+                    "add_noise_dirichlet": args.add_noise_dirichlet,
+                    "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                    "max_topk": args.max_topk,
+                    "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                    "sampling_backend": args.sampling_backend,
+                    "attention_backend": args.attention_backend,
+                    "watchdog_timeout": args.watchdog_timeout
+                }
+                # Apply Gemma-specific adaptations
+                engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+                llm = sgl.Engine(**engine_kwargs)
 
             outputs = llm.generate(
                 prompt_list[batch_idx:batch_idx + args.max_batch],

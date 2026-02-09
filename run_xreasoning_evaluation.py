@@ -30,6 +30,37 @@ from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
 
+
+def is_gemma_model(model_name: str) -> bool:
+    """Check if the model is a Gemma 3 model which needs special handling."""
+    model_name_lower = model_name.lower()
+    return "gemma-3" in model_name_lower or "gemma3" in model_name_lower
+
+
+def get_gemma_engine_kwargs(model_name: str, base_kwargs: dict) -> dict:
+    """
+    Get engine kwargs adapted for Gemma 3 models.
+
+    Gemma 3 models use head_dim=256 which requires special flashinfer kernels.
+    The cascade JIT compilation can take extremely long (>30 mins) or hang.
+
+    Solution: Disable radix cache to avoid cascade kernel compilation.
+    This trades off some KV cache efficiency for reliable startup.
+    """
+    kwargs = base_kwargs.copy()
+
+    if is_gemma_model(model_name):
+        print(f"[Gemma Adapter] Detected Gemma 3 model: {model_name}")
+        print(f"[Gemma Adapter] Disabling radix cache to avoid cascade JIT compilation issues")
+        kwargs["disable_radix_cache"] = True
+        # Gemma 3 requires flashinfer attention backend for sliding window attention
+        if kwargs.get("attention_backend") != "flashinfer":
+            print(f"[Gemma Adapter] Setting attention_backend to flashinfer (required for sliding window attention)")
+            kwargs["attention_backend"] = "flashinfer"
+
+    return kwargs
+
+
 # Language metadata (same as MGSM)
 XREASONING_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
 
@@ -303,6 +334,10 @@ def main():
     parser.add_argument('--no_chat_template', action='store_true',
                         help='Do not use chat template (for base models without chat template)')
 
+    # Engine parameters
+    parser.add_argument('--watchdog_timeout', type=float, default=300,
+                        help='Watchdog timeout in seconds. Set higher for slow models.')
+
     args = parser.parse_args()
 
     dataset_name = args.dataset
@@ -386,21 +421,21 @@ Please solve the following multiple-choice question. Please show your choice in 
     # Check if all runs already exist (complete resume)
     stats_file = f"{args.output_dir}/results/xreasoning_{dataset_name}/{base_filename}_statistics.json"
     if os.path.exists(stats_file):
-        print(f"\n✓ Found existing complete evaluation results!")
+        print(f"\n[OK] Found existing complete evaluation results!")
         print(f"  Loading from: {stats_file}")
         try:
             with open(stats_file, "r", encoding="utf-8") as f:
                 results_statistics = json.load(f)
 
-            print(f"\n✓ Successfully loaded existing results:")
+            print(f"\n[OK] Successfully loaded existing results:")
             print(f"  Dataset: {results_statistics.get('dataset', 'N/A')}")
             print(f"  Number of runs: {results_statistics.get('num_runs', 'N/A')}")
             print(f"  Average accuracy: {results_statistics.get('average_accuracy', 0):.4f}")
-            print(f"\n✓ All evaluation already completed. Exiting.")
+            print(f"\n[OK] All evaluation already completed. Exiting.")
             return results_statistics
         except Exception as e:
-            print(f"⚠ Failed to load existing statistics: {e}")
-            print(f"⚠ Will re-run evaluation")
+            print(f"[!] Failed to load existing statistics: {e}")
+            print(f"[!] Will re-run evaluation")
 
     start_time = time.time()
 
@@ -417,7 +452,7 @@ Please solve the following multiple-choice question. Please show your choice in 
         if num_runs > 1:
             run_results_file = f"{args.output_dir}/results/xreasoning_{dataset_name}/{base_filename}_run{run_idx + 1}.json"
             if os.path.exists(run_results_file):
-                print(f"✓ Run {run_idx + 1} already completed, loading existing results...")
+                print(f"[OK] Run {run_idx + 1} already completed, loading existing results...")
                 try:
                     with open(run_results_file, "r", encoding="utf-8") as f:
                         existing_results = json.load(f)
@@ -437,11 +472,11 @@ Please solve the following multiple-choice question. Please show your choice in 
                         all_runs_results[lang].append(results)
                         print(f"  {lang}: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
 
-                    print(f"✓ Successfully loaded results from {run_results_file}")
+                    print(f"[OK] Successfully loaded results from {run_results_file}")
                     continue  # Skip to next run
                 except Exception as e:
-                    print(f"⚠ Failed to load existing results: {e}")
-                    print(f"⚠ Will re-run this iteration")
+                    print(f"[!] Failed to load existing results: {e}")
+                    print(f"[!] Will re-run this iteration")
 
         results_by_lang = {}
         language_accuracies = {}
@@ -490,24 +525,29 @@ Please solve the following multiple-choice question. Please show your choice in 
             while batch_idx < len(prompt_list):
                 print(f"Processing batch {batch_idx // args.max_batch + 1}...")
 
-                llm = sgl.Engine(
-                    model_path=args.model_name,
-                    tp_size=args.num_gpus,
-                    log_level="info",
-                    trust_remote_code=True,
-                    random_seed=args.random_seed + run_idx,  # Different seed per run
-                    max_running_requests=args.max_running_requests,
-                    mem_fraction_static=args.mem_fraction_static,
-                    disable_cuda_graph=True,
-                    disable_overlap_schedule=True,
-                    enable_soft_thinking=args.enable_soft_thinking,
-                    add_noise_dirichlet=args.add_noise_dirichlet,
-                    add_noise_gumbel_softmax=args.add_noise_gumbel_softmax,
-                    max_topk=args.max_topk,
-                    cuda_graph_max_bs=args.cuda_graph_max_bs,
-                    sampling_backend=args.sampling_backend,
-                    attention_backend=args.attention_backend
-                )
+                # Base engine kwargs
+                base_engine_kwargs = {
+                    "model_path": args.model_name,
+                    "tp_size": args.num_gpus,
+                    "log_level": "info",
+                    "trust_remote_code": True,
+                    "random_seed": args.random_seed + run_idx,  # Different seed per run
+                    "max_running_requests": args.max_running_requests,
+                    "mem_fraction_static": args.mem_fraction_static,
+                    "disable_cuda_graph": True,
+                    "disable_overlap_schedule": True,
+                    "enable_soft_thinking": args.enable_soft_thinking,
+                    "add_noise_dirichlet": args.add_noise_dirichlet,
+                    "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                    "max_topk": args.max_topk,
+                    "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                    "sampling_backend": args.sampling_backend,
+                    "attention_backend": args.attention_backend,
+                    "watchdog_timeout": args.watchdog_timeout
+                }
+                # Apply Gemma-specific adaptations
+                engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+                llm = sgl.Engine(**engine_kwargs)
 
                 outputs = llm.generate(
                     prompt_list[batch_idx:batch_idx + args.max_batch],

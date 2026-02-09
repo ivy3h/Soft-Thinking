@@ -369,6 +369,8 @@ class Gemma3DecoderLayer(nn.Module):
 class Gemma3RotaryEmbedding(nn.Module):
     def __init__(self, config: Gemma3TextConfig, device=None):
         super().__init__()
+        # Add rope_type for compatibility with transformers _init_weights
+        self.rope_type = "default"
         # Get rope parameters from config
         self.max_seq_len_cached = config.max_position_embeddings
         self.original_max_seq_len = config.max_position_embeddings
@@ -461,6 +463,30 @@ class Gemma3TextScaledWordEmbedding(nn.Embedding):
     def forward(self, input_ids: torch.Tensor):
         return super().forward(input_ids) * self.embed_scale
 
+    # ==========
+    # begin of soft thinking
+    # ==========
+    def weighted_forward(self, topk_probs: torch.Tensor, topk_indices: torch.Tensor) -> torch.Tensor:
+        """Weighted embedding forward for Soft-Thinking.
+
+        Args:
+            topk_probs: [B, K] tensor of probabilities for top-K tokens.
+            topk_indices: [B, K] tensor of token indices for top-K tokens.
+
+        Returns:
+            hidden_states: [B, D] weighted embedding.
+        """
+        # Get embeddings for top-K tokens: [B, K, D]
+        topk_embeddings = super().forward(topk_indices.long()) * self.embed_scale
+        # Normalize probs to sum to 1.0 along last dim
+        topk_probs = topk_probs / topk_probs.sum(dim=-1, keepdim=True)
+        # Weighted sum: [B, D]
+        hidden_states = torch.sum(topk_probs.unsqueeze(-1) * topk_embeddings, dim=1, dtype=topk_embeddings.dtype)
+        return hidden_states
+    # ==========
+    # end of soft thinking
+    # ==========
+
 
 class Gemma3TextModel(PreTrainedModel):
     def __init__(
@@ -508,7 +534,8 @@ class Gemma3TextModel(PreTrainedModel):
             prefix=add_prefix("layers", prefix),
         )
         self.norm = Gemma3RMSNorm(config.hidden_size, eps=config.rms_norm_eps)
-        self.post_init()
+        # Note: post_init() removed to avoid transformers compatibility issues
+        # Weight initialization is not needed when loading pretrained weights
 
     def forward(
         self,
@@ -518,10 +545,21 @@ class Gemma3TextModel(PreTrainedModel):
         input_embeds: torch.Tensor = None,
         **kwargs,
     ) -> torch.Tensor:
-        if input_embeds is None:
+        # ==========
+        # begin of soft thinking
+        # ==========
+        if forward_batch.topk_probs is not None:
+            # Soft-Thinking mode: use weighted embedding
+            hidden_states = self.embed_tokens.weighted_forward(
+                forward_batch.topk_probs, forward_batch.topk_indices
+            )
+        elif input_embeds is None:
             hidden_states = self.embed_tokens(input_ids)
         else:
             hidden_states = input_embeds
+        # ==========
+        # end of soft thinking
+        # ==========
 
         if positions.dim() == 1:
             positions = einops.rearrange(positions, "s -> 1 s")
@@ -619,7 +657,7 @@ class Gemma3ForCausalLM(PreTrainedModel):
                 quant_config=quant_config,
                 prefix=add_prefix("lm_head", prefix),
             )
-        self.post_init()
+        # Note: post_init() removed to avoid transformers compatibility issues
 
     def get_input_embeddings(self) -> nn.Embedding:
         return self.model.embed_tokens

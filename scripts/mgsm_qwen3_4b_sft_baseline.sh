@@ -3,24 +3,19 @@
 #SBATCH --account=overcap
 #SBATCH --qos short
 #SBATCH -t 12:00:00
-#SBATCH --gres=gpu:a40:4
-#SBATCH --cpus-per-task=12
-#SBATCH --mem=128G
-#SBATCH -J mgsm_g3_27b_base
-#SBATCH -o logs/mgsm_gemma3_27b_baseline_%j.log
+#SBATCH --gres=gpu:a40:1
+#SBATCH --cpus-per-task=6
+#SBATCH --mem=64G
+#SBATCH -J mgsm_q3_4b_sft_base
+#SBATCH -o logs/mgsm_qwen3_4b_sft_baseline_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-# Use local HF cache
-export HF_HOME=/coc/pskynet6/jhe478/huggingface
-# export HF_TOKEN="your_token_here"
-
-# Very long watchdog timeout for FlashInfer JIT compilation
 python run_mgsm_evaluation.py \
-    --model_name "google/gemma-3-27b-it" \
+    --model_name "/coc/pskynet6/jhe478/LlamaFactory/saves/qwen3-4b/full/sft_gsm8k/checkpoint-2299" \
     --max_generated_tokens 16384 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -29,8 +24,7 @@ python run_mgsm_evaluation.py \
     --mem_fraction_static 0.8 \
     --start_idx 0 \
     --end_idx 250 \
-    --num_gpus 4 \
+    --num_gpus 1 \
     --num_samples 1 \
     --single_engine \
-    --watchdog_timeout 3600 \
     --resume

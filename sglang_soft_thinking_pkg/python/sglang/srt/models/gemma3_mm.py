@@ -183,7 +183,7 @@ class Gemma3ForConditionalGeneration(PreTrainedModel):
         if self.language_model.logits_processor.logit_scale:
             logit_scale = getattr(config, "logit_scale", 1.0)
             self.language_model.logits_processor.logit_scale *= logit_scale
-        self.post_init()
+        # Note: post_init() removed to avoid transformers compatibility issues
 
     def pad_input_ids(
         self, input_ids: List[int], image_inputs: MultimodalInputs
@@ -342,6 +342,30 @@ class Gemma3ForConditionalGeneration(PreTrainedModel):
         # This really does cost me sometime
         positions += 1
 
+        # If input_embeds is provided directly (e.g., during decode), use it
+        if input_embeds is not None:
+            hs = self.language_model(
+                input_ids=None,
+                forward_batch=forward_batch,
+                input_embeds=input_embeds,
+                positions=positions,
+            )
+            return hs
+
+        # Handle soft thinking decode: input_ids is None but forward_batch.input_embeds is available
+        if input_ids is None and forward_batch.input_embeds is not None:
+            hs = self.language_model(
+                input_ids=None,
+                forward_batch=forward_batch,
+                input_embeds=forward_batch.input_embeds,
+                positions=positions,
+            )
+            return hs
+
+        # Fallback: use forward_batch.input_ids if input_ids parameter is None
+        if input_ids is None and hasattr(forward_batch, 'input_ids') and forward_batch.input_ids is not None:
+            input_ids = forward_batch.input_ids
+
         # Replace image id with PAD if the image token if OOV, to avoid index-errors
         if input_ids is not None and self.config.image_token_index >= self.vocab_size:
             special_image_mask = input_ids == self.config.image_token_index
@@ -349,6 +373,18 @@ class Gemma3ForConditionalGeneration(PreTrainedModel):
             llm_input_ids[special_image_mask] = 0
         else:
             llm_input_ids = input_ids
+
+        # Handle text-only case when input_ids is provided but no multimodal inputs
+        if llm_input_ids is not None and not forward_batch.contains_mm_inputs():
+            embed_tokens = self.language_model.get_input_embeddings()
+            inputs_embeds = embed_tokens(llm_input_ids)
+            hs = self.language_model(
+                input_ids=None,
+                forward_batch=forward_batch,
+                input_embeds=inputs_embeds,
+                positions=positions,
+            )
+            return hs
 
         hs = general_mm_embed_routine(
             input_ids=llm_input_ids,
