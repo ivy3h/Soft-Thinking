@@ -83,15 +83,18 @@ def load_xreasoning_gpqa(lang: str):
         List of samples with 'prompt', 'final_answer', 'choices', 'question_id', 'language' keys
     """
     hf_dataset = XREASONING_DATASETS["gpqa"]
-    ds = load_dataset(hf_dataset, lang)
+    ds = load_dataset(hf_dataset)
 
     data = []
-    split_name = "test" if "test" in ds else list(ds.keys())[0]
+    # GPQA uses language codes as split names (e.g., 'en', 'zh'), not configs
+    split_name = lang if lang in ds else ("test" if "test" in ds else list(ds.keys())[0])
 
     for idx, example in enumerate(ds[split_name]):
-        # Expected columns: question, choices (A/B/C/D), answer
-        question = example.get("question") or example.get("Question")
-        answer = example.get("answer") or example.get("Answer") or example.get("correct_answer")
+        # Columns: problem, solution (e.g. "\boxed{D}"), domain
+        question = (example.get("problem") or example.get("question") or
+                    example.get("Question"))
+        answer = (example.get("solution") or example.get("answer") or
+                  example.get("Answer") or example.get("correct_answer"))
 
         # Build choices dict if available
         choices = {}

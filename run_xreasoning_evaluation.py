@@ -146,19 +146,30 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
     hf_dataset = XREASONING_DATASETS[dataset_name]
     all_data = {}
 
+    # GPQA uses language codes as split names, not configs
+    if dataset_name == "gpqa":
+        ds_loaded = load_dataset(hf_dataset)
+    else:
+        ds_loaded = None
+
     for lang in languages:
         print(f"Loading {dataset_name} {lang} ({LANGUAGE_NAMES.get(lang, lang)})...")
         try:
-            ds = load_dataset(hf_dataset, lang)
-            split_name = "test" if "test" in ds else list(ds.keys())[0]
+            if dataset_name == "gpqa":
+                ds = ds_loaded
+                split_name = lang if lang in ds else ("test" if "test" in ds else list(ds.keys())[0])
+            else:
+                ds = load_dataset(hf_dataset, lang)
+                split_name = "test" if "test" in ds else list(ds.keys())[0]
 
             data = []
             for idx, example in enumerate(ds[split_name]):
                 # Handle different column naming conventions
-                question = (example.get("question") or example.get("problem") or
+                question = (example.get("problem") or example.get("question") or
                            example.get("Question") or example.get("Problem"))
-                answer = (example.get("answer") or example.get("Answer") or
-                         example.get("final_answer") or example.get("correct_answer"))
+                answer = (example.get("solution") or example.get("answer") or
+                         example.get("Answer") or example.get("final_answer") or
+                         example.get("correct_answer"))
 
                 sample = {
                     "prompt": [{"from": "user", "value": question}],
