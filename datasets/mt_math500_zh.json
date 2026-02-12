@@ -1,0 +1,6002 @@
+[
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $A = (0, 0),$ $B = (1, 2),$ $C=(3, 3),$ 和 $D = (4, 0).$ 四边形 $ABCD$ 被一条通过 $A$ 的直线分成面积相等的两部分. 这条直线与 $\\overline{CD}$ 的交点坐标是什么？"
+      }
+    ],
+    "final_answer": "\\left(\\tfrac{27}{8}, \\tfrac{15}{8}\\right)",
+    "question_id": 0,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $x$ 是一个整数，满足 $x\\sqrt{x}-5x-9\\sqrt{x}=35$，求 $x$。"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 1,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $1001$ 和 $2431$ 的最大公因数。"
+      }
+    ],
+    "final_answer": "143",
+    "question_id": 2,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $7 - 4x = 15$，求 $8x + 2$ 的值。"
+      }
+    ],
+    "final_answer": "-14",
+    "question_id": 3,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求函数\n\\[f(x) = \\sqrt{5x^2 + 2x \\sqrt{5} + 1} + x \\sqrt{5},\\]\n在所有使 $f(x)$ 有定义的 $x$ 值上的最小值。"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 4,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在方程 $3x + 2 + 3(1+x) = 23$ 中，$x$ 的值是多少？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 5,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $17^{13} - 17$ 的个位数。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 6,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "这个圆经过点 $(-1, 2)$、$(3,0)$ 和 $(9,0)$。圆心位于 $(h,k)$。求 $h+k$ 的值。"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 7,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "雷蒙德通常会吃十块12卡路里的薄脆饼干作为零食。他需要吃多少块20卡路里的曲奇饼干才能摄入相同数量的卡路里？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 8,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{a} = \\begin{pmatrix} 1 \\\\ 3 \\\\ 0 \\end{pmatrix},$ $\\mathbf{b} = \\begin{pmatrix} -11 \\\\ 5 \\\\ 2 \\end{pmatrix},$ 和 $\\mathbf{c} = \\begin{pmatrix} 1 + \\sqrt{5} \\\\ 4 \\\\ -5 \\end{pmatrix}.$ 如果向量 $\\mathbf{a} + \\mathbf{b} + \\mathbf{c}$ 和\n\\[3 (\\mathbf{b} \\times \\mathbf{c}) - 8 (\\mathbf{c} \\times \\mathbf{a}) + k (\\mathbf{a} \\times \\mathbf{b})\\]相互正交，求 $k$。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 9,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 $4 - \\sqrt{3} + (-1 - 4 \\sqrt{3})i$ 绕原点顺时针旋转 $120^\\circ$。得到的复数是什么？"
+      }
+    ],
+    "final_answer": "-8 + 2i",
+    "question_id": 10,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "随机选择一个小于 1000 的 45 的正倍数。它是两位整数的概率是多少？将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{11}",
+    "question_id": 11,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "表达式 $$1 + 2 + 3 - 4 + 5 + 6$$ 等于 13。如果我们把括号加在不同的位置，我们可以改变这个值。例如，$1+2+3-(4+5)+6=1+2+3-9+6=6-9+6=3$。如果我们只添加括号（不改变项的顺序），这个表达式能得到的最小可能值是多少？（对于本问题，我们不能将加法或减法改为乘法。例如，$ (1+2+3)(-4)+5+6 $ 不是一个有效的括号放置方式。）\n\n请以一个单一的数值形式输入你的答案。"
+      }
+    ],
+    "final_answer": "-9",
+    "question_id": 12,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求解 $x$: $$\\log_2 \\frac{2x+8}{x+2} +\\log_2\\frac{x+2}{x-5}=3$$"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 13,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "符号 $\\star$ 和 $*$ 各自代表集合 $\\{+,-,\\times,\\div\\}$ 中的一个运算，并且 $\\frac{12\\star 2}{9*3}=4$。 $\\frac{10\\star 7}{24*9}$ 的值是多少？ 将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{14}{3}",
+    "question_id": 14,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "满足 $-30 \\leq x \\leq 26$ 的所有整数 $x$ 的和是多少？"
+      }
+    ],
+    "final_answer": "-114",
+    "question_id": 15,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "经过点 $(2,-3)$ 且斜率为 $\\frac12$ 的直线的 $y$-截距的 $y$-坐标是什么？"
+      }
+    ],
+    "final_answer": "-4",
+    "question_id": 16,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$56.78-43.6$ 是多少？"
+      }
+    ],
+    "final_answer": "13.18",
+    "question_id": 17,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "存在数字 $A$ 和 $B$，使得 \\[\\frac A{x-1}+\\frac B{x+1}=\\frac{x+2}{x^2-1}\\] 对于每个 $x\\neq\\pm1$ 的数都成立。求 $A-B$。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 18,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算总和，并将答案以普通分数形式输入：\n$$\n\\begin{array}{r r@{}c@{}l}\n& 1 &.& 11111111\\ldots \\\\\n& 0 &.& 11111111\\ldots \\\\\n& 0 &.& 01111111\\ldots \\\\\n& 0 &.& 00111111\\ldots \\\\\n& 0 &.& 00011111\\ldots \\\\\n& 0 &.& 00001111\\ldots \\\\\n& 0 &.& 00000111\\ldots \\\\\n+ &&\\vdots \\\\\n\\hline\n&&& ~~~?\n\\end{array}\n$$"
+      }
+    ],
+    "final_answer": "\\frac{100}{81}",
+    "question_id": 19,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出方程 $|2-x|= 3$ 的所有解的和。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 20,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a$ 和 $b$ 是非零实常数，使得 $|a| \\neq |b|.$ 求满足以下方程的 $x$ 的不同值的数量：\n\\[\\frac{x - a}{b} + \\frac{x - b}{a} = \\frac{b}{x - a} + \\frac{a}{x - b}.\\]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 21,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当 $A$ 翻倍时，新值比 $A$ 多 10。$A$ 的值是多少？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 22,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在图中，$AD=BD=CD$ 且 $\\angle BCA = 40^\\circ.$ 求 $\\angle BAC$ 的度数。\n\n[asy]\ndraw((0,0)--(10,0)--(8.2635,9.8481)--cycle,black+linewidth(1));\ndraw((10,0)--(20,0)--(8.2635,9.8481),black+linewidth(1));\ndraw((5,-0.5)--(5,0.5),black+linewidth(1));\ndraw((15,-0.5)--(15,0.5),black+linewidth(1));\ndraw((8.6318,4.8359)--(9.6317,5.0122),black+linewidth(1));\nlabel(\"$A$\",(8.2635,9.8481),N);\nlabel(\"$B$\",(0,0),SW);\nlabel(\"$C$\",(20,0),SE);\nlabel(\"$D$\",(10,0),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "90^\\circ",
+    "question_id": 23,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $P(x)$ 是一个三次多项式，满足\n\\begin{align*}\nP(1) &= \\log 1, \\\\\nP(2) &= \\log 2, \\\\\nP(3) &= \\log 3, \\\\\nP(4) &= \\log 4.\n\\end{align*}那么 $P(5)$ 可以表示为 $A \\log \\frac{B}{C}$ 的形式，其中 $A,$ $B,$ 和 $C$ 都是正整数，并且 $C$ 是一个素数。求 $A + B + C$ 的值。"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 24,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "斯泰西有 $d$ 美元。她进入了一个有 $10$ 家商店和一个彩票摊位的商场。首先她去彩票摊位，她的钱翻了一倍，然后她进入第一家商店，花了 $1024$ 美元。之后她交替进行：玩彩票并让她的钱翻倍（斯泰西总是赢），然后进入一家新商店并花费 $\\$1024$。当她从最后一家商店出来时，她一分钱都没有了。$d$ 的最小可能值是多少？"
+      }
+    ],
+    "final_answer": "1023",
+    "question_id": 25,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到一个整数 $n$，使得 $0\\leq n<398$，并且 $n$ 是 7 模 398 的乘法逆元。"
+      }
+    ],
+    "final_answer": "57",
+    "question_id": 26,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "Alice、Bailey、Cindy和Daniel在他们各自的社区里走动卖笔。Alice赚了$25.67，Bailey赚了$17.21，Cindy赚了$39.17，Daniel赚了$26.32。销售结束后，他们把钱凑在一起，然后去银行把硬币兑换成纸币。在他们尽可能多地将硬币兑换成纸币后，还剩下多少美分零钱？"
+      }
+    ],
+    "final_answer": "37",
+    "question_id": 27,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\begin{pmatrix} 1 & 2 \\\\ 4 & 8 \\\\ \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}.$"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 11 \\\\ 44 \\end{pmatrix}",
+    "question_id": 28,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在恒定温度下，一份气体样本的压力与其体积成反比。我有一些氢气在一个3.67升的容器中，压力为4 kPa。如果我将其全部转移到一个1.835升的容器中，且温度保持不变，新的压力会是多少kPa？"
+      }
+    ],
+    "final_answer": "8 kPa",
+    "question_id": 29,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $f(x)$ 是一个次数大于 $2$ 的多项式。如果 $f(1) = 2$ 且 $f(2) = 3$，求 $f(x)$ 除以 $(x-1)(x-2)$ 的余数。"
+      }
+    ],
+    "final_answer": "x+1",
+    "question_id": 30,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个菱形的周长为 $68$ 单位，其中一条对角线长 $30$ 单位。它的面积是多少平方单位？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 31,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "玩家选择1到4中的一个数字。做出选择后，掷出两个常规的四面（四面体）骰子，骰子的面编号为1到4。如果所选数字在掷出后恰好出现在一个骰子的底部，则玩家赢得 $\\$1.$。如果所选数字出现在两个骰子的底部，则玩家赢得 $\\$2.$。如果所选数字没有出现在任何一个骰子的底部，则玩家输掉 $\\$1.$。掷一次骰子，玩家的预期收益（以美元计）是多少？请以分数形式给出答案。"
+      }
+    ],
+    "final_answer": "-1/16",
+    "question_id": 32,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABCD$ 是一个正四面体（正三棱锥）。如果 $M$ 是 $\\overline{CD}$ 的中点，那么 $\\tan\\angle AMB$ 的值是多少？"
+      }
+    ],
+    "final_answer": "2\\sqrt{2}",
+    "question_id": 33,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "确定 54 (mod 6) 的余数。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 34,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一份脆米花糖食谱会产生一份混合物，这份混合物能填满一个9英寸乘13英寸的平底锅，深度为1英寸。如果将一份由原始食谱1.5倍量制成的脆米花糖混合物倒入一个10英寸乘15英寸的平底锅中，那么平底锅将被填充到多深（以英寸为单位）？请将你的答案表示为精确到小数点后两位的十进制数。"
+      }
+    ],
+    "final_answer": "1.17",
+    "question_id": 35,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在下图中，直线 $k$ 和 $\\ell$ 平行。求角 $x$ 的度数。\n[asy]\nsize(200);\npair A = dir(-22)*(0,0);\npair B = dir(-22)*(4,0);\npair C = dir(-22)*(4,2);\npair D = dir(-22)*(0,2);\npair F = dir(-22)*(0,1.3);\npair G = dir(-22)*(4,1.3);\n\npair X,Y;\n\nX=A;\nY=B;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=A;\nY=C;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=C;\nY=B;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=B;\nY=D;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=G;\nY=F;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nlabel(\"$\\ell$\",1.4*A-.4*B);\nlabel(\"$k$\",1.4*F-.4*G);\n\nlabel(\"$30^\\circ$\",A+(.8,-.1));\nlabel(\"$90^\\circ$\",B+(.4,.1));\nlabel(\"$x$\",C+(.32,.2));\n[/asy]"
+      }
+    ],
+    "final_answer": "60^\\circ",
+    "question_id": 36,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "Abby、Bart、Cindy 和 Damon 两人一组称体重。Abby 和 Bart 一共重 160 磅，Bart 和 Cindy 重 180 磅，Cindy 和 Damon 重 200 磅。Abby 和 Damon 一共重多少磅？"
+      }
+    ],
+    "final_answer": "180",
+    "question_id": 37,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果从 $\\{1, 2, 3, 4, 5\\}$ 中不放回地随机选择两个数，它们的和大于它们的积的概率是多少？请将答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{2}{5}",
+    "question_id": 38,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个对角线长度分别为12和16单位的菱形的周长是多少？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 39,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$。"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 40,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算数 $5+\\sqrt{3}$ 及其根式共轭的乘积。"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 41,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $2x - 3y = 8$ 和 $4x + 3y = -2$，求 $x$ 和 $y$ 的乘积是多少？"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 42,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个参议院委员会由5名民主党人和5名共和党人组成。如果每个党派的所有成员都坐在一起，他们围着一张圆桌有多少种不同的坐法？（如果桌子旋转后，应视为同一种坐法。）"
+      }
+    ],
+    "final_answer": "14,400",
+    "question_id": 43,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "你有5件衬衫、6条裤子和8顶帽子。你能搭配出多少套由一件衬衫、一条裤子和一顶帽子组成的服装？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 44,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次表达式 $3x^2-24x+72$ 可以写成 $a(x+b)^2+c$ 的形式，其中 $a$、$b$ 和 $c$ 是常数。$a+b+c$ 的值是多少？"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 45,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在图中，$x$ 的值是多少？ [asy]\ndraw((-4,1)--(0,0)--(4,1),linewidth(1));\ndraw((-1,-4)--(0,0)--(1,-4),linewidth(1));\ndraw((1/3,.25/3)--(1.25/3,-.75/3)--(.25/3,-1/3),linewidth(1));\ndraw((-1/3,.25/3)--(-1.25/3,-.75/3)--(-.25/3,-1/3),linewidth(1));\nlabel(\"$150^\\circ$\",(0,0),N);\nlabel(\"$x^\\circ$\",(0,-2),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "30°",
+    "question_id": 46,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于一个特定的圆，一个 $75^{\\circ}$ 的圆心角将截取一段长度为 $10\\pi$ 英尺的弧。这个圆的半径是多少？"
+      }
+    ],
+    "final_answer": "24",
+    "question_id": 47,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $z$ 是一个复数，且 $|z|=2$。设 $P$ 是复平面上的一个多边形，其顶点是 $z$ 以及所有满足以下条件的 $w$：\n\\[\\frac{1}{z+w}=\\frac{1}{z}+\\frac{1}{w}.\\]求 $P$ 所围成的面积。"
+      }
+    ],
+    "final_answer": "3 \\sqrt{3}",
+    "question_id": 48,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在直角三角形 $ABC$ 中，其中 $\\angle BAC = 90^\\circ$，且 $D$ 是 $\\overline{AC}$ 的中点。如果 $AB = 7$ 且 $BC = 25$，那么 $\\tan \\angle BDC$ 是多少？"
+      }
+    ],
+    "final_answer": "-\\frac{7}{12}",
+    "question_id": 49,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果杂货店有15种不同的水果和10种不同的罐装汤，迈克尔有多少种方式可以选择2种不同的水果和3种不同的汤来购买？"
+      }
+    ],
+    "final_answer": "12600",
+    "question_id": 50,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 $\\displaystyle\\frac{33}{\\sqrt{33}}$ 的分母有理化。"
+      }
+    ],
+    "final_answer": "\\sqrt{33}",
+    "question_id": 51,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个细菌种群每四小时翻倍。中午时有 $600$ 个细菌。如果这个速度持续下去，午夜时（十二小时后）会有多少细菌？"
+      }
+    ],
+    "final_answer": "4800",
+    "question_id": 52,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "定义 \\[f(x) = \\frac{1}{x + \\frac{1}{x}}\\]和 \\[g(x) = \\frac{1}{x - \\frac{1}{x}}.\\]求方程 \\[ (g(x))^2 - (f(x))^2 = \\tfrac54.\\]的最大实数解的平方。"
+      }
+    ],
+    "final_answer": "\\sqrt{5}",
+    "question_id": 53,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "两个圆锥的体积相同。如果其中一个的底面半径是另一个的3倍，并且高度是24英寸，那么另一个的高度是多少英寸？\n\n注意：圆锥的体积公式是 $\\frac{1}{3} \\pi r^2 h,$ 其中 $r$ 是半径，$h$ 是高度。"
+      }
+    ],
+    "final_answer": "216",
+    "question_id": 54,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $x^2 + \\frac{1}{x^2} = 7$，那么 $x^4 + \\frac{1}{x^4}$ 的值是多少？"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 55,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求解\n\\[\\frac{(x + 7)(x - 2)}{x - 1} < 0.\\]请使用区间表示法输入你的答案。"
+      }
+    ],
+    "final_answer": "(-\\infty,-7) \\cup (1,2)",
+    "question_id": 56,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $f(x) = 2^x.$ 求 $\\sqrt{f(f(f(f(1))))}.$"
+      }
+    ],
+    "final_answer": "256",
+    "question_id": 57,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "格里每晚11点睡觉。但他睡得不太好，所以他会在凌晨1:00到3:59之间的一个随机时间醒来，每个分钟点（包括1:00和3:59）出现的可能性都相同。然后他会把时钟上显示的小时和分钟读作一个三位数，例如凌晨2:56就会被读作256。这个数能被7整除的概率是多少？"
+      }
+    ],
+    "final_answer": "13/90",
+    "question_id": 58,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $ABCD$ 是一个凸四边形，且 $M$ 和 $N$ 分别是 $\\overline{AC}$ 和 $\\overline{BD}$ 的中点。则存在一个常数 $k$ 使得\n\\[AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + k \\cdot MN^2.\\]求 $k.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, M, N;\n\nA = (0,0);\nB = (4,0.5);\nC = (5,-3);\nD = (-2,-2.5);\nM = (A + C)/2;\nN = (B + D)/2;\n\ndraw(A--B--C--D--cycle);\ndraw(A--C);\ndraw(B--D);\ndraw(M--N);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, SW);\ndot(\"$M$\", M, NE);\ndot(\"$N$\", N, NW);\n[/asy]"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 59,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $f(x) = 2x+1$ 且 $g(x) = f(2x) - 3$。那么 $g(g(2))$ 是多少？"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 60,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个周长为12英寸的矩形，其最大面积是多少平方英寸？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 61,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "定义函数 $g(x)=3x+2$。如果 $g(x)=2f^{-1}(x)$ 并且 $f^{-1}(x)$ 是函数 $f(x)=ax+b$ 的逆函数，求 $\\dfrac{a+b}{2}$。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 62,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在我的乒乓球队里，右手持拍的男生数量是左手持拍的男生的四倍。在球队中左手持拍的学生里，女生数量是男生数量的两倍。球队中一半的女生是左手持拍的。如果球队里有36名队员，有多少名右手持拍的男生？（假设没有队员是左右手都能打的。）"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 63,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到抛物线 $y = \\frac{5x^2 - 4x + 2}{4}$ 的焦点。"
+      }
+    ],
+    "final_answer": "(2/5, 1/2)",
+    "question_id": 64,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $P$ 是复平面上的凸多边形，其顶点是方程\n\\[z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 = 0.\\]$P$ 的面积可以表示为 $\\frac{a + b \\sqrt{c}}{d}$ 的形式，其中 $a,$ $b,$ $c,$ $d$ 为正整数，且表达式为最简形式。求 $a + b + c + d.$"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 65,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正四面体是一种有四个面的棱锥，每个面都是等边三角形。\n\n设 $V$ 是一个边长为 $1$ 的正四面体的体积。$V^2$ 的精确值是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{72}",
+    "question_id": 66,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三个半径为1的相互相切的球体放置在一个水平面上。一个半径为2的球体放置在它们之上。从平面到较大球体顶部的距离是多少？"
+      }
+    ],
+    "final_answer": "3 + \\frac{\\sqrt{69}}{3}",
+    "question_id": 67,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下表数据显示了中央高中一项调查中乘坐公交车的学生百分比；每个年级调查了300名男生和300名女生。对于哪个年级，其乘坐公交车的男生人数最接近其乘坐公交车的女生人数的 $135\\%$？\n\\begin{tabular}{|l|c|c|}\\hline\n年级 & 男生 & 女生 \\\\ \\hline\n九年级 & $41.1\\%$ & $39.4\\%$ \\\\ \\hline\n十年级 & $34.4\\%$ & $33.1\\%$ \\\\ \\hline\n十一年级 & $20.6\\%$ & $13.8\\%$ \\\\ \\hline\n十二年级 & $11.6\\%$ & $8.6\\%$ \\\\ \\hline\n\\end{tabular}"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 68,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在一个圆心为 $O$，直径为 $AC$ 和 $BD$ 的圆中，角 $AOD$ 的度数为 $54$ 度。请问角 $AOB$ 的度数是多少？\n[asy]\ndraw(circle((0,0),1));\nlabel(\"O\",(0,0),SE);\ndraw((-1,0)--(1,0));\ndraw((0.5877852522924731291,0.80901699437)--(-0.5877852522924731291,-0.80901699437));\nlabel(\"B\",(-1,0),W);\nlabel(\"D\",(1,0),E);\nlabel(\"A\",(0.5877852522924731291,0.80901699437),NE);\nlabel(\"C\",(-0.5877852522924731291,-0.80901699437),SW);\ndot((0,0));\ndot((-0.5877852522924731291,-0.80901699437));\ndot((0.5877852522924731291,0.80901699437));\ndot((-1,0));\ndot((1,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "126",
+    "question_id": 69,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将直角坐标系中的点 $( 1, -1, -6 )$ 转换为圆柱坐标。以 $(r,\\theta,z)$ 的形式输入你的答案，其中 $r > 0$ 且 $0 \\le \\theta < 2 \\pi$。"
+      }
+    ],
+    "final_answer": "\\left( \\sqrt{2}, \\frac{7\\pi}{4}, -6 \\right)",
+    "question_id": 70,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $m$ 和 $n$ 是正整数，使得 $m\\equiv 6\\pmod 9$ 并且 $n\\equiv 0\\pmod 9$，那么 $mn$ 必然能被哪个最大的整数整除？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 71,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\sin^{-1} (\\sin 3) + \\sin^{-1} (\\sin 4) + \\sin^{-1} (\\sin 5).$ 所有函数都以弧度表示。"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 72,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $f(x)=x^3+3x^2+3x+1$，求 $f(f^{-1}(2010))$。"
+      }
+    ],
+    "final_answer": "2010",
+    "question_id": 73,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个凸八边形最多可以有多少个直角内角？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 74,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $A(2,5), B(6,5), C(5,2)$ 和 $D(1,2)$ 是一个平行四边形的顶点。如果将该平行四边形向下平移2个单位，再向右平移3个单位，点 $B$ 的最终图像的坐标将是什么？"
+      }
+    ],
+    "final_answer": "(9, 3)",
+    "question_id": 75,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "端点为 $(1,2)$ 和 $(-4,-10)$ 的线段有多长？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 76,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "整数 $x$ 为何值时，$\\frac 35 < \\frac x7 < \\frac 79$ 成立？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 77,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "线段 $s_1$ 的端点是 $(3+\\sqrt{2},5)$ 和 $(4,7)$。线段 $s_2$ 的端点是 $(6-\\sqrt{2},3)$ 和 $(3,5)$。求以线段 $s_1$ 和 $s_2$ 的中点为端点的线段的中点。将你的答案表示为 $(a,b)$。"
+      }
+    ],
+    "final_answer": "(4,5)",
+    "question_id": 78,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "所示茎叶图中的数据是伪高中女子队今天在训练中跳远距离（单位：厘米）。（$51|1$ 代表 $511$ 厘米。）数据的中位数和众数之和是多少？\n\n\\begin{tabular}{l|lllll}\n51& 1\\\\\n52&\\\\\n53& 2& 5\\\\\n54& 0& 2& 2& 5\\\\\n55& 0& 1& 3& 4& 7\\\\\n56& 0& 2& 5\\\\\n57& 0& 1\\\\\n\\end{tabular}"
+      }
+    ],
+    "final_answer": "1093",
+    "question_id": 79,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个圆的半径是2英寸。当半径翻倍时，面积增加了多少平方英寸？用$\\pi$表示你的答案。"
+      }
+    ],
+    "final_answer": "12\\pi",
+    "question_id": 80,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从1到100（包括1和100）中随机选择一个数字。这个数字是完全平方数的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{10}",
+    "question_id": 81,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "考虑一个矩形，其顶点位于 $(5,4),$ $(5,-4),$ $(-5,4),$ $(-5,-4)$。有多少个整数坐标将严格位于该矩形区域内部？"
+      }
+    ],
+    "final_answer": "63",
+    "question_id": 82,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$7$ 有多少个整数因数？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 83,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(6, 0)$ 到直线 $y = 2x-2$ 的最短距离是多少？请用最简根式表示你的答案。"
+      }
+    ],
+    "final_answer": "2\\sqrt{5}",
+    "question_id": 84,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a,$ $b,$ $c,$ $p,$ $q,$ 和 $r$ 为实数，满足\n\\[\\begin{vmatrix} p & b & c \\\\ a & q & c \\\\ a & b & r \\end{vmatrix} = 0.\\]假设 $a \\neq p,$ $b \\neq q,$ 且 $c \\neq r,$ 求 $\\frac{p}{p - a} + \\frac{q}{q - b} + \\frac{r}{r - c}$ 的值。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 85,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "克里沙努和肖纳克各自随机选择一个1到10之间的整数（包括1和10）。他们的数字之积大于10的概率是多少？请将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{73}{100}",
+    "question_id": 86,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在一个星期二，一位魔术师说：“我让我的妻子在31天前消失了。”他让她消失的那天是星期几？"
+      }
+    ],
+    "final_answer": "Saturday",
+    "question_id": 87,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求表达式 \\[\\frac{(a^2 + b^2)^2}{a^3 b}\\] 对于正实数 $a$ 和 $b$ 的最小值。请以简化形式 $\\frac{m \\sqrt{n}}{p}$ 给出答案，其中 $m,$ $n,$ 和 $p$ 均为正整数。"
+      }
+    ],
+    "final_answer": "\\frac{16\\sqrt{3}}{9}",
+    "question_id": 88,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "迈克从一副标准的52张扑克牌中抽取五张牌。他抽到的五张牌中，至少包含四种花色中的三种的概率是多少？请将你的答案表示为一个最简分数。"
+      }
+    ],
+    "final_answer": "\\frac{507}{595}",
+    "question_id": 89,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条直线经过 $(4,365)$，并且这条直线的 $y$-截距在 $1$ 到 $9$ 之间（含 $1$ 和 $9$）。这条直线的最小可能斜率是多少？"
+      }
+    ],
+    "final_answer": "89",
+    "question_id": 90,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "8个人围圆桌而坐，如果爱丽丝、鲍勃和伊芙（这8个人中的3位）都不想相邻而坐，有多少种不同的坐法？如果两种坐法通过旋转可以互相得到，则视为同一种坐法。"
+      }
+    ],
+    "final_answer": "1440",
+    "question_id": 91,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设函数 $f$ 定义为\n\\[f(x) = \\left\\{\n\\begin{array}{cl}\n3-x & \\text{ if } x \\leq 3, \\\\\n-x^3+2x^2+3x & \\text{ if } x>3.\n\\end{array}\n\\right.\\]计算 $f^{-1}(0)+f^{-1}(6)$。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 92,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个斜边长为20个单位的等腰直角三角形，其面积是多少平方单位？"
+      }
+    ],
+    "final_answer": "100 square units",
+    "question_id": 93,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $14.6+2.15$。"
+      }
+    ],
+    "final_answer": "16.75",
+    "question_id": 94,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设\n\\[f(x) = \\frac{-px - 3}{-qx + 3},\\]且设 $g(x)$ 是 $f(x)$ 的反函数。如果点 $(7,-22)$ 位于 $y = f(x)$ 和 $y = g(x)$ 的图象上，那么求 $p + q$ 的值。"
+      }
+    ],
+    "final_answer": "36/11",
+    "question_id": 95,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个等差数列的首项是 $2$。第三项和第六项的和是 $25$。第四项是多少？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 96,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $c$ 和 $d$ 成反比。如果 $d=8$ 时 $c=9$，求 $c=6$ 时 $d$ 的值。"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 97,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(1 + 2 \\cdot 3 \\cdot 4 \\cdot 5) \\div 11$ 是多少？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 98,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个小于 $18,\\!632$ 的整数与 $ 23 \\pmod {37} $ 同余？"
+      }
+    ],
+    "final_answer": "503",
+    "question_id": 99,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $p+q$，已知 $(q+4)(p+3)-(q+2)(p+1)=44$。"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 100,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "整数 $1,$ $2,$ $3,$ $\\dots,$ $16$ 中的每一个都写在一张单独的纸条上，这些纸条被放在一堆里。Jillian 将从这堆纸条中随机抽取纸条，且不放回，并会一直抽取，直到她抽出的数字中有两个的乘积是一个完全平方数。Jillian 在不使任意两个已抽出的数字的乘积为完全平方数的情况下，最多能抽取多少张纸条？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 101,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "两个不同的正数 $a$ 和 $b$，它们各自与它们的倒数相差 $1$。$a+b$ 是多少？"
+      }
+    ],
+    "final_answer": "\\sqrt{5}",
+    "question_id": 102,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个鱼缸的底座是长方形的，长100厘米，宽40厘米，鱼缸高50厘米。鱼缸里装有水，水深37厘米。然后，一块体积为 $1000 \\text{cm}^3$ 的石头被放入鱼缸中并完全浸没。水位上升了多少厘米？请将你的答案表示为一个小数，精确到百分位。"
+      }
+    ],
+    "final_answer": "0.25 cm",
+    "question_id": 103,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "确定单词 CIRCLE 的字母有多少种排列方式。"
+      }
+    ],
+    "final_answer": "360",
+    "question_id": 104,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当掷出两个公平的、标准的六面骰子时，在两个骰子上掷出相同数字的概率是多少？请将答案表示为最简分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{6}",
+    "question_id": 105,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一张正方形纸被折叠一次，使得一对对角重合。当纸张展开时，形成了两个全等的三角形。已知原始正方形的面积是 $49$ 平方英寸，请问这些三角形中，其中一个的周长是多少英寸？请将你的答案表示为最简根式。"
+      }
+    ],
+    "final_answer": "14+7\\sqrt{2}",
+    "question_id": 106,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求实数根\n\\[\\frac{6 - x}{x^2 - 4} = 2 + \\frac{x}{x + 2}.\\]\n输入根，用逗号分隔。"
+      }
+    ],
+    "final_answer": "7/3",
+    "question_id": 107,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个三角形的两条边长均为 $8$ 个单位。如果第三条边的长度是一个整数，那么这个三角形的最大可能周长是多少个单位？"
+      }
+    ],
+    "final_answer": "31",
+    "question_id": 108,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在坐标系中，从原点到点 $(-8,6)$ 的距离是多少个单位？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 109,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在安维尔初级中学，数学俱乐部中 $30\\%$ 的学生同时也是科学俱乐部的成员，并且科学俱乐部中 $80\\%$ 的学生同时也是数学俱乐部的成员。科学俱乐部有 15 名学生。数学俱乐部有多少名学生？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 110,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个正整数 $p$ 使得存在一个边长分别为 $3p-1,$ $3p,$ 和 $p^2 + 1$ 的三角形？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 111,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果神奇女侠一小时能抓捕6名罪犯，那么她在$4\\frac{1}{2}$小时内能抓捕多少名罪犯？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 112,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "100的所有正整数因数的乘积是多少？"
+      }
+    ],
+    "final_answer": "1,000,000,000",
+    "question_id": 113,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "克丽丝塔在一个星期天早上往她的新存钱罐里放了1美分。星期一她放了2美分。星期二她放了4美分，并且在接下来的两周里，她每天存入的金额都是前一天的两倍。她的存钱罐里的总金额在哪一天首次超过了$5？"
+      }
+    ],
+    "final_answer": "Monday",
+    "question_id": 114,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在从 $1$ 到 $800$（包括 $1$ 和 $800$）的自然数中，有多少个包含数字 $6$ 至少两次？（数字 $266$ 和 $663$ 是两个包含数字 $6$ 至少两次的自然数，但 $430$ 或 $16$ 则不是。）"
+      }
+    ],
+    "final_answer": "26",
+    "question_id": 115,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在一个具有 $x$ 轴、$y$ 轴和 $z$ 轴的三维坐标系中，点 $P$ 位于 $xy$ 平面上的直线 $y = -x + 1$ 上，点 $Q$ 位于 $xz$ 平面上的直线 $z = -2x + 1$ 上。计算 $PQ$ 的最小可能值。"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 116,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在正五边形 $FGHIJ$ 中，如图所示，延长五边形的边会形成一个星形。图中角 $A$ 的度数是多少？\n\n[asy]\ndraw((-42.4,30.8)--(-10,30.8)--(0,63.2)--(10,30.8)--(42.4,30.8)--(16.2,11.8)--(24.9,-18.1)--(0,0)--(-24.9,-18.1)--(-16.2,11.8)--cycle,linewidth(1));\ndraw((-10,30.8)--(10,30.8)--(16.2,11.8)--(0,0)--(-16.2,11.8)--cycle,linewidth(1));\nlabel(\"$A$\",(-42.4,30.8),W);\nlabel(\"$F$\",(-10,30.8),NW);\ndot((-10,30.8));\nlabel(\"$G$\",(10,30.8),NE);\ndot((10,30.8));\nlabel(\"$H$\",(16.2,11.8),E);\ndot((16.2,11.8));\nlabel(\"$I$\",(0,0),S);\ndot((0,0));\nlabel(\"$J$\",(-16.2,11.8),WSW);\ndot((-16.2,11.8));\n[/asy]"
+      }
+    ],
+    "final_answer": "36°",
+    "question_id": 117,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于 $\\bold{v} = \\begin{pmatrix} 0 \\\\ -4 \\\\ 1 \\end{pmatrix}$ 和 $\\bold{w} = \\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix},$ 计算 $\\text{proj}_{\\bold{w}} \\bold{v}$。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -2 \\\\ -2 \\\\ 1 \\end{pmatrix}",
+    "question_id": 118,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{0.\\overline{3}}{0.8\\overline{3}}$ 是多少？请将你的答案表示为最简分数。"
+      }
+    ],
+    "final_answer": "2/5",
+    "question_id": 119,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次表达式 $4x^2+2x-1$ 可以写成 $a(x+b)^2+c$ 的形式，其中 $a$、$b$ 和 $c$ 是常数。$a+b+c$ 是多少？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 120,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2010年国际足联世界杯的第一轮由几个小组组成，每个小组有四支球队。在每个小组内，这四支球队中的每一支都相互比赛了一次。每个小组有多少场比赛？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 121,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "帕蒂点了一份披萨外卖。账单是 $\\$$12.00。帕蒂支付了 $\\$$15，并告诉送货员把找零作为小费。她给了多少百分比的小费？"
+      }
+    ],
+    "final_answer": "25",
+    "question_id": 122,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $\\log_2 (\\log_8 x) = \\log_8 (\\log_2 x)$，求 $(\\log_2 x)^2$。"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 123,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $x(x + 1)(x + 2)(x + 3)$ 在所有实数 $x$ 上的最小值。"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 124,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\tan \\left( \\arccos \\frac{1}{3} \\right).$"
+      }
+    ],
+    "final_answer": "2 \\sqrt{2}",
+    "question_id": 125,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个粒子沿着直线 $y = \\frac{3}{2} x - 2$ 运动。在 $t = 0$ 时刻，它从点 $(-2,-5)$ 开始。粒子随后移动，使其 $x$ 坐标以每单位时间4个单位的速率变化。求粒子的 $y$ 坐标作为 $t$ 的函数。"
+      }
+    ],
+    "final_answer": "6t - 5",
+    "question_id": 126,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个表面积为 $196\\pi$ 平方英寸的球体，其大圆的周长是多少英寸？请用 $\\pi$ 表示你的答案。\n\n注意：要测量周长，请取球体表面上最大的圆。"
+      }
+    ],
+    "final_answer": "14\\pi",
+    "question_id": 127,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\cos 120^\\circ$。"
+      }
+    ],
+    "final_answer": "-\\frac{1}{2}",
+    "question_id": 128,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在十进制下，数字 $2013$ 的末位数字是 $3$。另一方面，在九进制下，同一个数表示为 $(2676)_{9}$，其末位数字是 $6$。有多少个 $b$ 值使得 $2013$ 的 $b$ 进制表示的末位数字是 $3$？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 129,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $x$ 翻倍，然后增加 $7$，结果是 $81$。$x$ 的值是多少？"
+      }
+    ],
+    "final_answer": "37",
+    "question_id": 130,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如下图所示，画出三个相互外切的单位圆。画出一个与这三个单位圆都外切的蓝色圆。最后，画出三个红色圆，使得每个红色圆都与两个单位圆外切，并与蓝色圆外切。那么每个红色圆的半径可以表示为以下形式\n\\[\\frac{a - b \\sqrt{c}}{d},\\]其中 $a,$ $b,$ $c,$ 和 $d$ 是正整数，且表达式已经过化简。求 $a + b + c + d$。\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, D, E, F, O;\nreal s = 2/sqrt(3) - 1, r = (9 - 4*sqrt(3))/33;\n\nA = 2/sqrt(3)*dir(150);\nB = 2/sqrt(3)*dir(30);\nC = 2/sqrt(3)*dir(270);\nO = (0,0);\nD = (r + s)*dir(330);\nE = (r + s)*dir(210);\nF = (r + s)*dir(90);\n\nfilldraw(Circle(O,s),blue);\nfilldraw(Circle(D,r),red);\nfilldraw(Circle(E,r),red);\nfilldraw(Circle(F,r),red);\ndraw(Circle(A,1));\ndraw(Circle(B,1));\ndraw(Circle(C,1));\n[/asy]"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 131,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求方程 $x^4 - 80x - 36 = 0$ 的所有实根之和。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 132,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "能被16、15和12整除的最小正整数是多少？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 133,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $a$ 和 $b$ 是正整数，并且满足 $\\gcd(a,b)=210$，$\\mathop{\\text{lcm}}[a,b]=210^3$，以及 $a<b$，那么 $a$ 有多少种可能的值？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 134,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个函数定义为 $f(x) = x^2 - 3x + 4$。哪个表达式可以用来描述 $f(2x)$？请用 $x$ 的简化形式表示你的答案。"
+      }
+    ],
+    "final_answer": "4x^2 - 6x + 4",
+    "question_id": 135,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 \\[(\\cos12^\\circ+i\\sin12^\\circ+\\cos48^\\circ+i\\sin48^\\circ)^6.\\] 的虚部。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 136,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $a = 8$，那么 $\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13}$ 的值是多少？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 137,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一块奶酪立方体\n\\[C = \\{(x,y,z) : 0 \\le x, y, z \\le 1\\}\\]沿着平面 $x = y,$ $y = z,$ 和 $z = x.$ 切割。总共有多少块？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 138,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(0,0)$ 沿竖直线 $x = 1$ 反射。它的像再沿直线 $y=2$ 反射。最终点的坐标是什么？"
+      }
+    ],
+    "final_answer": "(2,4)",
+    "question_id": 139,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下列哪个点离原点最远：$(1,4)$, $(3,5)$, $(-6,0)$, $(-4,-2)?$"
+      }
+    ],
+    "final_answer": "(-6,0)",
+    "question_id": 140,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条直线 $\\ell$ 经过点 $B(7,-1)$ 和 $C(-1,7)$。这条直线的方程可以写成 $y=mx+b$ 的形式；计算 $m+b$。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 141,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2x^2 + 13x + 6 = 0$ 的解的平方的乘积是多少？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 142,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x$ 和 $y$ 是满足 $x^4y^5+y^4x^5=810$ 和 $x^3y^6+y^3x^6=945$ 的实数。求 $2x^3+(xy)^3+2y^3$ 的值。"
+      }
+    ],
+    "final_answer": "89",
+    "question_id": 143,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直线 $a$ 平行于直线 $b$ 并经过点 $(1,2)$。直线 $b$ 经过点 $(3,1)$ 并垂直于直线 $c$，其方程为 $y=-2x+3$。求直线 $a$ 的y截距。"
+      }
+    ],
+    "final_answer": "\\frac32",
+    "question_id": 144,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在学年期间，国际象棋俱乐部的10名成员在练习赛中总共进行了900场国际象棋比赛。每位成员都与其他每位成员对弈了 $N$ 次。$N$ 的值是多少？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 145,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求解 \\[\\frac{3x+2}{x-1}=4\\] 中的 $x$。"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 146,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从小于 $10^8$ 的正整数中随机均匀选择一个数。已知该数的数字之和为9，那么该数是素数的概率是多少？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 147,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条线段的两个端点位于 $(1,4)$ 和 $(1,10)$。该线段中点的坐标之和是多少？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 148,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $AB = 12, AC=14, BC=16$，那么三角形 $ABC$ 的内切圆半径是多少？请将您的答案表示为最简根式。"
+      }
+    ],
+    "final_answer": "\\sqrt{15}",
+    "question_id": 149,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个整数 $x$，其中 $10 \\leq x \\leq 99$，将被选取。如果所有选择的可能性均等，那么 $x$ 的至少一个数字是 7 的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}",
+    "question_id": 150,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到 $2 \\times 2$ 矩阵 $\\mathbf{M}$ 使得\n\\[\\mathbf{M} \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix}\\]并且\n\\[\\mathbf{M} \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 3 & 2 \\\\ 0 & -7 \\end{pmatrix}",
+    "question_id": 151,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $\\log_6 (x-y) + \\log_6 (x+y) = 2$ 且 $\\log_y 5x = 2$，那么求 $x$ 的值。"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 152,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等边三角形的一个内角与正方形的一个内角的比是多少？请将你的答案表示为分数形式。"
+      }
+    ],
+    "final_answer": "\\frac{2}{3}",
+    "question_id": 153,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $m$ 是一个不等于 $0$ 或 $1$ 的常数。那么 \\[x^2 + my^2 = 4\\] 的图像是一个有两个焦点的圆锥曲线。找出所有 $m$ 的值，使得这两个焦点都位于圆 $x^2+y^2=16$ 上。\n\n输入所有可能的 $m$ 值，用逗号分隔。"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}, -\\frac{1}{3}",
+    "question_id": 154,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "两个数的和是25，它们的差是9。它们的积是多少？"
+      }
+    ],
+    "final_answer": "136",
+    "question_id": 155,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直线 $y = \\frac{-12x + 74}{5}$ 被参数化为以下形式\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\mathbf{v} + t \\mathbf{d},\\]\n使得当 $x \\le 7$ 时, 点 $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ 与点 $\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$ 之间的距离为 $t$. 求 $\\mathbf{d}$."
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -5/13 \\\\ 12/13 \\end{pmatrix}",
+    "question_id": 156,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\dbinom{22}{19}$。"
+      }
+    ],
+    "final_answer": "1540",
+    "question_id": 157,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求函数 $f(x)=\\sqrt{\\sqrt{x^2-16}-3}$ 的定义域。"
+      }
+    ],
+    "final_answer": "(-\\infty,-5]\\cup[5,\\infty)",
+    "question_id": 158,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如图所示，两个中心带有转盘的圆被分成三个相等区域。当两个转盘都被转动时，两个数值的乘积为负的概率是多少？请将答案表示为最简分数。\n[asy]\nsize(140);\nvoid spinner(picture pic=currentpicture, real rotate, int a, int b, int c)\n{\ndot(pic,(0,0),linewidth(4));\ndraw(pic, unitcircle ^^ (0,0)--dir(90+rotate) ^^ (0,0)--dir(210+rotate) ^^ (0,0)--dir(-30+rotate));\nlabel(pic, \"$\"+string(a)+\"$\",dir(30+rotate)/2,fontsize(10pt));\nlabel(pic, \"$\"+string(b)+\"$\",dir(150+rotate)/2,fontsize(10pt));\nlabel(pic, \"$\"+string(c)+\"$\",dir(-90+rotate)/2,fontsize(10pt));\n}\npicture p;\nspinner(0,-1,-3,5); spinner(p,180,2,4,-6);\ndraw((0,0)--dir(-10)/2,EndArrow(4)); draw(p,(0,0)--dir(-75)/2,EndArrow(4)); add(shift(2.5*right)*p);[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{5}{9}",
+    "question_id": 159,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $ABCD$ 是一个单位正方形。一个双曲线的焦点位于 $\\overline{AB}$ 和 $\\overline{CD}$ 的中点，并且穿过正方形的所有顶点。计算双曲线的两个顶点之间的距离。"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt5-1}{2}",
+    "question_id": 160,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "宝拉在一个5年期的开始投资了 $10,\\!000$ 美元，利率为 $10\\%$。在这5年期结束时，如果利息是按季度复利计算的，她的投资价值多少？请将答案四舍五入到最接近的美分。"
+      }
+    ],
+    "final_answer": "$16,386.16",
+    "question_id": 161,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "连接 $(x,y)$ 和 $(2,4)$ 的线段的中点是 $(-7,0)$。求 $(x,y)$。"
+      }
+    ],
+    "final_answer": "(-16,-4)",
+    "question_id": 162,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四名打字员三天能打总共600份备忘录。按照这个速度，三名打字员一天能打多少份备忘录？"
+      }
+    ],
+    "final_answer": "150",
+    "question_id": 163,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $10^{51} - 9$ 以标准形式写成一个整数，这个整数的各位数字之和是多少？"
+      }
+    ],
+    "final_answer": "451",
+    "question_id": 164,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $A$ 是 $500$ 的正因数之和，那么 $A$ 的不同质因数之和是多少？"
+      }
+    ],
+    "final_answer": "25",
+    "question_id": 165,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三名姓名各异的学生排成一列。他们从前到后按字母顺序排列的概率是多少？请将答案表示为普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{6}",
+    "question_id": 166,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在三角形 $ABC$ 中， $AB=\\sqrt{30}$，$AC=\\sqrt{6}$，且 $BC=\\sqrt{15}$。存在一点 $D$，使得 $\\overline{AD}$ 平分 $\\overline{BC}$，并且 $\\angle ADB$ 是直角。求比值\n\\[\\dfrac{[ADB]}{[ABC]}.\\]换句话说，计算三角形 $ADB$ 的面积与三角形 $ABC$ 的面积之比。"
+      }
+    ],
+    "final_answer": "\\frac{27}{38}",
+    "question_id": 167,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在坐标平面上，设 $F = (4,0)$。设 $P$ 为一个点，设 $Q$ 是点 $P$ 在直线 $x = \\frac{25}{4}$ 上的投影。点 $P$ 在平面上描绘出一条曲线，使得\n\\[\\frac{PF}{PQ} = \\frac{4}{5}\\]对于曲线上所有的点 $P$ 都成立。求由该曲线所围成的区域的面积。\n\n[asy]\nunitsize(1 cm);\n\npair P, F, Q;\n\nF = (4,0);\nP = (5*Cos(60),3*Sin(60));\nQ = (25/4,3*Sin(60));\n\ndraw(F--P--Q);\ndraw((25/4,-1)--(25/4,3),dashed);\n\ndot(\"$F$\", F, S);\ndot(\"$P$\", P, W);\ndot(\"$Q$\", Q, E);\n\nlabel(\"$x = \\frac{25}{4}$\", (25/4,-1), S);\n[/asy]"
+      }
+    ],
+    "final_answer": "15 \\pi",
+    "question_id": 168,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四十八个边长分别为62英尺和20英尺的全等平行四边形以V形图案排列，形成六边形 $ABCDEF$，如图所示。六边形 $\\allowbreak ABCDEF$ 的周长是多少？\n\n[asy]\nunitsize (0.1 cm);\n\ndraw((16,-20)--(-3,-20)--(0,0)--(-3,20)--(16,20));\ndraw((0,0)--(16,0));\ndraw((5,20)--(8,0)--(5,-20));\ndraw((13,20)--(16,0)--(13,-20));\ndot((18,0));\ndot((20,0));\ndot((22,0));\ndraw((24,0)--(50,0));\ndraw((23,20)--(47,20)--(50,0)--(47,-20)--(21,-20));\ndraw((23,20)--(26,0)--(23,-20));\ndraw((31,20)--(34,0)--(31,-20));\ndraw((39,20)--(42,0)--(39,-20));\ndraw((39,21)--(39,25));\ndraw((47,21)--(47,25));\ndraw((39,23)--(47,23));\nlabel(\"$A$\",(-3,20),NW);\nlabel(\"$B$\",(47,20),NE);\nlabel(\"$C$\",(50,0),E);\nlabel(\"$D$\",(47,-20),SE);\nlabel(\"$E$\",(-3,-20),SW);\nlabel(\"$F$\",(0,0),W);\nlabel(\"20'\",(43,23),N);\nlabel(\"62'\",(49,10),E);\n[/asy]"
+      }
+    ],
+    "final_answer": "1208",
+    "question_id": 169,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "我们掷一个公平的六面骰子5次。出现6点的次数至多为2次的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{625}{648}",
+    "question_id": 170,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出能被6整除的最大的五位数回文数。(回文数是指正读和反读都相同的数字，例如 514415 或 131。)"
+      }
+    ],
+    "final_answer": "89898",
+    "question_id": 171,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "图中$x$的值是多少？\n\n[asy]\n\nimport olympiad;\n\ndraw((0,0)--(sqrt(3),0)--(0,sqrt(3))--cycle);\n\ndraw((0,0)--(-3,0)--(0,sqrt(3))--cycle);\n\nlabel(\"$2\\sqrt{3}$\",(-3/2,sqrt(3)/2),NW);\n\nlabel(\"$x$\",(sqrt(3)/2,sqrt(3)/2),NE);\n\ndraw(\"$45^{\\circ}$\",(1.5,0),NW);\n\ndraw(\"$30^{\\circ}$\",(-2.45,0),NE);\n\ndraw(rightanglemark((0,sqrt(3)),(0,0),(sqrt(3),0),5));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "\\sqrt{6}",
+    "question_id": 172,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个 $x$ 的值，使得表达式 $\\frac{x-5}{x^2-9}$ 没有定义？"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 173,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "Lana定义了一个函数$f(x)$，其公式为$$f(x) = x^2,$$但该函数仅在她指定的一个包含有限个$x$值的定义域上有效；对于所有其他$x$，她将函数定义为未定义。\n\n已知$f(x)$的值域是$\\{0,1,2,3,4,5,6,7,8,9\\}$，那么它的定义域中最多可以有多少个点？"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 174,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1992年，在意大利，一勺冰淇淋的售价是1200里拉。同样的冰淇淋在美国则要花费$1.50。按照里拉和美元之间的等值汇率，1,000,000里拉相当于多少美元？"
+      }
+    ],
+    "final_answer": "1250",
+    "question_id": 175,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求\n\\[\\sum_{n = 1}^{99} \\frac{2}{\\sqrt{n} + \\sqrt{n + 2}}\\]的最简形式。"
+      }
+    ],
+    "final_answer": "\\sqrt{101} - \\sqrt{2} + 9",
+    "question_id": 176,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "不使用计算器计算 9997 的平方。"
+      }
+    ],
+    "final_answer": "99940009",
+    "question_id": 177,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 313.9 加上 12.6。结果请用小数表示。"
+      }
+    ],
+    "final_answer": "326.5",
+    "question_id": 178,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $x^2 + bx + b + 3 = 0$ 的根形式为 $\\frac{-b \\pm \\sqrt{5}}{2}$，其中 $b > 0 $，则对于正整数 $m,n$，有 $b = m+\\sqrt{n}$。求 $m + n$。"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 179,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 $\\frac{4}{7}$ 四舍五入到最接近的十分位。"
+      }
+    ],
+    "final_answer": "0.6",
+    "question_id": 180,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\dbinom{12}{9}$。"
+      }
+    ],
+    "final_answer": "220",
+    "question_id": 181,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从小于或等于5的正整数集合中独立选取两个数。这两个数的和大于它们的积的概率是多少？请将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{9}{25}",
+    "question_id": 182,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果八枚硬币叠起来的高度正好是半英寸，那么需要多少枚硬币才能堆成一英尺高？"
+      }
+    ],
+    "final_answer": "192",
+    "question_id": 183,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "所有两位正整数中，一个数字是另一个数字四倍的数的总和是多少？"
+      }
+    ],
+    "final_answer": "165",
+    "question_id": 184,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个五边形凸多边形有多少条独特的对角线？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 185,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出所有实数 $x$ 的值，使得\n$$\\frac{2x^2-3x}{x^2-x} + 5x -11 = \\frac{3x^2+5x+2}{x^2-1}.$$\n输入所有解，用逗号分隔。"
+      }
+    ],
+    "final_answer": "3, 2/5",
+    "question_id": 186,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出 $6_8 \\cdot 7_8$ 的乘积。将你的答案用八进制表示。"
+      }
+    ],
+    "final_answer": "52_8",
+    "question_id": 187,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在巧克力店里，经典巧克力软糖每磅售价10美元。安娜购买了$\\frac{7}{9}$磅这种软糖。收银机将金额四舍五入到最接近的“分”（即美元的百分位）。安娜需要为她的软糖支付多少美元？"
+      }
+    ],
+    "final_answer": "7.78",
+    "question_id": 188,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求方程 $2x^2+4x-1=0$ 的解的平方和。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 189,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数列 $\\{a_n\\}$ 定义为\n$$\na_0 = 1,a_1 = 1, \\text{ and } a_n = a_{n - 1} + \\frac {a_{n - 1}^2}{a_{n - 2}}\\text{ for }n\\ge2.\n$$\n数列 $\\{b_n\\}$ 定义为\n$$\nb_0 = 1,b_1 = 3, \\text{ and } b_n = b_{n - 1} + \\frac {b_{n - 1}^2}{b_{n - 2}}\\text{ for }n\\ge2.\n$$\n找出 $\\frac {b_{32}}{a_{32}}$。"
+      }
+    ],
+    "final_answer": "561",
+    "question_id": 190,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\log_{\\sqrt8}(64\\sqrt{8})$ 的值。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 191,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $\\omega^{1997} = 1$ 且 $\\omega \\neq 1,$ 那么计算\n\\[\\frac{1}{1 + \\omega} + \\frac{1}{1 + \\omega^2} + \\dots + \\frac{1}{1 + \\omega^{1997}}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{1997}{2}",
+    "question_id": 192,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个边长为12个单位的正方形内接于一个圆。如果圆的面积是 $K\\pi$ 平方单位，那么 $K$ 的值是多少？"
+      }
+    ],
+    "final_answer": "72",
+    "question_id": 193,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "玛丽想去意大利的五个旅游景点，但她只有时间去三个。她有多少种方式可以选择其中三个景点去参观（参观的顺序无关紧要）？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 194,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求方程 $6t^2 + 30 = 41t$ 的解的正差。"
+      }
+    ],
+    "final_answer": "\\frac{31}{6}",
+    "question_id": 195,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果3月1日是星期一，那么270天后会是星期几？"
+      }
+    ],
+    "final_answer": "Friday",
+    "question_id": 196,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "今天父亲的年龄是儿子年龄的五倍。正好在三年前，他们年龄的总和是30岁。儿子今天多大了？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 197,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "给定正五边形 $ABCDE,$ 可以画一个圆，该圆与 $\\overline{DC}$ 相切于点 $D$，并与 $\\overline{AB}$ 相切于点 $A.$ 以度为单位，劣弧 $AD$ 的度数是多少？\n[asy]import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));\npair[] pentagon = new pair[5];\npentagon[0] = dir(36);\npentagon.cyclic=true;\nfor(int i = 1; i < 6; ++i){\n \npentagon[i] = dir(72*i + 36);\n\ndraw(pentagon[i - 1]--pentagon[i]);\n}\ndot(\"$C$\",pentagon[0],NE);\ndot(\"$D$\",pentagon[1],N);\ndot(\"$E$\",pentagon[2],W);\ndot(\"$A$\",pentagon[3],S);\ndot(\"$B$\",pentagon[4],SE);\nline x = line(pentagon[1],pentagon[1] + dir(-108));\nline x2 = line(origin,pentagon[2]);\npair ccenter = coordinates(intersectionpoint(x,x2));\ndraw(Circle(ccenter,arclength(ccenter--pentagon[1])));\n[/asy]"
+      }
+    ],
+    "final_answer": "144^\\circ",
+    "question_id": 198,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $(ax+b)(2x+3)=20x^2+44x+21$，其中 $a$ 和 $b$ 是两个不同的整数，那么 $a+b$ 的和是多少？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 199,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三段木材的长度分别为48英尺、72英尺和40英尺。锯木厂操作员需要将这些木材切割成等长且没有损耗的木段。她能切割出的最长可能长度是多少英尺？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 200,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "哪个整数 $n$ 满足 $0\\le n<18$ 并且 $$n\\equiv 142857\\pmod{18}~?$$"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 201,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "运算 @ 定义为 $\\frac{m}{n}@\\frac{p}{q} = (m)(p)\\left(\\frac{q}{n}\\right)$，其中 $\\frac{p}{q}$ 是最简分数。$\\frac{7}{30}@\\frac{10}{21}$ 的最简值是多少？"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 202,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个四位整数大于 2000 且小于 8000？"
+      }
+    ],
+    "final_answer": "5999",
+    "question_id": 203,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知点 $(8,8)$ 在函数 $y=\\frac 14f\\left(\\frac 12x\\right)$ 的图象上，那么函数 $y=f(x)$ 的图象上必定有一个点。那个点的坐标之和是多少？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 204,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "小于1000的自然数中，有多少个恰好有三个不同的正整数约数？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 205,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下面所示的双曲线方程可以表示为\n\\[\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1.\\]求 $h + k + a + b$ 的值。\n\n[asy]\nunitsize(0.3 cm);\n\nreal upperhyper (real x) {\n  return (2*sqrt((x - 6)^2/16 + 1) - 5);\n}\n\nreal lowerhyper (real x) {\n  return (-2*sqrt((x - 6)^2/16 + 1) - 5);\n}\n\nint i, n = 10;\n\nfor (i = -n; i <= n; ++i) {\n  draw((i,-n)--(i,n),gray(0.7));\n  draw((-n,i)--(n,i),gray(0.7));\n}\n\ndraw((0,-n)--(0,n));\ndraw((-n,0)--(n,0));\n\ndraw(graph(upperhyper,-10,10),red);\ndraw(graph(lowerhyper,-3,10),red);\ndraw(extension((-10,-10),(10,-10),(6,-5),(6,-5) + (4,2))--extension((10,10),(10,-10),(6,-5),(6,-5) + (4,2)),dashed);\ndraw(extension((-10,-10),(-10,10),(6,-5),(6,-5) + (4,-2))--extension((10,10),(10,-10),(6,-5),(6,-5) + (4,-2)),dashed);\n\ndot((6,-5));\n[/asy]"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 206,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个杰出委员会的成员们正在选举一位主席，每位成员都给27位候选人中的一位投了一票。对于每位候选人，该候选人获得的精确得票百分比至少比该候选人的得票数小1。委员会成员的最少可能人数是多少？"
+      }
+    ],
+    "final_answer": "134",
+    "question_id": 207,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到对于满足\n\\[(x - 3)^2 + (y - 3)^2 = 6.\\]\n的实数对 $(x,y)$，$\\frac{y}{x}$ 的最大值。"
+      }
+    ],
+    "final_answer": "3 + 2 \\sqrt{2}",
+    "question_id": 208,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $A$ 和 $B$，使得\n\\[\\frac{4x}{x^2-8x+15} = \\frac{A}{x-3} + \\frac{B}{x-5}\\]\n对于所有不等于 3 和 5 的 $x$ 值。将你的答案表示为有序对 $(A, B)$ 的形式。"
+      }
+    ],
+    "final_answer": "(-6, 10)",
+    "question_id": 209,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算：$32^2 - 18^2$。"
+      }
+    ],
+    "final_answer": "700",
+    "question_id": 210,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "回文数是一个正读和反读都相同的数字，例如 $43234$。能够被 $11$ 整除的最小五位数回文数是什么？"
+      }
+    ],
+    "final_answer": "10901",
+    "question_id": 211,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在三角形 $ABC$ 中，设 $D,$ $E,$ $F$ 分别是 $\\overline{BC},$ $\\overline{AC},$ $\\overline{AB}$ 的中点。设 $P,$ $Q,$ $R$ 分别是 $\\overline{AD},$ $\\overline{BE},$ $\\overline{CF}$ 的中点。计算\n\\[\\frac{AQ^2 + AR^ 2+ BP^2 + BR^2 + CP^2 + CQ^2}{AB^2 + AC^2 + BC^2}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{7}{8}",
+    "question_id": 212,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{w} = \\begin{pmatrix} 1 \\\\ 0 \\\\ -3 \\end{pmatrix}.$ 向量 $\\mathbf{v}$ 的集合，使得\n\\[\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v} = \\mathbf{0}\\]位于一个平面上。请以以下形式输入该平面的方程：\n\\[Ax + By + Cz + D = 0,\\]其中 $A,$ $B,$ $C,$ $D$ 是整数，满足 $A > 0$ 且 $\\gcd(|A|,|B|,|C|,|D|) = 1.$"
+      }
+    ],
+    "final_answer": "x - 3z = 0",
+    "question_id": 213,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下方所示的椭圆由以下方程定义：\n\\[PF_1 + PF_2 = d.\\]求 $d$。\n\n[asy]\nunitsize(0.3 cm);\n\nint i, n = 10;\n\nfor (i = -n; i <= n; ++i) {\n  draw((i,-n)--(i,n),gray(0.7));\n  draw((-n,i)--(n,i),gray(0.7));\n}\n\ndraw((0,-n)--(0,n));\ndraw((-n,0)--(n,0));\n\ndraw(shift((-1,0))*xscale(7)*yscale(5)*Circle((0,0),1),red);\n\ndot((-1,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "14",
+    "question_id": 214,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $y = \\frac{1}{x^3-3x^2+3x-1}$ 的图像有多少条垂直渐近线？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 215,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "心算 $115^2$。"
+      }
+    ],
+    "final_answer": "13225",
+    "question_id": 216,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "能只用数字0和2写成的30的最小正整数倍数是多少？"
+      }
+    ],
+    "final_answer": "2220",
+    "question_id": 217,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a,$ $b,$ $c$ 是 $x^3 - 7x + 2 = 0$ 的根。求\n\\[abc + ab + ac + bc + a + b + c + 1.\\]"
+      }
+    ],
+    "final_answer": "-8",
+    "question_id": 218,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "表达式 $2z^2+13z+21$ 可以写成 $(z + a)(2z + b)$ 的形式，其中 $a$ 和 $b$ 是整数。那么 $2a + b$ 是多少？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 219,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $y = \\frac{p(x)}{q(x)}$ 的图象如下所示，其中 $p(x)$ 和 $q(x)$ 都是二次函数。（假设网格线位于整数位置。）\n\n[asy]\nunitsize(0.6 cm);\n\nreal func (real x) {\n  return (-(x + 5)*(x - 4)/(x - 2)^2);\n}\n\nint i;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0));\ndraw((0,-8)--(0,8));\ndraw((2,-8)--(2,8),dashed);\ndraw((-8,-1)--(8,-1),dashed);\ndraw(graph(func,-8,1.9),red);\ndraw(graph(func,2.1,8),red);\n\nlimits((-8,-8),(8,8),Crop);\n[/asy]\n\n水平渐近线是 $y = -1,$ 唯一的垂直渐近线是 $x = 2.$ 求 $\\frac{p(-1)}{q(-1)}.$"
+      }
+    ],
+    "final_answer": "20/9",
+    "question_id": 220,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于矩阵 $\\mathbf{M}$，$\\mathbf{M}$ 的迹定义为其对角线元素的和。例如，\n\\[\\operatorname{Tr} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = a + d.\\]已知 $\\operatorname{Tr} (\\mathbf{A}) = 2$ 且 $\\operatorname{Tr} (\\mathbf{A}^2) = 30,$ 求 $\\det \\mathbf{A}.$"
+      }
+    ],
+    "final_answer": "-13",
+    "question_id": 221,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "化简\n\\[4 \\sin x \\sin (60^\\circ - x) \\sin (60^\\circ + x).\\]结果将是关于$x$的某个简单函数的一个三角函数，例如\"$\\cos (2x)$\"或\"$\\sin (x^3)$\"。"
+      }
+    ],
+    "final_answer": "\\sin 3x",
+    "question_id": 222,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a, b$ 和 $c$ 是实数，满足 $a-7b+8c = 4$ 且 $8a+4b-c = 7$。求 $a^2 - b^2 + c^2$。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 223,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设\n\\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>0, \\\\\n-\\frac1{2x}&\\text{if }x< 0\\\\\n0&\\text{if }x=0.\n\\end{cases}\n\\]\n找到函数 $k(x)$ 使得 $f(x)$ 是它自身的反函数。"
+      }
+    ],
+    "final_answer": "-\\frac{1}{2x}",
+    "question_id": 224,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "比利从离地面10英尺高的地方射出一支箭。这支箭的高度可以用方程 $h=10-23t-10t^2$ 来表示，其中 $t$ 是箭射出后的秒数。如果靶心离地面5英尺高，那么箭必须在多少秒内到达靶心，比利才能射中靶心？"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}",
+    "question_id": 225,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$1313$ 和 $1001$ 的最大公约数是多少？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 226,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $m$ 是一个实数，并且 $2x^2+mx+8$ 有两个不同的实根，那么 $m$ 的可能取值是什么？用区间表示法表达你的答案。"
+      }
+    ],
+    "final_answer": "(-\\infty,-8)\\cup(8,\\infty)",
+    "question_id": 227,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "沿着立方体的棱，有多少条不同的三步路径可以让你从顶点 $A$ 到达顶点 $B$？（一步是指从一个顶点走到与其共享一条棱的相邻顶点。）\n\n[asy]\nsize(101);\nimport three;\ncurrentprojection=orthographic(1/2,-1,1/4);\ndraw((0,0,0)--(1,0,0)--(1,0,1)--(0,0,1)--(0,0,0));\ndraw((1,0,0)--(1,1,0)--(1,1,1)--(1,0,1));\ndraw((1,1,1)--(0,1,1)--(0,0,1));\nlabel(\"A\",(0,0,1),(-1,0,0)); label(\"B\",(1,1,0),(1,0,0));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 228,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求方程 \\[\\frac{x^2-3}{x+2} = \\frac{2x}{x^2-4}.\\] 的所有实数解。输入所有解，用逗号分隔。"
+      }
+    ],
+    "final_answer": "1,3",
+    "question_id": 229,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有一组五个正整数，它们的平均数（算术平均值）是5，中位数是5，并且唯一的众数是8。这组数中最大整数和最小整数之间的差是多少？"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 230,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到能够交换矩阵行的矩阵 $\\mathbf{M}$。换句话说，\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} c & d \\\\ a & b \\end{pmatrix}.\\]如果不存在这样的矩阵 $\\mathbf{M}$，则输入零矩阵。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}",
+    "question_id": 231,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1200 的 $10\\%$ 的 $5\\%$ 是多少？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 232,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在数列 $$32, 8, \\underline{\\phantom{XX}}, \\underline{\\phantom{XX}}, x,$$ 中，第二项之后的每一项都是它前面紧邻的两项的平均值。$x$ 的值是多少？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 233,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个不全等的直角三角形，它们的所有边长都是正整数，并且其中一条直角边（即不是斜边的那条边）的长度是 $162$？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 234,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "青少年是指年龄在13、14、15、16、17、18或19岁的人。某一群青少年的年龄乘积是705,600。他们的平均年龄是多少岁？请将答案表示为精确到小数点后一位的十进制数。"
+      }
+    ],
+    "final_answer": "14.8",
+    "question_id": 235,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个方程为 $y=x^2+bx+c$ 的抛物线经过点 $(2,3)$ 和 $(4,3)$。求 $c$ 的值。"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 236,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "斯凯特大学冰球队的六名队员，每人与冰山理工学院队的六名队员中的每人握手。总共发生了多少次握手？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 237,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "Bob和Alice各有一个袋子，每个袋子里都装有蓝色、绿色、橙色、红色和紫罗兰色各一个球。Alice从自己的袋子里随机取出一个球，然后放入Bob的袋子里。接着Bob从自己的袋子里随机取出一个球，然后放入Alice的袋子里。请问，经过这个过程后，两个袋子里的物品内容相同的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 238,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果一条线段的端点坐标是 $(-3,7)$ 和 $(2,-5)$，那么这条线段有多长？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 239,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在节目开始时，105名军乐队成员站成一个名为Formation $A$的矩形队形。随后，所有乐队成员变换队形，进入Formation $B$。Formation $B$是另一个矩形队形，它比Formation $A$多了六行，但每行少了两名乐队成员。Formation $A$有多少行？"
+      }
+    ],
+    "final_answer": "15",
+    "question_id": 240,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $ x$ 是一个实数，使得这五个数字 $ \\cos(2 \\pi x)$, $ \\cos(4 \\pi x)$, $ \\cos(8 \\pi x)$, $ \\cos(16 \\pi x)$, 和 $ \\cos(32 \\pi x)$ 都非正。 $ x$ 的最小可能正值是多少？"
+      }
+    ],
+    "final_answer": "21/64",
+    "question_id": 241,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个圆柱形水箱，其底面半径为 $30$ 米，体积为 $2700\\pi$ 立方米。该水箱的高度是多少米？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 242,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条直线 $l$ 是 $y = ax + b$ 的图像。直线 $l_1$ 是将 $l$ 向左平移 3 个单位，向下平移 2 个单位得到的，并且经过点 $(5,8)$ 和 $(7,14)$。求 $a - b$ 的值。"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 243,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平行四边形 $ABCD$ 的周长是 40，它的高分别是 4 和 7。计算 $\\sin A$。"
+      }
+    ],
+    "final_answer": "\\frac{11}{20}",
+    "question_id": 244,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ 0 \\\\ 1 \\end{pmatrix},$ $\\mathbf{b} = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix},$ 且 $\\mathbf{c} = \\begin{pmatrix} 4 \\\\ - 3 \\\\ 7 \\end{pmatrix}.$ 求向量 $\\mathbf{v}$ 使得 $\\mathbf{v} \\times \\mathbf{b} = \\mathbf{c} \\times \\mathbf{b}$ 且 $\\mathbf{v} \\cdot \\mathbf{a} = 0.$"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -1 \\\\ -8 \\\\ 2 \\end{pmatrix}",
+    "question_id": 245,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于正整数 $n$，第 $n$ 个三角形数是 $T(n)=\\dfrac{n(n+1)}{2}.$\n\n例如，$T(3) = \\frac{3(3+1)}{2}= \\frac{3(4)}{2}=6$，因此第三个三角形数是 6。\n\n确定最小的整数 $b>2011$，使得对于某个正整数 $x$，有 $T(b+1)-T(b)=T(x)$。"
+      }
+    ],
+    "final_answer": "2015",
+    "question_id": 246,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出由正实数组成的有序三元组 $(x,y,z)$ 的数量，使得\n\\[\\left( x + \\frac{1}{y} \\right) \\left( y + \\frac{1}{z} \\right) \\left( z + \\frac{1}{x} \\right) = 8.\\]"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 247,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "形式为 $\\frac{A}{x + 3}$ 的哪个分数可以加到 $\\frac{6x}{x^2 + 2x - 3}$ 上，使得结果可以化简为形式为 $\\frac{B}{x - 1}$ 的分数？其中 $A$ 和 $B$ 是实数。请给出 $A$ 的值作为你的答案。"
+      }
+    ],
+    "final_answer": "-9/2",
+    "question_id": 248,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{a}$ 和 $\\mathbf{b}$ 是两个非零向量，使得 $\\mathbf{a} + \\mathbf{b}$ 与 $\\mathbf{b}$ 正交，并且 $\\mathbf{a} + 2 \\mathbf{b}$ 与 $\\mathbf{a}$ 正交。求 $\\frac{\\|\\mathbf{a}\\|}{\\|\\mathbf{b}\\|}.$"
+      }
+    ],
+    "final_answer": "\\sqrt{2}",
+    "question_id": 249,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x$ 是一个值，使得 $9x^2 - 18x - 16 = 0$ 并且 $15x^2 + 28x + 12 = 0.$ $x$ 的值是多少？将你的答案表示为一个最简分数。"
+      }
+    ],
+    "final_answer": "-2/3",
+    "question_id": 250,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求表达式的值。 $$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}$$"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 251,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到整数 $n,$ $0 \\le n \\le 180,$ 使得 $\\cos n^\\circ = \\cos 568^\\circ.$"
+      }
+    ],
+    "final_answer": "152",
+    "question_id": 252,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在 $2\\!:\\!48$ 时，一个 $12$ 小时制时钟的时针和分针所形成的较小角度是多少度？"
+      }
+    ],
+    "final_answer": "156^\\circ",
+    "question_id": 253,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等差数列 $1 + 2 + 3 + \\cdots + 80$ 的和的最大质因数是多少？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 254,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "约翰本想将一个数除以 $2$，但他粗心大意，反而从这个数中减去了 $2$。他得到的答案是 $22$。如果他真的除以 $2$ 而不是减去 $2$ 的话，他的答案会是多少？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 255,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $A$ 和 $B$ 是单位立方体的两个相对角，并且让 $C$ 是立方体中除了 $A$ 和 $B$ 之外的另一个顶点。求点 $C$ 到直线 $AB$ 的距离。"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt{6}}{3}",
+    "question_id": 256,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果一个三角形的两个内角分别为63度和78度，那么它的三个外角的度数的平均值是多少？"
+      }
+    ],
+    "final_answer": "120^\\circ",
+    "question_id": 257,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一群10名加州理工学院的学生去湖街吃午饭。每名学生要么在Chipotle吃，要么在Panda Express吃。学生们总共有多少种不同的方式去吃午饭？"
+      }
+    ],
+    "final_answer": "1024",
+    "question_id": 258,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于每个正整数 $n$，令 $\\text{mod}_5 (n)$ 为 $n$ 除以 5 所得的余数。递归定义函数 $f: \\{0,1,2,3,\\dots\\} \\times \\{0,1,2,3,4\\} \\to \\{0,1,2,3,4\\}$ 如下：\n\n\\[f(i,j) = \\begin{cases}\\text{mod}_5 (j+1) & \\text{ if } i = 0 \\text{ and } 0 \\le j \\le 4 \\text{,}\\\\ f(i-1,1) & \\text{ if } i \\ge 1 \\text{ and } j = 0 \\text{, and} \\\\ f(i-1, f(i,j-1)) & \\text{ if } i \\ge 1 \\text{ and } 1 \\le j \\le 4. \\end{cases}\\]$f(2015,2)$ 是多少？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 259,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下图由四个半圆形和最大半圆的16厘米直径组成。两个阴影区域的总面积是多少平方厘米？使用3.14作为$\\pi$的近似值，并将答案表示为精确到小数点后一位的十进制数。\n\n[asy]import graph;\nsize(200);\npicture p;\nreal h = .25,w = 1,textsize = 10pt,width = 1;\nfilldraw(Arc((8,0),8,0,180)--cycle,gray(.6),black+linewidth(width));\nfilldraw(Arc((6,0),6,0,180)--cycle,white,black+linewidth(width));\nfilldraw(Arc((4,0),4,0,180)--cycle,gray(.6),black+linewidth(width));\nfilldraw(Arc((2,0),2,0,180)--cycle,white,black+linewidth(width));\ndraw(p,(0,h)--(0,-h)^^(0,0)--(4,0)^^(4,h)--(4,-h),linewidth(width));\nfill(p,(w,h)--(4-w,h)--(4-w,-h)--(w,-h)--cycle,white);\nlabel(p,\"4 cm\",(2,0),fontsize(textsize));\nadd(shift(.5*down)*p);\nadd(shift(4*right)*shift(.5*down)*p);\nadd(shift(8*right)*shift(.5*down)*p);\nadd(shift(12*right)*shift(.5*down)*p);[/asy]"
+      }
+    ],
+    "final_answer": "62.8",
+    "question_id": 260,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $n$ 除以 7 余 3，那么 $2n+1$ 除以 7 余多少？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 261,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "女子田径队在训练的第一天必须跑 3 英里，之后每天跑 6 英里。男子队每天训练必须跑 5 英里。教练将在每个女孩的总里程超过每个男孩的总里程的那一天结束时订购新的标枪。到教练订购新设备时，每个女孩总共跑了多少英里？"
+      }
+    ],
+    "final_answer": "21",
+    "question_id": 262,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x, y, z$ 为实数，使得\n\\[\\cos x + \\cos y + \\cos z = \\sin x + \\sin y + \\sin z = 0.\\]求 $\\cos (2x - y - z)$ 的所有可能值的和。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 263,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $a$ 和 $b$ 是正实数，且令 \\[f(x) =\n\\begin{cases}\n\\frac{a}{b}x & \\text{ if }x\\le-4, \\\\\nabx^2 & \\text{ if }x>-4.\n\\end{cases}\n\\]如果 $f(-4)=-\\frac{60}{13}$ 且 $f(4)=3120$，那么 $a+b$ 是多少？"
+      }
+    ],
+    "final_answer": "28",
+    "question_id": 264,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程 $z^4+4z^3i-6z^2-4zi-i=0$ 的解是复平面上一个凸多边形的顶点。这个多边形的面积可以表示为 $p^{a/b},$ 其中 $a,$ $b,$ $p$ 是正整数，$p$ 是素数，且 $a$ 和 $b$ 互质。求 $a + b + p.$"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 265,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $$x={4\\over{(\\sqrt5+1)(\\root 4\\of5+1)(\\root 8\\of5+1)(\\root\n{16}\\of5+1)}}.$$求 $(x+1)^{48}$。"
+      }
+    ],
+    "final_answer": "125",
+    "question_id": 266,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>2, \\\\\n2+(x-2)^2&\\text{if }x\\leq2.\n\\end{cases}\n\\]找到函数 $k(x)$，使得 $f$ 是它自己的逆函数。"
+      }
+    ],
+    "final_answer": "k(x) = -\\sqrt{x-2} + 2",
+    "question_id": 267,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三段半径为5个单位的圆弧围成了所示区域。弧 $AB$ 和 $AD$ 是四分之一圆弧，弧 $BCD$ 是半圆弧。该区域的面积（以平方单位计）是多少？\n[asy]\n/* AMC8 2000 #19 Problem */\ndraw((0,0)..(1,1)..(2,0));\ndraw((0,0)..(.7,-.3)..(1,-1));\ndraw((1,-1)..(1.3, -0.3)..(2,0));\nlabel(\"$A$\", (1,-1), SW);\nlabel(\"$B$\", (0,0), W);\nlabel(\"$C$\", (1,1),N);\nlabel(\"$D$\", (2,0),E);\n[/asy]"
+      }
+    ],
+    "final_answer": "50",
+    "question_id": 268,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "本杰明正在尝试破解一个组合锁。这种特殊的锁有5位数字，每位数字从0到9。本杰明恰好知道，这种锁的密码中不能有重复的数字。请问有多少个有效的密码？"
+      }
+    ],
+    "final_answer": "30,240",
+    "question_id": 269,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设\n\\[\\sum_{n = 0}^{123456789} \\frac{3n^2 + 9n + 7}{(n^2 + 3n + 2)^3} = \\frac{a}{b},\\]\n其中 $a$ 和 $b$ 是互质的正整数。求 $b - a$ 的值。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 270,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求\n\\[8\\cos^210^\\circ - \\dfrac{1}{\\sin 10^\\circ}.\\]\n的值。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 271,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $\\frac{a}{b}$ 是随机选择的一个小于2010的正奇数的倒数是一个有限小数的概率，其中 $a$ 和 $b$ 是互质的正整数，那么 $a+b$ 是多少？"
+      }
+    ],
+    "final_answer": "202",
+    "question_id": 272,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条皮带紧紧地缠绕着三个半径均为 $10$ 厘米的圆，如图所示。这条皮带的长度（单位为厘米）可以写成 $a + b\\pi$ 的形式，其中 $a$ 和 $b$ 是有理数。$a + b$ 的值是多少？\n[asy]\n\nsize(120); defaultpen(linewidth(0.8));\npicture p; real r = 3^.5/2;\npair A = expi(-pi/6); draw(p, circle(A, r)); draw(p, (A.x,A.y - r) -- (-A.x,A.y - r));\nadd(p); add(rotate(120)*p); add(rotate(240)*p);\n[/asy]"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 273,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程 $y = \\frac{x + A}{Bx + C}$，其中 $A,B,$ 和 $C$ 是整数，如下所示。$A + B + C$ 是多少？\n\n[asy]\nimport graph; size(8.14cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-2.52,xmax=5.62,ymin=-4.28,ymax=3.32;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"$x$\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"$y$\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return (-x+4)/(x-2);} draw(graph(f1,-2.51,1.99),linewidth(1.2),Arrows(4)); draw(graph(f1,2.01,5.61),linewidth(1.2),Arrows(4));\n\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n\n[/asy]"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 274,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $\\det \\mathbf{A} = -1,$ 那么求 $\\det (\\mathbf{7A}).$"
+      }
+    ],
+    "final_answer": "-49",
+    "question_id": 275,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到一个非零的 $a$ 值，使得 $ax^2+8x+4=0$ 只有一个解。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 276,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "迈克三年前花 $\\$1.25$ 买了一枚邮票。他刚刚收到一个出价，价格是当初购买金额的两倍。假设这枚邮票的出价每三年翻一番，那么再过12年，他会收到多少美元的出价？"
+      }
+    ],
+    "final_answer": "$40",
+    "question_id": 277,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个正五边形绕其中心逆时针旋转。它必须旋转的最小度数是多少才能与原始位置重合？"
+      }
+    ],
+    "final_answer": "72 degrees",
+    "question_id": 278,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个不同的有理数四元组 $(a,b,c,d)$ 满足\n\\[a\\log_{10} 2+b\\log_{10} 3+c\\log_{10} 5+d\\log_{10} 7=2005?\\]"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 279,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在以下方程中求解 $z$：$2-3iz = 3 + 2iz$。"
+      }
+    ],
+    "final_answer": "\\frac{i}{5}",
+    "question_id": 280,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $y=\\frac{27x^2+9x+3}{27x^3+9x^2+3x+1}$，在 $y$ 的哪个值处会存在水平渐近线？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 281,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "罐子里有四个红球和两个白球。随机取出一个球，然后放入一个颜色相反的球。然后摇晃罐子，随机选择一个球。这个球是红色的概率是多少？将你的答案表示为普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{11}{18}",
+    "question_id": 282,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "埃里克和查尔斯各自想了一个二次多项式。令他们惊讶的是，这两个二次多项式都以 $x^2+4x+\\cdots$ 开头。埃里克多项式的判别式 $b^2-4ac$ 与查尔斯多项式的判别式之比，等于查尔斯常数项与埃里克常数项之比。如果他们的常数项不相等，求这些常数项的和。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 283,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形 $ABC$ 的面积等于 $a^2 - (b - c)^2,$ 其中 $a,$ $b,$ 和 $c$ 照例是三角形 $ABC$ 的边长。计算 $\\tan A.$"
+      }
+    ],
+    "final_answer": "\\frac{8}{15}",
+    "question_id": 284,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求向量 $\\mathbf{v}$ 使得\n\\[\\begin{pmatrix} 2 & 3 & -1 \\\\ 0 & 4 & 5 \\\\ 4 & 0 & -2 \\end{pmatrix} \\mathbf{v} = \\begin{pmatrix} 2 \\\\ 27 \\\\ -14 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -2 \\\\ 3 \\\\ 3 \\end{pmatrix}",
+    "question_id": 285,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下面的直线是参数化的，使得其方向向量的形式为 $\\begin{pmatrix} -7 \\\\ b \\end{pmatrix}.$ 求 $b.$\n\n[asy]\nunitsize(0.4 cm);\n\npair A, B, L, R;\nint i, n;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0),Arrows(6));\ndraw((0,-8)--(0,8),Arrows(6));\n\nA = (-5,4);\nB = (-1,3);\nL = extension(A, B, (-8,0), (-8,1));\nR = extension(A, B, (8,0), (8,1));\n\ndraw(L--R, red);\n\nlabel(\"$x$\", (8,0), E);\nlabel(\"$y$\", (0,8), N);\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{7}{4}",
+    "question_id": 286,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "塔拉掷了三个标准骰子一次。掷出数字的总和是三或更多的概率是多少？请将你的答案表示为百分比。"
+      }
+    ],
+    "final_answer": "100%",
+    "question_id": 287,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在直角三角形 $ABC$ 中，我们有 $AB = 10$， $BC = 24$， 并且 $\\angle ABC = 90^\\circ$。如果点 $M$ 在 $\\overline{AC}$ 上，使得 $\\overline{BM}$ 是 $\\triangle ABC$ 的高，那么 $\\cos \\angle ABM$ 是多少？"
+      }
+    ],
+    "final_answer": "\\frac{12}{13}",
+    "question_id": 288,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2^5$和$5^2$之间的正差是多少？"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 289,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当随机选择两个连续的整数时，其中一个数是4的倍数的概率是多少？将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{2}",
+    "question_id": 290,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2 \\frac{1}{6}$ 码有多少英寸？"
+      }
+    ],
+    "final_answer": "78",
+    "question_id": 291,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "掷一个公平的六面骰子时，朝上的是一个质数的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{2}",
+    "question_id": 292,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个正方形被分割，如图所示。阴影部分面积占正方形总面积的几分之几？请将答案表示为分数形式。\n[asy]\nsize(100);\nfill((3,1)--(4,2)--(4,4)--(2,2)--cycle,gray);\ndraw((0,0)--(4,0)--(4,4)--(0,4)--cycle,linewidth(1));\ndraw((0,0)--(4,4),linewidth(1));\ndraw((4,0)--(0,4),linewidth(1));\ndraw((2,0)--(4,2),linewidth(1));\ndraw((3.9,3.1)--(4.1,3.1),linewidth(1));\ndraw((4.1,2.9)--(3.9,2.9),linewidth(1));\ndraw((3.9,1.1)--(4.1,1.1),linewidth(1));\ndraw((4.1,.9)--(3.9,.9),linewidth(1));\ndraw((.9,-.1)--(.9,.1),linewidth(1));\ndraw((2.9,-.1)--(2.9,.1),linewidth(1));\ndraw((1.1,-.1)--(1.1,.1),linewidth(1));\ndraw((3.1,-.1)--(3.1,.1),linewidth(1));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{3}{16}",
+    "question_id": 293,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{u}$ 和 $\\mathbf{v}$ 是向量，使得 $\\|\\mathbf{u}\\| = \\|\\mathbf{v}\\| = 2$ 且 $\\mathbf{u} \\cdot \\mathbf{v} = -1$。如果 $\\theta$ 是向量 $\\mathbf{u} + \\mathbf{v}$ 和 $2 \\mathbf{u} - \\mathbf{v}$ 之间的夹角，那么求 $\\cos \\theta$。"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 294,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "线段 $s_1$ 的端点是 $(1,2)$ 和 $(7,10)$。线段 $s_2$ 是通过将 $s_1$ 向右平移 $3$ 个单位并向下平移 $2$ 个单位得到的。求线段 $s_2$ 的中点。将你的答案表示为 $(a,b)$ 的形式，其中 $a$ 和 $b$ 是整数。"
+      }
+    ],
+    "final_answer": "(7,4)",
+    "question_id": 295,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四边形 $ABCD$ 是一个平行四边形。如果角 $A$ 的度数是 62 度，并且角 $ADB$ 的度数是 75 度，那么角 $ADC$ 的度数是多少？"
+      }
+    ],
+    "final_answer": "118°",
+    "question_id": 296,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $ABC_4+200_{10}=ABC_9$，其中 $A$、$B$ 和 $C$ 是在基数4和基数9中都有效的数字。当你把所有可能的 $A$ 值、所有可能的 $B$ 值和所有可能的 $C$ 值加起来时，总和是多少？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 297,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "我的教室有11排椅子，每排有11把椅子。每排椅子都从1到11编号。有多少把椅子是奇数号？"
+      }
+    ],
+    "final_answer": "66",
+    "question_id": 298,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在三角形 $\\triangle ABC$ 中，我们有 $AB = AC = 14$ 且 $BC = 26$。在 $ABC$ 中，最短角平分线的长度是多少？请用最简根式表示你的答案。"
+      }
+    ],
+    "final_answer": "3\\sqrt{3}",
+    "question_id": 299,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $x=735$ 并且 $ax$ 是一个完全平方数，其中 $a$ 是一个正整数，那么 $\\sqrt{ax}$ 的最小可能值是多少？"
+      }
+    ],
+    "final_answer": "105",
+    "question_id": 300,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从一副标准的52张扑克牌中随机抽取3张牌。它们能被排列成三张同花色的连续牌的概率是多少？对于这个问题，A（Ace，即“尖”）可以排在2之前，也可以排在K（King，即“老K”）之后，但不能同时兼顾（所以A23和QKA都算，但KA2不算）。"
+      }
+    ],
+    "final_answer": "12/5525",
+    "question_id": 301,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "理查德正在用200英尺长的围栏建造一个长方形操场。这些围栏必须完全围住操场。这个操场的最大面积是多少？"
+      }
+    ],
+    "final_answer": "2500",
+    "question_id": 302,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "因式分解 $x^3 - 9x^2 + 27x - 35$。"
+      }
+    ],
+    "final_answer": "(x-5)(x^2-4x+7)",
+    "question_id": 303,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程 $ \\frac{2003}{2004}x + 1 + \\frac{1}{x} = 0 $ 的根的倒数之和是多少？"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 304,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $r, s,$ 和 $t$ 是方程 $2x^3 - 3x^2 + 4x - 1 = 0$ 的解。求 $r^2+s^2+t^2$。"
+      }
+    ],
+    "final_answer": "-\\frac{7}{4}",
+    "question_id": 305,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程 \\[x^2 = 2x + 2y - 3?\\] 描述的是哪种圆锥曲线？圆请填“C”，抛物线请填“P”，椭圆请填“E”，双曲线请填“H”，以上皆非请填“N”。"
+      }
+    ],
+    "final_answer": "(P)",
+    "question_id": 306,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $\\left(\\sqrt[4]{11}\\right)^{3x-3}=\\frac{1}{5}$，那么 $\\left(\\sqrt[4]{11}\\right)^{6x+2}$ 的值是多少？请将答案表示为分数形式。"
+      }
+    ],
+    "final_answer": "\\frac{121}{25}",
+    "question_id": 307,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $P(x) = 4x^3 - 2x^2 + 7x - 1$，并设 $Q(x) = P(x)^2$。$Q(x)$ 的 y 截距是多少？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 308,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$z^{12}=64$ 的实部为正的根的和是多少？"
+      }
+    ],
+    "final_answer": "2 \\sqrt{2} + \\sqrt{6}",
+    "question_id": 309,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设\n\\[\\mathbf{a} = \\begin{pmatrix} 5 \\\\ -3 \\\\ -4 \\end{pmatrix} \\quad \\text{and} \\quad \\mathbf{b} = \\begin{pmatrix} -11 \\\\ 1 \\\\ 28 \\end{pmatrix}.\\]存在向量 $\\mathbf{p}$ 和 $\\mathbf{d}$，使得包含 $\\mathbf{a}$ 和 $\\mathbf{b}$ 的直线可以表示为以下形式：\n\\[\\mathbf{v} = \\mathbf{p} + \\mathbf{d} t.\\]此外，对于 $\\mathbf{d}$ 的某个特定选择，对于所有位于 $\\mathbf{a}$ 同侧（即 $\\mathbf{b}$ 所在的一侧）的点 $\\mathbf{v}$，$\\mathbf{v}$ 和 $\\mathbf{a}$ 之间的距离为 $t$。求 $\\mathbf{d}$。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -4/9 \\\\ 1/9 \\\\ 8/9 \\end{pmatrix}",
+    "question_id": 310,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $500 - 90 + 7 = 400 - 60 + 5 + N$，那么 $N$ 的值是多少？"
+      }
+    ],
+    "final_answer": "72",
+    "question_id": 311,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "掷出两个公平的六面骰子。掷出的点数之和是9的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{1}{9}",
+    "question_id": 312,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等差数列中三个连续项的最大项和最小项相差14。将最小项的一半加到每个项上，所得的三个数的和是120。原始最小项的值是多少？"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 313,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个整数 $n$ 满足 $0<n<60$ 且 $4n\\equiv 2\\pmod 6$？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 314,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "列表中有多少个数字 $$ 6,7,10,11,14,15,\\ldots,94,95,98? $$"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 315,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "任意六个连续正奇数之和，其最大的公因数必须是多少？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 316,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\frac{1}{-6} \\cdot 6 \\cdot 7 + 8 \\cdot 2 \\div 8 \\cdot (7-1)$。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 317,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil$。"
+      }
+    ],
+    "final_answer": "79",
+    "question_id": 318,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数字 $$\\frac{\\sqrt{25-16}}{\\sqrt{25}-\\sqrt{16}}$$ 等于多少？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 319,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $$\\left(10x^3-\\frac{1}{2x^2}\\right)^{5}$$ 的展开式中的常数项。"
+      }
+    ],
+    "final_answer": "-125",
+    "question_id": 320,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以 $\\overrightarrow{A},$ $\\overrightarrow{B},$ 和 $\\overrightarrow{C}$ 为顶点的三角形的面积为12。求以 $-\\overrightarrow{A} + \\overrightarrow{B} + \\overrightarrow{C},$ $\\overrightarrow{A} - \\overrightarrow{B} + \\overrightarrow{C},$ 和 $\\overrightarrow{A} + \\overrightarrow{B} - \\overrightarrow{C}$ 为顶点的三角形的面积。"
+      }
+    ],
+    "final_answer": "48",
+    "question_id": 321,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(-1)^{1001}$ 是多少？"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 322,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在三角形 $ABC$ 中，$D$ 和 $E$ 在边 $\\overline{BC}$ 上，使得 $BD = DE = EC.$ 如果 $x = \\angle BAD,$ $y = \\angle DAE,$ 并且 $z = \\angle EAC,$ 那么求\n\\[\\frac{\\sin (x + y) \\sin (y + z)}{\\sin x \\sin z}.\\]"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 323,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "图中所示的红色抛物线是方程 $x = ay^2 + by + c$ 的图像。求 $a+b+c$。\n\n[asy]\nsize(150);\nreal ticklen=3;\nreal tickspace=2;\n\nreal ticklength=0.1cm;\nreal axisarrowsize=0.14cm;\npen axispen=black+1.3bp;\nreal vectorarrowsize=0.2cm;\nreal tickdown=-0.5;\nreal tickdownlength=-0.15inch;\nreal tickdownbase=0.3;\nreal wholetickdown=tickdown;\nvoid rr_cartesian_axes(real xleft, real xright, real ybottom, real ytop, real xstep=1, real ystep=1, bool\n\nuseticks=false, bool complexplane=false, bool usegrid=true) {\n\nimport graph;\n\nreal i;\n\nif(complexplane) {\n\nlabel(\"$\\textnormal{Re}$\",(xright,0),SE);\n\nlabel(\"$\\textnormal{Im}$\",(0,ytop),NW);\n\n} else {\n\nlabel(\"$x$\",(xright+0.4,-0.5));\n\nlabel(\"$y$\",(-0.5,ytop+0.2));\n\n}\n\nylimits(ybottom,ytop);\n\nxlimits( xleft, xright);\n\nreal[] TicksArrx,TicksArry;\n\nfor(i=xleft+xstep; i<xright; i+=xstep) {\n\nif(abs(i) >0.1) {\n\nTicksArrx.push(i);\n\n}\n\n}\n\nfor(i=ybottom+ystep; i<ytop; i+=ystep) {\n\nif(abs(i) >0.1) {\n\nTicksArry.push(i);\n\n}\n\n}\n\nif(usegrid) {\n\nxaxis(BottomTop(extend=false), Ticks(\"%\", TicksArrx ,pTick=gray\n\n(0.22),extend=true),p=invisible);//,above=true);\n\nyaxis(LeftRight(extend=false),Ticks(\"%\", TicksArry ,pTick=gray(0.22),extend=true),\n\np=invisible);//,Arrows);\n\n}\n\nif(useticks) {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, Ticks(\"%\",TicksArry ,\n\npTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, Ticks(\"%\",TicksArrx ,\n\npTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\n} else {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, above=true, Arrows(size=axisarrowsize));\n\n}\n};\nreal lowerx, upperx, lowery, uppery;\nreal f(real x) {return (x-1)*(x-1)-3;}\nlowery = -2;\nuppery = 4;\nrr_cartesian_axes(-5,f(lowery),lowery,uppery);\ndraw(reflect((0,0),(1,1))*(graph(f,lowery,uppery,operator ..)), red);\n[/asy]"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 324,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果所示三角形的面积是40，那么$r$是多少？\n[asy]\nimport graph; size(200); defaultpen(linewidth(0.8));\n\nreal xmin=0;\nreal xmax=12;\nreal ymin=0;\nreal ymax=10;\n\nxlimits(xmin, xmax);\n\nylimits(ymin, ymax);\n\nxaxis(\"$x$\",0,12,EndArrow);\nyaxis(\"$y$\",0,10,EndArrow);\ndot(Label(\"$O$\",align=SW),(0,0));\ndraw((0,8)--(10,0));\ndot(Label(\"$(0,8)$\",align=E),(0,8));\ndot(Label(\"$(r,0)$\",align=S),(10,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 325,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "考虑描述抛物面 $z(x,y)$ 的函数\n\\[z = (2x - y)^2 - 2y^2 - 3y.\\]\n阿基米德和婆罗摩笈多正在玩一个游戏。阿基米德首先选择 $x.$ 之后，婆罗摩笈多选择 $y.$ 阿基米德希望最小化 $z$，而婆罗摩笈多希望最大化 $z.$ 假设婆罗摩笈多会采取最优策略，阿基米德应该选择哪个 $x$ 值？"
+      }
+    ],
+    "final_answer": "-\\frac{3}{8}",
+    "question_id": 326,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "史蒂夫对乔恩说：“我正在想一个多项式，它的所有根都是正整数。这个多项式具有 $P(x) = 2x^3-2ax^2+(a^2-81)x-c$ 的形式，其中 $a$ 和 $c$ 是一些正整数。你能告诉我 $a$ 和 $c$ 的值吗？”\n\n经过一番计算后，乔恩说：“这样的多项式不止一个。”\n\n史蒂夫说：“你说得对。这是 $a$ 的值。”他写下一个正整数，然后问道：“你能告诉我 $c$ 的值吗？”\n\n乔恩说：“$c$ 仍然有两个可能的值。”\n\n求 $c$ 的两个可能值的和。"
+      }
+    ],
+    "final_answer": "440",
+    "question_id": 327,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $725x + 727y = 1500$ 并且 $729x+ 731y = 1508$，那么 $x - y$ 的值是多少？"
+      }
+    ],
+    "final_answer": "-48",
+    "question_id": 328,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当 $x=4$ 且 $y=3$ 时，求 $24-(2x-y)$ 的值。"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 329,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "玛莎将前十个正整数除了其中一个之外都加了起来。她的和是一个平方数。玛莎没有包括的是前十个正整数中的哪一个？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 330,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "30的$120\\%$与20的$130\\%$之间的正差是多少？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 331,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数字 $(\\sqrt{2}+\\sqrt{3})^3$ 可以写成 $a\\sqrt{2} + b\\sqrt{3} + c\\sqrt{6}$ 的形式，其中 $a$、$b$ 和 $c$ 是整数。那么 $a+b+c$ 是多少？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 332,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设有5种颜色可供选择，有多少种方法可以给一个$2\\times 2$棋盘上的四个单位正方形着色，如果一种着色是另一种的旋转，则认为它们是相同的着色？（注意：我们可以对多个正方形使用相同的颜色。）\n[asy]\ndraw(unitsquare);\ndraw((.5,0)--(.5,1));\ndraw((0,.5)--(1,.5));\n[/asy]"
+      }
+    ],
+    "final_answer": "165",
+    "question_id": 333,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个长方形花园与房子的一面共用一条边。花园的一条相邻边长八英尺。如果花园的面积是184平方英尺，那么这条公共边的长度（以英尺为单位）是多少？"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 334,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\log_{5^2}5^4$。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 335,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "使用数字 1, 2, 3, 4 和 5 各一次的正五位数从小到大排列。列表中第 $50^{\\text{th}}$ 个整数是什么？"
+      }
+    ],
+    "final_answer": "31254",
+    "question_id": 336,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条直线由以下参数化表示：\n\\[\\begin{pmatrix} 2 - 3t \\\\ -5 - 2t \\\\ 1 - 6t \\end{pmatrix}.\\]另一条直线由以下参数化表示：\n\\[\\begin{pmatrix} -\\frac{3}{2} + s \\\\ 2s \\\\ -6 + 2s \\end{pmatrix}.\\]这两条直线在 $P$ 点相交。如果 $\\theta$ 是这两条直线在 $P$ 点形成的锐角，那么求 $\\cos \\theta$。"
+      }
+    ],
+    "final_answer": "\\frac{19}{21}",
+    "question_id": 337,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "大圆的圆心是 $O$，并且它经过点 $D$。小圆的直径是 $OD$。灰色区域占大圆面积的百分之多少？\n\n[asy]import graph;\ndraw(Circle((0,0),30),black);\nfill(Circle((0,-15),15),gray(.6));\ndraw(Circle((0,-15),15),black);\ndraw((0,0)--(0,-30),black);\nlabel(\"O\",(0,0),N);\nlabel(\"D\",(0,-30),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "25%",
+    "question_id": 338,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 \\[\\frac{x}{y} = \\frac{4}{5}, \\; \\frac{y}{z} = \\frac{3}{10}, \\;\\text{and} \\; \\frac{z}{w} = \\frac{6}{7},\\] 那么 $\\dfrac{x + y + w}{z}$ 的值是多少？请将答案表示为普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{128}{75}",
+    "question_id": 339,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$999_{10}$ 的六进制是多少？"
+      }
+    ],
+    "final_answer": "4343_6",
+    "question_id": 340,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直线 $l$ 和 $m$ 平行，点 $A$、$B$ 和 $D$ 共线。$x$ 的值是多少？\n\n[asy]\n\nunitsize(1.1 inch);\n\ndraw((0,0)--(4,0),Arrows);\n\ndraw((0,1)--(4,1),Arrows);\n\ndraw((3,2)--(1,-1),Arrows);\n\ndot((0.3,0));\nlabel(\"$m$\",(0.3,0),N);\n\ndot((0.3,1));\nlabel(\"$l$\",(0.3,1),N);\n\ndot((3.7,0));\n\ndot((3.7,1));\nlabel(\"$C$\",(3.7,1),N);\n\ndot((1.2,-0.7));\n\ndot((2.8,1.7));\nlabel(\"$A$\",(2.8,1.7),NW);\n\ndot((2.34,1));\nlabel(\"$B$\",(2.34,1),NW);\nlabel(\"$5x-8^\\circ$\",(2.34,1),SW);\n\ndot((1.66,0));\nlabel(\"$D$\",(1.66,0),NW);\nlabel(\"$143^\\circ$\",(1.66,0),SE);\n\n[/asy]"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 341,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "阿诺德必须每9天给他的仙人掌浇水，并且每60天给它们施肥。他上周二给它们浇了水并施了肥。下一次他在同一天浇水和施肥会是星期几？"
+      }
+    ],
+    "final_answer": "Sunday",
+    "question_id": 342,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $f : \\mathbb{R} \\to \\mathbb{R}$ 满足\n\\[x^2 f(x) + f(1 - x) = -x^4 + 2x\\]对于所有实数 $x$ 都成立。那么，$f(x)$ 对于所有 $x$ 的值都可以被唯一确定，除了某些实数 $\\alpha$ 和 $\\beta$ 对应的 $f(\\alpha)$ 和 $f(\\beta)$。计算 $\\alpha^2 + \\beta^2.$"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 343,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $ABCD$ 是一个梯形，其中 $\\overline{AD}|| \\overline{BC}$。已知 $\\overline{AC}\\perp\\overline{CD}$，$\\overline{AC}$ 平分角 $\\angle BAD$，且 $[ABCD]=42$，求 $[\\triangle ACD]$。"
+      }
+    ],
+    "final_answer": "28",
+    "question_id": 344,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "请注意，\\[35\\cdot40=1400.\\] 找到某个整数 $n$，满足 $0\\leq n<1399$，使得 $n$ 是 160 模 1399 的乘法逆元。"
+      }
+    ],
+    "final_answer": "1058",
+    "question_id": 345,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $16^{17} \\times 17^{18} \\times 18^{19}$ 的个位数。"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 346,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四个连续正偶数的和是一个完全平方数。最小的和是多少？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 347,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平面 $P$ 由以下参数化表示：\n\\[\\mathbf{v} = \\begin{pmatrix} 1 \\\\ 6 \\\\ 7 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -1 \\\\ -1 \\end{pmatrix} + s \\begin{pmatrix} 2 \\\\ -3 \\\\ -5 \\end{pmatrix},\\]直线 $L$ 由以下参数化表示：\n\\[\\mathbf{w} = \\begin{pmatrix} 7 \\\\ 4 \\\\ 1 \\end{pmatrix} + u \\begin{pmatrix} 3 \\\\ 0 \\\\ -1 \\end{pmatrix}.\\]求平面 $P$ 和直线 $L$ 的交点。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 1 \\\\ 4 \\\\ 3 \\end{pmatrix}",
+    "question_id": 348,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a,$ $b,$ $c,$ $d$ 为正实数。求\n\\[(a + b + c + d) \\left( \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\right).\\]\n的最小值。"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 349,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "小于或等于100的正整数中，有多少个拥有一个大于4的质因数？"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 350,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下哪个数字最小？你的答案是最小数字前面的字母。\n\n$\\bullet$ A. $14.45001$ 四舍五入到最接近的十分位。\n\n$\\bullet$ B. $14.54999$ 四舍五入到最接近的十分位。\n\n$\\bullet$ C. $14.44999$ 四舍五入到最接近的十分位。\n\n$\\bullet$ D. $14.55001$ 四舍五入到最接近的十分位。"
+      }
+    ],
+    "final_answer": "C",
+    "question_id": 351,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "六个点等距分布在一个半径为1的圆周上。其中三个点是一个既不是等边三角形也不是等腰三角形的顶点。这个三角形的面积是多少？"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt3}{2}",
+    "question_id": 352,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "最小的正整数 $n$ 是多少，使得 $(12{,}500{,}000)\\cdot n$ 除以 $999{,}999{,}999$ 时余数为 $111$？"
+      }
+    ],
+    "final_answer": "8,880",
+    "question_id": 353,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个整数 $n$ 同时满足不等式 $4n + 3 < 25$ 和 $-7n + 5 < 24$？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 354,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 $\\frac{57}{160}$ 转换为一个有限小数。"
+      }
+    ],
+    "final_answer": ".35625",
+    "question_id": 355,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当点 $A(-6,6), B(9,6)$ 和 $C(9,-2)$ 被绘制并用直线连接时，所形成的多边形的周长是多少？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 356,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $f(x)=3x^4-7x^3+2x^2-bx+1$。当 $f(1)=1$ 时，$b$ 的值是多少？"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 357,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个有序对 $(A,B)$，其中 $A$ 和 $B$ 是正整数，使得 $AAA_7+BBB_7=666_7$ 成立？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 358,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $9999$ 和 $100{,}001$ 的最小公倍数。"
+      }
+    ],
+    "final_answer": "90,900,909",
+    "question_id": 359,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "简化 $\\frac{15}{6}.$"
+      }
+    ],
+    "final_answer": "\\frac{5}{2}",
+    "question_id": 360,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求函数 $f(x)$ 的反函数\n\\[f(x) = \\frac{2x + 5}{x - 11}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{11x + 5}{x - 2}",
+    "question_id": 361,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "收容所里沿着一面墙有8个围栏。收容所需要将4个围栏分配给狗，3个分配给猫，1个分配给公鸡。收容所有多少种方式进行这种分配？"
+      }
+    ],
+    "final_answer": "280",
+    "question_id": 362,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "笛卡尔平面上的点 $(a, b)$ 沿 $y$ 轴反射到点 $(j, k)$。如果 $a + j = 0$ 且 $b + k = 0$，那么 $b$ 的值是多少？"
+      }
+    ],
+    "final_answer": "b=0",
+    "question_id": 363,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在直角三角形 $ABC$ 中，边 $BC$ 的长度是 2 个单位，边 $AC$ 的长度是 4 个单位，角 $C$ 的度数是 60 度。边 $AB$ 的长度是多少个单位？请以最简根式形式表示你的答案。"
+      }
+    ],
+    "final_answer": "2\\sqrt3",
+    "question_id": 364,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少组偶数正整数三元组 $(a,b,c)$ 满足 $a^3 + b^2 + c \\leq 50$？"
+      }
+    ],
+    "final_answer": "35",
+    "question_id": 365,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个长方体的宽、长和高都增加了 $10\\%$。该长方体的体积增加了百分之多少？将你的答案表示为最接近的整数。"
+      }
+    ],
+    "final_answer": "33%",
+    "question_id": 366,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $p$ 和 $q$ 是方程 $$x^2 - 2x - 3 = 0.$$ 的两个不同的解。求 $(p + 1)(q + 1)$ 的值是多少？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 367,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "每个好工人独自粉刷我的新房子需要12小时。每个差工人独自粉刷我的房子需要36小时。我需要在3小时内把我的房子粉刷好。如果我只能找到3个好工人，我还需要找到多少个差工人才能按时粉刷完我的房子？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 368,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从集合 $\\{1, 3, 6, 7\\}$ 中选取两个或更少不同的数字，并将它们排列成一个数字。通过这种方式，我们可以创建多少个素数？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 369,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$y$ 的值与 $\\sqrt x$ 成反比，当 $x=24$ 时，$y=15$。当 $y=3$ 时，$x$ 是多少？"
+      }
+    ],
+    "final_answer": "600",
+    "question_id": 370,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "七张卡片，每张分别写有字母 C、B、T、A、E、M 和 H 中的一个，被放入一顶帽子中。每个字母只使用一次。斯图将随机地、不放回地抽出四张卡片。斯图按 M、A、T、H 的顺序抽出卡片的概率是多少？请将答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{840}",
+    "question_id": 371,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求解 \\[\\frac{9-4x}{x+6}=7\\] 中的 $x$。"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 372,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一棵树现在高12英尺，每年长高18英寸。这棵树多少年后会达到36英尺高？"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 373,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $315_6 \\cdot 4_6$ 的乘积。将答案用六进制表示。"
+      }
+    ],
+    "final_answer": "2112_6",
+    "question_id": 374,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a,$ $b,$ 和 $c$ 是非零实数，使得 $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 0.$ 计算\n\\[\\frac{bc}{a^2} + \\frac{ac}{b^2} + \\frac{ab}{c^2}.\\]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 375,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于正实数 $a,$ $b,$ $c,$ 和 $d,$ 求下列表达式的最小值：\n\\[\\left\\lfloor \\frac{b + c + d}{a} \\right\\rfloor + \\left\\lfloor \\frac{a + c + d}{b} \\right\\rfloor + \\left\\lfloor \\frac{a + b + d}{c} \\right\\rfloor + \\left\\lfloor \\frac{a + b + c}{d} \\right\\rfloor.\\]"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 376,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $y = f(x)$ 的图像经过点 $(-4,-7)$。如果 $f(x)$ 是一个偶函数，那么图像还必须经过哪个点？请将你的答案以有序对的形式输入。"
+      }
+    ],
+    "final_answer": "(4,-7)",
+    "question_id": 377,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "最小的正整数 $n$ 是多少，使得 $80325$ 整除 $n!$？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 378,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正六边形最长对角线的长度与它的周长之比是多少？请将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 379,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于正实数 $x$ 和 $y,$ 方程\n\\[\\arctan x + \\arccos \\frac{y}{\\sqrt{1 + y^2}} = \\arcsin \\frac{3}{\\sqrt{10}}\\]可以化简为以下形式的方程：\n\\[xy + ax + by + c = 0.\\]输入有序三元组 $(a,b,c).$"
+      }
+    ],
+    "final_answer": "(3,-3,1)",
+    "question_id": 380,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个三角形的边长分别是 7、24 和 25。这个三角形的面积是多少？"
+      }
+    ],
+    "final_answer": "84",
+    "question_id": 381,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "我能将四本不同的书放在书架上，有多少种排列方式？"
+      }
+    ],
+    "final_answer": "24",
+    "question_id": 382,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在三角形 $ABC$ 中，\n\\[a^4 + b^4 + c^4 = 2c^2 (a^2 + b^2).\\]请输入 $\\angle C$ 的所有可能值，以度为单位，用逗号分隔。"
+      }
+    ],
+    "final_answer": "45°, 135°",
+    "question_id": 383,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "使用字母 $A$ 和 $B$，可以形成以下两个字母的密码词：$AA$、$AB$、$BB$、$BA$。使用字母 $A$、$B$ 和 $C$，可以形成多少个不同的三个字母的密码词？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 384,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "某学校教师与学生的比例是1:11。女学生占学生总数的比例是4:9。如果女学生有396人，那么教师有多少人？"
+      }
+    ],
+    "final_answer": "81 teachers",
+    "question_id": 385,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 \\[f(x) = \\frac{x}{x^2 + 1} + 3 \\sqrt[3]{x} - 2x\\] 是偶函数、奇函数，还是两者都不是？\n\n请输入“odd”、“even”或“neither”。"
+      }
+    ],
+    "final_answer": "odd",
+    "question_id": 386,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设从1到9（包括1和9）中选取2个不同的整数。它们都是奇数的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{5}{18}",
+    "question_id": 387,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x$ 和 $y$ 为正实数，使得 $2x + 3y = 5$。求\n\\[\\frac{3}{x} + \\frac{2}{y}\\]\n的最小值。"
+      }
+    ],
+    "final_answer": "\\frac{24}{5}",
+    "question_id": 388,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个参议院委员会有8名共和党人和6名民主党人。有多少种方式可以组成一个由5名成员组成的小组委员会，其中至少包含每个党派的一名成员？"
+      }
+    ],
+    "final_answer": "1940",
+    "question_id": 389,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\mathbf{a}$ 和 $\\mathbf{b}$ 是两个非零向量，使得\n\\[\\mathbf{a} \\times (\\mathbf{a} \\times \\mathbf{b}) = -3 \\mathbf{b}.\\]求 $\\|\\mathbf{a}\\|$。"
+      }
+    ],
+    "final_answer": "\\sqrt{3}",
+    "question_id": 390,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "多项式 $p(x)$ 的系数都是非负整数。如果 $p(1) = 4$ 且 $p(5) = 136,$ 那么求 $p(6).$"
+      }
+    ],
+    "final_answer": "229",
+    "question_id": 391,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到常数 $k$，使得抛物线 $y = x^2 + k$ 和 $x = y^2 + k$ 的图像彼此相切。"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 392,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个实心四面体从一个木制单位立方体上被切下。切面是一个平面，它穿过立方体一个面上两个不相邻的顶点，以及对面上的一个顶点（该顶点与前两个顶点均不相邻）。该四面体被丢弃，立方体的剩余部分被放在桌子上，切面朝下。这个物体的高度是多少？"
+      }
+    ],
+    "final_answer": "\\frac{2}{3}\\sqrt{3}",
+    "question_id": 393,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "牌的编号从1到100。移走了一张牌，剩下的99张牌上的数字相加。得到的总和是77的倍数。被移走的那张牌上的数字是多少？"
+      }
+    ],
+    "final_answer": "45",
+    "question_id": 394,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个半径为2英寸、高为1英寸的正圆柱体，其体积与第二个正圆柱体相同。第二个圆柱体的半径为1英寸。第二个圆柱体的高度是多少英寸？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 395,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个点具有直角坐标 $(10, -18, 35)$ 和球坐标 $(\\rho, \\theta, \\phi).$ 求 $\\tan \\theta.$"
+      }
+    ],
+    "final_answer": "-\\frac{9}{5}",
+    "question_id": 396,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $x^6 - 3$ 除以 $x + 1$ 的商。"
+      }
+    ],
+    "final_answer": "x^5 - x^4 + x^3 - x^2 + x - 1",
+    "question_id": 397,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四次多项式方程 $x^4 - 7x^3 + 4x^2 + 7x - 4 = 0$ 有四个实根，$a$、$b$、$c$ 和 $d$。求和 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}$ 的值是多少？请将你的答案表示为一个普通分数。"
+      }
+    ],
+    "final_answer": "\\frac{7}{4}",
+    "question_id": 398,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出所有实数 $x$ 的和，使得 $5x^4-10x^3+10x^2-5x-11=0$。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 399,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "十二个朋友在奥斯卡爆满生蚝屋聚餐，每人点了一份餐。份量非常大，食物足够18人吃。如果他们分享，应该点多少份餐才能刚好够他们12个人吃？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 400,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出最小的正整数 $n$，使得存在 $r \\in (0, \\tfrac{1}{1000})$，且数 $(n+r)^3$ 是一个整数。"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 401,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "乔在艾登的每个生日都至少送了他一辆玩具车。汽车的数量与艾登的年龄相符（他第一个生日收到一辆车，第二个生日收到两辆车，以此类推）。在他收到12岁生日的玩具车后，艾登总共从乔那里收到了多少辆玩具车？"
+      }
+    ],
+    "final_answer": "78",
+    "question_id": 402,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个质数的平方介于100和300之间？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 403,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "鲍勃将三个正五边形的一个顶点放在一起，以为这样就能形成密铺。然而，它们留下了一个空隙。所指示的角度是多少度？[asy]size(100);\npath A = dir(0) -- dir(72) -- dir (144) -- dir(216) -- dir (288) -- cycle;\npath B = reflect ( dir(72), dir(144)) * A;\npath C = reflect( dir(72), dir(0))* A;\ndraw(rotate(18) *A);\ndraw(rotate(18) *B);\ndraw(rotate(18) *C);\nlabel(\"?\", (0,1.5), N);\n[/asy]"
+      }
+    ],
+    "final_answer": "36^\\circ",
+    "question_id": 404,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从一副标准的52张牌（其中包含13张梅花、13张方块、13张红心和13张黑桃）中随机抽取三张牌。这三张牌都是$\\heartsuit$的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{11}{850}",
+    "question_id": 405,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在一个平面上画有四个不同的圆。至少有两个圆相交的点的最大数量是多少？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 406,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果\n\\[\\frac{\\sin^2 3A}{\\sin^2 A} - \\frac{\\cos^2 3A}{\\cos^2 A} = 2,\\]则求 $\\cos 2A.$"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 407,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "什么是唯一的三位正整数 $x$ 满足 $$100x\\equiv 1\\pmod{997}~?$$"
+      }
+    ],
+    "final_answer": "668",
+    "question_id": 408,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $f(x) = 7x^7 - 4x^4 + 1$ 是偶函数、奇函数，还是两者都不是？\n\n请输入 \"odd\"、\"even\" 或 \"neither\"。"
+      }
+    ],
+    "final_answer": "neither",
+    "question_id": 409,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在图中，$x$ 的值是多少？\n[asy]\nsize(150);\ndraw((0,5)--(0,0)--(5,0));\ndraw((0,0)--(3,5));\ndraw((0,.3)--(.3,.3)--(.3,0));\nlabel(\"$2x^\\circ$\",(.5,2));\nlabel(\"$3x^\\circ$\",(1,.6));\n[/asy]"
+      }
+    ],
+    "final_answer": "18",
+    "question_id": 410,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果爱丽丝和鲍勃不相邻，有多少种方法可以让8个人围坐一张桌子？（如果一种座位安排是另一种的旋转，则认为它们是相同的。）"
+      }
+    ],
+    "final_answer": "3600",
+    "question_id": 411,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\sin 20^\\circ \\sin 40^\\circ \\sin 60^\\circ \\sin 80^\\circ \\sin 100^\\circ \\sin 120^\\circ \\sin 140^\\circ \\sin 160^\\circ.$"
+      }
+    ],
+    "final_answer": "\\frac{9}{256}",
+    "question_id": 412,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $(a_1, a_2, \\dots, a_n)$ 是一个正实数序列，使得\n\\[\\sum_{i = 1}^n a_i = 96, \\quad \\sum_{i = 1}^n a_i^2 = 144, \\quad \\sum_{i = 1}^n a_i^3 = 216.\\]求 $n$ 的所有可能值的和。"
+      }
+    ],
+    "final_answer": "64",
+    "question_id": 413,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "使得实数 $x$ 满足\n$$\\dfrac{1}{x-2009}+\\dfrac{1}{x-2010}+\\dfrac{1}{x-2011}\\ge 1$$\n的集合是形如 $a<x\\le b$ 的区间的并集。这些区间的长度之和是多少？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 414,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "所有使得 $\\frac{67}{2x - 23}$ 为整数的整数 $x$ 的和是多少？"
+      }
+    ],
+    "final_answer": "46",
+    "question_id": 415,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将 $\\dfrac{6}{\\sqrt{245}+3\\sqrt{125}+4\\sqrt{45}}$ 表示为 $\\frac{A\\sqrt{B}}{C}$ 的形式，其中 $A$ 和 $C$ 是互质整数，$C$ 是正数，并且 $B$ 不能被任何质数的平方整除。求 $A+B+C$。"
+      }
+    ],
+    "final_answer": "93",
+    "question_id": 416,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $9951$ 的最大质因数。"
+      }
+    ],
+    "final_answer": "107",
+    "question_id": 417,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\left(\\sqrt{97969}\\right)^2$。"
+      }
+    ],
+    "final_answer": "97969",
+    "question_id": 418,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算\n\\[\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 11 \\\\ -36 \\\\ -3 \\end{pmatrix}",
+    "question_id": 419,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果对于 $n \\ge 1,$，有 \\[f(n + 1) = (-1)^{n + 1} n - 2f(n)\\]，且 $f(1) = f(1986),$，计算\n\\[f(1) + f(2) + f(3) + \\dots + f(1985).\\]"
+      }
+    ],
+    "final_answer": "331",
+    "question_id": 420,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在所示的五角星中，字母 $A$, $B$, $C$, $D$, 和 $E$ 被数字 3, 5, 6, 7, 和 9 替换，但不一定按此顺序。线段 $\\overline{AB}$, $\\overline{BC}$, $\\overline{CD}$, $\\overline{DE}$, 和 $\\overline{EA}$ 两端数字的和构成一个等差数列，但不一定按此顺序。这个等差数列的中间项是什么？\n\n[asy]\npair A,B,C,D,E;\nA=(0,10);\nB=(5.9,-8.1);\nC=(-9.5,3.1);\nD=(9.5,3.1);\nE=(-5.9,-8.1);\ndraw(A--B--C--D--E--cycle,linewidth(0.7));\nlabel(\"$A$\",A,N);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,NW);\nlabel(\"$D$\",D,NE);\nlabel(\"$E$\",E,SW);\n[/asy]"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 421,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "英格兰、德国和法国之间举行了一次国际会议。英格兰有三名代表出席，德国有四名，法国有两名。如果来自同一国家的代表必须坐在一起，所有九名代表围着一张圆桌就座有多少种不同的方式？（如果一种排列可以通过旋转得到另一种，则认为这两种排列是相同的。）"
+      }
+    ],
+    "final_answer": "576",
+    "question_id": 422,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $j$ 是一个正整数，并且表达式 $(7j+3)$ 乘以 3 然后除以 7，余数是多少？"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 423,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a$ 和 $b$ 是两个12次单位根，它们不一定不同。求 $(a + b)^{12}$ 所有不同可能值的数量。"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 424,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $h(x)=f^{-1}(x)$。如果 $h(2)=10$， $h(10)=1$ 并且 $h(1)=2$，那么 $f(f(10))$ 是多少？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 425,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "满足 $6 - x > -9$ 的最大整数是多少？"
+      }
+    ],
+    "final_answer": "14",
+    "question_id": 426,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "考虑多项式 $P(x) = x^6-x^5-x^3-x^2-x$ 和 $Q(x)=x^4-x^3-x^2-1$。已知 $z_1, z_2, z_3$, 和 $z_4$ 是 $Q(x)=0$ 的根，求 $P(z_1)+P(z_2)+P(z_3)+P(z_4)$。"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 427,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x=\\frac{7}{8}$ 且 $y=-\\frac{2}{9}$。如果 $x\\cdot z = y$，那么 $z$ 是多少？"
+      }
+    ],
+    "final_answer": "-\\frac{16}{63}",
+    "question_id": 428,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $\\sec x+\\tan x=\\frac{22}7.$ 求 $\\csc x+\\cot x.$"
+      }
+    ],
+    "final_answer": "\\frac{29}{15}",
+    "question_id": 429,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个数列以2222开头。每一项都通过在前一项的基础上加上1010得到。第六项和第七项的和是多少？"
+      }
+    ],
+    "final_answer": "15554",
+    "question_id": 430,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $r$、$s$ 和 $t$ 是常数，使得 $\\frac{x^{r-2}\\cdot y^{2s}\\cdot z^{3t+1}}{x^{2r}\\cdot y^{s-4}\\cdot z^{2t-3}}=xyz$ 对于所有非零的 $x$、$y$ 和 $z$ 都成立，那么求 $r^s\\cdot t$ 的值。将你的答案表示为分数形式。"
+      }
+    ],
+    "final_answer": "\\frac{1}{9}",
+    "question_id": 431,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "化简：$\\displaystyle \\frac{\\frac 12\\times 1024}{0.125\\times 2^{12}}$"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 432,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在权重相同的几次测试中，获得的分数分别为70、80、90、75、80和85。这六个测试分数的平均数是多少？"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 433,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少种方法可以填入 $1\\underline{\\hphantom{2}}\\,\\underline{\\hphantom{2}}4$ 的十位和百位数字，使其能被 $11$ 整除？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 434,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\left|\\dfrac{2-4i}{2+i}\\right|$ 的值。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 435,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $P$ 和 $R$ 分别位于 (1, 3) 和 (7, 15)。点 $M$ 是线段 $PR$ 的中点。线段 $PR$ 沿 $x$ 轴反射。点 $M$ 的像（反射后线段的中点）的坐标之和是多少？"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 436,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $(x_1,y_1),$ $(x_2,y_2),$ $\\dots,$ $(x_n,y_n)$ 是满足 $x+y=2$ 且 $x^5+y^5=82$ 的实数对 $(x,y)$。求\n\\[x_1^2 + y_1^2 + x_2^2 + y_2^2 + \\dots + x_n^2 + y_n^2.\\]"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 437,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以度为单位，$\\triangle PQR$ 中最大角的度数是多少？\n\n[asy]\ndraw((0,0)--(-1.3,4)--(7,0)--cycle);\nlabel(\"$P$\",(-1.3,4),NW); label(\"$Q$\",(0,0),SW); label(\"$R$\",(7,0),SE);\n\nlabel(\"$6x^\\circ$\",(0,0),NE); label(\"$x^\\circ$\",(5,0),N); label(\"$3x^\\circ$\",(-.25,3));\n[/asy]"
+      }
+    ],
+    "final_answer": "108°",
+    "question_id": 438,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "由 $x^2-24x +y^2-32y+384=0$ 和 $x^2+24x +y^2+32y+384=0$ 定义的圆之间的最短距离是多少？"
+      }
+    ],
+    "final_answer": "32",
+    "question_id": 439,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $\\omega$ 是一个复数，满足 $\\omega^3 = 1.$ 求出\n\\[\\frac{1}{1 + \\omega} + \\frac{1}{1 + \\omega^2}.\\]所有可能的值。输入所有可能的值，用逗号分隔。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 440,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在坎昆度假期间，科琳可以花 $\\$32$ 买一顶墨西哥帽和一双人字拖。她可以花 $\\$42$ 买这双人字拖和一副太阳镜。她可以花 $\\$30$ 买这顶墨西哥帽和这副太阳镜。这顶墨西哥帽多少美元？"
+      }
+    ],
+    "final_answer": "$10",
+    "question_id": 441,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "确定最大的可能整数 $n$，使得 $942!$ 可以被 $15^n$ 整除。"
+      }
+    ],
+    "final_answer": "233",
+    "question_id": 442,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $|{-324} + 243i|$。"
+      }
+    ],
+    "final_answer": "405",
+    "question_id": 443,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个球从16英尺的高度垂直落下。如果每次弹回的高度是其上次落下高度的一半，那么当球第六次落地时，它总共行进了多少英尺？"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 444,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $x$ 和 $y$ 是实数。求 \\[\\frac{(x + y)(1 - xy)}{(1 + x^2)(1 + y^2)}.\\] 的取值范围。"
+      }
+    ],
+    "final_answer": "\\left[ -\\frac{1}{2}, \\frac{1}{2} \\right]",
+    "question_id": 445,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "从下面的图中点 $A$ 开始，朵拉以等概率选择四个可能方向中的一个。每当她来到一个交叉路口，她会再次随机选择一个可能的方向。她的前四步将完全绕灰色正方形一周的概率是多少？将你的答案表示为一个普通分数。\n[asy]size(100);\nfill((1,1)--(1,2)--(2,2)--(2,1)--cycle, gray(.6));\ndraw((0,0)--(0,3)--(3,3)--(3,0)--cycle, linewidth(1.5));\ndraw((0,1)--(3,1), linewidth(1.5));\ndraw((0,2)--(3,2), linewidth(1.5));\ndraw((1,0)--(1,3), linewidth(1.5));\ndraw((2,0)--(2,3), linewidth(1.5));\ndot(MP(\"A\", (1,2), NW));\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{1}{128}",
+    "question_id": 446,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "约翰计算集合 $\\{1,2,3,4,5,6\\}$ 的15个两元素子集中每个子集的元素之和。这15个和的总和是多少？"
+      }
+    ],
+    "final_answer": "105",
+    "question_id": 447,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "使用数字1、2、3和4中的每个数字最多一次，且不使用其他数字，可以组成多少个能被4整除的不同正整数？例如，12符合条件，但512不符合。"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 448,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "两个不同质数的平方差是 1488。已知这两个质数都小于 50，找出这些质数。\n\n注意：提交数字时，顺序不限，用逗号分隔。"
+      }
+    ],
+    "final_answer": "19 and 43",
+    "question_id": 449,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少种不同的方法可以将12个一角硬币分成三堆，每堆都包含奇数个一角硬币？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 450,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "使得 $\\frac{x+2}{3} = \\frac{4}{x+1}$ 的 $x$ 的最小值是多少？"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 451,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a$ 和 $b$ 是实数，使得 $a > b > 0.$ 确定\n\\[a + \\frac{1}{b(a - b)}.\\]\n的最小值。"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 452,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一个圆心位于 $(5,15)$，半径为 $\\sqrt{130}$ 个单位。点 $Q = (x,y)$ 在圆上，坐标为整数，且 $x$ 坐标的值是 $y$ 坐标值的两倍。$x$ 的最大可能值是多少？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 453,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $p(x)$ 是一个四次多项式，使得 $p(55) = p(83) = p(204) = p(232) = 8$ 且 $p(103) = 13.$ 求\n\\[p(1) - p(2) + p(3) - p(4) + \\dots + p(285) - p(286).\\]"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 454,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $$1\\cdot 2^2+2\\cdot 3^2+3\\cdot4^2+\\cdots+19\\cdot 20^2.$$"
+      }
+    ],
+    "final_answer": "41230",
+    "question_id": 455,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在图中，$PT$ 平行于 $QR$。$\\angle PQR$ 的度数是多少？\n\n[asy]\ndraw((0,0)--(10,0),black+linewidth(1));\ndraw((0,0)--(10,0),MidArrow);\ndraw((10,0)--(20,0),black+linewidth(1));\ndraw((0,0)--(-7,10)--(7,10)--(10,0),black+linewidth(1));\ndraw((-5,10)--(7,10),MidArrow);\nlabel(\"$x^{\\circ}$\",(-6,10),SE);\nlabel(\"$2x^{\\circ}$\",(7,10),SW);\nlabel(\"$128^{\\circ}$\",(10,0),NE);\nlabel(\"$P$\",(-7,10),N);\nlabel(\"$T$\",(7,10),N);\nlabel(\"$R$\",(10,0),S);\nlabel(\"$Q$\",(0,0),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "116",
+    "question_id": 456,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求以下算式在指定数基下的个位数：$413_6 - 215_6$"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 457,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $f(x) = x + 2$ 且 $g(x) = 1/f(x)$。求 $g(f(-3))$ 的值。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 458,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\cos (-150^\\circ)$。"
+      }
+    ],
+    "final_answer": "-\\frac{\\sqrt{3}}{2}",
+    "question_id": 459,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设我们掷硬币掷出正面就赢取 $3，但掷出反面就输掉 $2。掷一次硬币后，我们赢取的金额的期望值是多少美元？"
+      }
+    ],
+    "final_answer": "$0.50",
+    "question_id": 460,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "存在向量 $\\mathbf{a}$ 和 $\\mathbf{b}$ 使得\n\\[\\mathbf{a} + \\mathbf{b} = \\begin{pmatrix} 4 \\\\ 7 \\end{pmatrix},\\]\n其中 $\\mathbf{a}$ 平行于 $\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix},$ 且 $\\mathbf{b}$ 正交于 $\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}.$ 求 $\\mathbf{b}.$"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 2/5 \\\\ -1/5 \\end{pmatrix}",
+    "question_id": 461,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$n$ 的所有真因数的乘积可以表示为 $n^{(ax+b)/c}$，其中 $x$ 是 $n$ 的正因数的个数，$c$ 是一个正整数，并且整数 $a$, $b$, $c$ 的最大公因数是 $1$。求 $a+b+c$ 的值。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 462,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "假设 $g(x)=f^{-1}(x)$。如果 $g(-15)=0$， $g(0)=3$， $g(3)=9$ 且 $g(9)=20$，那么 $f(f(9))$ 是多少？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 463,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "计算 $\\begin{pmatrix} 5 \\\\ -4 \\end{pmatrix} + \\begin{pmatrix} -11 \\\\ 10 \\end{pmatrix}$。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -6 \\\\ 6 \\end{pmatrix}",
+    "question_id": 464,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 \\begin{align*}\n5x-2y&=7,\\\\\n3x+y&=2,\n\\end{align*} 计算 $24x-14y$。"
+      }
+    ],
+    "final_answer": "38",
+    "question_id": 465,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形 $ABC$ 的中线 $AD$、$BE$ 和 $CF$ 相交于重心 $G$。经过 $G$ 点且平行于 $BC$ 的直线分别交 $AB$ 和 $AC$ 于 $M$ 和 $N$。如果三角形 $ABC$ 的面积是 144，那么求三角形 $ENG$ 的面积。"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 466,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求方程 $\\sin 6 \\pi x = x$ 的实数解的个数。"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 467,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "恩里科列出了3的前二十个正整数倍数。玛丽列出了6的前十个正整数倍数。玛丽的列表中有多少个数字也在恩里科的列表中？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 468,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个边长为整数且周长为20单位的等腰三角形？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 469,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "对于正整数 $n$，使得 $n < 10{,}000$，数 $n+2005$ 恰好有21个正因数。$n$ 的所有可能值的和是多少？"
+      }
+    ],
+    "final_answer": "16592",
+    "question_id": 470,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程组 \\[ \\begin{cases}& 2x+y \\le 4 \\\\& x+y \\ge 1 \\\\& x \\ge 0 \\\\& y \\ge 0 \\end{cases} \\] 的所有解集是一个四边形区域。如果最长边的长度为 $a\\sqrt{b}$（以最简根式表示），求 $a+b$。"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 471,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次表达式 $x^2+(2.6)x+3.6$ 可以写成 $(x+b)^2+c$ 的形式，其中 $b$ 和 $c$ 是常数。$b+c$ 是多少（以小数形式表示）？"
+      }
+    ],
+    "final_answer": "3.21",
+    "question_id": 472,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "硬币 $A$ 抛掷三次，硬币 $B$ 抛掷四次。这两个公平硬币抛掷后，出现正面朝上的次数相同的概率是多少？"
+      }
+    ],
+    "final_answer": "\\frac{35}{128}",
+    "question_id": 473,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "道恩有1.20美元，这些钱由镍币、一角硬币和25美分硬币组成。她每有一个镍币，就有一个一角硬币；每有一个一角硬币，她就有一个25美分硬币。她总共有多少枚硬币？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 474,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "求 $\\begin{pmatrix} 1 \\\\ 4 \\\\ -6 \\end{pmatrix} + \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}.$"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 3 \\\\ 3 \\\\ -3 \\end{pmatrix}",
+    "question_id": 475,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "函数 $\\sin(x)$ 和 $\\cos(x)$ 是周期性的，最小周期为 $2\\pi$。函数 $\\cos(\\sin(x))$ 的最小周期是多少？"
+      }
+    ],
+    "final_answer": "\\pi",
+    "question_id": 476,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $a\\equiv 16\\pmod{37}$ 且 $b\\equiv 21\\pmod{37}$，那么对于集合 $\\{0,1,2,\\ldots,35,36\\}$ 中的哪个整数 $n$，以下关系成立：$$a-b\\equiv n\\pmod{37}~?$$"
+      }
+    ],
+    "final_answer": "32",
+    "question_id": 477,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知 $3x^2-2(x^2+4)=42$，那么 $x^4$ 的值是多少？"
+      }
+    ],
+    "final_answer": "2500",
+    "question_id": 478,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在一个半径为2的半圆的直径 $\\overline{AB}$ 上，构造了三个半径为1的半圆。如图所示，小半圆的圆心将 $\\overline{AB}$ 分成四条等长的线段。位于大半圆内但在小半圆之外的阴影区域的面积是多少？请用 $\\pi$ 表示你的答案，并以最简根式表示。\n\n[asy]\nfill((0,2)..(2,0)--(-2,0)..cycle,gray(0.7));\nfill((-1,1)..(0,0)--(-2,0)..cycle,white);\nfill((1,1)..(0,0)--(2,0)..cycle,white);\nfill((0,1)..(1,0)--(-1,0)..cycle,white);\ndraw((0,1)..(1,0)--(-1,0)..cycle,dashed);\ndraw((0,2)..(2,0)--(-2,0)..cycle);\nlabel(\"$A$\",(-2,0),W);\nlabel(\"$B$\",(2,0),E);\nlabel(\"1\",(-1.5,0),S);\nlabel(\"2\",(0,0),S);\nlabel(\"1\",(1.5,0),S);\ndot((0,0));\ndot((-1,0));\ndot((1,0));\ndraw((-2,-0.1)--(-2,-0.4));\ndraw((-1,-0.1)--(-1,-0.4));\ndraw((2,-0.1)--(2,-0.4));\ndraw((1,-0.1)--(1,-0.4));\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{7}{6}\\pi - \\frac{\\sqrt{3}}{2}",
+    "question_id": 479,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "将4个相同的球放入2个不同的盒子，有多少种方法？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 480,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找出由以下方程定义的曲线\n\\[r = \\cos \\theta + \\sin \\theta.\\](A) 直线\n(B) 圆\n(C) 抛物线\n(D) 椭圆\n(E) 双曲线\n\n输入正确选项的字母。"
+      }
+    ],
+    "final_answer": "(B)",
+    "question_id": 481,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一条参数曲线定义为\n\\[(x,y) = (\\sin^2 t, 2 \\cos t),\\]其中 $t$ 取所有实数。\n\n同一条参数曲线也可以定义为\n\\[(x,y) = (-s^2 - 2s, 2s + 2),\\]其中 $s$ 取某个区间 $I$。求区间 $I$。"
+      }
+    ],
+    "final_answer": "[-2,0]",
+    "question_id": 482,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$，求 $x+y$。"
+      }
+    ],
+    "final_answer": "15",
+    "question_id": 483,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "回想一下，如果 $b$ 是模 $m$ 的一个剩余，那么 $b$ 的模逆是使得 $bc \\equiv 1\\pmod{m}$ 的剩余 $c$。下表显示了模 47 的前 9 个正剩余的逆。 \\begin{tabular}{c|ccccccccc}\n$b$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\\ \\hline\ninverse of $\\,b$ & 1 & 24 & 16 & 12 & 19 & 8 & 27 & 6 & 21\n\\end{tabular}求 $35\\pmod{47}$ 的模逆。\n\n将你的答案表示为一个 $0$ 到 $46$（包括 $0$ 和 $46$）之间的整数。"
+      }
+    ],
+    "final_answer": "43",
+    "question_id": 484,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果三个实数的和是 $0$，并且它们的积是 $17$，那么它们的立方和是多少？"
+      }
+    ],
+    "final_answer": "51",
+    "question_id": 485,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到平面的方程，该平面平分以下两个平面之间的夹角 $3x - 6y + 2z + 5 = 0$ 和 $4x - 12y + 3z - 3 = 0,$ 并且包含点 $(-5,-1,-5).$ 请以以下形式输入你的答案\n\\[Ax + By + Cz + D = 0,\\]其中 $A,$ $B,$ $C,$ $D$ 是整数，满足 $A > 0$ 且 $\\gcd(|A|,|B|,|C|,|D|) = 1.$"
+      }
+    ],
+    "final_answer": "11x + 6y + 5z + 86 = 0",
+    "question_id": 486,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "两个数的和是$3$。这两个数的平方差是$33$。这两个数之差的绝对值是多少？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 487,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "在图中，$D$ 和 $E$ 分别是 $\\overline{AB}$ 和 $\\overline{BC}$ 的中点。确定四边形 $DBEF$ 的面积。\n[asy]\nsize(180); defaultpen(linewidth(.7pt)+fontsize(10pt));\npair A, B, C, D, E, F;\nA=(0,6);\nB=(0,0);\nC=(8,0);\nD=(0,3);\nE=(4,0);\nF=(8/3,2);\ndraw(E--A--C--D);\ndraw((-1,0)--(10,0), EndArrow);\ndraw((0,-1)--(0,8), EndArrow);\nlabel(\"$A(0,6)$\", A, W);\nlabel(\"$B(0,0)$\", B, SW);\nlabel(\"$C(8,0)$\", C, S);\nlabel(\"$D$\", D, W);\nlabel(\"$E$\", E, S);\nlabel(\"$F$\", F, SW);\nlabel(\"$x$\", (10,0), dir(0));\nlabel(\"$y$\", (0,8), dir(90));\n[/asy]"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 488,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "前 $m$ 个正奇数的和比前 $n$ 个正偶数的和多 212。$n$ 的所有可能值的和是多少？"
+      }
+    ],
+    "final_answer": "255",
+    "question_id": 489,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "已知\n\\[\\mathbf{A} = \\begin{pmatrix} 3 & 7 \\\\ -1 & -2 \\end{pmatrix},\\]计算 $\\mathbf{A}^{27} + \\mathbf{A}^{31} + \\mathbf{A}^{40}.$"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}",
+    "question_id": 490,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "有多少个不全等的三角形，其顶点位于单位立方体的顶点上？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 491,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10$ 的 $200\\%$ 的 $50\\%$ 是多少？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 492,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "找到常数 $a$，使得 \\[(x^2 - 3x + 4)(2x^2 +ax + 7) = 2x^4 -11x^3 +30x^2 -41x +28.\\]"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 493,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "黛利拉在一张纸上写下了 $12$ 的所有正因数，然后她把这张纸给了以西结。在每个因数旁边，以西结写下所有小于或等于该因数，并且除了 $1$ 之外不与该因数共享任何公约数的正整数。(所以，举例来说，以西结会在黛利拉写的每个因数旁边写下 $``1\"$)。以西结总共写了多少个数字？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 494,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "当$(2^3)^4 = 2^n$时，$n$的值是多少？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 495,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下面是 $y = a \\cos bx$ 的图像，其中 $a$ 和 $b$ 为正常数。求 $a$ 的值。\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn (3*cos(4*x));\n}\n\ndraw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-4,4,pi/2,1);\nlayer();\nrm_trig_labels(-5, 5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 496,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "如果 $(x,y) = (3,9)$，那么 $y^2 - 3xy + 8$ 是多少？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 497,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "设 $a,$ $b,$ 和 $c$ 为实数，使得 $ab + ac + bc = 0$ 且 $(a + b + c + 1)^2 = abc.$ 求出 \\[(ab - c)(ac - b)(bc - a).\\] 的所有可能值。请输入所有可能的值，用逗号分隔。例如，如果您认为可能的值是 3、4 和 5，请输入 \"3, 4, 5\"，不带引号。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 498,
+    "language": "zh",
+    "language_name": "Chinese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "扬和卡米尔去一家餐馆。如果菜单上有10道菜，并且每人点一道菜，如果他们拒绝点相同的菜，扬和卡米尔可以点多少种不同的餐点组合？（谁点了什么很重要——扬点鸡肉而卡米尔点鱼，与扬点鱼而卡米尔点鸡肉是不同的。）"
+      }
+    ],
+    "final_answer": "90",
+    "question_id": 499,
+    "language": "zh",
+    "language_name": "Chinese"
+  }
+]

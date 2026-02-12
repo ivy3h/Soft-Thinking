@@ -236,15 +236,14 @@ Reference answer: {ground_truth}""".strip()
 
 class GPQAEvaluator(MathEvaluator):
     def rule_judge(self, solution_str: str, ground_truth: str, finish_generation: bool = True) -> bool:
-        # if not ground_truth.startswith("$"):
-        #     ground_truth = f"${ground_truth}$"
         gold = parse(
             ground_truth,
-            extraction_config=[StringExtractionConfig()],
+            extraction_config=[LatexExtractionConfig(), StringExtractionConfig()],
         )
         answer = parse(
             solution_str,
             extraction_config=[
+                LatexExtractionConfig(),
                 StringExtractionConfig(),
             ]
         )
@@ -300,6 +299,7 @@ evaluator_map = {
     "gsm8k": GSM8KEvaluator(),
     "math500": MATH500Evaluator(),
     "gpqa_diamond": GPQAEvaluator(),
+    "mmlu_prox": GPQAEvaluator(),
     "amc23": AMCEvaluator(),
     "mgsm": MGSMEvaluator(),
 }

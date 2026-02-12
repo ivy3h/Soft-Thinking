@@ -7,10 +7,12 @@ and computes:
 2. Average accuracy across all languages
 3. Cross-lingual consistency (pairwise and overall)
 
-Supports three datasets:
+Supports five datasets:
 - aime2024: AIME 2024 multilingual (default 5 runs for averaging due to small size)
 - aime2025: AIME 2025 multilingual (default 5 runs for averaging due to small size)
 - gpqa: GPQA Diamond multilingual
+- math500: MT-MATH-500 multilingual (10 languages)
+- mmlu_prox: MMLU-ProX-Lite multilingual (9 languages)
 """
 
 import sglang as sgl
@@ -64,6 +66,18 @@ def get_gemma_engine_kwargs(model_name: str, base_kwargs: dict) -> dict:
 # Language metadata (same as MGSM)
 XREASONING_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
 
+# Dataset-specific language lists (for benchmarks with different language coverage)
+MATH500_LANGUAGES = ["en", "zh", "fr", "ja", "lv", "sw", "te", "th", "af", "mr"]
+MMLU_PROX_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "af", "mr"]
+
+DATASET_LANGUAGES = {
+    "aime2024": XREASONING_LANGUAGES,
+    "aime2025": XREASONING_LANGUAGES,
+    "gpqa": XREASONING_LANGUAGES,
+    "math500": MATH500_LANGUAGES,
+    "mmlu_prox": MMLU_PROX_LANGUAGES,
+}
+
 LANGUAGE_NAMES = {
     "en": "English",
     "es": "Spanish",
@@ -75,7 +89,10 @@ LANGUAGE_NAMES = {
     "th": "Thai",
     "sw": "Swahili",
     "bn": "Bengali",
-    "te": "Telugu"
+    "te": "Telugu",
+    "lv": "Latvian",
+    "af": "Afrikaans",
+    "mr": "Marathi",
 }
 
 # Dataset HuggingFace paths
@@ -89,7 +106,9 @@ XREASONING_DATASETS = {
 DEFAULT_NUM_RUNS = {
     "aime2024": 5,
     "aime2025": 5,
-    "gpqa": 1
+    "gpqa": 1,
+    "math500": 1,
+    "mmlu_prox": 1,
 }
 
 
@@ -99,7 +118,7 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
     First tries to load from local JSON files, then falls back to HuggingFace Hub.
 
     Args:
-        dataset_name: 'aime2024', 'aime2025', or 'gpqa'
+        dataset_name: 'aime2024', 'aime2025', 'gpqa', 'math500', or 'mmlu_prox'
         languages: List of language codes. If None, loads all languages.
         data_dir: Directory containing local JSON files.
 
@@ -107,12 +126,22 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
         Dict mapping language code to list of samples
     """
     if languages is None:
-        languages = XREASONING_LANGUAGES
+        languages = DATASET_LANGUAGES.get(dataset_name, XREASONING_LANGUAGES)
 
     all_data = {}
 
+    # Determine file prefix based on dataset name
+    FILE_PREFIX = {
+        "aime2024": "xreasoning_aime2024",
+        "aime2025": "xreasoning_aime2025",
+        "gpqa": "xreasoning_gpqa",
+        "math500": "mt_math500",
+        "mmlu_prox": "mmlu_prox",
+    }
+    file_prefix = FILE_PREFIX.get(dataset_name, f"xreasoning_{dataset_name}")
+
     # Try to load from local combined file first
-    combined_file = os.path.join(data_dir, f"xreasoning_{dataset_name}_all.json")
+    combined_file = os.path.join(data_dir, f"{file_prefix}_all.json")
     if os.path.exists(combined_file):
         print(f"Loading {dataset_name} from local file: {combined_file}")
         with open(combined_file, "r", encoding="utf-8") as f:
@@ -128,7 +157,7 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
     # Try to load from individual language files
     all_local = True
     for lang in languages:
-        lang_file = os.path.join(data_dir, f"xreasoning_{dataset_name}_{lang}.json")
+        lang_file = os.path.join(data_dir, f"{file_prefix}_{lang}.json")
         if os.path.exists(lang_file):
             print(f"Loading {dataset_name} {lang} from local file...")
             with open(lang_file, "r", encoding="utf-8") as f:
@@ -272,8 +301,8 @@ def main():
 
     # Dataset parameters
     parser.add_argument('--dataset', type=str, required=True,
-                        choices=['aime2024', 'aime2025', 'gpqa'],
-                        help='XReasoning dataset to evaluate')
+                        choices=['aime2024', 'aime2025', 'gpqa', 'math500', 'mmlu_prox'],
+                        help='Dataset to evaluate')
     parser.add_argument('--languages', type=str, nargs='+', default=None,
                         help='Languages to evaluate (default: all 11 languages)')
     parser.add_argument('--num_runs', type=int, default=None,
@@ -352,7 +381,7 @@ def main():
     args = parser.parse_args()
 
     dataset_name = args.dataset
-    languages = args.languages if args.languages else XREASONING_LANGUAGES
+    languages = args.languages if args.languages else DATASET_LANGUAGES.get(dataset_name, XREASONING_LANGUAGES)
     num_runs = args.num_runs if args.num_runs else DEFAULT_NUM_RUNS[dataset_name]
 
     print(f"Dataset: {dataset_name}")
@@ -369,6 +398,10 @@ def main():
     # Select appropriate evaluator
     if dataset_name in ["aime2024", "aime2025"]:
         evaluator_key = dataset_name  # Uses AIMEEvaluator
+    elif dataset_name == "math500":
+        evaluator_key = "math500"  # Uses MATH500Evaluator
+    elif dataset_name == "mmlu_prox":
+        evaluator_key = "mmlu_prox"  # Uses GPQAEvaluator
     else:
         evaluator_key = "gpqa_diamond"  # Uses GPQAEvaluator
 
@@ -385,7 +418,7 @@ Please solve the following multiple-choice question. Please show your choice in 
 {Question}
 """.strip()
 
-    query_template = GPQA_QUERY_TEMPLATE if dataset_name == "gpqa" else MATH_QUERY_TEMPLATE
+    query_template = GPQA_QUERY_TEMPLATE if dataset_name in ["gpqa", "mmlu_prox"] else MATH_QUERY_TEMPLATE
 
     # Tokenizer
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)

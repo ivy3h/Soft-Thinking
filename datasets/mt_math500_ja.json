@@ -1,0 +1,6002 @@
+[
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$A = (0, 0),$ $B = (1, 2),$ $C=(3, 3),$ および $D = (4, 0)$ とします。四角形 $ABCD$ は、点 $A$ を通る直線によって、同じ面積の2つの部分に分割されます。この直線が線分 $\\overline{CD}$ と交わる点の座標は何ですか？"
+      }
+    ],
+    "final_answer": "\\left(\\tfrac{27}{8}, \\tfrac{15}{8}\\right)",
+    "question_id": 0,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$は整数であり、$x\\sqrt{x}-5x-9\\sqrt{x}=35$が与えられているとき、$x$を求めなさい。"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 1,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$1001$ と $2431$ の最大公約数を求めなさい。"
+      }
+    ],
+    "final_answer": "143",
+    "question_id": 2,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $7 - 4x = 15$ なら、$8x + 2$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "-14",
+    "question_id": 3,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x)$が定義されるすべての$x$に対して、\n\\[f(x) = \\sqrt{5x^2 + 2x \\sqrt{5} + 1} + x \\sqrt{5},\\]の最小値を求めよ。"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 4,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $3x + 2 + 3(1+x) = 23$ における $x$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 5,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$17^{13} - 17$ の一の位を求めなさい。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 6,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "この円は、点$(-1, 2)$、$(3,0)$、および$(9,0)$を通ります。円の中心は$(h,k)$にあります。$h+k$の値は何ですか？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 7,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "レイモンドは普段、12カロリーのクラッカーを10枚おやつに食べます。同じカロリーを摂取するには、20カロリーのクッキーを何枚食べなければならないでしょうか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 8,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\mathbf{a} = \\begin{pmatrix} 1 \\\\ 3 \\\\ 0 \\end{pmatrix},$ $\\mathbf{b} = \\begin{pmatrix} -11 \\\\ 5 \\\\ 2 \\end{pmatrix},$ および $\\mathbf{c} = \\begin{pmatrix} 1 + \\sqrt{5} \\\\ 4 \\\\ -5 \\end{pmatrix}$ とします。ベクトル $\\mathbf{a} + \\mathbf{b} + \\mathbf{c}$ と\n\\[3 (\\mathbf{b} \\times \\mathbf{c}) - 8 (\\mathbf{c} \\times \\mathbf{a}) + k (\\mathbf{a} \\times \\mathbf{b})\\]が直交するとき、$k$ を求めなさい。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 9,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$4 - \\sqrt{3} + (-1 - 4 \\sqrt{3})i$ を原点を中心に時計回りに$120^\\circ$回転させます。得られる複素数は何ですか？"
+      }
+    ],
+    "final_answer": "-8 + 2i",
+    "question_id": 10,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1000未満の45の正の倍数が無作為に選ばれます。それが2桁の整数である確率はどれくらいですか？答えを既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{11}",
+    "question_id": 11,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "式 $$1 + 2 + 3 - 4 + 5 + 6$$ は13に相当します。様々な場所に括弧を追加すると、この値を変えることができます。例えば、$1+2+3-(4+5)+6=1+2+3-9+6=6-9+6=3$ です。括弧のみを追加し（項の順序を並べ替えない場合）、この式が得られる最小値はいくつですか？（この問題の目的のために、足し算や引き算を掛け算に変えることはできません。例えば、$ (1+2+3)(-4)+5+6 $ は有効な括弧の配置ではありません。）\n\n答えを単一の値で入力してください。"
+      }
+    ],
+    "final_answer": "-9",
+    "question_id": 12,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "xについて解きなさい： $$\\log_2 \\frac{2x+8}{x+2} +\\log_2\\frac{x+2}{x-5}=3$$"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 13,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "記号$\\star$と$*$はそれぞれ、集合$\\{+,-,\\times,\\div\\}$の中から選ばれた演算を表し、$\\frac{12\\star 2}{9*3}=4$です。$\\frac{10\\star 7}{24*9}$の値は何ですか？答えは既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{14}{3}",
+    "question_id": 14,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$-30 \\leq x \\leq 26$ を満たすすべての整数 $x$ の総和はいくつですか？"
+      }
+    ],
+    "final_answer": "-114",
+    "question_id": 15,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(2,-3)$ を通り、傾きが $\\frac12$ である直線の $y$切片の $y$座標は何ですか？"
+      }
+    ],
+    "final_answer": "-4",
+    "question_id": 16,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$56.78-43.6$ はいくつですか？"
+      }
+    ],
+    "final_answer": "13.18",
+    "question_id": 17,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "すべての数$x\\neq\\pm1$に対して、\\[\\frac A{x-1}+\\frac B{x+1}=\\frac{x+2}{x^2-1}\\]が成り立つような数$A$と$B$があります。$A-B$を求めなさい。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 18,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "和を求め、答えを分数で入力してください。\n$$\n\\begin{array}{r r@{}c@{}l}\n& 1 &.& 11111111\\ldots \\\\\n& 0 &.& 11111111\\ldots \\\\\n& 0 &.& 01111111\\ldots \\\\\n& 0 &.& 00111111\\ldots \\\\\n& 0 &.& 00011111\\ldots \\\\\n& 0 &.& 00001111\\ldots \\\\\n& 0 &.& 00000111\\ldots \\\\\n+ &&\\vdots \\\\\n\\hline\n&&& ~~~?\n\\end{array}\n$$"
+      }
+    ],
+    "final_answer": "\\frac{100}{81}",
+    "question_id": 19,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $|2-x|= 3$ のすべての解の和を求めなさい。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 20,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$|a| \\neq |b|$を満たすゼロではない実定数$a$と$b$とする。以下の式を満たす$x$の異なる値の数を求めよ。\n\\[\\frac{x - a}{b} + \\frac{x - b}{a} = \\frac{b}{x - a} + \\frac{a}{x - b}.\\]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 21,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$A$を2倍にすると、新しい値は$A$より10大きくなります。$A$の値はいくつですか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 22,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図において、$AD=BD=CD$ であり、$\\angle BCA = 40^\\circ$ です。$\\angle BAC$ の大きさは何度ですか？\n\n[asy]\ndraw((0,0)--(10,0)--(8.2635,9.8481)--cycle,black+linewidth(1));\ndraw((10,0)--(20,0)--(8.2635,9.8481),black+linewidth(1));\ndraw((5,-0.5)--(5,0.5),black+linewidth(1));\ndraw((15,-0.5)--(15,0.5),black+linewidth(1));\ndraw((8.6318,4.8359)--(9.6317,5.0122),black+linewidth(1));\nlabel(\"$A$\",(8.2635,9.8481),N);\nlabel(\"$B$\",(0,0),SW);\nlabel(\"$C$\",(20,0),SE);\nlabel(\"$D$\",(10,0),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "90^\\circ",
+    "question_id": 23,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$P(x)$ を、次の条件を満たす3次多項式とする。\n\\begin{align*}\nP(1) &= \\log 1, \\\\\nP(2) &= \\log 2, \\\\\nP(3) &= \\log 3, \\\\\nP(4) &= \\log 4.\n\\end{align*}このとき、$P(5)$ は $A \\log \\frac{B}{C}$ の形で表すことができる。ただし、$A,$ $B,$ および $C$ は正の整数であり、$C$ は素数である。$A + B + C$ を求めよ。"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 24,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ステイシーは$d$ドル持っています。彼女は10軒の店と宝くじ売り場があるショッピングモールに入ります。まず彼女は宝くじ売り場に行き、所持金が2倍になり、その後最初の店に入って$1024$ドルを使います。その後、彼女は宝くじを引いて所持金を2倍にする（ステイシーは常に勝つ）のと、新しい店に入って$\\$1024$を使うのを交互に繰り返します。最後の店から出たとき、彼女の手元にはお金は残っていませんでした。$d$の最小値として考えられるのはいくらですか？"
+      }
+    ],
+    "final_answer": "1023",
+    "question_id": 25,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$0\\leq n<398$ かつ $n$ が 7 の 398 を法とする乗法逆元であるような整数 $n$ を求めよ。"
+      }
+    ],
+    "final_answer": "57",
+    "question_id": 26,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "アリス、ベイリー、シンディ、ダニエルは、ペンを売るために近所を歩き回りました。アリスは$\\$25.67$、ベイリーは$\\$17.21$、シンディは$\\$39.17$、ダニエルは$\\$26.32$を稼ぎました。販売後、彼らはお金をまとめ、硬貨をドルに両替するために銀行へ行きました。彼らはできるだけ多くの硬貨を紙幣に両替した後、何セントのお釣りが残りましたか？"
+      }
+    ],
+    "final_answer": "37",
+    "question_id": 27,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\begin{pmatrix} 1 & 2 \\\\ 4 & 8 \\\\ \\end{pmatrix} \\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}.$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 11 \\\\ 44 \\end{pmatrix}",
+    "question_id": 28,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一定温度において、ある気体の圧力はその体積に反比例します。私は3.67リットルの容器に4 kPaの圧力で水素を持っています。もしそれをすべて同じ温度で1.835リットルの容器に移した場合、新しい圧力は何 kPaになりますか？"
+      }
+    ],
+    "final_answer": "8 kPa",
+    "question_id": 29,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x)$を$2$より大きい次数の多項式とする。$f(1) = 2$かつ$f(2) = 3$であるとき、$f(x)$を$(x-1)(x-2)$で割ったときの余りを求めよ。"
+      }
+    ],
+    "final_answer": "x+1",
+    "question_id": 30,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ひし形は周囲の長さが $68$ 単位で、その対角線の一つが $30$ 単位です。その面積は平方単位でいくつですか？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 31,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "プレイヤーは1から4までの数字のいずれか1つを選びます。選択が行われた後、各面に1から4までの数字が振られた2つの通常の4面（正四面体）サイコロが振られます。選ばれた数字が、サイコロが振られた後、ちょうど1つのサイコロの底面に現れた場合、プレイヤーは$\\$1$を獲得します。選ばれた数字が両方のサイコロの底面に現れた場合、プレイヤーは$\\$2$を獲得します。選ばれた数字がどちらのサイコロの底面にも現れなかった場合、プレイヤーは$\\$1$を失います。サイコロを1回振った場合の、プレイヤーへの期待収益（ドル単位）は何ですか？答えを分数で示してください。"
+      }
+    ],
+    "final_answer": "-1/16",
+    "question_id": 32,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABCD$は正四面体（正三角錐）である。$M$が$\\overline{CD}$の中点であるとき、$\\tan\\angle AMB$を求めよ。"
+      }
+    ],
+    "final_answer": "2\\sqrt{2}",
+    "question_id": 33,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "54 (mod 6) の余りを求めなさい。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 34,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "クリスピーライストリーツのレシピでは、9インチ×13インチの型を1インチの深さまで満たす混合物ができます。元のレシピの1.5倍の量で作られたクリスピーライストリーツの混合物を、10インチ×15インチの型に注いだ場合、型は何インチの深さまで満たされますか？答えは小数で、小数点以下第2位（百分の1の位）に四捨五入して表してください。"
+      }
+    ],
+    "final_answer": "1.17",
+    "question_id": 35,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下の図において、直線 $k$ と $\\ell$ は平行です。角 $x$ の大きさを度数で求めなさい。\n[asy]\nsize(200);\npair A = dir(-22)*(0,0);\npair B = dir(-22)*(4,0);\npair C = dir(-22)*(4,2);\npair D = dir(-22)*(0,2);\npair F = dir(-22)*(0,1.3);\npair G = dir(-22)*(4,1.3);\n\npair X,Y;\n\nX=A;\nY=B;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=A;\nY=C;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=C;\nY=B;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=B;\nY=D;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nX=G;\nY=F;\ndraw(1.3*X-.3*Y--1.3*Y-.3*X);\n\nlabel(\"$\\ell$\",1.4*A-.4*B);\nlabel(\"$k$\",1.4*F-.4*G);\n\nlabel(\"$30^\\circ$\",A+(.8,-.1));\nlabel(\"$90^\\circ$\",B+(.4,.1));\nlabel(\"$x$\",C+(.32,.2));\n[/asy]"
+      }
+    ],
+    "final_answer": "60^\\circ",
+    "question_id": 36,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "アビー、バート、シンディ、デイモンの4人が、2人組になって体重を測りました。アビーとバートは合わせて160ポンド、バートとシンディは180ポンド、そしてシンディとデイモンは200ポンドでした。アビーとデイモンは合わせて何ポンドになりますか？"
+      }
+    ],
+    "final_answer": "180",
+    "question_id": 37,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\{1, 2, 3, 4, 5\\}$の中から重複を許さずに2つの数を無作為に選ぶとき、それらの数の和が積よりも大きくなる確率はどれくらいですか？答えを既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{2}{5}",
+    "question_id": 38,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "対角線の長さが12と16単位のひし形の周長は何ですか？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 39,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 40,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数 $5+\\sqrt{3}$ とその共役無理数の積を計算しなさい。"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 41,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2x - 3y = 8$ および $4x + 3y = -2$ であるとき、$x$ と $y$ の積は何ですか？"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 42,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "上院委員会には民主党員5名と共和党員5名がいます。各政党のメンバー全員が隣り合って座る場合、彼らが円卓の周りに座る区別できる座り方は何通りありますか？（テーブルを回転させた場合、それは同じ座り方とみなされます。）"
+      }
+    ],
+    "final_answer": "14,400",
+    "question_id": 43,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "あなたはシャツを5枚、ズボンを6本、帽子を8個持っています。シャツ1枚、ズボン1本、帽子1個から成る服装は、何通り作ることができますか？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 44,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次式 $3x^2-24x+72$ は、$a(x+b)^2+c$ の形で書くことができます。ここで、$a$、$b$、$c$ は定数です。$a+b+c$ は何ですか？"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 45,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図において、$x$ の値は何ですか？ [asy]\ndraw((-4,1)--(0,0)--(4,1),linewidth(1));\ndraw((-1,-4)--(0,0)--(1,-4),linewidth(1));\ndraw((1/3,.25/3)--(1.25/3,-.75/3)--(.25/3,-1/3),linewidth(1));\ndraw((-1/3,.25/3)--(-1.25/3,-.75/3)--(-.25/3,-1/3),linewidth(1));\nlabel(\"$150^\\circ$\",(0,0),N);\nlabel(\"$x^\\circ$\",(0,-2),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "30°",
+    "question_id": 46,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある特定の円において、中心角が $75^{\\circ}$ の場合、弧の長さは $10\\pi$ フィートになります。この円の半径は何ですか？"
+      }
+    ],
+    "final_answer": "24",
+    "question_id": 47,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$|z|=2$を満たす複素数$z$とする。複素平面上において、頂点が$z$と、次の条件を満たすすべての$w$である多角形を$P$とする。\n\\[\\frac{1}{z+w}=\\frac{1}{z}+\\frac{1}{w}.\\]\n$P$によって囲まれた領域の面積を求めよ。"
+      }
+    ],
+    "final_answer": "3 \\sqrt{3}",
+    "question_id": 48,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直角三角形$ABC$において、$\\angle BAC = 90^\\circ$であり、$D$は$\\overline{AC}$の中点である。$AB = 7$かつ$BC = 25$のとき、$\\tan \\angle BDC$の値を求めなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{7}{12}",
+    "question_id": 49,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし食料品店に15種類の果物と10種類の缶詰スープがあるとして、マイケルが2種類の果物と3種類のスープを買うには何通りの方法がありますか？"
+      }
+    ],
+    "final_answer": "12600",
+    "question_id": 50,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\displaystyle\\frac{33}{\\sqrt{33}}$ の分母を有理化しなさい。"
+      }
+    ],
+    "final_answer": "\\sqrt{33}",
+    "question_id": 51,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "あるバクテリアの個体数は4時間ごとに倍増しています。正午には$600$匹のバクテリアがいます。このペースで増え続けると、12時間後の真夜中には何匹のバクテリアが存在するでしょうか？"
+      }
+    ],
+    "final_answer": "4800",
+    "question_id": 52,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "`\\[f(x) = \\frac{1}{x + \\frac{1}{x}}\\]` および `\\[g(x) = \\frac{1}{x - \\frac{1}{x}}\\]` と定義します。方程式 `\\[ (g(x))^2 - (f(x))^2 = \\tfrac54.\\]` の最大の実数解の二乗を求めなさい。"
+      }
+    ],
+    "final_answer": "\\sqrt{5}",
+    "question_id": 53,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの円錐の体積は同じです。もし一方の円錐が、もう一方の円錐の底面の半径の3倍の半径を持ち、高さが24インチであるならば、もう一方の円錐の高さは何インチですか？\n\n注：円錐の体積は$\\frac{1}{3} \\pi r^2 h$であり、ここで$r$は半径、$h$は高さです。"
+      }
+    ],
+    "final_answer": "216",
+    "question_id": 54,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^2 + \\frac{1}{x^2} = 7$ であるとき、$x^4 + \\frac{1}{x^4}$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 55,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "解け\n\\[\\frac{(x + 7)(x - 2)}{x - 1} < 0.\\]解答は区間表記で入力してください。"
+      }
+    ],
+    "final_answer": "(-\\infty,-7) \\cup (1,2)",
+    "question_id": 56,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x) = 2^x$ とします。$\\sqrt{f(f(f(f(1))))}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "256",
+    "question_id": 57,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ゲリーは毎晩午後11時に寝ます。しかし、彼はあまりよく眠れないため、午前1時00分から午前3時59分の間のランダムな時間に目を覚まします。その際、1:00と3:59を含むどの分も等しい確率で選ばれます。その後、彼は時計に表示されている時と分を3桁の数字として読み取ります。例えば、午前2時56分は256となります。その数字が7で割り切れる確率はどのくらいですか？"
+      }
+    ],
+    "final_answer": "13/90",
+    "question_id": 58,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABCD$ を凸四角形とし、$\\overline{AC}$ と $\\overline{BD}$ の中点をそれぞれ $M$ と $N$ とする。このとき、ある定数 $k$ が存在し、\n\\[AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + k \\cdot MN^2.\\]が成り立つ。$k$ を求めよ。\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, M, N;\n\nA = (0,0);\nB = (4,0.5);\nC = (5,-3);\nD = (-2,-2.5);\nM = (A + C)/2;\nN = (B + D)/2;\n\ndraw(A--B--C--D--cycle);\ndraw(A--C);\ndraw(B--D);\ndraw(M--N);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, SW);\ndot(\"$M$\", M, NE);\ndot(\"$N$\", N, NW);\n[/asy]"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 59,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x) = 2x+1$ および $g(x) = f(2x) - 3$ とします。$g(g(2))$ は何ですか？"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 60,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "周囲が12インチの長方形の面積の最大値は何平方インチですか？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 61,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数 $g(x)=3x+2$ を定義します。もし $g(x)=2f^{-1}(x)$ であり、$f^{-1}(x)$ が関数 $f(x)=ax+b$ の逆関数であるならば、$\\dfrac{a+b}{2}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 62,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "私の卓球チームには、左利きの男子の4倍の右利きの男子がいます。チームの左利きの生徒の中では、男子の2倍の女子がいます。チームにいる女子の半分は左利きです。もしチームに36人いるなら、右利きの男子は何人ですか？（どちらの手でも同じくらい卓球ができる選手はいないものとします。）"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 63,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "放物線 $y = \\frac{5x^2 - 4x + 2}{4}$ の焦点を求めなさい。"
+      }
+    ],
+    "final_answer": "(2/5, 1/2)",
+    "question_id": 64,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "複素平面上の凸多角形 $P$ の頂点が、次の式の根であるとする。\n\\[z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 = 0.\\]\n$P$ の面積は、$\\frac{a + b \\sqrt{c}}{d}$ の形で表すことができる。ただし、$a, b, c, d$ は正の整数であり、この式は最も簡単な形であるとする。$a + b + c + d$ を求めよ。"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 65,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正四面体とは、4つの面がすべて正三角形である錐体です。\n\n各辺の長さが $1$ の正四面体の体積を $V$ とします。$V^2$ の厳密な値は何ですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{72}",
+    "question_id": 66,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "半径1の3つの球が互いに接するように水平面上に置かれています。その上に半径2の球が乗っています。水平面から大きい方の球の頂点までの距離はどれくらいでしょうか？"
+      }
+    ],
+    "final_answer": "3 + \\frac{\\sqrt{69}}{3}",
+    "question_id": 67,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下の表のデータは、セントラル高校の生徒を対象とした調査におけるバス通学者の割合を示しています。各学年で男子300名、女子300名が調査されました。男子バス通学者の数が女子バス通学者の数の $135\\%$ に最も近いのは、どの学年ですか？ \\begin{tabular}{|l|c|c|}\\hline\nGrade & Males & Females \\\\ \\hline\n$9^{\\mathrm{th}}$ grade & $41.1\\%$ & $39.4\\%$ \\\\ \\hline\n$10^{\\mathrm{th}}$ grade & $34.4\\%$ & $33.1\\%$ \\\\ \\hline\n$11^{\\mathrm{th}}$ grade & $20.6\\%$ & $13.8\\%$ \\\\ \\hline\n$12^{\\mathrm{th}}$ grade & $11.6\\%$ & $8.6\\%$ \\\\ \\hline\n\\end{tabular}"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 68,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "中心が$O$で直径が$AC$と$BD$である円において、角$AOD$は$54$度です。角$AOB$の大きさは何度ですか？\n[asy]\ndraw(circle((0,0),1));\nlabel(\"O\",(0,0),SE);\ndraw((-1,0)--(1,0));\ndraw((0.5877852522924731291,0.80901699437)--(-0.5877852522924731291,-0.80901699437));\nlabel(\"B\",(-1,0),W);\nlabel(\"D\",(1,0),E);\nlabel(\"A\",(0.5877852522924731291,0.80901699437),NE);\nlabel(\"C\",(-0.5877852522924731291,-0.80901699437),SW);\ndot((0,0));\ndot((-0.5877852522924731291,-0.80901699437));\ndot((0.5877852522924731291,0.80901699437));\ndot((-1,0));\ndot((1,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "126",
+    "question_id": 69,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $( 1, -1, -6 )$ を直交座標から円筒座標に変換してください。答えは $(r,\\theta,z)$ の形式で入力し、ただし $r > 0$ かつ $0 \\le \\theta < 2 \\pi$ とします。"
+      }
+    ],
+    "final_answer": "\\left( \\sqrt{2}, \\frac{7\\pi}{4}, -6 \\right)",
+    "question_id": 70,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$m$と$n$が正の整数であり、$m\\equiv 6\\pmod 9$かつ$n\\equiv 0\\pmod 9$であるとき、$mn$が必ず割り切れる最大の整数は何ですか？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 71,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\sin^{-1} (\\sin 3) + \\sin^{-1} (\\sin 4) + \\sin^{-1} (\\sin 5)$ を計算しなさい。全ての関数はラジアン単位です。"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 72,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x)=x^3+3x^2+3x+1$ のとき、$f(f^{-1}(2010))$ を求めなさい。"
+      }
+    ],
+    "final_answer": "2010",
+    "question_id": 73,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "凸八角形は、内角に最大でいくつ直角を持つことができますか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 74,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $A(2,5), B(6,5), C(5,2)$ および $D(1,2)$ は平行四辺形の頂点です。もしその平行四辺形が2単位下に、そして3単位右に平行移動されると、点 $B$ の最終的な像の座標はどうなりますか？"
+      }
+    ],
+    "final_answer": "(9, 3)",
+    "question_id": 75,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "端点が $(1,2)$ と $(-4,-10)$ である線分の長さは何単位ですか？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 76,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "どのような整数 $x$ に対して $\\frac 35 < \\frac x7 < \\frac 79$ が成り立ちますか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 77,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "線分 $s_1$ の端点は $(3+\\sqrt{2},5)$ と $(4,7)$ です。線分 $s_2$ の端点は $(6-\\sqrt{2},3)$ と $(3,5)$ です。$s_1$ の中点と $s_2$ の中点を端点とする線分の中点を求めなさい。答えを $(a,b)$ の形式で表しなさい。"
+      }
+    ],
+    "final_answer": "(4,5)",
+    "question_id": 78,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "示されている幹葉図のデータは、Pseudo H.S.の女子チームが今日の練習で行った走り幅跳びの距離（センチメートル単位）です。$(51|1$ represents $511$ centimeters$.)$ データのメディアンとモードの合計は何ですか？\n\n\\begin{tabular}{l|lllll}\n51& 1\\\\\n52&\\\\\n53& 2& 5\\\\\n54& 0& 2& 2& 5\\\\\n55& 0& 1& 3& 4& 7\\\\\n56& 0& 2& 5\\\\\n57& 0& 1\\\\\n\\end{tabular}"
+      }
+    ],
+    "final_answer": "1093",
+    "question_id": 79,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "円の半径は2インチです。半径が2倍になると、面積はどれだけ平方インチ増加しますか？答えを$\\pi$を使って表してください。"
+      }
+    ],
+    "final_answer": "12\\pi",
+    "question_id": 80,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1から100までの整数の中から無作為に選ばれた数が、平方数である確率はいくつですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{10}",
+    "question_id": 81,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "頂点が $(5,4),$ $(5,-4),$ $(-5,4),$ $(-5,-4)$ である長方形を考えます。その長方形の領域の厳密に内側にある整数座標はいくつありますか？"
+      }
+    ],
+    "final_answer": "63",
+    "question_id": 82,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$7$ の整数約数は何個ありますか？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 83,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(6, 0)$ から直線 $y = 2x-2$ までの最短距離は何ですか？ 答えを最も簡単な根号の形で表しなさい。"
+      }
+    ],
+    "final_answer": "2\\sqrt{5}",
+    "question_id": 84,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a,$ $b,$ $c,$ $p,$ $q,$ $r$ を実数とし、\n\\[\\begin{vmatrix} p & b & c \\\\ a & q & c \\\\ a & b & r \\end{vmatrix} = 0\\]が成り立つとする。$a \\neq p,$ $b \\neq q,$ $c \\neq r$ であると仮定するとき、$\\frac{p}{p - a} + \\frac{q}{q - b} + \\frac{r}{r - c}$ の値を求めよ。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 85,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "クリシャヌとシャウナクはそれぞれ、1から10までの整数を無作為に1つ選びます。彼らが選んだ数の積が10より大きくなる確率はどれくらいですか？答えは既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{73}{100}",
+    "question_id": 86,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある火曜日に、マジシャンが「31日前に妻を消しました」と言いました。彼が彼女を消したのは何曜日でしたか？"
+      }
+    ],
+    "final_answer": "Saturday",
+    "question_id": 87,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正の実数 $a$ および $b$ について、\n\\[\\frac{(a^2 + b^2)^2}{a^3 b}\\]の最小値を求めよ。答えは、$m,$ $n,$ および $p$ が正の整数であるような簡略化された形式 $\\frac{m \\sqrt{n}}{p}$ で入力してください。"
+      }
+    ],
+    "final_answer": "\\frac{16\\sqrt{3}}{9}",
+    "question_id": 88,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "マイクは標準的な52枚のトランプから5枚のカードを引きます。彼が4つのスートのうち少なくとも3つのスートからカードを引く確率はどれくらいですか？答えは既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{507}{595}",
+    "question_id": 89,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある直線が $(4,365)$ を通り、その直線の $y$-切片は $1$ 以上 $9$ 以下です。その直線の傾きの最小値は何ですか？"
+      }
+    ],
+    "final_answer": "89",
+    "question_id": 90,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "8人が円卓に座る座り方は何通りありますか？ただし、アリス、ボブ、イブ（8人のうちの3人）の誰もが隣り合って座らないようにする場合です。2つの座り方は、一方が他方の回転によって得られる場合、同じものとみなされます。"
+      }
+    ],
+    "final_answer": "1440",
+    "question_id": 91,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f$ を次のように定義する。\n\\[f(x) = \\left\\{\n\\begin{array}{cl}\n3-x & \\text{ if } x \\leq 3, \\\\\n-x^3+2x^2+3x & \\text{ if } x>3.\n\\end{array}\n\\right.\\]$f^{-1}(0)+f^{-1}(6)$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 92,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "斜辺が20単位の二等辺直角三角形の面積は、平方単位でいくつですか？"
+      }
+    ],
+    "final_answer": "100 square units",
+    "question_id": 93,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$14.6+2.15$ を求めなさい。"
+      }
+    ],
+    "final_answer": "16.75",
+    "question_id": 94,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数を次のように定義します。\n\\[f(x) = \\frac{-px - 3}{-qx + 3},\\]\nそして、$g(x)$ を $f(x)$ の逆関数とします。もし点 $(7,-22)$ が $y = f(x)$ と $y = g(x)$ の両方のグラフ上にあるならば、$p + q$ の値を求めなさい。"
+      }
+    ],
+    "final_answer": "36/11",
+    "question_id": 95,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等差数列の初項は $2$ である。第3項と第6項の和は $25$ である。第4項は何ですか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 96,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$c$と$d$は反比例するとします。$d=8$のとき$c=9$であるならば、$c=6$のときの$d$の値を求めなさい。"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 97,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(1 + 2 \\cdot 3 \\cdot 4 \\cdot 5) \\div 11$ はいくつですか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 98,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$18,\\!632$未満の整数で、$ 23 \\pmod {37} $と合同であるものはいくつありますか？"
+      }
+    ],
+    "final_answer": "503",
+    "question_id": 99,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(q+4)(p+3)-(q+2)(p+1)=44$ が与えられているとき、$p+q$ を求めなさい。"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 100,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "整数 $1,$ $2,$ $3,$ $\\dots,$ $16$ のそれぞれが別々の紙切れに書かれ、これらの紙切れは山に積まれています。ジリアンは山から紙切れを無作為に、元に戻さずに引き、山から引いた2つの数の積が平方数になるまで引き続けます。ジリアンが、積が平方数になることなく引くことができる紙切れの最大枚数は何枚ですか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 101,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの異なる正の数 $a$ と $b$ は、それぞれが自身の逆数と1だけ異なります。$a+b$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "\\sqrt{5}",
+    "question_id": 102,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "水槽は底面が100 cm × 40 cmの長方形で、高さが50 cmです。水槽には水が深さ37 cmまで満たされています。その後、体積 $1000 \\text{cm}^3$ の石が水槽に入れられ、完全に水没しました。水位は何センチメートル上昇しますか？答えを小数点以下第2位に四捨五入した小数で示しなさい。"
+      }
+    ],
+    "final_answer": "0.25 cm",
+    "question_id": 103,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "単語CIRCLEの文字を並べる方法の数を求めなさい。"
+      }
+    ],
+    "final_answer": "360",
+    "question_id": 104,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "公平な標準の6面サイコロを2つ振るとき、両方のサイコロで同じ目が出る確率は何ですか？答えを既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{1}{6}",
+    "question_id": 105,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正方形の紙が一度折られ、対角にある角の一組が重なるようにされた。紙を広げると、2つの合同な三角形が形成された。元の正方形の面積が $49$ 平方インチであるとき、これらの三角形の1つの周の長さは何インチですか？答えを最も簡単な根号の形で表しなさい。"
+      }
+    ],
+    "final_answer": "14+7\\sqrt{2}",
+    "question_id": 106,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[\\frac{6 - x}{x^2 - 4} = 2 + \\frac{x}{x + 2}.\\]の実数解を求めよ。\n解はコンマ区切りで入力してください。"
+      }
+    ],
+    "final_answer": "7/3",
+    "question_id": 107,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある三角形の2辺の長さはそれぞれ$8$単位です。もし3辺目の長さが整数であるならば、その三角形の周の長さとして考えられる最大のものは、単位でいくつですか？"
+      }
+    ],
+    "final_answer": "31",
+    "question_id": 108,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "座標系において、原点から点 $(-8,6)$ までの距離は何単位ですか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 109,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "アンビル中学校では、数学クラブの生徒の$30\\%$が科学クラブに所属しており、科学クラブの生徒の$80\\%$が数学クラブに所属しています。科学クラブには15人の生徒がいます。数学クラブには何人の生徒がいますか？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 110,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "辺の長さが $3p-1,$ $3p,$ および $p^2 + 1$ である三角形が存在するような正の整数 $p$ はいくつありますか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 111,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もしワンダーウーマンが1時間に6人の犯罪者を捕まえることができるなら、$4\\frac{1}{2}$時間で何人捕まえることができますか？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 112,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "100の正の約数の積は何ですか？"
+      }
+    ],
+    "final_answer": "1,000,000,000",
+    "question_id": 113,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "クリスタは日曜日の朝、新しい貯金箱に1セントを入れた。月曜日には2セント、火曜日には4セントを入れ、その後2週間にわたって毎日、貯金箱に入れる金額を倍にし続けた。彼女の貯金箱の合計金額が初めて5ドルを超えたのは、週の何曜日でしたか？"
+      }
+    ],
+    "final_answer": "Monday",
+    "question_id": 114,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$1$から$800$までの自然数（$1$と$800$を含む）のうち、数字の$6$を少なくとも2回含むものはいくつありますか？（$266$や$663$は数字の$6$を少なくとも2回含む自然数ですが、$430$や$16$はそうではありません。）"
+      }
+    ],
+    "final_answer": "26",
+    "question_id": 115,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$軸、$y$軸、および$z$軸を持つ3次元座標系において、$P$は$xy$平面上の直線$y = -x + 1$上の点であり、$Q$は$xz$平面上の直線$z = -2x + 1$上の点である。$PQ$の取りうる最小値を計算しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 116,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正五角形 $FGHIJ$ において、図のように五角形の辺を延長すると星形が形成されます。図中の角 $A$ の大きさは何度ですか？\n\n[asy]\ndraw((-42.4,30.8)--(-10,30.8)--(0,63.2)--(10,30.8)--(42.4,30.8)--(16.2,11.8)--(24.9,-18.1)--(0,0)--(-24.9,-18.1)--(-16.2,11.8)--cycle,linewidth(1));\ndraw((-10,30.8)--(10,30.8)--(16.2,11.8)--(0,0)--(-16.2,11.8)--cycle,linewidth(1));\nlabel(\"$A$\",(-42.4,30.8),W);\nlabel(\"$F$\",(-10,30.8),NW);\ndot((-10,30.8));\nlabel(\"$G$\",(10,30.8),NE);\ndot((10,30.8));\nlabel(\"$H$\",(16.2,11.8),E);\ndot((16.2,11.8));\nlabel(\"$I$\",(0,0),S);\ndot((0,0));\nlabel(\"$J$\",(-16.2,11.8),WSW);\ndot((-16.2,11.8));\n[/asy]"
+      }
+    ],
+    "final_answer": "36°",
+    "question_id": 117,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\bold{v} = \\begin{pmatrix} 0 \\\\ -4 \\\\ 1 \\end{pmatrix}$ と $\\bold{w} = \\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix}$ について、$\\text{proj}_{\\bold{w}} \\bold{v}$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -2 \\\\ -2 \\\\ 1 \\end{pmatrix}",
+    "question_id": 118,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{0.\\overline{3}}{0.8\\overline{3}}$は何ですか？答えを既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "2/5",
+    "question_id": 119,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次式 $4x^2+2x-1$ は、$a$、$b$、$c$ を定数として、$a(x+b)^2+c$ の形で書くことができます。$a+b+c$ は何ですか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 120,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2010 FIFAワールドカップのグループステージは、それぞれ4チームからなるいくつかのグループで構成されていました。各グループ内では、4チームそれぞれが互いに1度ずつ対戦しました。各グループで何試合行われましたか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 121,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "パティはピザをデリバリーで注文しました。代金は$\\$$12.00でした。パティは$\\$$15を支払い、配達員にお釣りをチップとして取っておくように言いました。彼女が渡したチップは何パーセントでしたか？"
+      }
+    ],
+    "final_answer": "25",
+    "question_id": 122,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\log_2 (\\log_8 x) = \\log_8 (\\log_2 x)$ のとき、$(\\log_2 x)^2$ を求めよ。"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 123,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "すべての実数 $x$ について、$x(x + 1)(x + 2)(x + 3)$ の最小値を求めよ。"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 124,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\tan \\left( \\arccos \\frac{1}{3} \\right)$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "2 \\sqrt{2}",
+    "question_id": 125,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "質点が直線 $y = \\frac{3}{2} x - 2$ に沿って移動します。時刻 $t = 0$ で、点 $(-2,-5)$ から出発します。その後、質点は $x$ 座標が単位時間あたり4単位の割合で変化するように移動します。質点の $y$ 座標を $t$ の関数として求めなさい。"
+      }
+    ],
+    "final_answer": "6t - 5",
+    "question_id": 126,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "表面積が $196\\pi$ 平方インチである球の大円の円周は何インチですか？ 答えを $\\pi$ を用いて表しなさい。\n\n注：円周を測るには、球の表面上の最大の円を考えます。"
+      }
+    ],
+    "final_answer": "14\\pi",
+    "question_id": 127,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\cos 120^\\circ$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{1}{2}",
+    "question_id": 128,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10$進法では、数$2013$は数字の$3$で終わる。一方、$9$進法では、同じ数は$(2676)_{9}$と書かれ、数字の$6$で終わる。$2013$の$b$進法表記が数字の$3$で終わるような$b$の値はいくつありますか？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 129,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし$x$を2倍し、その後7を足すと、結果は81になります。$x$の値は何ですか？"
+      }
+    ],
+    "final_answer": "37",
+    "question_id": 130,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下に示すように、3つの単位円が互いに接するように描かれています。3つの単位円すべてに外接する青い円が描かれています。最後に、各赤い円が2つの単位円に外接し、青い円にも外接するように、3つの赤い円が描かれています。そのとき、各赤い円の半径は、次の形式で表すことができます\n\\[\\frac{a - b \\sqrt{c}}{d},\\]ここで、$a,$ $b,$ $c,$ および $d$ は、簡約化されたときに正の整数となります。$a + b + c + d$ を求めなさい。\n\n[asy]\nunitsize(2 cm);\n\npair A, B, C, D, E, F, O;\nreal s = 2/sqrt(3) - 1, r = (9 - 4*sqrt(3))/33;\n\nA = 2/sqrt(3)*dir(150);\nB = 2/sqrt(3)*dir(30);\nC = 2/sqrt(3)*dir(270);\nO = (0,0);\nD = (r + s)*dir(330);\nE = (r + s)*dir(210);\nF = (r + s)*dir(90);\n\nfilldraw(Circle(O,s),blue);\nfilldraw(Circle(D,r),red);\nfilldraw(Circle(E,r),red);\nfilldraw(Circle(F,r),red);\ndraw(Circle(A,1));\ndraw(Circle(B,1));\ndraw(Circle(C,1));\n[/asy]"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 131,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^4 - 80x - 36 = 0$ の実数解の和を求めよ。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 132,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "16、15、12を因数に持つ最小の正の整数は何ですか？"
+      }
+    ],
+    "final_answer": "240",
+    "question_id": 133,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $a$ と $b$ が正の整数であり、$\\gcd(a,b)=210$ かつ $\\mathop{\\text{lcm}}[a,b]=210^3$ であり、$a<b$ であるとき、$a$ のとりうる値は何通りありますか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 134,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数は $f(x) = x^2 - 3x + 4$ と定義されています。$f(2x)$ を表す式は何ですか？ 答えを $x$ を用いた簡略化された形で表現してください。"
+      }
+    ],
+    "final_answer": "4x^2 - 6x + 4",
+    "question_id": 135,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[(\\cos12^\\circ+i\\sin12^\\circ+\\cos48^\\circ+i\\sin48^\\circ)^6.\\] の虚部を求めよ。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 136,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a = 8$ のとき、$\\left(16\\sqrt[3]{a^2}\\right)^{\\frac 13}$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 137,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "立方体のチーズ\n\\[C = \\{(x,y,z) : 0 \\le x, y, z \\le 1\\}\\]は、平面 $x = y,$ $y = z,$ および $z = x$ で切断されます。いくつのピースに分かれますか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 138,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(0,0)$ は垂直線 $x = 1$ に関して対称移動されます。その像は次に直線 $y=2$ に関して対称移動されます。結果として得られる点の座標は何ですか？"
+      }
+    ],
+    "final_answer": "(2,4)",
+    "question_id": 139,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下の点のうちどれが原点から最も遠いか： $(1,4)$, $(3,5)$, $(-6,0)$, $(-4,-2)?$"
+      }
+    ],
+    "final_answer": "(-6,0)",
+    "question_id": 140,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直線 $\\ell$ は点 $B(7,-1)$ と $C(-1,7)$ を通ります。この直線の式は $y=mx+b$ の形で書くことができます。$m+b$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 141,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2x^2 + 13x + 6 = 0$ の解の二乗の積は何ですか？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 142,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$と$y$を、$x^4y^5+y^4x^5=810$ および $x^3y^6+y^3x^6=945$ を満たす実数とする。このとき、$2x^3+(xy)^3+2y^3$ の値を求めなさい。"
+      }
+    ],
+    "final_answer": "89",
+    "question_id": 143,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直線 $a$ は直線 $b$ に平行で、点 $(1,2)$ を通ります。直線 $b$ は点 $(3,1)$ を通り、方程式が $y=-2x+3$ の直線 $c$ に垂直です。直線 $a$ のy切片を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac32",
+    "question_id": 144,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "学期中に、チェスクラブの10人のメンバーは練習試合で合計900局のチェスを行います。各メンバーは他のすべてのメンバーと$N$回対戦します。$N$の値は何ですか？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 145,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$について、\\[\\frac{3x+2}{x-1}=4\\]を解きなさい。"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 146,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10^8$未満の正の整数の中から、ある数が一様に無作為に選ばれます。その数の桁の合計が9であるという条件のもとで、その数が素数である確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 147,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "線分の2つの端点が $(1,4)$ と $(1,10)$ にあります。この線分の中点の座標の合計はいくつですか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 148,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$AB = 12, AC=14, BC=16$である三角形$ABC$に内接する円の半径は何ですか？答えは最も簡単な根号の形で表しなさい。"
+      }
+    ],
+    "final_answer": "\\sqrt{15}",
+    "question_id": 149,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10 \\leq x \\leq 99$ の範囲の整数 $x$ が選ばれます。全ての選択が等しい確率である場合、$x$ の少なくとも1つの桁が7である確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}",
+    "question_id": 150,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の条件を満たす $2 \\times 2$ 行列 $\\mathbf{M}$ を求めなさい。\n\\[\\mathbf{M} \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 0 \\end{pmatrix}\\]\nおよび\n\\[\\mathbf{M} \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 3 & 2 \\\\ 0 & -7 \\end{pmatrix}",
+    "question_id": 151,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\log_6 (x-y) + \\log_6 (x+y) = 2$ かつ $\\log_y 5x = 2$ であるとき、$x$ を求めなさい。"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 152,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正三角形の一つの内角と正方形の一つの内角の比率は何ですか？ 答えを分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{2}{3}",
+    "question_id": 153,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$m$ を $0$ または $1$ ではない定数とする。このとき、\\[x^2 + my^2 = 4\\]のグラフは2つの焦点を持つ円錐曲線である。焦点が両方とも円 $x^2+y^2=16$ 上にあるような $m$ の値をすべて求めなさい。\n\n考えられる $m$ の値をすべて、コンマで区切って入力しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}, -\\frac{1}{3}",
+    "question_id": 154,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの数の合計は25で、それらの差は9です。それらの積は何ですか？"
+      }
+    ],
+    "final_answer": "136",
+    "question_id": 155,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直線 $y = \\frac{-12x + 74}{5}$ は、次の形式で媒介変数表示されています。\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\mathbf{v} + t \\mathbf{d},\\]\n$x \\le 7$ の場合、$\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ と $\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$ の間の距離が $t$ となるようにします。$\\mathbf{d}$ を求めよ。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -5/13 \\\\ 12/13 \\end{pmatrix}",
+    "question_id": 156,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\dbinom{22}{19}$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "1540",
+    "question_id": 157,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数 $f(x)=\\sqrt{\\sqrt{x^2-16}-3}$ の定義域を求めなさい。"
+      }
+    ],
+    "final_answer": "(-\\infty,-5]\\cup[5,\\infty)",
+    "question_id": 158,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図のように、中心にスピナーを持つ2つの円が3つの等しい領域に分割されています。両方のスピナーを回したとき、2つの値の積が負になる確率はどれくらいですか？答えを既約分数で表してください。\n[asy]\nsize(140);\nvoid spinner(picture pic=currentpicture, real rotate, int a, int b, int c)\n{\ndot(pic,(0,0),linewidth(4));\ndraw(pic, unitcircle ^^ (0,0)--dir(90+rotate) ^^ (0,0)--dir(210+rotate) ^^ (0,0)--dir(-30+rotate));\nlabel(pic, \"$\"+string(a)+\"$\",dir(30+rotate)/2,fontsize(10pt));\nlabel(pic, \"$\"+string(b)+\"$\",dir(150+rotate)/2,fontsize(10pt));\nlabel(pic, \"$\"+string(c)+\"$\",dir(-90+rotate)/2,fontsize(10pt));\n}\npicture p;\nspinner(0,-1,-3,5); spinner(p,180,2,4,-6);\ndraw((0,0)--dir(-10)/2,EndArrow(4)); draw(p,(0,0)--dir(-75)/2,EndArrow(4)); add(shift(2.5*right)*p);[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{5}{9}",
+    "question_id": 159,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABCD$ を単位正方形とする。双曲線は、その焦点が $\\overline{AB}$ と $\\overline{CD}$ の中点にあり、正方形のすべての頂点を通る。双曲線の2つの頂点間の距離を求めよ。"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt5-1}{2}",
+    "question_id": 160,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ポーラは5年間の期間の開始時に、$10,\\!000$を年利$10\\%$で投資します。その5年後、利息が四半期ごとに複利計算されるとしたら、彼女の投資額はいくらになりますか？回答は最も近いセントに四捨五入して示してください。"
+      }
+    ],
+    "final_answer": "$16,386.16",
+    "question_id": 161,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(x,y)$ と $(2,4)$ を結ぶ線分の中点が $(-7,0)$ です。$(x,y)$ を求めなさい。"
+      }
+    ],
+    "final_answer": "(-16,-4)",
+    "question_id": 162,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "4人のタイピストが3日間で合計600通のメモをタイプできます。その割合で、3人のタイピストは1日で何通のメモをタイプできますか？"
+      }
+    ],
+    "final_answer": "150",
+    "question_id": 163,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10^{51} - 9$ を標準形式の整数として書くと、その整数の各桁の数字の合計は何ですか？"
+      }
+    ],
+    "final_answer": "451",
+    "question_id": 164,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$A$ が $500$ の正の約数の総和であるとすると、$A$ の相異なる素因数の総和は何ですか？"
+      }
+    ],
+    "final_answer": "25",
+    "question_id": 165,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "異なる名前を持つ3人の生徒が一列に並びます。彼らが前から後ろへ名前のアルファベット順に並ぶ確率はどれくらいですか？答えを既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{1}{6}",
+    "question_id": 166,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形 $ABC$ において、$AB=\\sqrt{30}$、$AC=\\sqrt{6}$、および $BC=\\sqrt{15}$ である。$\\overline{AD}$ が $\\overline{BC}$ を二等分し、$\\angle ADB$ が直角であるような点 $D$ が存在する。比\n\\[\\dfrac{[ADB]}{[ABC]}\\]の値を求めよ。言い換えれば、三角形 $ADB$ の面積と三角形 $ABC$ の面積の比を計算せよ。"
+      }
+    ],
+    "final_answer": "\\frac{27}{38}",
+    "question_id": 167,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "座標平面上で、$F = (4,0)$ とする。点 $P$ をとり、点 $P$ から直線 $x = \\frac{25}{4}$ へ下ろした垂線の足を $Q$ とする。点 $P$ は、平面上で、次の関係を満たすような曲線を描く。\n\\[\\frac{PF}{PQ} = \\frac{4}{5}\\]\nその曲線によって囲まれる領域の面積を求めよ。\n\n[asy]\nunitsize(1 cm);\n\npair P, F, Q;\n\nF = (4,0);\nP = (5*Cos(60),3*Sin(60));\nQ = (25/4,3*Sin(60));\n\ndraw(F--P--Q);\ndraw((25/4,-1)--(25/4,3),dashed);\n\ndot(\"$F$\", F, S);\ndot(\"$P$\", P, W);\ndot(\"$Q$\", Q, E);\n\nlabel(\"$x = \\frac{25}{4}$\", (25/4,-1), S);\n[/asy]"
+      }
+    ],
+    "final_answer": "15 \\pi",
+    "question_id": 168,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図に示すように、辺の長さが62フィートと20フィートの48個の合同な平行四辺形がシェブロンパターンに配置され、六角形$ABCDEF$を形成しています。六角形$ABCDEF$の周の長さは何ですか？\n\n[asy]\nunitsize (0.1 cm);\n\ndraw((16,-20)--(-3,-20)--(0,0)--(-3,20)--(16,20));\ndraw((0,0)--(16,0));\ndraw((5,20)--(8,0)--(5,-20));\ndraw((13,20)--(16,0)--(13,-20));\ndot((18,0));\ndot((20,0));\ndot((22,0));\ndraw((24,0)--(50,0));\ndraw((23,20)--(47,20)--(50,0)--(47,-20)--(21,-20));\ndraw((23,20)--(26,0)--(23,-20));\ndraw((31,20)--(34,0)--(31,-20));\ndraw((39,20)--(42,0)--(39,-20));\ndraw((39,21)--(39,25));\ndraw((47,21)--(47,25));\ndraw((39,23)--(47,23));\nlabel(\"$A$\",(-3,20),NW);\nlabel(\"$B$\",(47,20),NE);\nlabel(\"$C$\",(50,0),E);\nlabel(\"$D$\",(47,-20),SE);\nlabel(\"$E$\",(-3,-20),SW);\nlabel(\"$F$\",(0,0),W);\nlabel(\"20'\",(43,23),N);\nlabel(\"62'\",(49,10),E);\n[/asy]"
+      }
+    ],
+    "final_answer": "1208",
+    "question_id": 169,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "公平な6面サイコロを5回振ります。6の目が2回以下出る確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{625}{648}",
+    "question_id": 170,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "6で割り切れる最大の5桁の回文数を求めなさい。(回文数とは、514415や131のように、順方向にも逆方向にも同じように読める数のことです。)"
+      }
+    ],
+    "final_answer": "89898",
+    "question_id": 171,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図中の $x$ の値は何ですか？\n\n[asy]\n\nimport olympiad;\n\ndraw((0,0)--(sqrt(3),0)--(0,sqrt(3))--cycle);\n\ndraw((0,0)--(-3,0)--(0,sqrt(3))--cycle);\n\nlabel(\"$2\\sqrt{3}$\",(-3/2,sqrt(3)/2),NW);\n\nlabel(\"$x$\",(sqrt(3)/2,sqrt(3)/2),NE);\n\ndraw(\"$45^{\\circ}$\",(1.5,0),NW);\n\ndraw(\"$30^{\\circ}$\",(-2.45,0),NE);\n\ndraw(rightanglemark((0,sqrt(3)),(0,0),(sqrt(3),0),5));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "\\sqrt{6}",
+    "question_id": 172,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "式 $\\frac{x-5}{x^2-9}$ が定義されないような $x$ の値はいくつありますか？"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 173,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ラナは関数 $f(x)$ を、式 $$f(x) = x^2,$$ で定義します。ただし、彼女が指定した、有限個の $x$ の値からなる定義域上でのみであり、それ以外のすべての $x$ については関数を未定義のままにします。\n\n$f(x)$ の値域が $\\{0,1,2,3,4,5,6,7,8,9\\}$ であるとき、その定義域に含まれうる点の最大数はいくつですか？"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 174,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1992年、イタリアではジェラート1スクープを1200リラで購入できました。同じジェラートは、アメリカでは$1.50$ドルかかったでしょう。リラとドルの間の同等の為替レートで、1,000,000リラは何ドルに相当しますか？"
+      }
+    ],
+    "final_answer": "1250",
+    "question_id": 175,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の値を最も簡単な形で求めよ。\n\\[\\sum_{n = 1}^{99} \\frac{2}{\\sqrt{n} + \\sqrt{n + 2}}\\]"
+      }
+    ],
+    "final_answer": "\\sqrt{101} - \\sqrt{2} + 9",
+    "question_id": 176,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "電卓を使わずに9997の二乗を計算せよ。"
+      }
+    ],
+    "final_answer": "99940009",
+    "question_id": 177,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "313.9に12.6を加えてください。結果を小数で示してください。"
+      }
+    ],
+    "final_answer": "326.5",
+    "question_id": 178,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^2 + bx + b + 3 = 0$ が $\\frac{-b \\pm \\sqrt{5}}{2}$ の形の根を持ち、かつ $b > 0$ であるならば、$b = m+\\sqrt{n}$ となる（$m,n$ は正の整数）。$m + n$ を求めよ。"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 179,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{4}{7}$ を小数第1位に四捨五入しなさい。"
+      }
+    ],
+    "final_answer": "0.6",
+    "question_id": 180,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\dbinom{12}{9}$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "220",
+    "question_id": 181,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "5以下の正の整数からなる集合から、2つの数が独立に選ばれます。2つの数の和がそれらの積よりも大きくなる確率を求めなさい。答えは既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{9}{25}",
+    "question_id": 182,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし8枚のクォーター硬貨の山がちょうど半インチの高さであるなら、1フィートの高さの山を作るには何枚のクォーター硬貨が必要ですか？"
+      }
+    ],
+    "final_answer": "192",
+    "question_id": 183,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "桁の1つがもう一方の4倍である、すべての正の2桁の整数の合計はいくつですか？"
+      }
+    ],
+    "final_answer": "165",
+    "question_id": 184,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "凸五角形に引ける対角線は、何本ありますか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 185,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$$\\frac{2x^2-3x}{x^2-x} + 5x -11 = \\frac{3x^2+5x+2}{x^2-1}.$$ を満たす$x$の全ての実数値を求めよ。全ての解をコンマで区切って入力してください。"
+      }
+    ],
+    "final_answer": "3, 2/5",
+    "question_id": 186,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$6_8 \\cdot 7_8$ の積を求めなさい。答えを8進数で表しなさい。"
+      }
+    ],
+    "final_answer": "52_8",
+    "question_id": 187,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "チョコレート店では、定番のチョコレートファッジは1ポンドあたり10ドルです。アンナはファッジを$\\frac{7}{9}$ポンド購入します。レジは最も近いセント、つまり1ドルの100分の1に丸めます。アンナはファッジに何ドル支払いますか？"
+      }
+    ],
+    "final_answer": "7.78",
+    "question_id": 188,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2x^2+4x-1=0$ の解の2乗の和を求めなさい。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 189,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数列$\\{a_n\\}$は次のように定義されます。\n$$\na_0 = 1,a_1 = 1, \\text{ and } a_n = a_{n - 1} + \\frac {a_{n - 1}^2}{a_{n - 2}}\\text{ for }n\\ge2.\n$$\n数列$\\{b_n\\}$は次のように定義されます。\n$$\nb_0 = 1,b_1 = 3, \\text{ and } b_n = b_{n - 1} + \\frac {b_{n - 1}^2}{b_{n - 2}}\\text{ for }n\\ge2.\n$$\n$\\frac {b_{32}}{a_{32}}$を求めなさい。"
+      }
+    ],
+    "final_answer": "561",
+    "question_id": 190,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\log_{\\sqrt8}(64\\sqrt{8})$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 191,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $\\omega^{1997} = 1$ かつ $\\omega \\neq 1$ ならば、以下を評価しなさい。\n\\[\\frac{1}{1 + \\omega} + \\frac{1}{1 + \\omega^2} + \\dots + \\frac{1}{1 + \\omega^{1997}}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{1997}{2}",
+    "question_id": 192,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一辺が12単位の正方形が円に内接している。円の面積が $K\\pi$ 平方単位である場合、$K$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "72",
+    "question_id": 193,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "メアリーが訪れたいイタリアの観光地が5つありますが、3つしか訪れる時間がありません。彼女が訪れる3つの場所を選ぶ方法は何通りありますか（訪れる順序は問いません）？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 194,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $6t^2 + 30 = 41t$ の解の正の差を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{31}{6}",
+    "question_id": 195,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし3月1日が月曜日なら、270日後は何曜日になりますか？"
+      }
+    ],
+    "final_answer": "Friday",
+    "question_id": 196,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "今日の父親の年齢は、息子の年齢の5倍です。ちょうど3年前、彼らの年齢の合計は30でした。息子は今日何歳ですか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 197,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正五角形 $ABCDE$ において、$\\overline{DC}$ に $D$ で接し、$\\overline{AB}$ に $A$ で接する円を描くことができる。度数法で、劣弧 $AD$ の大きさはいくつか？\n[asy]import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));\npair[] pentagon = new pair[5];\npentagon[0] = dir(36);\npentagon.cyclic=true;\nfor(int i = 1; i < 6; ++i){\n \npentagon[i] = dir(72*i + 36);\n\ndraw(pentagon[i - 1]--pentagon[i]);\n}\ndot(\"$C$\",pentagon[0],NE);\ndot(\"$D$\",pentagon[1],N);\ndot(\"$E$\",pentagon[2],W);\ndot(\"$A$\",pentagon[3],S);\ndot(\"$B$\",pentagon[4],SE);\nline x = line(pentagon[1],pentagon[1] + dir(-108));\nline x2 = line(origin,pentagon[2]);\npair ccenter = coordinates(intersectionpoint(x,x2));\ndraw(Circle(ccenter,arclength(ccenter--pentagon[1])));\n[/asy]"
+      }
+    ],
+    "final_answer": "144^\\circ",
+    "question_id": 198,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(ax+b)(2x+3)=20x^2+44x+21$ であり、$a$ と $b$ が異なる2つの整数であるとき、$a+b$ の値はいくつですか？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 199,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "3本の材木の長さは、それぞれ48フィート、72フィート、40フィートです。製材所の作業員は、その材木を無駄なく同じ長さの丸太に切る必要があります。彼女が切ることができる丸太の最長は何フィートでしょうか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 200,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$0\\le n<18$ および $$n\\equiv 142857\\pmod{18}~?$$ を満たす整数 $n$ は何ですか。"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 201,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "演算子 @ は、簡約分数 $\\frac{p}{q}$ について、$\\frac{m}{n}@\\frac{p}{q} = (m)(p)\\left(\\frac{q}{n}\\right)$ と定義されます。$\\frac{7}{30}@\\frac{10}{21}$ の簡約値は何ですか？"
+      }
+    ],
+    "final_answer": "49",
+    "question_id": 202,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2000より大きく8000未満の4桁の整数はいくつありますか？"
+      }
+    ],
+    "final_answer": "5999",
+    "question_id": 203,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $(8,8)$ が $y=\\frac 14f\\left(\\frac 12x\\right)$ のグラフ上にあるとき、$y=f(x)$ のグラフ上になければならない点が一つあります。その点の座標の合計は何ですか？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 204,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1000未満の自然数で、ちょうど3つの異なる正の約数を持つものはいくつありますか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 205,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下に示す双曲線の式は、次のように表すことができます。\n\\[\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1.\\]$h + k + a + b$ を求めなさい。\n\n[asy]\nunitsize(0.3 cm);\n\nreal upperhyper (real x) {\n  return (2*sqrt((x - 6)^2/16 + 1) - 5);\n}\n\nreal lowerhyper (real x) {\n  return (-2*sqrt((x - 6)^2/16 + 1) - 5);\n}\n\nint i, n = 10;\n\nfor (i = -n; i <= n; ++i) {\n  draw((i,-n)--(i,n),gray(0.7));\n  draw((-n,i)--(n,i),gray(0.7));\n}\n\ndraw((0,-n)--(0,n));\ndraw((-n,0)--(n,0));\n\ndraw(graph(upperhyper,-10,10),red);\ndraw(graph(lowerhyper,-3,10),red);\ndraw(extension((-10,-10),(10,-10),(6,-5),(6,-5) + (4,2))--extension((10,10),(10,-10),(6,-5),(6,-5) + (4,2)),dashed);\ndraw(extension((-10,-10),(-10,10),(6,-5),(6,-5) + (4,-2))--extension((10,10),(10,-10),(6,-5),(6,-5) + (4,-2)),dashed);\n\ndot((6,-5));\n[/asy]"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 206,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "著名な委員会のメンバーは会長を選出しており、各メンバーは27人の候補者のうちの1人に1票を投じました。各候補者について、その候補者が獲得した票の正確なパーセンテージは、その候補者の得票数よりも少なくとも1小さかった。委員会のメンバーの最小の人数は何人でしょうか？"
+      }
+    ],
+    "final_answer": "134",
+    "question_id": 207,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(x - 3)^2 + (y - 3)^2 = 6$ を満たす実数の組 $(x,y)$ について、$\\frac{y}{x}$ の最大値を求めよ。"
+      }
+    ],
+    "final_answer": "3 + 2 \\sqrt{2}",
+    "question_id": 208,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$が3と5以外のすべての値に対して、次の式が成り立つような$A$と$B$を求めなさい。\n\\[\\frac{4x}{x^2-8x+15} = \\frac{A}{x-3} + \\frac{B}{x-5}\\]\n答えは順序対 $(A, B)$ の形式で表しなさい。"
+      }
+    ],
+    "final_answer": "(-6, 10)",
+    "question_id": 209,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "計算せよ： $32^2 - 18^2$"
+      }
+    ],
+    "final_answer": "700",
+    "question_id": 210,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "回文数とは、順方向と逆方向に読んでも同じになる数のことです。例えば $43234$ のように。$11$ で割り切れる最小の5桁の回文数は何ですか？"
+      }
+    ],
+    "final_answer": "10901",
+    "question_id": 211,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形 $ABC$ において、$\\overline{BC},$ $\\overline{AC},$ $\\overline{AB}$ の中点をそれぞれ $D,$ $E,$ $F$ とする。$\\overline{AD},$ $\\overline{BE},$ $\\overline{CF}$ の中点をそれぞれ $P,$ $Q,$ $R$ とする。次の値を計算せよ。\n\\[\\frac{AQ^2 + AR^ 2+ BP^2 + BR^2 + CP^2 + CQ^2}{AB^2 + AC^2 + BC^2}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{7}{8}",
+    "question_id": 212,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\mathbf{w} = \\begin{pmatrix} 1 \\\\ 0 \\\\ -3 \\end{pmatrix}$ とします。\n\\[\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v} = \\mathbf{0}\\]\nを満たすベクトル$\\mathbf{v}$の集合は、ある平面上にあります。この平面の式を、\n\\[Ax + By + Cz + D = 0\\]\nの形式で入力してください。ただし、$A,$ $B,$ $C,$ $D$は、$A > 0$ かつ $\\gcd(|A|,|B|,|C|,|D|) = 1$ を満たす整数とします。"
+      }
+    ],
+    "final_answer": "x - 3z = 0",
+    "question_id": 213,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下に示す楕円は、次の方程式によって定義されます。\n\\[PF_1 + PF_2 = d.\\]$d$ を求めなさい。\n\n[asy]\nunitsize(0.3 cm);\n\nint i, n = 10;\n\nfor (i = -n; i <= n; ++i) {\n  draw((i,-n)--(i,n),gray(0.7));\n  draw((-n,i)--(n,i),gray(0.7));\n}\n\ndraw((0,-n)--(0,n));\ndraw((-n,0)--(n,0));\n\ndraw(shift((-1,0))*xscale(7)*yscale(5)*Circle((0,0),1),red);\n\ndot((-1,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "14",
+    "question_id": 214,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$y = \\frac{1}{x^3-3x^2+3x-1}$ のグラフには、垂直漸近線が何本ありますか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 215,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$115^2$ を暗算で計算してください。"
+      }
+    ],
+    "final_answer": "13225",
+    "question_id": 216,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "0と2の数字のみで書くことができる、30の倍数である最小の正の整数は何ですか？"
+      }
+    ],
+    "final_answer": "2220",
+    "question_id": 217,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^3 - 7x + 2 = 0$ の根を $a, b, c$ とする。\n\\[abc + ab + ac + bc + a + b + c + 1.\\]\nを求めよ。"
+      }
+    ],
+    "final_answer": "-8",
+    "question_id": 218,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "式 $2z^2+13z+21$ は、$(z + a)(2z + b)$ と書くことができます。ここで、$a$ と $b$ は整数です。$2a + b$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 219,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次関数である$p(x)$と$q(x)$について、$y = \\frac{p(x)}{q(x)}$のグラフを以下に示します。(グリッド線は整数値にあると仮定します。)\n\n[asy]\nunitsize(0.6 cm);\n\nreal func (real x) {\n  return (-(x + 5)*(x - 4)/(x - 2)^2);\n}\n\nint i;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0));\ndraw((0,-8)--(0,8));\ndraw((2,-8)--(2,8),dashed);\ndraw((-8,-1)--(8,-1),dashed);\ndraw(graph(func,-8,1.9),red);\ndraw(graph(func,2.1,8),red);\n\nlimits((-8,-8),(8,8),Crop);\n[/asy]\n\n水平漸近線は $y = -1$ であり、唯一の垂直漸近線は $x = 2$ です。$\\frac{p(-1)}{q(-1)}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "20/9",
+    "question_id": 220,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "行列 $\\mathbf{M}$ について、$\\mathbf{M}$ のトレースは、その対角要素の和として定義されます。例えば、\n\\[\\operatorname{Tr} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = a + d.\\]$\\operatorname{Tr} (\\mathbf{A}) = 2$ および $\\operatorname{Tr} (\\mathbf{A}^2) = 30$ が与えられたとき、$\\det \\mathbf{A}$ を求めよ。"
+      }
+    ],
+    "final_answer": "-13",
+    "question_id": 221,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "簡約せよ。\n\\[4 \\sin x \\sin (60^\\circ - x) \\sin (60^\\circ + x).\\]答えは、\"$\\cos (2x)$\" や \"$\\sin (x^3)$\" のように、$x$ の簡単な関数の三角関数となるでしょう。"
+      }
+    ],
+    "final_answer": "\\sin 3x",
+    "question_id": 222,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a, b, c$ を実数とし、$a-7b+8c = 4$ および $8a+4b-c = 7$ を満たすとき、$a^2 - b^2 + c^2$ を求めよ。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 223,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数 $f(x)$ を次のように定める。\n\\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>0, \\\\\n-\\frac1{2x}&\\text{if }x< 0\\\\\n0&\\text{if }x=0.\n\\end{cases}\n\\]$f(x)$ がそれ自身の逆関数となるような関数 $k(x)$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{1}{2x}",
+    "question_id": 224,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ビリーは地上10フィートの高さから矢を放ちます。この矢の高さは、矢が放たれてからの秒数を$t$とすると、方程式 $h=10-23t-10t^2$ で表すことができます。的の中心が地上5フィートの高さにある場合、ビリーがブルズアイを射抜くためには、矢は何秒で的に到達しなければなりませんか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{5}",
+    "question_id": 225,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$1313$ と $1001$ の最大公約数は何ですか？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 226,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$m$が実数であり、$2x^2+mx+8$が2つの異なる実数解を持つ場合、$m$の取りうる値は何ですか？ 答えを区間表記で表しなさい。"
+      }
+    ],
+    "final_answer": "(-\\infty,-8)\\cup(8,\\infty)",
+    "question_id": 227,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "頂点 $A$ から頂点 $B$ へと移動する、立方体の辺に沿った3ステップの異なる経路はいくつありますか？（1ステップとは、ある頂点から辺で繋がった隣接する頂点への移動です。）\n\n[asy]\nsize(101);\nimport three;\ncurrentprojection=orthographic(1/2,-1,1/4);\ndraw((0,0,0)--(1,0,0)--(1,0,1)--(0,0,1)--(0,0,0));\ndraw((1,0,0)--(1,1,0)--(1,1,1)--(1,0,1));\ndraw((1,1,1)--(0,1,1)--(0,0,1));\nlabel(\"A\",(0,0,1),(-1,0,0)); label(\"B\",(1,1,0),(1,0,0));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 228,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 \\[\\frac{x^2-3}{x+2} = \\frac{2x}{x^2-4}.\\] のすべての実数解を求めなさい。すべての解をコンマで区切って入力してください。"
+      }
+    ],
+    "final_answer": "1,3",
+    "question_id": 229,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "5つの正の整数からなる集合があり、その平均値は5、中央値は5、そして唯一の最頻値は8です。その集合における最大の整数と最小の整数の差はいくつですか？"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 230,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "行列の行を入れ替える行列$\\mathbf{M}$を求めなさい。つまり、\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} c & d \\\\ a & b \\end{pmatrix}.\\]そのような行列$\\mathbf{M}$が存在しない場合は、ゼロ行列を入力しなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}",
+    "question_id": 231,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1200の$10\\%$の$5\\%$はいくつですか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 232,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数列 $$32, 8, \\underline{\\phantom{XX}}, \\underline{\\phantom{XX}}, x,$$ において、第2項以降の各項は、その直前の2つの項の平均です。$x$ の値を求めなさい。"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 233,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "すべての辺が正の整数長を持ち、その脚（つまり斜辺ではない辺）の1つが長さ $162$ を持つ、合同でない直角三角形はいくつありますか？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 234,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ティーンエイジャーとは、13歳、14歳、15歳、16歳、17歳、18歳、または19歳の人を指します。ある特定のティーンエイジャーのグループの年齢の積は705,600です。彼らの年齢の平均は何歳ですか？答えは小数第一位までの小数で表してください。"
+      }
+    ],
+    "final_answer": "14.8",
+    "question_id": 235,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $y=x^2+bx+c$ で表される放物線が、点 $(2,3)$ と点 $(4,3)$ を通ります。$c$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 236,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "スケーター大学ホッケーチームの6人のメンバーそれぞれが、アイスバーグ工科大学チームの6人のメンバーそれぞれと握手します。何回の握手が行われますか？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 237,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ボブとアリスはそれぞれ、青、緑、オレンジ、赤、紫の各色のボールが1つずつ入った袋を持っています。アリスは自分の袋から無作為にボールを1つ選び出し、それをボブの袋に入れます。その後、ボブは自分の袋から無作為にボールを1つ選び出し、それをアリスの袋に入れます。この過程の後で、2つの袋の中身が同じになる確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 238,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "端点の座標が $(-3,7)$ と $(2,-5)$ である線分の長さは何単位ですか？"
+      }
+    ],
+    "final_answer": "13",
+    "question_id": 239,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "プログラムの開始時、マーチングバンドの105人のメンバーは、Formation $A$ と名付けられた長方形の隊形に立っています。その後、バンドメンバー全員がFormation $B$ に移動します。Formation $B$ は、列が6つ多く、1列あたりのメンバーが2人少ない、別の長方形の隊形です。Formation $A$ には何列ありますか？"
+      }
+    ],
+    "final_answer": "15",
+    "question_id": 240,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$を実数とし、$ \\cos(2 \\pi x)$, $ \\cos(4 \\pi x)$, $ \\cos(8 \\pi x)$, $ \\cos(16 \\pi x)$, および $ \\cos(32 \\pi x)$ の5つの数がすべて非正であるとする。このとき、$x$の取りうる最小の正の値は何ですか？"
+      }
+    ],
+    "final_answer": "21/64",
+    "question_id": 241,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "円柱の形をした水槽があり、その底面の半径は$30$メートル、体積は$2700\\pi$立方メートルです。この水槽の高さは何メートルでしょうか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 242,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直線 $l$ は $y = ax + b$ のグラフです。直線 $l_1$ は、直線 $l$ を左に3単位、下に2単位移動したものであり、点 $(5,8)$ と $(7,14)$ を通ります。$a - b$ は何ですか？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 243,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平行四辺形 $ABCD$ の周囲の長さは40で、その2つの高さは4と7です。$\\sin A$ を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{11}{20}",
+    "question_id": 244,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\mathbf{a} = \\begin{pmatrix} 2 \\\\ 0 \\\\ 1 \\end{pmatrix},$ $\\mathbf{b} = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix},$ および $\\mathbf{c} = \\begin{pmatrix} 4 \\\\ - 3 \\\\ 7 \\end{pmatrix}$ とする。$\\mathbf{v} \\times \\mathbf{b} = \\mathbf{c} \\times \\mathbf{b}$ かつ $\\mathbf{v} \\cdot \\mathbf{a} = 0$ を満たすベクトル $\\mathbf{v}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -1 \\\\ -8 \\\\ 2 \\end{pmatrix}",
+    "question_id": 245,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正の整数 $n$ について、$n$ 番目の三角数は $T(n)=\\dfrac{n(n+1)}{2}$ です。\n\n例えば、$T(3) = \\frac{3(3+1)}{2}= \\frac{3(4)}{2}=6$ なので、3番目の三角数は6です。\n\nある正の整数 $x$ に対して $T(b+1)-T(b)=T(x)$ となるような、$2011$ より大きい最小の整数 $b$ を求めなさい。"
+      }
+    ],
+    "final_answer": "2015",
+    "question_id": 246,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の式を満たす正の実数の順序三つ組 $(x,y,z)$ の個数を求めよ。\n\\[\\left( x + \\frac{1}{y} \\right) \\left( y + \\frac{1}{z} \\right) \\left( z + \\frac{1}{x} \\right) = 8.\\]"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 247,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{A}{x + 3}$ の形のどのような分数を $\\frac{6x}{x^2 + 2x - 3}$ に加えると、結果が $\\frac{B}{x - 1}$ の形の分数に約分されますか？ここで、$A$ と $B$ は実数です。$A$ の値をあなたの答えとしてください。"
+      }
+    ],
+    "final_answer": "-9/2",
+    "question_id": 248,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\mathbf{a}$と$\\mathbf{b}$を、$\\mathbf{a} + \\mathbf{b}$と$\\mathbf{b}$が直交し、かつ$\\mathbf{a} + 2 \\mathbf{b}$と$\\mathbf{a}$が直交するような、零ベクトルではない2つのベクトルとする。$\\frac{\\|\\mathbf{a}\\|}{\\|\\mathbf{b}\\|}$を求めよ。"
+      }
+    ],
+    "final_answer": "\\sqrt{2}",
+    "question_id": 249,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$9x^2 - 18x - 16 = 0$ かつ $15x^2 + 28x + 12 = 0.$ を満たす $x$ の値があるとします。$x$ の値は何ですか？答えを既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "-2/3",
+    "question_id": 250,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "式の値を求めなさい。$$\\frac{7+8+9}{2+3+4}\\cdot\\frac{6+9+12}{9+8+7}$$"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 251,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\cos n^\\circ = \\cos 568^\\circ$ を満たすような、 $0 \\le n \\le 180$ の範囲の整数 $n$ を求めなさい。"
+      }
+    ],
+    "final_answer": "152",
+    "question_id": 252,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2\\!:\\!48$のとき、12時間時計の時針と分針が作る小さい方の角度の度数は何度ですか？"
+      }
+    ],
+    "final_answer": "156^\\circ",
+    "question_id": 253,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等差数列 $1 + 2 + 3 + \\cdots + 80$ の和の最大の素因数は何ですか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 254,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ジョンはある数を$2$で割るつもりだったが、不注意にもその数から$2$を引いてしまった。彼は答えとして$22$を得た。もし彼が$2$を引く代わりに実際に$2$で割っていたら、彼の答えはどうなっていたでしょうか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 255,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "単位立方体の2つの対角の頂点を$A$と$B$とし、$A$と$B$以外の立方体の別の頂点を$C$とする。$C$から直線$AB$までの距離を求めよ。"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt{6}}{3}",
+    "question_id": 256,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの内角の大きさが63度と78度である場合、三角形の3つの外角の大きさの平均は何ですか？"
+      }
+    ],
+    "final_answer": "120^\\circ",
+    "question_id": 257,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "カルテックの学生10人が、ランチのためにレイクストリートへ行きます。各学生は、チポトレかパンダエクスプレスのどちらかで食事をします。学生たちがランチに行く方法は、全体として何通りありますか？"
+      }
+    ],
+    "final_answer": "1024",
+    "question_id": 258,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "任意の正の整数 $n$ について、$n$ を 5 で割った余りを $\\text{mod}_5 (n)$ とする。関数 $f: \\{0,1,2,3,\\dots\\} \\times \\{0,1,2,3,4\\} \\to \\{0,1,2,3,4\\}$ を以下のように再帰的に定義する。\n\n\\[f(i,j) = \\begin{cases}\\text{mod}_5 (j+1) & \\text{ if } i = 0 \\text{ and } 0 \\le j \\le 4 \\text{,}\\\\ f(i-1,1) & \\text{ if } i \\ge 1 \\text{ and } j = 0 \\text{, and} \\\\ f(i-1, f(i,j-1)) & \\text{ if } i \\ge 1 \\text{ and } 1 \\le j \\le 4. \\end{cases}\\]\n$f(2015,2)$ は何か？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 259,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下の図は、4つの半円と、最大の半円の直径である16 cmで構成されています。2つの網掛け部分の面積の合計は何平方cmですか。$\\pi$の近似値として3.14を使用し、答えは小数第1位までで表してください。\n\n[asy]import graph;\nsize(200);\npicture p;\nreal h = .25,w = 1,textsize = 10pt,width = 1;\nfilldraw(Arc((8,0),8,0,180)--cycle,gray(.6),black+linewidth(width));\nfilldraw(Arc((6,0),6,0,180)--cycle,white,black+linewidth(width));\nfilldraw(Arc((4,0),4,0,180)--cycle,gray(.6),black+linewidth(width));\nfilldraw(Arc((2,0),2,0,180)--cycle,white,black+linewidth(width));\ndraw(p,(0,h)--(0,-h)^^(0,0)--(4,0)^^(4,h)--(4,-h),linewidth(width));\nfill(p,(w,h)--(4-w,h)--(4-w,-h)--(w,-h)--cycle,white);\nlabel(p,\"4 cm\",(2,0),fontsize(textsize));\nadd(shift(.5*down)*p);\nadd(shift(4*right)*shift(.5*down)*p);\nadd(shift(8*right)*shift(.5*down)*p);\nadd(shift(12*right)*shift(.5*down)*p);[/asy]"
+      }
+    ],
+    "final_answer": "62.8",
+    "question_id": 260,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $n$ を 7 で割った余りが 3 であるならば、$2n+1$ を 7 で割ったときの余りはいくつですか？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 261,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "女子陸上チームは、練習初日に3マイル走り、その後は毎日6マイル走らなければなりません。男子チームは、練習日には毎日5マイル走らなければなりません。コーチは、各女子選手の総走行距離が各男子選手の総走行距離を上回った日の終わりに、新しいやり投げを注文します。コーチが新しい用具を注文するまでに、各女子選手は合計何マイル走ることになりますか？"
+      }
+    ],
+    "final_answer": "21",
+    "question_id": 262,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x, y, z$ を、次の条件を満たす実数とする。\n\\[\\cos x + \\cos y + \\cos z = \\sin x + \\sin y + \\sin z = 0.\\]\n$\\cos (2x - y - z)$ の取りうる全ての値の和を求めよ。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 263,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a$ と $b$ を正の実数とし、関数 $f(x)$ を次のように定義します。\n\\[f(x) =\n\\begin{cases}\n\\frac{a}{b}x & \\text{ if }x\\le-4, \\\\\nabx^2 & \\text{ if }x>-4.\n\\end{cases}\n\\]もし $f(-4)=-\\frac{60}{13}$ かつ $f(4)=3120$ であるならば、$a+b$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "28",
+    "question_id": 264,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $z^4+4z^3i-6z^2-4zi-i=0$ の解は、複素平面上における凸多角形の頂点である。この多角形の面積は $p^{a/b}$ の形で表すことができる。ここで、$a,$ $b,$ $p$ は正の整数であり、$p$ は素数であり、$a$ と $b$ は互いに素である。$a + b + p$ を求めよ。"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 265,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$ を次とします：$$x={4\\over{(\\sqrt5+1)(\\root 4\\of5+1)(\\root 8\\of5+1)(\\root\n{16}\\of5+1)}}.$$ $(x+1)^{48}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "125",
+    "question_id": 266,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数$f(x)$を次のように定義します：\n\\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>2, \\\\\n2+(x-2)^2&\\text{if }x\\leq2.\n\\end{cases}\n\\]$f$がそれ自身の逆関数となるような関数$k(x)$を求めなさい。"
+      }
+    ],
+    "final_answer": "k(x) = -\\sqrt{x-2} + 2",
+    "question_id": 267,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "半径5単位の3つの円弧が、示された領域を囲んでいます。円弧 $AB$ と $AD$ は四分円であり、円弧 $BCD$ は半円です。この領域の面積は、平方単位でいくつですか？\n[asy]\n/* AMC8 2000 #19 Problem */\ndraw((0,0)..(1,1)..(2,0));\ndraw((0,0)..(.7,-.3)..(1,-1));\ndraw((1,-1)..(1.3, -0.3)..(2,0));\nlabel(\"$A$\", (1,-1), SW);\nlabel(\"$B$\", (0,0), W);\nlabel(\"$C$\", (1,1),N);\nlabel(\"$D$\", (2,0),E);\n[/asy]"
+      }
+    ],
+    "final_answer": "50",
+    "question_id": 268,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ベンジャミンは暗証番号ロックを解読しようとしています。このタイプのロックは0から9までの5桁の数字を持ち、ベンジャミンはたまたま、このロックのコードには数字の重複がないことを知っています。有効なコードは何通りありますか？"
+      }
+    ],
+    "final_answer": "30,240",
+    "question_id": 269,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[\\sum_{n = 0}^{123456789} \\frac{3n^2 + 9n + 7}{(n^2 + 3n + 2)^3} = \\frac{a}{b}\\]とする。ここで、$a$ と $b$ は互いに素な正の整数である。$b - a$ を求めよ。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 270,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の値を求めなさい。\n\\[8\\cos^210^\\circ - \\dfrac{1}{\\sin 10^\\circ}.\\]"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 271,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし、2010未満のランダムに選ばれた正の奇数の逆数が有限小数になる確率が$\\frac{a}{b}$であり、$a$ と $b$ が互いに素な正の整数であるならば、$a+b$ は何か？"
+      }
+    ],
+    "final_answer": "202",
+    "question_id": 272,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図に示すように、それぞれ半径$10$ cmの3つの円にベルトがぴったりと巻きつけられています。ベルトの長さ（cm単位）は、有理数$a$および$b$を用いて$a + b\\pi$の形で表すことができます。$a + b$の値は何ですか？ [asy]\n\nsize(120); defaultpen(linewidth(0.8));\npicture p; real r = 3^.5/2;\npair A = expi(-pi/6); draw(p, circle(A, r)); draw(p, (A.x,A.y - r) -- (-A.x,A.y - r));\nadd(p); add(rotate(120)*p); add(rotate(240)*p);\n[/asy]"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 273,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $y = \\frac{x + A}{Bx + C}$（ただし、$A,B,$ および $C$ は整数）が以下に示されています。$A + B + C$ は何ですか？\n\n[asy]\nimport graph; size(8.14cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-2.52,xmax=5.62,ymin=-4.28,ymax=3.32;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"$x$\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"$y$\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return (-x+4)/(x-2);} draw(graph(f1,-2.51,1.99),linewidth(1.2),Arrows(4)); draw(graph(f1,2.01,5.61),linewidth(1.2),Arrows(4));\n\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n\n[/asy]"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 274,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\det \\mathbf{A} = -1$ であるとき、$\\det (\\mathbf{7A})$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-49",
+    "question_id": 275,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ax^2+8x+4=0$ がただ一つの解を持つような、$a$ の非ゼロの値を求めなさい。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 276,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "マイクは3年前に切手を$\\$1.25$で買いました。彼はその切手に対して、ちょうどその2倍の金額を提示されました。その切手の提示価格が3年ごとに2倍になると仮定すると、あと12年後には彼は何ドル提示されるでしょうか？"
+      }
+    ],
+    "final_answer": "$40",
+    "question_id": 277,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正五角形がその中心を軸に反時計回りに回転します。元の位置と重なるまで、最小で何度回転させる必要がありますか？"
+      }
+    ],
+    "final_answer": "72 degrees",
+    "question_id": 278,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[a\\log_{10} 2+b\\log_{10} 3+c\\log_{10} 5+d\\log_{10} 7=2005?\\]を満たす、相異なる有理数の4つ組$(a,b,c,d)$はいくつありますか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 279,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の方程式 $2-3iz = 3 + 2iz$ において、$z$について解きなさい。"
+      }
+    ],
+    "final_answer": "\\frac{i}{5}",
+    "question_id": 280,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $y=\\frac{27x^2+9x+3}{27x^3+9x^2+3x+1}$ ならば、$y$ のどの値で水平漸近線が存在しますか？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 281,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "壺の中に赤いボールが4つと白いボールが2つあります。ボールが1つ無作為に取り出され、反対の色のボールと交換されます。その後、壺が振られ、ボールが1つ無作為に選ばれます。このボールが赤い確率を求めなさい。答えを既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{11}{18}",
+    "question_id": 282,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "エリックとチャールズはそれぞれ二次多項式を考えた。驚いたことに、どちらの二次多項式も $x^2+4x+\\cdots$ で始まる。エリックの多項式の判別式 $b^2-4ac$ とチャールズの多項式の判別式の比は、チャールズの定数項とエリックの定数項の比に等しい。もし彼らの定数項が等しくない場合、定数項の合計を求めなさい。"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 283,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形$ABC$の面積は、$a^2 - (b - c)^2$に等しい。ここで、$a, b, c$はいつものように三角形$ABC$の辺の長さである。$\\tan A$を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{8}{15}",
+    "question_id": 284,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の式を満たすベクトル $\\mathbf{v}$ を求めよ。\n\\[\\begin{pmatrix} 2 & 3 & -1 \\\\ 0 & 4 & 5 \\\\ 4 & 0 & -2 \\end{pmatrix} \\mathbf{v} = \\begin{pmatrix} 2 \\\\ 27 \\\\ -14 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -2 \\\\ 3 \\\\ 3 \\end{pmatrix}",
+    "question_id": 285,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下の直線は、その方向ベクトルが $\\begin{pmatrix} -7 \\\\ b \\end{pmatrix}$ の形になるように媒介変数表示されています。$b$ を求めなさい。\n\n[asy]\nunitsize(0.4 cm);\n\npair A, B, L, R;\nint i, n;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0),Arrows(6));\ndraw((0,-8)--(0,8),Arrows(6));\n\nA = (-5,4);\nB = (-1,3);\nL = extension(A, B, (-8,0), (-8,1));\nR = extension(A, B, (8,0), (8,1));\n\ndraw(L--R, red);\n\nlabel(\"$x$\", (8,0), E);\nlabel(\"$y$\", (0,8), N);\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{7}{4}",
+    "question_id": 286,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "タラは標準的なサイコロを3つ1回振ります。出た目の合計が3以上になる確率はどれくらいですか？答えをパーセントで表してください。"
+      }
+    ],
+    "final_answer": "100%",
+    "question_id": 287,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直角三角形$ABC$において、$AB = 10$、$BC = 24$、$\\angle ABC = 90^\\circ$である。もし$M$が$\\overline{AC}$上にあり、$\\overline{BM}$が$\\triangle ABC$の垂線であるならば、$\\cos \\angle ABM$は何ですか？"
+      }
+    ],
+    "final_answer": "\\frac{12}{13}",
+    "question_id": 288,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2^5$と$5^2$の正の差は何ですか？"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 289,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "連続する2つの整数を無作為に選ぶとき、そのうちの1つが4の倍数である確率はどれくらいですか？答えは既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{2}",
+    "question_id": 290,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2 \\frac{1}{6}$ ヤードは何インチですか？"
+      }
+    ],
+    "final_answer": "78",
+    "question_id": 291,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "公平な6面サイコロを振ったとき、素数が出る確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{2}",
+    "question_id": 292,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図のように正方形が分割されています。正方形の面積のうち、影を付けた部分の割合はどれくらいですか？答えを分数で表してください。\n[asy]\nsize(100);\nfill((3,1)--(4,2)--(4,4)--(2,2)--cycle,gray);\ndraw((0,0)--(4,0)--(4,4)--(0,4)--cycle,linewidth(1));\ndraw((0,0)--(4,4),linewidth(1));\ndraw((4,0)--(0,4),linewidth(1));\ndraw((2,0)--(4,2),linewidth(1));\ndraw((3.9,3.1)--(4.1,3.1),linewidth(1));\ndraw((4.1,2.9)--(3.9,2.9),linewidth(1));\ndraw((3.9,1.1)--(4.1,1.1),linewidth(1));\ndraw((4.1,.9)--(3.9,.9),linewidth(1));\ndraw((.9,-.1)--(.9,.1),linewidth(1));\ndraw((2.9,-.1)--(2.9,.1),linewidth(1));\ndraw((1.1,-.1)--(1.1,.1),linewidth(1));\ndraw((3.1,-.1)--(3.1,.1),linewidth(1));\n\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{3}{16}",
+    "question_id": 293,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\|\\mathbf{u}\\| = \\|\\mathbf{v}\\| = 2$ かつ $\\mathbf{u} \\cdot \\mathbf{v} = -1$ を満たすベクトル$\\mathbf{u}$と$\\mathbf{v}$があるとします。もし$\\theta$がベクトル$\\mathbf{u} + \\mathbf{v}$と$2 \\mathbf{u} - \\mathbf{v}$のなす角であるならば、$\\cos \\theta$を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 294,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "線分 $s_1$ の端点は $(1,2)$ と $(7,10)$ です。線分 $s_2$ は、$s_1$ を右に $3$ 単位、下に $2$ 単位平行移動して得られます。線分 $s_2$ の中点を求めなさい。答えは $(a,b)$ の形式で表し、$a$ と $b$ は整数とします。"
+      }
+    ],
+    "final_answer": "(7,4)",
+    "question_id": 295,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "四角形 $ABCD$ は平行四辺形です。もし角 $A$ の大きさが62度で、角 $ADB$ の大きさが75度であるならば、角 $ADC$ の大きさは何度ですか？"
+      }
+    ],
+    "final_answer": "118°",
+    "question_id": 296,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABC_4+200_{10}=ABC_9$ とします。ここで、$A$、$B$、$C$ は4進数および9進数において有効な桁です。$A$ の取りうるすべての値、$B$ の取りうるすべての値、$C$ の取りうるすべての値を合計すると、その和はいくつになりますか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 297,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "私の教室には、11列の椅子があり、各列に11脚の椅子が置かれています。各列の椅子には1から11までの番号が振られています。奇数の番号の椅子は何脚ありますか？"
+      }
+    ],
+    "final_answer": "66",
+    "question_id": 298,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形$\\triangle ABC$において、$AB = AC = 14$ かつ $BC = 26$ である。$ABC$における最も短い角の二等分線の長さは何か？答えを最も簡単な根号の形で表しなさい。"
+      }
+    ],
+    "final_answer": "3\\sqrt{3}",
+    "question_id": 299,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $x=735$ であり、$a$ が正の整数であるときに $ax$ が平方数であるならば、$\\sqrt{ax}$ の最小値は何ですか？"
+      }
+    ],
+    "final_answer": "105",
+    "question_id": 300,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "標準的な52枚のトランプのデッキから、3枚のカードが無作為に選ばれます。それらが全て同じスートで、3枚の連続したカードのグループに並べられる確率はどれくらいですか？この問題では、エースは2の前に来るか、キングの後に来ることができますが、両方はできません（したがって、A23とQKAはどちらも有効ですが、KA2は有効ではありません）。"
+      }
+    ],
+    "final_answer": "12/5525",
+    "question_id": 301,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "リチャードは200フィートのフェンスを使って長方形の遊び場を作っています。そのフェンスは遊び場を完全に囲む必要があります。この遊び場の最大面積はどれくらいですか？"
+      }
+    ],
+    "final_answer": "2500",
+    "question_id": 302,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^3 - 9x^2 + 27x - 35$ を因数分解せよ。"
+      }
+    ],
+    "final_answer": "(x-5)(x^2-4x+7)",
+    "question_id": 303,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 $\n\\frac{2003}{2004}x + 1 + \\frac{1}{x} = 0?\n$ の解の逆数の和は何ですか？"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 304,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$r, s, t$ を方程式 $2x^3 - 3x^2 + 4x - 1 = 0$ の解とする。$r^2+s^2+t^2$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{7}{4}",
+    "question_id": 305,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式 \\[x^2 = 2x + 2y - 3?\\] によって記述される円錐曲線はどのタイプですか？円の場合は「C」、放物線の場合は「P」、楕円の場合は「E」、双曲線の場合は「H」、上記以外の場合は「N」と入力してください。"
+      }
+    ],
+    "final_answer": "(P)",
+    "question_id": 306,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $\\left(\\sqrt[4]{11}\\right)^{3x-3}=\\frac{1}{5}$ であるならば、$\\left(\\sqrt[4]{11}\\right)^{6x+2}$ の値は何ですか？ 答えを分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{121}{25}",
+    "question_id": 307,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$P(x) = 4x^3 - 2x^2 + 7x - 1$ とし、$Q(x) = P(x)^2$ とします。$Q(x)$ のy切片は何ですか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 308,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "実部が正である$z^{12}=64$の根の和は何ですか？"
+      }
+    ],
+    "final_answer": "2 \\sqrt{2} + \\sqrt{6}",
+    "question_id": 309,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[\\mathbf{a} = \\begin{pmatrix} 5 \\\\ -3 \\\\ -4 \\end{pmatrix} \\quad \\text{and} \\quad \\mathbf{b} = \\begin{pmatrix} -11 \\\\ 1 \\\\ 28 \\end{pmatrix}.\\]とする。ベクトル$\\mathbf{a}$と$\\mathbf{b}$を含む直線は、\n\\[\\mathbf{v} = \\mathbf{p} + \\mathbf{d} t.\\]の形で表現できるようなベクトル$\\mathbf{p}$と$\\mathbf{d}$が存在する。さらに、ある特定の$\\mathbf{d}$の選択において、$\\mathbf{b}$が位置する$\\mathbf{a}$の同じ側にあるすべての点$\\mathbf{v}$について、$\\mathbf{v}$と$\\mathbf{a}$の間の距離は$t$である。$\\mathbf{d}$を求めよ。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -4/9 \\\\ 1/9 \\\\ 8/9 \\end{pmatrix}",
+    "question_id": 310,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $500 - 90 + 7 = 400 - 60 + 5 + N$ ならば、$N$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "72",
+    "question_id": 311,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの公平な6面サイコロを振ります。出た目の合計が9になる確率は何ですか？"
+      }
+    ],
+    "final_answer": "\\frac{1}{9}",
+    "question_id": 312,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "等差数列の連続する3つの項のうち、最大のものと最小のものの差は14です。最小の項の半分をそれぞれの項に加えると、結果として得られる3つの数の合計は120になります。元の最小の項の値は何ですか？"
+      }
+    ],
+    "final_answer": "22",
+    "question_id": 313,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$0<n<60$ かつ $4n\\equiv 2\\pmod 6$ を満たす整数 $n$ はいくつありますか？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 314,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "リストの数字の個数はいくつですか？ $$ 6,7,10,11,14,15,\\ldots,94,95,98? $$"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 315,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "任意の6つの連続する正の奇数の合計が、必ず割り切れる最大の整数は何ですか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 316,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{1}{-6} \\cdot 6 \\cdot 7 + 8 \\cdot 2 \\div 8 \\cdot (7-1)$ を求めなさい。"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 317,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil$ を求めなさい。"
+      }
+    ],
+    "final_answer": "79",
+    "question_id": 318,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$$\\frac{\\sqrt{25-16}}{\\sqrt{25}-\\sqrt{16}}$$ はいくつに等しいですか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 319,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$$\\left(10x^3-\\frac{1}{2x^2}\\right)^{5}$$ の展開における定数項を求めなさい。"
+      }
+    ],
+    "final_answer": "-125",
+    "question_id": 320,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "頂点が$\\overrightarrow{A},$ $\\overrightarrow{B},$ および$\\overrightarrow{C}$である三角形の面積は12である。頂点が$-\\overrightarrow{A} + \\overrightarrow{B} + \\overrightarrow{C},$ $\\overrightarrow{A} - \\overrightarrow{B} + \\overrightarrow{C},$ および$\\overrightarrow{A} + \\overrightarrow{B} - \\overrightarrow{C}$である三角形の面積を求めなさい。"
+      }
+    ],
+    "final_answer": "48",
+    "question_id": 321,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(-1)^{1001}$ はいくつですか？"
+      }
+    ],
+    "final_answer": "-1",
+    "question_id": 322,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形$ABC$において、辺$\\overline{BC}$上に点$D$と点$E$があり、$BD = DE = EC$を満たす。もし$x = \\angle BAD,$ $y = \\angle DAE,$ および$z = \\angle EAC$であるならば、次の値を求めよ。\n\\[\\frac{\\sin (x + y) \\sin (y + z)}{\\sin x \\sin z}.\\]"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 323,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "示されている赤い放物線は、方程式 $x = ay^2 + by + c$ のグラフです。$a+b+c$ を求めなさい。\n\n[asy]\nsize(150);\nreal ticklen=3;\nreal tickspace=2;\n\nreal ticklength=0.1cm;\nreal axisarrowsize=0.14cm;\npen axispen=black+1.3bp;\nreal vectorarrowsize=0.2cm;\nreal tickdown=-0.5;\nreal tickdownlength=-0.15inch;\nreal tickdownbase=0.3;\nreal wholetickdown=tickdown;\nvoid rr_cartesian_axes(real xleft, real xright, real ybottom, real ytop, real xstep=1, real ystep=1, bool\n\nuseticks=false, bool complexplane=false, bool usegrid=true) {\n\nimport graph;\n\nreal i;\n\nif(complexplane) {\n\nlabel(\"$\\textnormal{Re}$\",(xright,0),SE);\n\nlabel(\"$\\textnormal{Im}$\",(0,ytop),NW);\n\n} else {\n\nlabel(\"$x$\",(xright+0.4,-0.5));\n\nlabel(\"$y$\",(-0.5,ytop+0.2));\n\n}\n\nylimits(ybottom,ytop);\n\nxlimits( xleft, xright);\n\nreal[] TicksArrx,TicksArry;\n\nfor(i=xleft+xstep; i<xright; i+=xstep) {\n\nif(abs(i) >0.1) {\n\nTicksArrx.push(i);\n\n}\n\n}\n\nfor(i=ybottom+ystep; i<ytop; i+=ystep) {\n\nif(abs(i) >0.1) {\n\nTicksArry.push(i);\n\n}\n\n}\n\nif(usegrid) {\n\nxaxis(BottomTop(extend=false), Ticks(\"%\", TicksArrx ,pTick=gray\n\n(0.22),extend=true),p=invisible);//,above=true);\n\nyaxis(LeftRight(extend=false),Ticks(\"%\", TicksArry ,pTick=gray(0.22),extend=true),\n\np=invisible);//,Arrows);\n\n}\n\nif(useticks) {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, Ticks(\"%\",TicksArry ,\n\npTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, Ticks(\"%\",TicksArrx ,\n\npTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\n} else {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, above=true, Arrows(size=axisarrowsize));\n\n}\n};\nreal lowerx, upperx, lowery, uppery;\nreal f(real x) {return (x-1)*(x-1)-3;}\nlowery = -2;\nuppery = 4;\nrr_cartesian_axes(-5,f(lowery),lowery,uppery);\ndraw(reflect((0,0),(1,1))*(graph(f,lowery,uppery,operator ..)), red);\n[/asy]"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 324,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "示されている三角形の面積が40である場合、$r$は何ですか？\n[asy]\nimport graph; size(200); defaultpen(linewidth(0.8));\n\nreal xmin=0;\nreal xmax=12;\nreal ymin=0;\nreal ymax=10;\n\nxlimits(xmin, xmax);\n\nylimits(ymin, ymax);\n\nxaxis(\"$x$\",0,12,EndArrow);\nyaxis(\"$y$\",0,10,EndArrow);\ndot(Label(\"$O$\",align=SW),(0,0));\ndraw((0,8)--(10,0));\ndot(Label(\"$(0,8)$\",align=E),(0,8));\ndot(Label(\"$(r,0)$\",align=S),(10,0));\n[/asy]"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 325,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "放物面を記述する関数 $z(x,y)$ を考えます。\n\\[z = (2x - y)^2 - 2y^2 - 3y.\\]\nアルキメデスとブラーマグプタはゲームをしています。まず、アルキメデスが $x$ を選びます。その後、ブラーマグプタが $y$ を選びます。アルキメデスは $z$ を最小化したいと考えており、一方ブラーマグプタは $z$ を最大化したいと考えています。ブラーマグプタが最適にプレイすると仮定した場合、アルキメデスはどの $x$ の値を選ぶべきでしょうか？"
+      }
+    ],
+    "final_answer": "-\\frac{3}{8}",
+    "question_id": 326,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "スティーブはジョンに言いました。「私は、すべての根が正の整数である多項式を考えています。その多項式は、ある正の整数 $a$ と $c$ に対して、$P(x) = 2x^3-2ax^2+(a^2-81)x-c$ の形をしています。$a$ と $c$ の値を教えてくれますか？」\n\nいくつかの計算の後、ジョンは言いました。「そのような多項式は複数あります。」\n\nスティーブは言いました。「その通りです。これが $a$ の値です。」彼は正の整数を書き出し、尋ねました。「$c$ の値を教えてくれますか？」\n\nジョンは言いました。「$c$ にはまだ2つの可能な値があります。」\n\n$c$ の2つの可能な値の合計を求めなさい。"
+      }
+    ],
+    "final_answer": "440",
+    "question_id": 327,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$725x + 727y = 1500$ かつ $729x+ 731y = 1508$ のとき、$x - y$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "-48",
+    "question_id": 328,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x=4$ および $y=3$ の場合、$24-(2x-y)$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 329,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "マーシャは、最初の10個の正の整数の中から1つを除いたすべてを足しました。その合計は平方数になりました。マーシャが含めなかった最初の10個の正の整数はどれですか？"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 330,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "30の$120\\%$と20の$130\\%$の正の差はいくつですか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 331,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数 $(\\sqrt{2}+\\sqrt{3})^3$ は、$a\\sqrt{2} + b\\sqrt{3} + c\\sqrt{6}$ の形で書くことができます。ここで、$a$、$b$、$c$ は整数です。$a+b+c$ は何ですか？"
+      }
+    ],
+    "final_answer": "20",
+    "question_id": 332,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "5色の中から選べるとする時、$2\\times 2$の盤の4つの単位正方形を何通りの方法で色を塗ることができますか。ただし、ある塗り方が別の塗り方の回転である場合、2つの塗り方は同じとみなされます。(注：複数の正方形に同じ色を使用できます。)\n[asy]\ndraw(unitsquare);\ndraw((.5,0)--(.5,1));\ndraw((0,.5)--(1,.5));\n[/asy]"
+      }
+    ],
+    "final_answer": "165",
+    "question_id": 333,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "長方形の庭があり、その一辺が家の一辺と接しています。庭の隣接する辺の長さは8フィートです。庭の面積が184平方フィートである場合、家と共有している辺の長さは何フィートですか？"
+      }
+    ],
+    "final_answer": "23",
+    "question_id": 334,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\log_{5^2}5^4$ を求めなさい。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 335,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数字の1, 2, 3, 4, 5をそれぞれ1回ずつ使用する正の5桁の整数が、小さい順に並べられています。そのリストの中で$50^{\\text{th}}$番目の整数は何ですか？"
+      }
+    ],
+    "final_answer": "31254",
+    "question_id": 336,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "一つの直線は次のように媒介変数表示されています。\n\\[\\begin{pmatrix} 2 - 3t \\\\ -5 - 2t \\\\ 1 - 6t \\end{pmatrix}.\\]もう一つの直線は次のように媒介変数表示されています。\n\\[\\begin{pmatrix} -\\frac{3}{2} + s \\\\ 2s \\\\ -6 + 2s \\end{pmatrix}.\\]2つの直線は点 $P$ で交わります。点 $P$ で2つの直線がなす鋭角を $\\theta$ とするとき、$\\cos \\theta$ を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{19}{21}",
+    "question_id": 337,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "大きい方の円は中心が$O$で、$D$を通ります。小さい方の円は直径が$OD$です。大きい方の円の面積のうち、何パーセントが灰色ですか？\n\n[asy]import graph;\ndraw(Circle((0,0),30),black);\nfill(Circle((0,-15),15),gray(.6));\ndraw(Circle((0,-15),15),black);\ndraw((0,0)--(0,-30),black);\nlabel(\"O\",(0,0),N);\nlabel(\"D\",(0,-30),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "25%",
+    "question_id": 338,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし \\[\\frac{x}{y} = \\frac{4}{5}, \\; \\frac{y}{z} = \\frac{3}{10}, \\;\\text{and} \\; \\frac{z}{w} = \\frac{6}{7}\\] であるとき、$\\dfrac{x + y + w}{z}$ の値を求めなさい。答えは分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{128}{75}",
+    "question_id": 339,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$999_{10}$ を6進数で表すとどうなりますか？"
+      }
+    ],
+    "final_answer": "4343_6",
+    "question_id": 340,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直線 $l$ と $m$ は平行であり、点 $A$、$B$、$D$ は同一直線上にある。$x$ の値を求めなさい。\n\n[asy]\n\nunitsize(1.1 inch);\n\ndraw((0,0)--(4,0),Arrows);\n\ndraw((0,1)--(4,1),Arrows);\n\ndraw((3,2)--(1,-1),Arrows);\n\ndot((0.3,0));\nlabel(\"$m$\",(0.3,0),N);\n\ndot((0.3,1));\nlabel(\"$l$\",(0.3,1),N);\n\ndot((3.7,0));\n\ndot((3.7,1));\nlabel(\"$C$\",(3.7,1),N);\n\ndot((1.2,-0.7));\n\ndot((2.8,1.7));\nlabel(\"$A$\",(2.8,1.7),NW);\n\ndot((2.34,1));\nlabel(\"$B$\",(2.34,1),NW);\nlabel(\"$5x-8^\\circ$\",(2.34,1),SW);\n\ndot((1.66,0));\nlabel(\"$D$\",(1.66,0),NW);\nlabel(\"$143^\\circ$\",(1.66,0),SE);\n\n[/asy]"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 341,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "アーノルドは9日ごとにサボテンに水やりをし、60日ごとに餌を与えなければなりません。彼はこの前の火曜日に水やりと餌やりをしました。彼が次に同じ日に水やりと餌やりをするのは、何曜日になるでしょうか？"
+      }
+    ],
+    "final_answer": "Sunday",
+    "question_id": 342,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数 $f : \\mathbb{R} \\to \\mathbb{R}$ は、すべて実数 $x$ に対して\n\\[x^2 f(x) + f(1 - x) = -x^4 + 2x\\]を満たします。このとき、$f(x)$ は、ある実数 $\\alpha$ と $\\beta$ に対する $f(\\alpha)$ と $f(\\beta)$ を除いて、すべての $x$ の値に対して一意に決定できます。$\\alpha^2 + \\beta^2$ を計算してください。"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 343,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$ABCD$は$\\overline{AD}|| \\overline{BC}$である台形とする。$\\overline{AC}\\perp\\overline{CD}$であり、$\\overline{AC}$が$\\angle BAD$を二等分し、$[ABCD]=42$であるとき、$[\\triangle ACD]$を求めよ。"
+      }
+    ],
+    "final_answer": "28",
+    "question_id": 344,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[35\\cdot40=1400.\\]であることに注目してください。$0\\leq n<1399$ を満たし、$n$ が160の1399を法とする乗法逆元であるようなある整数 $n$ を見つけてください。"
+      }
+    ],
+    "final_answer": "1058",
+    "question_id": 345,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$16^{17} \\times 17^{18} \\times 18^{19}$ の一の位の数を求めなさい。"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 346,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "4つの連続する正の偶数の和が平方数である。最小の和はいくつですか？"
+      }
+    ],
+    "final_answer": "36",
+    "question_id": 347,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平面 $P$ は次のようにパラメータ化されています。\n\\[\\mathbf{v} = \\begin{pmatrix} 1 \\\\ 6 \\\\ 7 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -1 \\\\ -1 \\end{pmatrix} + s \\begin{pmatrix} 2 \\\\ -3 \\\\ -5 \\end{pmatrix},\\]そして直線 $L$ は次のようにパラメータ化されています。\n\\[\\mathbf{w} = \\begin{pmatrix} 7 \\\\ 4 \\\\ 1 \\end{pmatrix} + u \\begin{pmatrix} 3 \\\\ 0 \\\\ -1 \\end{pmatrix}.\\]平面 $P$ と直線 $L$ の交点を見つけなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 1 \\\\ 4 \\\\ 3 \\end{pmatrix}",
+    "question_id": 348,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a, b, c, d$ を正の実数とする。このとき、次の式の最小値を求めよ。\n\\[(a + b + c + d) \\left( \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} + \\frac{1}{d} \\right).\\]"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 349,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "100以下の正の整数のうち、4より大きい素因数を持つものはいくつありますか？"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 350,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下の数字のうち、最も小さいものはどれですか？あなたの答えは、最も小さい数字の前の文字です。\n\n$\\bullet$ A. $14.45001$ を小数第1位に四捨五入した値。\n\n$\\bullet$ B. $14.54999$ を小数第1位に四捨五入した値。\n\n$\\bullet$ C. $14.44999$ を小数第1位に四捨五入した値。\n\n$\\bullet$ D. $14.55001$ を小数第1位に四捨五入した値。"
+      }
+    ],
+    "final_answer": "C",
+    "question_id": 351,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "半径1の円周上に6つの点が等間隔に配置されています。これらの点のうち3つが、正三角形でも二等辺三角形でもない三角形の頂点となっています。この三角形の面積はいくつですか？"
+      }
+    ],
+    "final_answer": "\\frac{\\sqrt3}{2}",
+    "question_id": 352,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(12{,}500{,}000)\\cdot n$ を $999{,}999{,}999$ で割ると $111$ 余るような、最小の正の整数 $n$ は何ですか？"
+      }
+    ],
+    "final_answer": "8,880",
+    "question_id": 353,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "整数 $n$ のうち、$4n + 3 < 25$ と $-7n + 5 < 24$ の両方の不等式を満たすものはいくつありますか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 354,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{57}{160}$ を有限小数に変換しなさい。"
+      }
+    ],
+    "final_answer": ".35625",
+    "question_id": 355,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点$A(-6,6), B(9,6)$および$C(9,-2)$をグラフ上にプロットし、それらを直線で結んでできる多角形の周の長さはいくつですか？"
+      }
+    ],
+    "final_answer": "40",
+    "question_id": 356,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x)=3x^4-7x^3+2x^2-bx+1$ とします。$f(1)=1$ となる $b$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "-2",
+    "question_id": 357,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$A$と$B$が正の整数であるような順序対 $(A,B)$ のうち、$AAA_7+BBB_7=666_7$ となるものはいくつありますか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 358,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$9999$ と $100{,}001$ の最小公倍数を計算しなさい。"
+      }
+    ],
+    "final_answer": "90,900,909",
+    "question_id": 359,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{15}{6}$ を約分しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{5}{2}",
+    "question_id": 360,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数の逆関数を求めなさい。\n\\[f(x) = \\frac{2x + 5}{x - 11}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{11x + 5}{x - 2}",
+    "question_id": 361,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "保護施設には壁沿いに8つの囲いがあります。保護施設は、犬に4つ、猫に3つ、そして雄鶏に1つの囲いを割り当てる必要があります。保護施設は、何通りの方法でこの割り当てを行うことができますか？"
+      }
+    ],
+    "final_answer": "280",
+    "question_id": 362,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "デカルト座標平面上の点 $(a, b)$ は、$y$軸に関して対称移動され、点 $(j, k)$ になります。もし $a + j = 0$ かつ $b + k = 0$ ならば、$b$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "b=0",
+    "question_id": 363,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直角三角形 $ABC$ において、辺 $BC$ の長さは2単位、辺 $AC$ の長さは4単位、そして角 $C$ の大きさは60度です。辺 $AB$ の長さは何単位ですか？答えを最も簡単な根号の形で表しなさい。"
+      }
+    ],
+    "final_answer": "2\\sqrt3",
+    "question_id": 364,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a^3 + b^2 + c \\leq 50$ を満たす、偶数の正の整数からなる三つ組 $(a,b,c)$ はいくつありますか？"
+      }
+    ],
+    "final_answer": "35",
+    "question_id": 365,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "直方体の幅、長さ、高さがそれぞれ$10\\%$増加します。この直方体の体積の増加率は何パーセントですか？答えを最も近い整数で表してください。"
+      }
+    ],
+    "final_answer": "33%",
+    "question_id": 366,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "方程式$$x^2 - 2x - 3 = 0.$$の2つの異なる解を$p$と$q$とする。$(p + 1)(q + 1)$の値を求めよ。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 367,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "優秀な作業員なら一人で私の新しい家を12時間で塗り終えることができます。劣悪な作業員なら一人で私の家を36時間で塗り終えることができます。私の家は3時間で塗り終える必要があります。もし優秀な作業員が3人しか見つからない場合、時間通りに家を塗り終えるためには、劣悪な作業員をあと何人見つける必要がありますか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 368,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "セット $\\{1, 3, 6, 7\\}$ から2つ以下の異なる数字を選び、それらを並べて数を作ります。この方法で、いくつの素数を作ることができますか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 369,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$y$ の値は $\\sqrt x$ に反比例し、$x=24$ のとき $y=15$ です。$y=3$ のとき、$x$ の値はいくつですか？"
+      }
+    ],
+    "final_answer": "600",
+    "question_id": 370,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "C, B, T, A, E, M, Hのいずれかの文字が書かれた7枚のカードが帽子の中に入れられています。各文字は一度だけ使用されています。スチュは無作為に、かつ元に戻さずに4枚のカードを取り出します。スチュがM, A, T, Hの順にカードを取り出す確率はどれくらいですか？答えを既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{1}{840}",
+    "question_id": 371,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[\\frac{9-4x}{x+6}=7\\]を$x$について解きなさい。"
+      }
+    ],
+    "final_answer": "-3",
+    "question_id": 372,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある木は現在12フィートの高さで、年に18インチずつ成長します。この木が36フィートの高さになるのは何年後ですか？"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 373,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$315_6 \\cdot 4_6$ の積を求めなさい。答えは6進数で表しなさい。"
+      }
+    ],
+    "final_answer": "2112_6",
+    "question_id": 374,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a, b, c$ を、$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 0$ を満たす0でない実数とする。このとき、\n\\[\\frac{bc}{a^2} + \\frac{ac}{b^2} + \\frac{ab}{c^2}\\]\nを求めよ。"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 375,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正の実数 $a, b, c, d$ に対して、次の式の最小値を求めよ。\n\\[\\left\\lfloor \\frac{b + c + d}{a} \\right\\rfloor + \\left\\lfloor \\frac{a + c + d}{b} \\right\\rfloor + \\left\\lfloor \\frac{a + b + d}{c} \\right\\rfloor + \\left\\lfloor \\frac{a + b + c}{d} \\right\\rfloor.\\]"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 376,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$y = f(x)$ のグラフは点 $(-4,-7)$ を通ります。もし $f(x)$ が偶関数であるならば、グラフは他にどの点を通らなければなりませんか？答えを順序対で入力してください。"
+      }
+    ],
+    "final_answer": "(4,-7)",
+    "question_id": 377,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$80325$ が $n!$ を割り切るような、最小の正の整数 $n$ は何ですか？"
+      }
+    ],
+    "final_answer": "17",
+    "question_id": 378,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正六角形の最長対角線の長さと、その周の長さの比は何ですか？答えを既約分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{3}",
+    "question_id": 379,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "正の実数$x$と$y$に対して、方程式\n\\[\\arctan x + \\arccos \\frac{y}{\\sqrt{1 + y^2}} = \\arcsin \\frac{3}{\\sqrt{10}}\\]は、次の形の方程式に帰着される。\n\\[xy + ax + by + c = 0.\\]順序組 $(a,b,c)$ を求めよ。"
+      }
+    ],
+    "final_answer": "(3,-3,1)",
+    "question_id": 380,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある三角形の3辺の長さは7、24、25です。その三角形の面積はいくつですか？"
+      }
+    ],
+    "final_answer": "84",
+    "question_id": 381,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "棚に4冊の異なる本を並べる方法は何通りありますか？"
+      }
+    ],
+    "final_answer": "24",
+    "question_id": 382,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形$ABC$において、\n\\[a^4 + b^4 + c^4 = 2c^2 (a^2 + b^2).\\]$\\angle C$の取りうる値を、度数法で、カンマ区切りで入力してください。"
+      }
+    ],
+    "final_answer": "45°, 135°",
+    "question_id": 383,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "文字 $A$ と $B$ を使って、以下の2文字のコードワードを形成できます: $AA$、$AB$、$BB$、$BA$。文字 $A$、$B$、および $C$ を使って、いくつの異なる3文字のコードワードを形成できますか？"
+      }
+    ],
+    "final_answer": "27",
+    "question_id": 384,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある学校での教員と生徒の比率は1対11です。女子生徒と生徒総数の比率は4対9です。もし女子生徒が396人いる場合、教員は何人いますか？"
+      }
+    ],
+    "final_answer": "81 teachers",
+    "question_id": 385,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数\n\\[f(x) = \\frac{x}{x^2 + 1} + 3 \\sqrt[3]{x} - 2x\\]は偶関数ですか、奇関数ですか、それともどちらでもありませんか？\n\n\"odd\"、\"even\"、または\"neither\"と入力してください。"
+      }
+    ],
+    "final_answer": "odd",
+    "question_id": 386,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "1から9までの整数（両端を含む）の中から、相異なる2つの整数を選ぶとします。それらが両方とも奇数である確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{5}{18}",
+    "question_id": 387,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$2x + 3y = 5$を満たす正の実数$x, y$に対し、次の式の最小値を求めよ。\n\\[\\frac{3}{x} + \\frac{2}{y}.\\]"
+      }
+    ],
+    "final_answer": "\\frac{24}{5}",
+    "question_id": 388,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "上院委員会には共和党員が8名、民主党員が6名います。\n各党から少なくとも1名が選出される5名の小委員会は、何通りの方法で構成できますか？"
+      }
+    ],
+    "final_answer": "1940",
+    "question_id": 389,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\mathbf{a}$と$\\mathbf{b}$を、次の関係を満たす零ベクトルではない2つのベクトルとする。\n\\[\\mathbf{a} \\times (\\mathbf{a} \\times \\mathbf{b}) = -3 \\mathbf{b}.\\]\n$\\|\\mathbf{a}\\|$を求めよ。"
+      }
+    ],
+    "final_answer": "\\sqrt{3}",
+    "question_id": 390,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "多項式 $p(x)$ の係数はすべて非負の整数である。もし $p(1) = 4$ かつ $p(5) = 136$ ならば、$p(6)$ を求めなさい。"
+      }
+    ],
+    "final_answer": "229",
+    "question_id": 391,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "放物線 $y = x^2 + k$ と $x = y^2 + k$ のグラフが互いに接するような定数 $k$ を求めなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 392,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "木製の単位立方体から、ある面の互いに隣接しない2つの頂点と、その反対側の面にある、最初の2つの頂点のどちらとも隣接しない1つの頂点を通る平面によって、中実の四面体が切り取られる。その四面体は捨てられ、立方体の残りの部分は、切り取られた面を下にしてテーブルの上に置かれる。この物体の高さはどれくらいか？"
+      }
+    ],
+    "final_answer": "\\frac{2}{3}\\sqrt{3}",
+    "question_id": 393,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "カードには1から100までの番号が振られています。1枚のカードが取り除かれ、残りの99枚のカードの数字が合計されます。その合計は77の倍数になります。取り除かれたカードの数字は何でしたか？"
+      }
+    ],
+    "final_answer": "45",
+    "question_id": 394,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "半径2インチ、高さ1インチの直円柱は、第二の直円柱と同じ体積を持っています。第二の円柱の半径は1インチです。第二の円柱の高さは何インチですか？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 395,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある点は直交座標が $(10, -18, 35)$ で、球座標が $(\\rho, \\theta, \\phi)$ である。$\\tan \\theta$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{9}{5}",
+    "question_id": 396,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^6 - 3$ を $x + 1$ で割ったときの商を求めなさい。"
+      }
+    ],
+    "final_answer": "x^5 - x^4 + x^3 - x^2 + x - 1",
+    "question_id": 397,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "4次多項式方程式 $x^4 - 7x^3 + 4x^2 + 7x - 4 = 0$ は、4つの実数解 $a, b, c, d$ を持ちます。和 $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}$ の値は何ですか？答えを既約分数で表してください。"
+      }
+    ],
+    "final_answer": "\\frac{7}{4}",
+    "question_id": 398,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$5x^4-10x^3+10x^2-5x-11=0$ を満たすすべての実数 $x$ の和を求めよ。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 399,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "12人の友人がオスカーのオーバー・スタッフト・オイスター・ハウスで夕食に集まり、各自一食ずつ注文しました。料理の量が非常に多かったため、18人分の食料に相当する量がありました。もし皆で料理を分け合うとしたら、12人全員にちょうど十分な量にするには、何食注文すればよかったでしょうか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 400,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数 $(n+r)^3$ が整数となるような $r \\in (0, \\tfrac{1}{1000})$ が存在するような、最小の正の整数 $n$ を求めよ。"
+      }
+    ],
+    "final_answer": "19",
+    "question_id": 401,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ジョーはエイデンに誕生日ごとに少なくとも1台のミニカーを贈っています。車の数はエイデンの年齢に対応していました（1歳の誕生日には1台、2歳の誕生日には2台、といった具合に）。12歳の誕生日に車を受け取った後、エイデンはジョーから合計で何台のミニカーを受け取ったことになりますか？"
+      }
+    ],
+    "final_answer": "78",
+    "question_id": 402,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2乗すると100から300の間になる素数はいくつありますか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 403,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ボブは、テセレーション（敷き詰め）ができるかもしれないと考えて、3つの正五角形をある頂点で合わせて置きました。しかし、それらの間には隙間ができてしまいました。示された箇所の角度は何度でしょうか？\n[asy]size(100);\npath A = dir(0) -- dir(72) -- dir (144) -- dir(216) -- dir (288) -- cycle;\npath B = reflect ( dir(72), dir(144)) * A;\npath C = reflect( dir(72), dir(0))* A;\ndraw(rotate(18) *A);\ndraw(rotate(18) *B);\ndraw(rotate(18) *C);\nlabel(\"?\", (0,1.5), N);\n[/asy]"
+      }
+    ],
+    "final_answer": "36^\\circ",
+    "question_id": 404,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "52枚の標準的なデッキ（クラブ13枚、ダイヤ13枚、ハート13枚、スペード13枚）から、無作為に3枚のカードが配られます。3枚すべてが$\\heartsuit$である確率はどれくらいですか？"
+      }
+    ],
+    "final_answer": "\\frac{11}{850}",
+    "question_id": 405,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平面上に4つの異なる円が描かれています。少なくとも2つの円が交わる点の最大数はいくつでしょうか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 406,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "`\\[\\frac{\\sin^2 3A}{\\sin^2 A} - \\frac{\\cos^2 3A}{\\cos^2 A} = 2,\\]` のとき、`$\\cos 2A.$` を求めよ。"
+      }
+    ],
+    "final_answer": "\\frac{1}{4}",
+    "question_id": 407,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$$100x\\equiv 1\\pmod{997}~?$$ を満たす、一意の3桁の正の整数 $x$ は何ですか？"
+      }
+    ],
+    "final_answer": "668",
+    "question_id": 408,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x) = 7x^7 - 4x^4 + 1$ は偶関数ですか、奇関数ですか、それともどちらでもありませんか？\n\n\"odd\"、\"even\"、または\"neither\"と入力してください。"
+      }
+    ],
+    "final_answer": "neither",
+    "question_id": 409,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図において、$x$ の値は何ですか？ [asy]\nsize(150);\ndraw((0,5)--(0,0)--(5,0));\ndraw((0,0)--(3,5));\ndraw((0,.3)--(.3,.3)--(.3,0));\nlabel(\"$2x^\\circ$\",(.5,2));\nlabel(\"$3x^\\circ$\",(1,.6));\n[/asy]"
+      }
+    ],
+    "final_answer": "18",
+    "question_id": 410,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "アリスとボブが隣り合って座らない場合、8人を円卓に座らせる方法は何通りありますか？（ある着席が別の着席の回転である場合、それらは同じ着席とみなされます。）"
+      }
+    ],
+    "final_answer": "3600",
+    "question_id": 411,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\sin 20^\\circ \\sin 40^\\circ \\sin 60^\\circ \\sin 80^\\circ \\sin 100^\\circ \\sin 120^\\circ \\sin 140^\\circ \\sin 160^\\circ$ を求めよ。"
+      }
+    ],
+    "final_answer": "\\frac{9}{256}",
+    "question_id": 412,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(a_1, a_2, \\dots, a_n)$ を、以下の条件を満たす正の実数の列とする。\n\\[\\sum_{i = 1}^n a_i = 96, \\quad \\sum_{i = 1}^n a_i^2 = 144, \\quad \\sum_{i = 1}^n a_i^3 = 216.\\]\n$n$ の取りうる全ての値の和を求めよ。"
+      }
+    ],
+    "final_answer": "64",
+    "question_id": 413,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "実数 $x$ のうち、\n$$\\dfrac{1}{x-2009}+\\dfrac{1}{x-2010}+\\dfrac{1}{x-2011}\\ge 1$$\nを満たすものは、$a<x\\le b$ の形の区間の和集合である。これらの区間の長さの合計はいくらか。"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 414,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{67}{2x - 23}$ が整数となるような、$x$ の全ての整数値の合計は何ですか？"
+      }
+    ],
+    "final_answer": "46",
+    "question_id": 415,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\dfrac{6}{\\sqrt{245}+3\\sqrt{125}+4\\sqrt{45}}$を、$A$と$C$が互いに素な整数であり、$C$が正であり、$B$がいかなる素数の二乗でも割り切れないような形$\\frac{A\\sqrt{B}}{C}$で表しなさい。$A+B+C$を求めなさい。"
+      }
+    ],
+    "final_answer": "93",
+    "question_id": 416,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$9951$の最大の素因数を求めよ。"
+      }
+    ],
+    "final_answer": "107",
+    "question_id": 417,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\left(\\sqrt{97969}\\right)^2$ を計算せよ。"
+      }
+    ],
+    "final_answer": "97969",
+    "question_id": 418,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "計算せよ\n\\[\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix}.\\]"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 11 \\\\ -36 \\\\ -3 \\end{pmatrix}",
+    "question_id": 419,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $n \\ge 1$ のとき、\n\\[f(n + 1) = (-1)^{n + 1} n - 2f(n)\\]であり、$f(1) = f(1986)$ であるならば、\n\\[f(1) + f(2) + f(3) + \\dots + f(1985)\\]を計算せよ。"
+      }
+    ],
+    "final_answer": "331",
+    "question_id": 420,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "示されている五芒星では、文字 $A$, $B$, $C$, $D$, $E$ は、必ずしもこの順序であるとは限りませんが、数 3, 5, 6, 7, 9 に置き換えられています。線分 $\\overline{AB}$, $\\overline{BC}$, $\\overline{CD}$, $\\overline{DE}$, $\\overline{EA}$ の両端の数の合計は、必ずしもこの順序であるとは限りませんが、等差数列を形成します。その等差数列の中央の項は何ですか？\n\n[asy]\npair A,B,C,D,E;\nA=(0,10);\nB=(5.9,-8.1);\nC=(-9.5,3.1);\nD=(9.5,3.1);\nE=(-5.9,-8.1);\ndraw(A--B--C--D--E--cycle,linewidth(0.7));\nlabel(\"$A$\",A,N);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,NW);\nlabel(\"$D$\",D,NE);\nlabel(\"$E$\",E,SW);\n[/asy]"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 421,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "イングランド、ドイツ、フランスの三国間で国際会議が開催されます。イングランドから3名、ドイツから4名、フランスから2名の代表者が出席します。同じ国の代表者が隣り合って座る場合、9名の代表者全員が円卓に着席する方法は何通りありますか？（回転して一致する座り方は同じものとみなされます。）"
+      }
+    ],
+    "final_answer": "576",
+    "question_id": 422,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし$j$が正の整数であり、式$(7j+3)$を3倍し、その後7で割った場合、余りはいくつになりますか？"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 423,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a$と$b$を、必ずしも異なるとは限らない1の12乗根とする。$(a + b)^{12}$の異なる可能な値の数を求めよ。"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 424,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$h(x)=f^{-1}(x)$ とします。$h(2)=10$、$h(10)=1$、および $h(1)=2$ であるとき、$f(f(10))$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 425,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$6 - x > -9$ を満たす最大の整数は何ですか？"
+      }
+    ],
+    "final_answer": "14",
+    "question_id": 426,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "多項式 $P(x) = x^6-x^5-x^3-x^2-x$ と $Q(x)=x^4-x^3-x^2-1$ を考えます。$z_1, z_2, z_3, z_4$ が $Q(x)=0$ の根であるとき、$P(z_1)+P(z_2)+P(z_3)+P(z_4)$ を求めよ。"
+      }
+    ],
+    "final_answer": "6",
+    "question_id": 427,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x=\\frac{7}{8}$、そして$y=-\\frac{2}{9}$とします。もし$x\\cdot z = y$ならば、$z$は何ですか？"
+      }
+    ],
+    "final_answer": "-\\frac{16}{63}",
+    "question_id": 428,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\sec x+\\tan x=\\frac{22}7$ と仮定します。$\\csc x+\\cot x$ を求めよ。"
+      }
+    ],
+    "final_answer": "\\frac{29}{15}",
+    "question_id": 429,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ある数列は2222という項から始まります。次の項は、直前の項に1010を加えることで求められます。第6項と第7項の和はいくつですか？"
+      }
+    ],
+    "final_answer": "15554",
+    "question_id": 430,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$r$、$s$、$t$が定数で、すべての非ゼロの$x$、$y$、$z$に対して$\\frac{x^{r-2}\\cdot y^{2s}\\cdot z^{3t+1}}{x^{2r}\\cdot y^{s-4}\\cdot z^{2t-3}}=xyz$が成り立つとき、$r^s\\cdot t$の値を求めなさい。答えを分数で表しなさい。"
+      }
+    ],
+    "final_answer": "\\frac{1}{9}",
+    "question_id": 431,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "簡約化せよ: $\\displaystyle \\frac{\\frac 12\\times 1024}{0.125\\times 2^{12}}$。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 432,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "同じ比重のテストで獲得した点数は、70、80、90、75、80、85です。これら6つのテストの平均点はいくつですか？"
+      }
+    ],
+    "final_answer": "80",
+    "question_id": 433,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$1\\underline{\\hphantom{2}}\\,\\underline{\\hphantom{2}}4$ の十の位と百の位を埋めて、$11$ で割り切れるようにする方法は何通りありますか？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 434,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\left|\\dfrac{2-4i}{2+i}\\right|$ を計算しなさい。"
+      }
+    ],
+    "final_answer": "2",
+    "question_id": 435,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "点 $P$ と $R$ はそれぞれ (1, 3) と (7, 15) に位置しています。点 $M$ は線分 $PR$ の中点です。線分 $PR$ は $x$軸に関して対称移動されます。対称移動された線分の中点である点 $M$ の像の座標の合計は何ですか？"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 436,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(x_1,y_1),$ $(x_2,y_2),$ $\\dots,$ $(x_n,y_n)$ を、$x+y=2$ かつ $x^5+y^5=82$ を満たす実数の順序対 $(x,y)$ とします。\n\\[x_1^2 + y_1^2 + x_2^2 + y_2^2 + \\dots + x_n^2 + y_n^2\\] を求めなさい。"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 437,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\triangle PQR$ の最大の角の大きさは、何度ですか？\n\n[asy]\ndraw((0,0)--(-1.3,4)--(7,0)--cycle);\nlabel(\"$P$\",(-1.3,4),NW); label(\"$Q$\",(0,0),SW); label(\"$R$\",(7,0),SE);\n\nlabel(\"$6x^\\circ$\",(0,0),NE); label(\"$x^\\circ$\",(5,0),N); label(\"$3x^\\circ$\",(-.25,3));\n[/asy]"
+      }
+    ],
+    "final_answer": "108°",
+    "question_id": 438,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x^2-24x +y^2-32y+384=0$ と $x^2+24x +y^2+32y+384=0$ によって定義される円間の最短距離は何ですか？"
+      }
+    ],
+    "final_answer": "32",
+    "question_id": 439,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\omega$を、$\\omega^3 = 1$を満たす複素数とします。\n次の式の取りうる値をすべて求めなさい。\n\\[\\frac{1}{1 + \\omega} + \\frac{1}{1 + \\omega^2}.\\]\n可能な値をすべて、コンマで区切って入力してください。"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 440,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "カンクンでの休暇中、コリーンさんはソンブレロとビーチサンダルを合わせて32ドルで買うことができます。ビーチサンダルとサングラスは合わせて42ドルです。ソンブレロとサングラスは合わせて30ドルです。ソンブレロは何ドルですか？"
+      }
+    ],
+    "final_answer": "$10",
+    "question_id": 441,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$942!$ が $15^n$ で割り切れるような、最大の整数 $n$ を決定しなさい。"
+      }
+    ],
+    "final_answer": "233",
+    "question_id": 442,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$|{-324} + 243i|$ を求めなさい。"
+      }
+    ],
+    "final_answer": "405",
+    "question_id": 443,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ボールが16フィートの高さから真下に落とされます。毎回、前回落ちた高さの半分まで跳ね返るとすると、ボールが6回目に床に当たるときまでに、合計で何フィート移動したことになりますか？"
+      }
+    ],
+    "final_answer": "47",
+    "question_id": 444,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$x$と$y$を実数とする。このとき、次の式の取りうる値の集合を求めよ。\n\\[\\frac{(x + y)(1 - xy)}{(1 + x^2)(1 + y^2)}.\\]"
+      }
+    ],
+    "final_answer": "\\left[ -\\frac{1}{2}, \\frac{1}{2} \\right]",
+    "question_id": 445,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "下の図の点$A$から出発して、ドラは4つの可能な方向のいずれかを等しい確率で選びます。彼女は交差点に来るたびに、再び可能な方向のいずれかをランダムに選びます。彼女が最初の4歩で灰色の正方形の周りを完全に一周する確率はどれくらいですか？答えを既約分数で表してください。\n[asy]size(100);\nfill((1,1)--(1,2)--(2,2)--(2,1)--cycle, gray(.6));\ndraw((0,0)--(0,3)--(3,3)--(3,0)--cycle, linewidth(1.5));\ndraw((0,1)--(3,1), linewidth(1.5));\ndraw((0,2)--(3,2), linewidth(1.5));\ndraw((1,0)--(1,3), linewidth(1.5));\ndraw((2,0)--(2,3), linewidth(1.5));\ndot(MP(\"A\", (1,2), NW));\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{1}{128}",
+    "question_id": 446,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ジョンは、集合 $\\{1,2,3,4,5,6\\}$ の15個の2要素部分集合のそれぞれの要素の合計を計算します。これら15個の合計の合計は何ですか？"
+      }
+    ],
+    "final_answer": "105",
+    "question_id": 447,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "数字の1, 2, 3, 4をそれぞれ最大1回ずつ使用し、他の数字は使用せずに、4で割り切れる異なる正の整数をいくつ形成できますか？例えば、12は数えられますが、512は数えられません。"
+      }
+    ],
+    "final_answer": "16",
+    "question_id": 448,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの異なる素数の平方の差は1488である。両方の素数が50未満であるという条件で、その素数を求めなさい。\n\n備考：数字は順不同で、コンマで区切って提出してください。"
+      }
+    ],
+    "final_answer": "19 and 43",
+    "question_id": 449,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "12枚のダイムを、各山に奇数枚のダイムがあるように3つの山に分ける方法は、何通りありますか？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 450,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\frac{x+2}{3} = \\frac{4}{x+1}$ を満たす$x$の最小値は何ですか？"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 451,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a$と$b$を$a > b > 0$を満たす実数とする。\n次の式の最小値を求めよ。\n\\[a + \\frac{1}{b(a - b)}.\\]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 452,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "中心が $(5,15)$ で、半径が $\\sqrt{130}$ 単位の円があります。点 $Q = (x,y)$ はその円上にあり、整数座標を持ち、$x$-座標は $y$-座標の2倍です。$x$ の最大値はいくつですか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 453,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$p(x)$ を、 $p(55) = p(83) = p(204) = p(232) = 8$ かつ $p(103) = 13$ である4次多項式とする。\n\\[p(1) - p(2) + p(3) - p(4) + \\dots + p(285) - p(286).\\]\nを求めよ。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 454,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "計算しなさい $$1\\cdot 2^2+2\\cdot 3^2+3\\cdot4^2+\\cdots+19\\cdot 20^2.$$"
+      }
+    ],
+    "final_answer": "41230",
+    "question_id": 455,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図において、$PT$ は $QR$ に平行である。$\\angle PQR$ の大きさは何度ですか。\n\n[asy]\ndraw((0,0)--(10,0),black+linewidth(1));\ndraw((0,0)--(10,0),MidArrow);\ndraw((10,0)--(20,0),black+linewidth(1));\ndraw((0,0)--(-7,10)--(7,10)--(10,0),black+linewidth(1));\ndraw((-5,10)--(7,10),MidArrow);\nlabel(\"$x^{\\circ}$\",(-6,10),SE);\nlabel(\"$2x^{\\circ}$\",(7,10),SW);\nlabel(\"$128^{\\circ}$\",(10,0),NE);\nlabel(\"$P$\",(-7,10),N);\nlabel(\"$T$\",(7,10),N);\nlabel(\"$R$\",(10,0),S);\nlabel(\"$Q$\",(0,0),S);\n[/asy]"
+      }
+    ],
+    "final_answer": "116",
+    "question_id": 456,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "示された基数において、以下の計算結果の1の位を求めなさい: $413_6 - 215_6$"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 457,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$f(x) = x + 2$ および $g(x) = 1/f(x)$ とします。$g(f(-3))$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 458,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\cos (-150^\\circ)$ を求めなさい。"
+      }
+    ],
+    "final_answer": "-\\frac{\\sqrt{3}}{2}",
+    "question_id": 459,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "コイントスで表が出たら\\$3勝ち、裏が出たら\\$2負けるものとします。1回のコイントス後の賞金の期待値は、ドル単位でいくらになりますか？"
+      }
+    ],
+    "final_answer": "$0.50",
+    "question_id": 460,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ベクトル$\\mathbf{a}$と$\\mathbf{b}$が存在し、\n\\[\\mathbf{a} + \\mathbf{b} = \\begin{pmatrix} 4 \\\\ 7 \\end{pmatrix},\\]\nここで、$\\mathbf{a}$は$\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$に平行であり、$\\mathbf{b}$は$\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$に直交する。$\\mathbf{b}$を求めよ。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 2/5 \\\\ -1/5 \\end{pmatrix}",
+    "question_id": 461,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$n$の真の正の約数の積は、$n^{(ax+b)/c}$と書くことができる。ここで、$x$は$n$の正の約数の個数であり、$c$は正の整数であり、3つの整数$a, b, c$の最大公約数は$1$である。$a+b+c$は何ですか？"
+      }
+    ],
+    "final_answer": "1",
+    "question_id": 462,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$g(x)=f^{-1}(x)$ と仮定します。もし $g(-15)=0$、$g(0)=3$、$g(3)=9$、そして $g(9)=20$ であるならば、$f(f(9))$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 463,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\begin{pmatrix} 5 \\\\ -4 \\end{pmatrix} + \\begin{pmatrix} -11 \\\\ 10 \\end{pmatrix}$ を計算してください。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -6 \\\\ 6 \\end{pmatrix}",
+    "question_id": 464,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし `\\begin{align*} 5x-2y&=7,\\\\ 3x+y&=2, \\end{align*}` であるならば、`$24x-14y$` の値を求めなさい。"
+      }
+    ],
+    "final_answer": "38",
+    "question_id": 465,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "三角形 $ABC$ の中線 $AD$、$BE$、$CF$ は重心 $G$ で交わる。$G$ を通り $BC$ に平行な直線は、$AB$ および $AC$ とそれぞれ $M$ および $N$ で交わる。三角形 $ABC$ の面積が 144 であるとき、三角形 $ENG$ の面積を求めよ。"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 466,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\sin 6 \\pi x = x$ の実数解の個数を求めよ。"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 467,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "エンリコは3の最初の20個の正の倍数のリストを作成します。マリーは6の最初の10個の正の倍数のリストを作成します。マリーのリストにある数字のうち、いくつがエンリコのリストにも載っていますか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 468,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "辺の長さが整数である二等辺三角形で、周囲の長さが20単位のものはいくつありますか？"
+      }
+    ],
+    "final_answer": "4",
+    "question_id": 469,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$n < 10{,}000$ である正の整数 $n$ について、数 $n+2005$ はちょうど21個の正の約数を持つ。$n$ の取りうるすべての値の合計は何ですか？"
+      }
+    ],
+    "final_answer": "16592",
+    "question_id": 470,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "この連立不等式 \\[ \\begin{cases}& 2x+y \\le 4 \\\\& x+y \\ge 1 \\\\& x \\ge 0 \\\\& y \\ge 0 \\end{cases} \\] のすべての解の集合は四角形の領域である。最長辺の長さが $a\\sqrt{b}$ （最も簡単な根号の形で表される）であるとき、$a+b$ を求めなさい。"
+      }
+    ],
+    "final_answer": "7",
+    "question_id": 471,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "二次式 $x^2+(2.6)x+3.6$ は、定数 $b$ と $c$ を用いて $(x+b)^2+c$ の形で書くことができます。$b+c$ の値は何ですか（小数で答えてください）？"
+      }
+    ],
+    "final_answer": "3.21",
+    "question_id": 472,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "コイン$A$は3回投げられ、コイン$B$は4回投げられます。2つの公平なコインを投げたときに得られる表の数が同じになる確率はいくらですか？"
+      }
+    ],
+    "final_answer": "\\frac{35}{128}",
+    "question_id": 473,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ドーンは5セント硬貨、10セント硬貨、25セント硬貨で合計$1.20持っています。彼女は5セント硬貨1枚につき10セント硬貨を1枚、そして10セント硬貨1枚につき25セント硬貨を1枚持っています。彼女は全部で何枚の硬貨を持っていますか？"
+      }
+    ],
+    "final_answer": "9",
+    "question_id": 474,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$\\begin{pmatrix} 1 \\\\ 4 \\\\ -6 \\end{pmatrix} + \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ を求めなさい。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} 3 \\\\ 3 \\\\ -3 \\end{pmatrix}",
+    "question_id": 475,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "関数 $\\sin(x)$ と $\\cos(x)$ は最小周期 $2\\pi$ の周期関数です。関数 $\\cos(\\sin(x))$ の最小周期は何ですか？"
+      }
+    ],
+    "final_answer": "\\pi",
+    "question_id": 476,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $a\\equiv 16\\pmod{37}$ かつ $b\\equiv 21\\pmod{37}$ ならば、集合 $\\{0,1,2,\\ldots,35,36\\}$ の中のどの整数 $n$ に対して、$$a-b\\equiv n\\pmod{37}~?$$ が成り立ちますか？"
+      }
+    ],
+    "final_answer": "32",
+    "question_id": 477,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$3x^2-2(x^2+4)=42$ であるとき、$x^4$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "2500",
+    "question_id": 478,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "半径2の半円の直径$\\overline{AB}$上に、半径1の3つの半円が作られています。図に示すように、小さな半円の中心は$\\overline{AB}$を4つの等しい長さの線分に分割しています。大きな半円の内側にあり、小さな半円の外側にある影付きの領域の面積は何ですか？答えは$\\pi$を用いて、最も簡単な根号の形で表してください。\n\n[asy]\nfill((0,2)..(2,0)--(-2,0)..cycle,gray(0.7));\nfill((-1,1)..(0,0)--(-2,0)..cycle,white);\nfill((1,1)..(0,0)--(2,0)..cycle,white);\nfill((0,1)..(1,0)--(-1,0)..cycle,white);\ndraw((0,1)..(1,0)--(-1,0)..cycle,dashed);\ndraw((0,2)..(2,0)--(-2,0)..cycle);\nlabel(\"$A$\",(-2,0),W);\nlabel(\"$B$\",(2,0),E);\nlabel(\"1\",(-1.5,0),S);\nlabel(\"2\",(0,0),S);\nlabel(\"1\",(1.5,0),S);\ndot((0,0));\ndot((-1,0));\ndot((1,0));\ndraw((-2,-0.1)--(-2,-0.4));\ndraw((-1,-0.1)--(-1,-0.4));\ndraw((2,-0.1)--(2,-0.4));\ndraw((1,-0.1)--(1,-0.4));\n[/asy]"
+      }
+    ],
+    "final_answer": "\\frac{7}{6}\\pi - \\frac{\\sqrt{3}}{2}",
+    "question_id": 479,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "4個の区別のつかないボールを2個の区別できる箱に入れる方法は何通りありますか？"
+      }
+    ],
+    "final_answer": "5",
+    "question_id": 480,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "次の方程式で定義される曲線は何ですか。\n\\[r = \\cos \\theta + \\sin \\theta.\\](A) 直線\n(B) 円\n(C) 放物線\n(D) 楕円\n(E) 双曲線\n\n正しい選択肢の記号を答えなさい。"
+      }
+    ],
+    "final_answer": "(B)",
+    "question_id": 481,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "パラメータ曲線は次のように定義されます。\n\\[(x,y) = (\\sin^2 t, 2 \\cos t),\\]ここで、$t$ はすべての実数をとります。\n\n同じパラメータ曲線は次のように定義できます。\n\\[(x,y) = (-s^2 - 2s, 2s + 2),\\]ここで、$s$ はある区間 $I$ をとります。区間 $I$ を求めなさい。"
+      }
+    ],
+    "final_answer": "[-2,0]",
+    "question_id": 482,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$ ならば、$x+y$ を求めなさい。"
+      }
+    ],
+    "final_answer": "15",
+    "question_id": 483,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$b$ が $\\pmod{m}$ の剰余である場合、$b$ のモジュラ逆数は、$bc \\equiv 1\\pmod{m}$ となる剰余 $c$ であることを思い出してください。以下の表は、モジュロ 47 における最初の9つの正の剰余の逆数を示しています。\n\\begin{tabular}{c|ccccccccc}\n$b$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\\\ \\hline\ninverse of $\\,b$ & 1 & 24 & 16 & 12 & 19 & 8 & 27 & 6 & 21\n\\end{tabular}\n$35\\pmod{47}$ のモジュラ逆数を求めなさい。\n\n答えは、$0$ から $46$ までの整数（両端を含む）で表してください。"
+      }
+    ],
+    "final_answer": "43",
+    "question_id": 484,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "3つの実数の和が$0$であり、それらの積が$17$であるならば、それらの立方体の和は何ですか？"
+      }
+    ],
+    "final_answer": "51",
+    "question_id": 485,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "平面 $3x - 6y + 2z + 5 = 0$ と $4x - 12y + 3z - 3 = 0$ のなす角を二等分し、かつ点 $(-5,-1,-5)$ を含む平面の方程式を求めよ。解答は\n\\[Ax + By + Cz + D = 0,\\]の形式で入力せよ。ただし、$A,$ $B,$ $C,$ $D$ は $A > 0$ かつ $\\gcd(|A|,|B|,|C|,|D|) = 1$ を満たす整数とする。"
+      }
+    ],
+    "final_answer": "11x + 6y + 5z + 86 = 0",
+    "question_id": 486,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "2つの数の和は$3$です。それらの数の二乗の差は$33$です。2つの数の差の絶対値は何ですか？"
+      }
+    ],
+    "final_answer": "11",
+    "question_id": 487,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "図において、$D$ と $E$ はそれぞれ $\\overline{AB}$ と $\\overline{BC}$ の中点です。四角形 $DBEF$ の面積を求めなさい。\n[asy]\nsize(180); defaultpen(linewidth(.7pt)+fontsize(10pt));\npair A, B, C, D, E, F;\nA=(0,6);\nB=(0,0);\nC=(8,0);\nD=(0,3);\nE=(4,0);\nF=(8/3,2);\ndraw(E--A--C--D);\ndraw((-1,0)--(10,0), EndArrow);\ndraw((0,-1)--(0,8), EndArrow);\nlabel(\"$A(0,6)$\", A, W);\nlabel(\"$B(0,0)$\", B, SW);\nlabel(\"$C(8,0)$\", C, S);\nlabel(\"$D$\", D, W);\nlabel(\"$E$\", E, S);\nlabel(\"$F$\", F, SW);\nlabel(\"$x$\", (10,0), dir(0));\nlabel(\"$y$\", (0,8), dir(90));\n[/asy]"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 488,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "最初の $m$ 個の正の奇数の和は、最初の $n$ 個の正の偶数の和より212大きい。$n$ の取りうる全ての値の和は何ですか？"
+      }
+    ],
+    "final_answer": "255",
+    "question_id": 489,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "与えられた行列が\n\\[\\mathbf{A} = \\begin{pmatrix} 3 & 7 \\\\ -1 & -2 \\end{pmatrix}\\]\nであるとき、$\\mathbf{A}^{27} + \\mathbf{A}^{31} + \\mathbf{A}^{40}$ を計算せよ。"
+      }
+    ],
+    "final_answer": "\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}",
+    "question_id": 490,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "単位立方体の頂点に頂点を持つ、合同でない三角形はいくつ描けますか？"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 491,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$10$ の $200\\%$ の $50\\%$ は何ですか？"
+      }
+    ],
+    "final_answer": "10",
+    "question_id": 492,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "\\[(x^2 - 3x + 4)(2x^2 +ax + 7) = 2x^4 -11x^3 +30x^2 -41x +28.\\] を満たす定数 $a$ を求めよ。"
+      }
+    ],
+    "final_answer": "-5",
+    "question_id": 493,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "デリラは$12$の正の約数を紙に書き出し、それをエゼキエルに渡します。各約数の隣に、エゼキエルはその数以下の正の整数で、その約数と互いに素であるものをすべて書き出します。(例えば、デリラが書いた各約数の隣に、エゼキエルは$``1\"$と書くことになります。)エゼキエルは全部でいくつの数を書きますか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 494,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$(2^3)^4 = 2^n$ となる $n$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "12",
+    "question_id": 495,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "以下は、ある正の定数 $a$ と $b$ についての $y = a \\cos bx$ のグラフです。$a$ を求めなさい。\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn (3*cos(4*x));\n}\n\ndraw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-4,4,pi/2,1);\nlayer();\nrm_trig_labels(-5, 5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]"
+      }
+    ],
+    "final_answer": "3",
+    "question_id": 496,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "もし $(x,y) = (3,9)$ ならば、$y^2 - 3xy + 8$ の値は何ですか？"
+      }
+    ],
+    "final_answer": "8",
+    "question_id": 497,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "$a,$ $b,$ $c$ を、$ab + ac + bc = 0$ および $(a + b + c + 1)^2 = abc$ を満たす実数とします。\n\\[(ab - c)(ac - b)(bc - a).\\]の取りうるすべての値を求めなさい。可能な値をコンマで区切って入力してください。例えば、可能な値が 3, 4, 5 だと思う場合、引用符なしで \"3, 4, 5\" と入力してください。"
+      }
+    ],
+    "final_answer": "0",
+    "question_id": 498,
+    "language": "ja",
+    "language_name": "Japanese"
+  },
+  {
+    "prompt": [
+      {
+        "from": "user",
+        "value": "ヤンとカミーユはレストランに行きます。メニューに10品あり、それぞれが1品ずつ注文する場合、もし彼らが同じ料理を注文するのを拒否するなら、ヤンとカミーユは何通りの異なる食事の組み合わせを注文できますか？（誰が何を注文するかが重要です。ヤンがチキンを注文しカミーユが魚を注文するのと、ヤンが魚を注文しカミーユがチキンを注文するのは異なります。）"
+      }
+    ],
+    "final_answer": "90",
+    "question_id": 499,
+    "language": "ja",
+    "language_name": "Japanese"
+  }
+]
