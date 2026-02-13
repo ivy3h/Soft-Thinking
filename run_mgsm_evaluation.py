@@ -24,6 +24,7 @@ import torch
 from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
+from timing_utils import EvalTimer
 
 def is_gemma_model(model_name: str) -> bool:
     """Check if the model is a Gemma 3 model which needs special handling."""
@@ -387,6 +388,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     print("=" * 60)
 
     start_time = time.time()
+    timer = EvalTimer(total_languages=len(languages))
 
     # Single engine mode - create engine once and reuse
     shared_engine = None
@@ -427,6 +429,8 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         print(f"Evaluating {lang} ({LANGUAGE_NAMES.get(lang, lang)})")
         print(f"{'=' * 60}")
 
+        timer.start_language(lang)
+
         # Check for existing results if resume mode is enabled
         lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_{lang}.json"
         if args.resume and os.path.exists(lang_results_file):
@@ -442,6 +446,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                     language_accuracies[lang] = lang_accuracy
                     results_by_lang[lang] = cached_results
                     print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+                    timer.end_language(skipped=True)
                     continue
                 else:
                     print(f"  Found partial results for {lang} ({len(cached_results)}/{expected_samples} samples), re-evaluating...")
@@ -512,19 +517,25 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                 engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
                 llm = sgl.Engine(**engine_kwargs)
 
+            batch_start = time.time()
             outputs = llm.generate(
                 prompt_list[batch_idx:batch_idx + args.max_batch],
                 sampling_params
             )
+            batch_duration = time.time() - batch_start
 
             decoded_text_list.extend([o["text"] for o in outputs])
             finish_generation_list.extend([
                 o["meta_info"]["finish_reason"]["type"] == "stop" and not args.enable_soft_thinking
                 for o in outputs
             ])
-            generated_tokens_list.extend([
-                o["meta_info"]["completion_tokens"] for o in outputs
-            ])
+            batch_tokens = [o["meta_info"]["completion_tokens"] for o in outputs]
+            generated_tokens_list.extend(batch_tokens)
+
+            batch_samples = len(outputs) // args.num_samples
+            timer.record_batch(tokens=sum(batch_tokens), samples=batch_samples, duration=batch_duration)
+            print(f"  Batch done: {len(outputs)} outputs, {sum(batch_tokens)} tokens in {batch_duration:.1f}s "
+                  f"({sum(batch_tokens)/batch_duration:.1f} tok/s)")
 
             batch_idx += args.max_batch
 
@@ -536,6 +547,10 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                 gc.collect()
                 torch.cuda.empty_cache()
                 time.sleep(args.engine_startup_delay)  # Wait for memory to be released
+
+        # Calculate per-sample inference time (total batch time / num samples)
+        total_inference_sec = sum(b["duration_sec"] for b in timer._lang_batches)
+        per_sample_time = total_inference_sec / len(idx_list) if idx_list else 0
 
         # Evaluate results
         results = []
@@ -580,7 +595,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                 "ground_truth": sample["final_answer"],
                 "generated_tokens": generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples],
                 "avg_generated_tokens": sum(generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples]) / args.num_samples,
-                "time": 0,
+                "time": round(per_sample_time, 3),
                 "idx": idx,
                 "question_id": sample["question_id"],
                 "language": lang,
@@ -605,6 +620,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         results_by_lang[lang] = results
 
         print(f"\n{lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+        timer.end_language()
 
     # Calculate cross-lingual consistency
     print("\n" + "=" * 60)
@@ -628,6 +644,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     average_accuracy = sum(language_accuracies.values()) / len(language_accuracies) if language_accuracies else 0
 
     # Compile final statistics
+    timing_stats = timer.get_stats()
     results_statistics = {
         "languages_evaluated": languages,
         "num_languages": len(languages),
@@ -635,7 +652,8 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         "average_accuracy": average_accuracy,
         "cross_lingual_consistency": consistency_metrics,
         "total_samples_per_language": len(results_by_lang.get(languages[0], [])) if languages else 0,
-        "time_taken_hours": (end_time - start_time) / 3600
+        "time_taken_hours": (end_time - start_time) / 3600,
+        "timing": timing_stats
     }
 
     # Print summary

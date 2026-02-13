@@ -31,6 +31,7 @@ import torch
 from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
+from timing_utils import EvalTimer
 
 
 def is_gemma_model(model_name: str) -> bool:
@@ -482,6 +483,7 @@ Please solve the following multiple-choice question. Please show your choice in 
             print(f"[!] Will re-run evaluation")
 
     start_time = time.time()
+    timer = EvalTimer(total_languages=len(languages), total_runs=num_runs)
 
     # Store results across all runs
     all_runs_results = {lang: [] for lang in languages}
@@ -491,6 +493,8 @@ Please solve the following multiple-choice question. Please show your choice in 
         print(f"\n{'='*60}")
         print(f"Run {run_idx + 1}/{num_runs}")
         print(f"{'='*60}")
+
+        timer.start_run(run_idx)
 
         # Check if this run already exists (resume functionality)
         if num_runs > 1:
@@ -517,6 +521,7 @@ Please solve the following multiple-choice question. Please show your choice in 
                         print(f"  {lang}: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
 
                     print(f"[OK] Successfully loaded results from {run_results_file}")
+                    timer.end_run(skipped=True)
                     continue  # Skip to next run
                 except Exception as e:
                     print(f"[!] Failed to load existing results: {e}")
@@ -535,11 +540,14 @@ Please solve the following multiple-choice question. Please show your choice in 
             print(f"Evaluating {lang} ({LANGUAGE_NAMES.get(lang, lang)})")
             print(f"{'-'*40}")
 
+            timer.start_language(lang)
+
             samples = xreasoning_data[lang]
             samples = samples[args.start_idx:min(args.end_idx, len(samples))]
 
             if not samples:
                 print(f"No samples for {lang}")
+                timer.end_language(skipped=True)
                 continue
 
             # Prepare prompts
@@ -593,23 +601,33 @@ Please solve the following multiple-choice question. Please show your choice in 
                 engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
                 llm = sgl.Engine(**engine_kwargs)
 
+                batch_start = time.time()
                 outputs = llm.generate(
                     prompt_list[batch_idx:batch_idx + args.max_batch],
                     sampling_params
                 )
+                batch_duration = time.time() - batch_start
 
                 decoded_text_list.extend([o["text"] for o in outputs])
                 finish_generation_list.extend([
                     o["meta_info"]["finish_reason"]["type"] == "stop" and not args.enable_soft_thinking
                     for o in outputs
                 ])
-                generated_tokens_list.extend([
-                    o["meta_info"]["completion_tokens"] for o in outputs
-                ])
+                batch_tokens = [o["meta_info"]["completion_tokens"] for o in outputs]
+                generated_tokens_list.extend(batch_tokens)
+
+                batch_samples = len(outputs) // args.num_samples
+                timer.record_batch(tokens=sum(batch_tokens), samples=batch_samples, duration=batch_duration)
+                print(f"  Batch done: {len(outputs)} outputs, {sum(batch_tokens)} tokens in {batch_duration:.1f}s "
+                      f"({sum(batch_tokens)/batch_duration:.1f} tok/s)")
 
                 batch_idx += args.max_batch
                 llm.shutdown()
                 torch.cuda.empty_cache()
+
+            # Calculate per-sample inference time (total batch time / num samples)
+            total_inference_sec = sum(b["duration_sec"] for b in timer._lang_batches)
+            per_sample_time = total_inference_sec / len(idx_list) if idx_list else 0
 
             # Evaluate results
             results = []
@@ -654,7 +672,7 @@ Please solve the following multiple-choice question. Please show your choice in 
                     "ground_truth": sample["final_answer"],
                     "generated_tokens": generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples],
                     "avg_generated_tokens": sum(generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples]) / args.num_samples,
-                    "time": 0,
+                    "time": round(per_sample_time, 3),
                     "idx": idx,
                     "question_id": sample["question_id"],
                     "language": lang,
@@ -675,6 +693,9 @@ Please solve the following multiple-choice question. Please show your choice in 
             all_runs_results[lang].append(results)
 
             print(f"{lang} Run {run_idx + 1} Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+            timer.end_language()
+
+        timer.end_run()
 
         # Save per-run results
         if num_runs > 1:
@@ -708,6 +729,7 @@ Please solve the following multiple-choice question. Please show your choice in 
     average_accuracy = sum(final_language_accuracies.values()) / len(final_language_accuracies) if final_language_accuracies else 0
 
     # Compile final statistics
+    timing_stats = timer.get_stats()
     results_statistics = {
         "dataset": dataset_name,
         "num_runs": num_runs,
@@ -718,7 +740,8 @@ Please solve the following multiple-choice question. Please show your choice in 
         "per_language_all_runs": {lang: accs for lang, accs in all_runs_accuracies.items()},
         "average_accuracy": average_accuracy,
         "cross_lingual_consistency": consistency_metrics,
-        "time_taken_hours": (end_time - start_time) / 3600
+        "time_taken_hours": (end_time - start_time) / 3600,
+        "timing": timing_stats
     }
 
     # Print summary
