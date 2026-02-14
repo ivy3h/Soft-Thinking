@@ -313,11 +313,15 @@ def main():
     parser.add_argument('--engine_startup_delay', type=float, default=2.0,
                         help='Delay in seconds before starting new engine (for memory cleanup)')
 
+    # Multi-run evaluation
+    parser.add_argument('--num_runs', type=int, default=1,
+                        help='Number of evaluation runs (default: 1, use 5 for averaging)')
+
     # Resume mode
     parser.add_argument('--no_chat_template', action='store_true',
                         help='Do not use chat template (for base models without chat template)')
     parser.add_argument('--resume', action='store_true',
-                        help='Resume from existing results (skip completed languages)')
+                        help='Resume from existing results (skip completed languages/runs)')
 
     # Engine parameters
     parser.add_argument('--watchdog_timeout', type=float, default=300,
@@ -380,256 +384,354 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
         f"{args.early_stopping_entropy_threshold}_{args.early_stopping_length_threshold}{noise_suffix}"
     )
 
-    results_by_lang = {}
-    language_accuracies = {}
+    num_runs = args.num_runs
 
     print("=" * 60)
     print("Starting MGSM Evaluation")
+    print(f"Number of runs: {num_runs}")
     print("=" * 60)
+
+    # Check if statistics file already exists (complete resume)
+    stats_file = f"{args.output_dir}/results/mgsm/{base_filename}_statistics.json"
+    if args.resume and os.path.exists(stats_file):
+        print(f"\n[OK] Found existing statistics file!")
+        print(f"  Loading from: {stats_file}")
+        try:
+            with open(stats_file, "r", encoding="utf-8") as f:
+                results_statistics = json.load(f)
+            existing_num_runs = results_statistics.get('num_runs', 1)
+            if existing_num_runs == num_runs:
+                print(f"  num_runs matches ({num_runs}), average accuracy: {results_statistics.get('average_accuracy', 0):.4f}")
+                print(f"\n[OK] All evaluation already completed. Exiting.")
+                return results_statistics
+            else:
+                print(f"  num_runs mismatch: existing={existing_num_runs}, requested={num_runs}. Re-running.")
+        except Exception as e:
+            print(f"[!] Failed to load existing statistics: {e}")
+            print(f"[!] Will re-run evaluation")
 
     start_time = time.time()
-    timer = EvalTimer(total_languages=len(languages))
+    timer = EvalTimer(total_languages=len(languages), total_runs=num_runs)
 
-    # Single engine mode - create engine once and reuse
-    shared_engine = None
-    if args.single_engine:
-        print("Using single engine mode - creating shared engine...")
-        import gc
-        gc.collect()
-        torch.cuda.empty_cache()
+    # Store results across all runs
+    all_runs_results = {lang: [] for lang in languages}
+    all_runs_accuracies = {lang: [] for lang in languages}
 
-        # Base engine kwargs
-        base_engine_kwargs = {
-            "model_path": args.model_name,
-            "tp_size": args.num_gpus,
-            "log_level": "info",
-            "trust_remote_code": True,
-            "random_seed": args.random_seed,
-            "max_running_requests": args.max_running_requests,
-            "mem_fraction_static": args.mem_fraction_static,
-            "disable_cuda_graph": True,
-            "disable_overlap_schedule": True,
-            "enable_soft_thinking": args.enable_soft_thinking,
-            "add_noise_dirichlet": args.add_noise_dirichlet,
-            "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
-            "max_topk": args.max_topk,
-            "cuda_graph_max_bs": args.cuda_graph_max_bs,
-            "sampling_backend": args.sampling_backend,
-            "attention_backend": args.attention_backend,
-            "watchdog_timeout": args.watchdog_timeout
-        }
-        # Apply Gemma-specific adaptations
-        engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
-        shared_engine = sgl.Engine(**engine_kwargs)
-        print("Shared engine created successfully.")
+    for run_idx in range(num_runs):
+        print(f"\n{'='*60}")
+        print(f"Run {run_idx + 1}/{num_runs}")
+        print(f"{'='*60}")
 
-    # Evaluate each language
-    for lang in languages:
-        print(f"\n{'=' * 60}")
-        print(f"Evaluating {lang} ({LANGUAGE_NAMES.get(lang, lang)})")
-        print(f"{'=' * 60}")
+        timer.start_run(run_idx)
 
-        timer.start_language(lang)
+        # Check if this run already exists (resume functionality)
+        if num_runs > 1:
+            run_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_run{run_idx + 1}.json"
+            if args.resume and os.path.exists(run_results_file):
+                print(f"[OK] Run {run_idx + 1} already completed, loading existing results...")
+                try:
+                    with open(run_results_file, "r", encoding="utf-8") as f:
+                        existing_results = json.load(f)
 
-        # Check for existing results if resume mode is enabled
-        lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_{lang}.json"
-        if args.resume and os.path.exists(lang_results_file):
-            try:
-                with open(lang_results_file, "r", encoding="utf-8") as f:
-                    cached_results = json.load(f)
-                # Verify the cached results have the expected number of samples
-                expected_samples = min(args.end_idx, len(mgsm_data[lang])) - args.start_idx
-                if len(cached_results) >= expected_samples:
-                    print(f"  Found existing results for {lang} with {len(cached_results)} samples, skipping...")
-                    # Calculate accuracy from cached results
-                    lang_accuracy = sum([r["passat1"] for r in cached_results]) / len(cached_results) if cached_results else 0
-                    language_accuracies[lang] = lang_accuracy
-                    results_by_lang[lang] = cached_results
-                    print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
-                    timer.end_language(skipped=True)
+                    # Group results by language and calculate accuracies
+                    run_results_by_lang = {}
+                    for result in existing_results:
+                        lang = result.get("language")
+                        if lang not in run_results_by_lang:
+                            run_results_by_lang[lang] = []
+                        run_results_by_lang[lang].append(result)
+
+                    for lang, results in run_results_by_lang.items():
+                        lang_accuracy = sum([r["passat1"] for r in results]) / len(results) if results else 0
+                        all_runs_accuracies[lang].append(lang_accuracy)
+                        all_runs_results[lang].append(results)
+                        print(f"  {lang}: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+
+                    print(f"[OK] Successfully loaded results from {run_results_file}")
+                    timer.end_run(skipped=True)
                     continue
+                except Exception as e:
+                    print(f"[!] Failed to load existing results: {e}")
+                    print(f"[!] Will re-run this iteration")
+
+        results_by_lang = {}
+        language_accuracies = {}
+
+        # Single engine mode - create engine once per run (different seed per run)
+        shared_engine = None
+        if args.single_engine:
+            print("Using single engine mode - creating shared engine...")
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
+
+            base_engine_kwargs = {
+                "model_path": args.model_name,
+                "tp_size": args.num_gpus,
+                "log_level": "info",
+                "trust_remote_code": True,
+                "random_seed": args.random_seed + run_idx,
+                "max_running_requests": args.max_running_requests,
+                "mem_fraction_static": args.mem_fraction_static,
+                "disable_cuda_graph": True,
+                "disable_overlap_schedule": True,
+                "enable_soft_thinking": args.enable_soft_thinking,
+                "add_noise_dirichlet": args.add_noise_dirichlet,
+                "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                "max_topk": args.max_topk,
+                "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                "sampling_backend": args.sampling_backend,
+                "attention_backend": args.attention_backend,
+                "watchdog_timeout": args.watchdog_timeout
+            }
+            engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+            shared_engine = sgl.Engine(**engine_kwargs)
+            print("Shared engine created successfully.")
+
+        # Evaluate each language
+        for lang in languages:
+            print(f"\n{'-' * 40}")
+            print(f"Evaluating {lang} ({LANGUAGE_NAMES.get(lang, lang)})")
+            print(f"{'-' * 40}")
+
+            timer.start_language(lang)
+
+            # Determine result file path
+            if num_runs > 1:
+                lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_run{run_idx + 1}_{lang}.json"
+            else:
+                lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_{lang}.json"
+
+            # Check for existing results if resume mode is enabled
+            if args.resume and os.path.exists(lang_results_file):
+                try:
+                    with open(lang_results_file, "r", encoding="utf-8") as f:
+                        cached_results = json.load(f)
+                    expected_samples = min(args.end_idx, len(mgsm_data[lang])) - args.start_idx
+                    if len(cached_results) >= expected_samples:
+                        print(f"  Found existing results for {lang} with {len(cached_results)} samples, skipping...")
+                        lang_accuracy = sum([r["passat1"] for r in cached_results]) / len(cached_results) if cached_results else 0
+                        language_accuracies[lang] = lang_accuracy
+                        results_by_lang[lang] = cached_results
+                        all_runs_accuracies[lang].append(lang_accuracy)
+                        all_runs_results[lang].append(cached_results)
+                        print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+                        timer.end_language(skipped=True)
+                        continue
+                    else:
+                        print(f"  Found partial results for {lang} ({len(cached_results)}/{expected_samples} samples), re-evaluating...")
+                except Exception as e:
+                    print(f"  Error loading cached results for {lang}: {e}, re-evaluating...")
+
+            samples = mgsm_data[lang]
+            samples = samples[args.start_idx:min(args.end_idx, len(samples))]
+
+            # Prepare prompts
+            prompt_list = []
+            idx_list = []
+
+            for idx, sample in enumerate(samples):
+                question_text = MATH_QUERY_TEMPLATE.format(Question=sample["prompt"][0]["value"])
+                if args.no_chat_template:
+                    prompt = question_text
                 else:
-                    print(f"  Found partial results for {lang} ({len(cached_results)}/{expected_samples} samples), re-evaluating...")
-            except Exception as e:
-                print(f"  Error loading cached results for {lang}: {e}, re-evaluating...")
+                    chat = [{"role": "user", "content": question_text}]
+                    prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
+                                                           tokenize=False)
 
-        samples = mgsm_data[lang]
-        samples = samples[args.start_idx:min(args.end_idx, len(samples))]
+                for _ in range(args.num_samples):
+                    prompt_list.append(prompt)
+                idx_list.append(idx)
 
-        # Prepare prompts
-        prompt_list = []
-        idx_list = []
+            # Generate responses
+            decoded_text_list = []
+            finish_generation_list = []
+            generated_tokens_list = []
 
-        for idx, sample in enumerate(samples):
-            question_text = MATH_QUERY_TEMPLATE.format(Question=sample["prompt"][0]["value"])
-            if args.no_chat_template:
-                # For base models without chat template
-                prompt = question_text
-            else:
-                chat = [{"role": "user", "content": question_text}]
-                prompt = tokenizer.apply_chat_template(chat, add_generation_prompt=True,
-                                                       tokenize=False)
+            batch_idx = 0
+            while batch_idx < len(prompt_list):
+                print(f"Processing batch {batch_idx // args.max_batch + 1}...")
 
-            for _ in range(args.num_samples):
-                prompt_list.append(prompt)
-            idx_list.append(idx)
+                if args.single_engine and shared_engine is not None:
+                    llm = shared_engine
+                else:
+                    import gc
+                    gc.collect()
+                    torch.cuda.empty_cache()
+                    time.sleep(args.engine_startup_delay)
 
-        # Generate responses
-        decoded_text_list = []
-        finish_generation_list = []
-        generated_tokens_list = []
+                    base_engine_kwargs = {
+                        "model_path": args.model_name,
+                        "tp_size": args.num_gpus,
+                        "log_level": "info",
+                        "trust_remote_code": True,
+                        "random_seed": args.random_seed + run_idx,
+                        "max_running_requests": args.max_running_requests,
+                        "mem_fraction_static": args.mem_fraction_static,
+                        "disable_cuda_graph": True,
+                        "disable_overlap_schedule": True,
+                        "enable_soft_thinking": args.enable_soft_thinking,
+                        "add_noise_dirichlet": args.add_noise_dirichlet,
+                        "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                        "max_topk": args.max_topk,
+                        "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                        "sampling_backend": args.sampling_backend,
+                        "attention_backend": args.attention_backend,
+                        "watchdog_timeout": args.watchdog_timeout
+                    }
+                    engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+                    llm = sgl.Engine(**engine_kwargs)
 
-        batch_idx = 0
-        while batch_idx < len(prompt_list):
-            print(f"Processing batch {batch_idx // args.max_batch + 1}...")
+                batch_start = time.time()
+                outputs = llm.generate(
+                    prompt_list[batch_idx:batch_idx + args.max_batch],
+                    sampling_params
+                )
+                batch_duration = time.time() - batch_start
 
-            if args.single_engine and shared_engine is not None:
-                # Use shared engine
-                llm = shared_engine
-            else:
-                # Force garbage collection before starting new engine
-                import gc
-                gc.collect()
-                torch.cuda.empty_cache()
-                time.sleep(args.engine_startup_delay)  # Wait for memory to be released
+                decoded_text_list.extend([o["text"] for o in outputs])
+                finish_generation_list.extend([
+                    o["meta_info"]["finish_reason"]["type"] == "stop" and not args.enable_soft_thinking
+                    for o in outputs
+                ])
+                batch_tokens = [o["meta_info"]["completion_tokens"] for o in outputs]
+                generated_tokens_list.extend(batch_tokens)
 
-                # Base engine kwargs
-                base_engine_kwargs = {
-                    "model_path": args.model_name,
-                    "tp_size": args.num_gpus,
-                    "log_level": "info",
-                    "trust_remote_code": True,
-                    "random_seed": args.random_seed,
-                    "max_running_requests": args.max_running_requests,
-                    "mem_fraction_static": args.mem_fraction_static,
-                    "disable_cuda_graph": True,
-                    "disable_overlap_schedule": True,
-                    "enable_soft_thinking": args.enable_soft_thinking,
-                    "add_noise_dirichlet": args.add_noise_dirichlet,
-                    "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
-                    "max_topk": args.max_topk,
-                    "cuda_graph_max_bs": args.cuda_graph_max_bs,
-                    "sampling_backend": args.sampling_backend,
-                    "attention_backend": args.attention_backend,
-                    "watchdog_timeout": args.watchdog_timeout
-                }
-                # Apply Gemma-specific adaptations
-                engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
-                llm = sgl.Engine(**engine_kwargs)
+                batch_samples = len(outputs) // args.num_samples
+                timer.record_batch(tokens=sum(batch_tokens), samples=batch_samples, duration=batch_duration)
+                print(f"  Batch done: {len(outputs)} outputs, {sum(batch_tokens)} tokens in {batch_duration:.1f}s "
+                      f"({sum(batch_tokens)/batch_duration:.1f} tok/s)")
 
-            batch_start = time.time()
-            outputs = llm.generate(
-                prompt_list[batch_idx:batch_idx + args.max_batch],
-                sampling_params
-            )
-            batch_duration = time.time() - batch_start
+                batch_idx += args.max_batch
 
-            decoded_text_list.extend([o["text"] for o in outputs])
-            finish_generation_list.extend([
-                o["meta_info"]["finish_reason"]["type"] == "stop" and not args.enable_soft_thinking
-                for o in outputs
-            ])
-            batch_tokens = [o["meta_info"]["completion_tokens"] for o in outputs]
-            generated_tokens_list.extend(batch_tokens)
+                if not args.single_engine:
+                    llm.shutdown()
+                    del llm
+                    import gc
+                    gc.collect()
+                    torch.cuda.empty_cache()
+                    time.sleep(args.engine_startup_delay)
 
-            batch_samples = len(outputs) // args.num_samples
-            timer.record_batch(tokens=sum(batch_tokens), samples=batch_samples, duration=batch_duration)
-            print(f"  Batch done: {len(outputs)} outputs, {sum(batch_tokens)} tokens in {batch_duration:.1f}s "
-                  f"({sum(batch_tokens)/batch_duration:.1f} tok/s)")
+            # Calculate per-sample inference time
+            total_inference_sec = sum(b["duration_sec"] for b in timer._lang_batches)
+            per_sample_time = total_inference_sec / len(idx_list) if idx_list else 0
 
-            batch_idx += args.max_batch
+            # Evaluate results
+            results = []
+            for i, idx in enumerate(idx_list):
+                sample = samples[idx]
+                judge_info = []
+                passat1_list = []
+                decoded_text = decoded_text_list[i * args.num_samples:(i + 1) * args.num_samples]
+                finish_generation = finish_generation_list[i * args.num_samples:(i + 1) * args.num_samples]
 
-            # Only shutdown if not using shared engine
-            if not args.single_engine:
-                llm.shutdown()
-                del llm
-                import gc
-                gc.collect()
-                torch.cuda.empty_cache()
-                time.sleep(args.engine_startup_delay)  # Wait for memory to be released
-
-        # Calculate per-sample inference time (total batch time / num samples)
-        total_inference_sec = sum(b["duration_sec"] for b in timer._lang_batches)
-        per_sample_time = total_inference_sec / len(idx_list) if idx_list else 0
-
-        # Evaluate results
-        results = []
-        for i, idx in enumerate(idx_list):
-            sample = samples[idx]
-            judge_info = []
-            passat1_list = []
-            decoded_text = decoded_text_list[i * args.num_samples:(i + 1) * args.num_samples]
-            finish_generation = finish_generation_list[i * args.num_samples:(i + 1) * args.num_samples]
-
-            for j in range(args.num_samples):
-                for _ in range(5):  # Retry logic
-                    try:
-                        rule_judge_result, extracted_answer = evaluator_map["mgsm"].rule_judge(
-                            decoded_text[j], sample["final_answer"], finish_generation[j]
-                        )
-
-                        llm_judge_result = None
-                        if not rule_judge_result and args.use_llm_judge:
-                            llm_judge_result = evaluator_map["mgsm"].llm_judge(
-                                decoded_text[j], sample["final_answer"],
-                                extracted_answer, finish_generation[j]
+                for j in range(args.num_samples):
+                    for _ in range(5):  # Retry logic
+                        try:
+                            rule_judge_result, extracted_answer = evaluator_map["mgsm"].rule_judge(
+                                decoded_text[j], sample["final_answer"], finish_generation[j]
                             )
 
-                        finally_judge_result = rule_judge_result or llm_judge_result
+                            llm_judge_result = None
+                            if not rule_judge_result and args.use_llm_judge:
+                                llm_judge_result = evaluator_map["mgsm"].llm_judge(
+                                    decoded_text[j], sample["final_answer"],
+                                    extracted_answer, finish_generation[j]
+                                )
 
-                        judge_info.append({
-                            "rule_judge_result": rule_judge_result,
-                            "llm_judge_result": llm_judge_result,
-                            "finally_judge_result": finally_judge_result
-                        })
-                        passat1_list.append(1.0 if finally_judge_result else 0.0)
-                        break
-                    except Exception as e:
-                        print(f"Error: {e}", flush=True)
-                        time.sleep(0.5)
+                            finally_judge_result = rule_judge_result or llm_judge_result
 
-            result = {
-                "hyperparams": str(args),
-                "prompt": sample["prompt"][0]["value"],
-                "completion": decoded_text,
-                "ground_truth": sample["final_answer"],
-                "generated_tokens": generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples],
-                "avg_generated_tokens": sum(generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples]) / args.num_samples,
-                "time": round(per_sample_time, 3),
-                "idx": idx,
-                "question_id": sample["question_id"],
-                "language": lang,
-                "n": args.num_samples,
-                "finish_generation": finish_generation_list[i * args.num_samples:(i + 1) * args.num_samples],
-                "judge_info": judge_info,
-                "passat1": sum(passat1_list) / len(passat1_list) if passat1_list else 0,
-                "passat1_list": passat1_list,
-                "extracted_answer": extracted_answer if 'extracted_answer' in dir() else ""
-            }
-            results.append(result)
+                            judge_info.append({
+                                "rule_judge_result": rule_judge_result,
+                                "llm_judge_result": llm_judge_result,
+                                "finally_judge_result": finally_judge_result
+                            })
+                            passat1_list.append(1.0 if finally_judge_result else 0.0)
+                            break
+                        except Exception as e:
+                            print(f"Error: {e}", flush=True)
+                            time.sleep(0.5)
 
-        # Save language-specific results
-        lang_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_{lang}.json"
-        with open(lang_results_file, "w", encoding="utf-8") as f:
-            results.sort(key=lambda x: x["idx"])
-            json.dump(results, f, indent=4, ensure_ascii=False)
+                result = {
+                    "hyperparams": str(args),
+                    "prompt": sample["prompt"][0]["value"],
+                    "completion": decoded_text,
+                    "ground_truth": sample["final_answer"],
+                    "generated_tokens": generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples],
+                    "avg_generated_tokens": sum(generated_tokens_list[i * args.num_samples:(i + 1) * args.num_samples]) / args.num_samples,
+                    "time": round(per_sample_time, 3),
+                    "idx": idx,
+                    "question_id": sample["question_id"],
+                    "language": lang,
+                    "run_idx": run_idx,
+                    "n": args.num_samples,
+                    "finish_generation": finish_generation_list[i * args.num_samples:(i + 1) * args.num_samples],
+                    "judge_info": judge_info,
+                    "passat1": sum(passat1_list) / len(passat1_list) if passat1_list else 0,
+                    "passat1_list": passat1_list,
+                    "extracted_answer": extracted_answer if 'extracted_answer' in dir() else ""
+                }
+                results.append(result)
 
-        # Calculate language accuracy
-        lang_accuracy = sum([r["passat1"] for r in results]) / len(results) if results else 0
-        language_accuracies[lang] = lang_accuracy
-        results_by_lang[lang] = results
+            # Save language-specific results
+            with open(lang_results_file, "w", encoding="utf-8") as f:
+                results.sort(key=lambda x: x["idx"])
+                json.dump(results, f, indent=4, ensure_ascii=False)
 
-        print(f"\n{lang} ({LANGUAGE_NAMES.get(lang, lang)}) Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
-        timer.end_language()
+            # Calculate language accuracy
+            lang_accuracy = sum([r["passat1"] for r in results]) / len(results) if results else 0
+            language_accuracies[lang] = lang_accuracy
+            results_by_lang[lang] = results
+            all_runs_accuracies[lang].append(lang_accuracy)
+            all_runs_results[lang].append(results)
 
-    # Calculate cross-lingual consistency
-    print("\n" + "=" * 60)
-    print("Calculating Cross-Lingual Consistency")
-    print("=" * 60)
+            print(f"\n{lang} Run {run_idx + 1} Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
+            timer.end_language()
 
+        timer.end_run()
+
+        # Save per-run combined results (for resume support)
+        if num_runs > 1:
+            run_results_file = f"{args.output_dir}/results/mgsm/{base_filename}_run{run_idx + 1}.json"
+            all_run_data = []
+            for lang, res_list in results_by_lang.items():
+                all_run_data.extend(res_list)
+            with open(run_results_file, "w", encoding="utf-8") as f:
+                json.dump(all_run_data, f, indent=4, ensure_ascii=False)
+            print(f"Run {run_idx + 1} results saved to: {run_results_file}")
+
+        # Shutdown shared engine after each run (will recreate with new seed)
+        if args.single_engine and shared_engine is not None:
+            print("Shutting down shared engine...")
+            shared_engine.shutdown()
+            del shared_engine
+            shared_engine = None
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
+
+    # Calculate final averaged results
+    final_language_accuracies = {}
+    final_language_std = {}
+    for lang in languages:
+        if all_runs_accuracies[lang]:
+            accs = all_runs_accuracies[lang]
+            final_language_accuracies[lang] = sum(accs) / len(accs)
+            if len(accs) > 1:
+                mean = final_language_accuracies[lang]
+                variance = sum((x - mean) ** 2 for x in accs) / len(accs)
+                final_language_std[lang] = variance ** 0.5
+            else:
+                final_language_std[lang] = 0.0
+
+    # Use last run's results for consistency calculation
     consistency_metrics = calculate_cross_lingual_consistency(results_by_lang, languages)
 
     # Print pairwise consistency
+    print("\n" + "=" * 60)
+    print("Cross-Lingual Consistency (from last run)")
+    print("=" * 60)
+
     print("\nPairwise Consistency (same correctness):")
     for pair, score in sorted(consistency_metrics["pairwise_consistency"].items()):
         print(f"  {pair}: {score:.4f} ({score * 100:.2f}%)")
@@ -640,18 +742,21 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
 
     end_time = time.time()
 
-    # Final statistics
-    average_accuracy = sum(language_accuracies.values()) / len(language_accuracies) if language_accuracies else 0
+    # Calculate overall average
+    average_accuracy = sum(final_language_accuracies.values()) / len(final_language_accuracies) if final_language_accuracies else 0
 
     # Compile final statistics
     timing_stats = timer.get_stats()
     results_statistics = {
+        "num_runs": num_runs,
         "languages_evaluated": languages,
         "num_languages": len(languages),
-        "per_language_accuracy": {lang: acc for lang, acc in language_accuracies.items()},
+        "per_language_accuracy": {lang: acc for lang, acc in final_language_accuracies.items()},
+        "per_language_std": {lang: std for lang, std in final_language_std.items()},
+        "per_language_all_runs": {lang: accs for lang, accs in all_runs_accuracies.items()},
         "average_accuracy": average_accuracy,
         "cross_lingual_consistency": consistency_metrics,
-        "total_samples_per_language": len(results_by_lang.get(languages[0], [])) if languages else 0,
+        "total_samples_per_language": len(results_by_lang.get(languages[0], [])) if languages and results_by_lang else 0,
         "time_taken_hours": (end_time - start_time) / 3600,
         "timing": timing_stats
     }
@@ -659,11 +764,17 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     # Print summary
     print("\n" + "=" * 60)
     print("MGSM Evaluation Summary")
+    if num_runs > 1:
+        print(f"Number of runs: {num_runs}")
     print("=" * 60)
 
-    print("\nPer-Language Accuracy:")
-    for lang, acc in sorted(language_accuracies.items(), key=lambda x: -x[1]):
-        print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ({acc * 100:.2f}%)")
+    print("\nPer-Language Accuracy" + (" (averaged over runs):" if num_runs > 1 else ":"))
+    for lang, acc in sorted(final_language_accuracies.items(), key=lambda x: -x[1]):
+        std = final_language_std.get(lang, 0)
+        if num_runs > 1:
+            print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ± {std:.4f} ({acc * 100:.2f}%)")
+        else:
+            print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ({acc * 100:.2f}%)")
 
     print(f"\nAverage Accuracy: {average_accuracy:.4f} ({average_accuracy * 100:.2f}%)")
     print(f"Average Cross-Lingual Consistency: {consistency_metrics['average_consistency']:.4f} ({consistency_metrics['average_consistency'] * 100:.2f}%)")
@@ -671,21 +782,11 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     print(f"Time taken: {(end_time - start_time) / 3600:.2f} hours")
 
     # Save overall statistics
-    stats_file = f"{args.output_dir}/results/mgsm/{base_filename}_statistics.json"
     with open(stats_file, "w", encoding="utf-8") as f:
         json.dump(results_statistics, f, indent=4, ensure_ascii=False)
 
     print(f"\nResults saved to: {args.output_dir}/results/mgsm/")
     print(f"Statistics file: {stats_file}")
-
-    # Shutdown shared engine if used
-    if args.single_engine and shared_engine is not None:
-        print("Shutting down shared engine...")
-        shared_engine.shutdown()
-        del shared_engine
-        import gc
-        gc.collect()
-        torch.cuda.empty_cache()
 
     # Push to HuggingFace if requested
     if args.push_results_to_hf:
