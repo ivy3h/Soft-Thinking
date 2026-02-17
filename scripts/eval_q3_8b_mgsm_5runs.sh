@@ -24,8 +24,9 @@ python run_mgsm_evaluation.py \
     --top_p 0.95 \
     --top_k 30 \
     --min_p 0.001 \
-    --mem_fraction_static 0.8 \
+    --mem_fraction_static 0.85 \
     --num_gpus 1 \
     --num_samples 1 \
     --num_runs 5 \
+    --single_engine \
     --resume

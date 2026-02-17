@@ -7,15 +7,15 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=96G
 #SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,baymax
-#SBATCH -J mgsm_8bsft_5r
-#SBATCH -o logs/eval_q3_8b_sft_mgsm_5runs_%j.log
+#SBATCH -J mgsm_8bsol_5r
+#SBATCH -o logs/eval_q3_8b_ms1k_solar_mgsm_5runs_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-MODEL="/coc/pskynet6/jhe478/LlamaFactory/saves/qwen3-8b/full/sft_gsm8k"
+MODEL="/coc/pskynet6/jhe478/LlamaFactory/saves/symlinks/Qwen3-8B-SFT-MS1K-SOLAR"
 
 python run_mgsm_evaluation.py \
     --model_name "$MODEL" \

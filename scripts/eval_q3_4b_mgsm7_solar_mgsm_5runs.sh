@@ -7,17 +7,18 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
 #SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,brainiac,randotron,consu,chappie,cyborg,spot
-#SBATCH -J xr_inst_m500
-#SBATCH -o logs/eval_q3_4b_instruct_math500_%j.log
+#SBATCH -J mgsm_4bm7s_5r
+#SBATCH -o logs/eval_q3_4b_mgsm7_solar_mgsm_5runs_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-python run_xreasoning_evaluation.py \
-    --dataset "math500" \
-    --model_name "Qwen/Qwen3-4B-Instruct-2507" \
+MODEL="/coc/pskynet6/jhe478/LlamaFactory/saves/qwen3-4b/full/sft_ms1k_mgsm7_solar_val"
+
+python run_mgsm_evaluation.py \
+    --model_name "$MODEL" \
     --max_generated_tokens 32768 \
     --temperature 0.6 \
     --top_p 0.95 \
@@ -26,4 +27,6 @@ python run_xreasoning_evaluation.py \
     --mem_fraction_static 0.9 \
     --num_gpus 1 \
     --num_samples 1 \
-    --single_engine
+    --num_runs 5 \
+    --single_engine \
+    --resume

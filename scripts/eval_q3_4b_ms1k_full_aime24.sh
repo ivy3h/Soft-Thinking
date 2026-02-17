@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
-#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,baymax
+#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,brainiac,randotron,consu,baymax,chappie,cyborg,spot
 #SBATCH -J aime24_full
 #SBATCH -o logs/eval_q3_4b_ms1k_full_aime24_%j.log
 
@@ -25,6 +25,7 @@ python run_xreasoning_evaluation.py \
     --top_p 0.95 \
     --top_k 30 \
     --min_p 0.001 \
-    --mem_fraction_static 0.8 \
+    --mem_fraction_static 0.9 \
     --num_gpus 1 \
-    --num_samples 1
+    --num_samples 1 \
+    --single_engine

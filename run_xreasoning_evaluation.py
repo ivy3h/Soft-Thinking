@@ -378,6 +378,10 @@ def main():
     # Engine parameters
     parser.add_argument('--watchdog_timeout', type=float, default=300,
                         help='Watchdog timeout in seconds. Set higher for slow models.')
+    parser.add_argument('--single_engine', action='store_true',
+                        help='Use single engine for all languages per run (faster, less startup overhead)')
+    parser.add_argument('--engine_startup_delay', type=float, default=2.0,
+                        help='Delay in seconds before starting new engine (for memory cleanup)')
 
     args = parser.parse_args()
 
@@ -530,6 +534,37 @@ Please solve the following multiple-choice question. Please show your choice in 
         results_by_lang = {}
         language_accuracies = {}
 
+        # Single engine mode - create engine once per run
+        shared_engine = None
+        if args.single_engine:
+            print("Using single engine mode - creating shared engine...")
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
+
+            base_engine_kwargs = {
+                "model_path": args.model_name,
+                "tp_size": args.num_gpus,
+                "log_level": "info",
+                "trust_remote_code": True,
+                "random_seed": args.random_seed + run_idx,
+                "max_running_requests": args.max_running_requests,
+                "mem_fraction_static": args.mem_fraction_static,
+                "disable_cuda_graph": args.enable_soft_thinking,
+                "disable_overlap_schedule": args.enable_soft_thinking,
+                "enable_soft_thinking": args.enable_soft_thinking,
+                "add_noise_dirichlet": args.add_noise_dirichlet,
+                "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                "max_topk": args.max_topk,
+                "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                "sampling_backend": args.sampling_backend,
+                "attention_backend": args.attention_backend,
+                "watchdog_timeout": args.watchdog_timeout
+            }
+            engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+            shared_engine = sgl.Engine(**engine_kwargs)
+            print("Shared engine created successfully.")
+
         # Evaluate each language
         for lang in languages:
             if not xreasoning_data.get(lang):
@@ -577,29 +612,37 @@ Please solve the following multiple-choice question. Please show your choice in 
             while batch_idx < len(prompt_list):
                 print(f"Processing batch {batch_idx // args.max_batch + 1}...")
 
-                # Base engine kwargs
-                base_engine_kwargs = {
-                    "model_path": args.model_name,
-                    "tp_size": args.num_gpus,
-                    "log_level": "info",
-                    "trust_remote_code": True,
-                    "random_seed": args.random_seed + run_idx,  # Different seed per run
-                    "max_running_requests": args.max_running_requests,
-                    "mem_fraction_static": args.mem_fraction_static,
-                    "disable_cuda_graph": True,
-                    "disable_overlap_schedule": True,
-                    "enable_soft_thinking": args.enable_soft_thinking,
-                    "add_noise_dirichlet": args.add_noise_dirichlet,
-                    "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
-                    "max_topk": args.max_topk,
-                    "cuda_graph_max_bs": args.cuda_graph_max_bs,
-                    "sampling_backend": args.sampling_backend,
-                    "attention_backend": args.attention_backend,
-                    "watchdog_timeout": args.watchdog_timeout
-                }
-                # Apply Gemma-specific adaptations
-                engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
-                llm = sgl.Engine(**engine_kwargs)
+                if args.single_engine and shared_engine is not None:
+                    llm = shared_engine
+                else:
+                    import gc
+                    gc.collect()
+                    torch.cuda.empty_cache()
+                    time.sleep(args.engine_startup_delay)
+
+                    # Base engine kwargs
+                    base_engine_kwargs = {
+                        "model_path": args.model_name,
+                        "tp_size": args.num_gpus,
+                        "log_level": "info",
+                        "trust_remote_code": True,
+                        "random_seed": args.random_seed + run_idx,  # Different seed per run
+                        "max_running_requests": args.max_running_requests,
+                        "mem_fraction_static": args.mem_fraction_static,
+                        "disable_cuda_graph": args.enable_soft_thinking,
+                        "disable_overlap_schedule": args.enable_soft_thinking,
+                        "enable_soft_thinking": args.enable_soft_thinking,
+                        "add_noise_dirichlet": args.add_noise_dirichlet,
+                        "add_noise_gumbel_softmax": args.add_noise_gumbel_softmax,
+                        "max_topk": args.max_topk,
+                        "cuda_graph_max_bs": args.cuda_graph_max_bs,
+                        "sampling_backend": args.sampling_backend,
+                        "attention_backend": args.attention_backend,
+                        "watchdog_timeout": args.watchdog_timeout
+                    }
+                    # Apply Gemma-specific adaptations
+                    engine_kwargs = get_gemma_engine_kwargs(args.model_name, base_engine_kwargs)
+                    llm = sgl.Engine(**engine_kwargs)
 
                 batch_start = time.time()
                 outputs = llm.generate(
@@ -622,8 +665,14 @@ Please solve the following multiple-choice question. Please show your choice in 
                       f"({sum(batch_tokens)/batch_duration:.1f} tok/s)")
 
                 batch_idx += args.max_batch
-                llm.shutdown()
-                torch.cuda.empty_cache()
+
+                if not args.single_engine:
+                    llm.shutdown()
+                    del llm
+                    import gc
+                    gc.collect()
+                    torch.cuda.empty_cache()
+                    time.sleep(args.engine_startup_delay)
 
             # Calculate per-sample inference time (total batch time / num samples)
             total_inference_sec = sum(b["duration_sec"] for b in timer._lang_batches)
@@ -694,6 +743,15 @@ Please solve the following multiple-choice question. Please show your choice in 
 
             print(f"{lang} Run {run_idx + 1} Accuracy: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
             timer.end_language()
+
+        # Shutdown shared engine at end of run
+        if args.single_engine and shared_engine is not None:
+            shared_engine.shutdown()
+            del shared_engine
+            shared_engine = None
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
 
         timer.end_run()
 

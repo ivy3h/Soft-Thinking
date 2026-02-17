@@ -6,16 +6,16 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
-#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,brainiac,randotron,consu,chappie,cyborg,spot
-#SBATCH -J mgsm_inst_5r
-#SBATCH -o logs/eval_q3_4b_instruct_mgsm_5runs_%j.log
+#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,chappie,cyborg,spot
+#SBATCH -J mgsm_4bsol_5r
+#SBATCH -o logs/eval_q3_4b_ms1k_solar_mgsm_5runs_%j.log
 
 source ~/.bashrc
 conda activate st
 
 cd /coc/pskynet6/jhe478/Soft-Thinking
 
-MODEL="Qwen/Qwen3-4B-Instruct-2507"
+MODEL="/coc/pskynet6/jhe478/LlamaFactory/saves/qwen3-4b/full/sft_ms1k_solar_val"
 
 python run_mgsm_evaluation.py \
     --model_name "$MODEL" \
