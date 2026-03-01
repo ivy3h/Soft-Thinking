@@ -21,7 +21,6 @@ import asyncio
 import matheval
 from huggingface_hub import HfApi
 import torch
-from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
 from timing_utils import EvalTimer
@@ -148,11 +147,13 @@ def load_mgsm_data(languages=None, data_dir="./datasets"):
 
 
 def calculate_cross_lingual_consistency(results_by_lang, languages):
-    """Calculate cross-lingual consistency metrics.
+    """Calculate cross-lingual consistency (CLC) metrics.
 
-    For each pair of languages, compute the fraction of questions where
-    the model gives the same answer (both correct or both incorrect with
-    same extracted answer).
+    CLC(en, l) = (1/N) * sum_i 1[a_i^en = a_i^l = a_i^*]
+
+    For each non-English language, compute the fraction of questions where
+    both English and that language produce the correct answer.
+    Report the average CLC across all (English, other) pairs.
 
     Args:
         results_by_lang: Dict mapping language to list of result dicts
@@ -160,9 +161,8 @@ def calculate_cross_lingual_consistency(results_by_lang, languages):
 
     Returns:
         Dict containing:
-        - pairwise_consistency: Dict[(lang1, lang2)] -> consistency score
-        - average_consistency: Overall average consistency
-        - pairwise_correct_consistency: Same answer AND both correct
+        - pairwise_clc: Dict[str, float] mapping "en-{lang}" to CLC score
+        - average_clc: Average CLC across all (en, other) pairs
     """
     # Build question_id -> results mapping for each language
     lang_results = {}
@@ -174,59 +174,40 @@ def calculate_cross_lingual_consistency(results_by_lang, languages):
             qid = r["question_id"]
             lang_results[lang][qid] = {
                 "correct": r["judge_info"][0]["finally_judge_result"] if r["judge_info"] else False,
-                "extracted_answer": r.get("extracted_answer", ""),
-                "passat1": r["passat1"]
             }
 
-    available_langs = [l for l in languages if l in lang_results]
+    if "en" not in lang_results:
+        return {
+            "pairwise_clc": {},
+            "average_clc": 0.0,
+            "num_language_pairs": 0
+        }
 
-    pairwise_consistency = {}
-    pairwise_correct_consistency = {}
+    other_langs = [l for l in languages if l in lang_results and l != "en"]
 
-    # Calculate pairwise consistency
-    for lang1, lang2 in combinations(available_langs, 2):
-        same_answer_count = 0
+    pairwise_clc = {}
+
+    for lang in other_langs:
         both_correct_count = 0
-        total_questions = 0
-
-        # Get common question IDs
-        common_qids = set(lang_results[lang1].keys()) & set(lang_results[lang2].keys())
+        common_qids = set(lang_results["en"].keys()) & set(lang_results[lang].keys())
+        total_questions = len(common_qids)
 
         for qid in common_qids:
-            r1 = lang_results[lang1][qid]
-            r2 = lang_results[lang2][qid]
-
-            # Consistency: both correct or both incorrect
-            if r1["correct"] == r2["correct"]:
-                same_answer_count += 1
-
-            # Strict consistency: both correct
-            if r1["correct"] and r2["correct"]:
+            if lang_results["en"][qid]["correct"] and lang_results[lang][qid]["correct"]:
                 both_correct_count += 1
 
-            total_questions += 1
+        pairwise_clc[f"en-{lang}"] = both_correct_count / total_questions if total_questions > 0 else 0.0
 
-        if total_questions > 0:
-            pairwise_consistency[(lang1, lang2)] = same_answer_count / total_questions
-            pairwise_correct_consistency[(lang1, lang2)] = both_correct_count / total_questions
-        else:
-            pairwise_consistency[(lang1, lang2)] = 0.0
-            pairwise_correct_consistency[(lang1, lang2)] = 0.0
-
-    # Calculate average consistency
-    if pairwise_consistency:
-        average_consistency = sum(pairwise_consistency.values()) / len(pairwise_consistency)
-        average_correct_consistency = sum(pairwise_correct_consistency.values()) / len(pairwise_correct_consistency)
+    # Average CLC across all (en, other) pairs
+    if pairwise_clc:
+        average_clc = sum(pairwise_clc.values()) / len(pairwise_clc)
     else:
-        average_consistency = 0.0
-        average_correct_consistency = 0.0
+        average_clc = 0.0
 
     return {
-        "pairwise_consistency": {f"{k[0]}-{k[1]}": v for k, v in pairwise_consistency.items()},
-        "pairwise_correct_consistency": {f"{k[0]}-{k[1]}": v for k, v in pairwise_correct_consistency.items()},
-        "average_consistency": average_consistency,
-        "average_correct_consistency": average_correct_consistency,
-        "num_language_pairs": len(pairwise_consistency)
+        "pairwise_clc": pairwise_clc,
+        "average_clc": average_clc,
+        "num_language_pairs": len(pairwise_clc)
     }
 
 
@@ -416,6 +397,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     # Store results across all runs
     all_runs_results = {lang: [] for lang in languages}
     all_runs_accuracies = {lang: [] for lang in languages}
+    results_by_lang = {}  # Initialize before loop for statistics after all runs
 
     for run_idx in range(num_runs):
         print(f"\n{'='*60}")
@@ -448,6 +430,8 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
                         print(f"  {lang}: {lang_accuracy:.4f} ({lang_accuracy * 100:.2f}%)")
 
                     print(f"[OK] Successfully loaded results from {run_results_file}")
+                    # Update results_by_lang so it's available for statistics after last run
+                    results_by_lang = run_results_by_lang
                     timer.end_run(skipped=True)
                     continue
                 except Exception as e:
@@ -727,17 +711,14 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
     # Use last run's results for consistency calculation
     consistency_metrics = calculate_cross_lingual_consistency(results_by_lang, languages)
 
-    # Print pairwise consistency
+    # Print pairwise CLC
     print("\n" + "=" * 60)
     print("Cross-Lingual Consistency (from last run)")
+    print("  CLC(en, l) = both_correct / N")
     print("=" * 60)
 
-    print("\nPairwise Consistency (same correctness):")
-    for pair, score in sorted(consistency_metrics["pairwise_consistency"].items()):
-        print(f"  {pair}: {score:.4f} ({score * 100:.2f}%)")
-
-    print(f"\nPairwise Correct Consistency (both correct):")
-    for pair, score in sorted(consistency_metrics["pairwise_correct_consistency"].items()):
+    print("\nPairwise CLC (English vs. other):")
+    for pair, score in sorted(consistency_metrics["pairwise_clc"].items()):
         print(f"  {pair}: {score:.4f} ({score * 100:.2f}%)")
 
     end_time = time.time()
@@ -777,8 +758,7 @@ Please reason step by step, and put your final answer within \\boxed{{}}.
             print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ({acc * 100:.2f}%)")
 
     print(f"\nAverage Accuracy: {average_accuracy:.4f} ({average_accuracy * 100:.2f}%)")
-    print(f"Average Cross-Lingual Consistency: {consistency_metrics['average_consistency']:.4f} ({consistency_metrics['average_consistency'] * 100:.2f}%)")
-    print(f"Average Correct Consistency: {consistency_metrics['average_correct_consistency']:.4f} ({consistency_metrics['average_correct_consistency'] * 100:.2f}%)")
+    print(f"Average CLC (en vs. others): {consistency_metrics['average_clc']:.4f} ({consistency_metrics['average_clc'] * 100:.2f}%)")
     print(f"Time taken: {(end_time - start_time) / 3600:.2f} hours")
 
     # Save overall statistics

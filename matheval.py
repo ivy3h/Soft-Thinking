@@ -291,7 +291,7 @@ class MGSMEvaluator(GSM8KEvaluator):
 
 
 # All MGSM language codes
-MGSM_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
+MGSM_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "es", "de", "ru", "bn"]
 
 evaluator_map = {
     "aime2024": AIMEEvaluator(),

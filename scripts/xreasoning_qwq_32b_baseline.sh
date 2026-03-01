@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:a40:4
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=128G
+#SBATCH -x spd-13
 #SBATCH -J xr_qwq32b_base
 #SBATCH -o logs/xreasoning_qwq_32b_baseline_%j.log
 

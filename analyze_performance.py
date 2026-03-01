@@ -82,8 +82,8 @@ def load_mgsm_results():
 
             lang_acc = data.get("per_language_accuracy", {})
             avg_acc = data.get("average_accuracy")
-            consistency = data.get("cross_lingual_consistency", {}).get("average_consistency")
-            correct_consistency = data.get("cross_lingual_consistency", {}).get("average_correct_consistency")
+            consistency = data.get("cross_lingual_consistency", {}).get("average_clc")
+            correct_consistency = data.get("cross_lingual_consistency", {}).get("average_clc")
 
             display_setting = setting
             if (model, setting) in has_dup and max_tok:
@@ -203,7 +203,7 @@ def load_xreasoning_results(benchmark):
 
         lang_acc = data.get("per_language_accuracy", {})
         avg_acc = data.get("average_accuracy")
-        consistency = data.get("cross_lingual_consistency", {}).get("average_consistency")
+        consistency = data.get("cross_lingual_consistency", {}).get("average_clc")
 
         rows.append({
             "Model": model,

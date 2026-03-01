@@ -65,7 +65,7 @@ def load_statistics_file(filepath):
         return {
             'per_language_accuracy': data.get('per_language_accuracy', {}),
             'average_accuracy': data.get('average_accuracy', None),
-            'consistency': data.get('cross_lingual_consistency', {}).get('average_consistency', None)
+            'consistency': data.get('cross_lingual_consistency', {}).get('average_clc', None)
         }
     except Exception as e:
         print(f"Error loading {filepath}: {e}")

@@ -6,7 +6,7 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
-#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88
+#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,spd-13,crushinator
 #SBATCH -J eval_gsm8ks_mgsm
 #SBATCH -o logs/eval_gsm8k_solar_sft_mgsm_%j.log
 

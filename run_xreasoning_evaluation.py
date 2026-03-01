@@ -28,7 +28,6 @@ import asyncio
 import matheval
 from huggingface_hub import HfApi
 import torch
-from itertools import combinations
 from collections import defaultdict
 from datasets import load_dataset
 from timing_utils import EvalTimer
@@ -65,10 +64,10 @@ def get_gemma_engine_kwargs(model_name: str, base_kwargs: dict) -> dict:
 
 
 # Language metadata (same as MGSM)
-XREASONING_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
+XREASONING_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "es", "de", "ru", "bn"]
 
 # Dataset-specific language lists (for benchmarks with different language coverage)
-MATH500_LANGUAGES = ["en", "zh", "fr", "ja", "lv", "sw", "te", "th", "af", "mr"]
+MATH500_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "lv", "af", "mr"]
 MMLU_PROX_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "af", "mr"]
 
 DATASET_LANGUAGES = {
@@ -230,12 +229,22 @@ def load_xreasoning_data(dataset_name: str, languages=None, data_dir="./datasets
 
 
 def calculate_cross_lingual_consistency(results_by_lang, languages):
-    """Calculate cross-lingual consistency metrics.
+    """Calculate cross-lingual consistency (CLC) metrics.
 
-    Consistency (CO) is calculated as:
-    CO = both_correct / either_correct
+    CLC(en, l) = (1/N) * sum_i 1[a_i^en = a_i^l = a_i^*]
 
-    This matches the tinker-cookbook implementation.
+    For each non-English language, compute the fraction of questions where
+    both English and that language produce the correct answer.
+    Report the average CLC across all (English, other) pairs.
+
+    Args:
+        results_by_lang: Dict mapping language to list of result dicts
+        languages: List of language codes to consider
+
+    Returns:
+        Dict containing:
+        - pairwise_clc: Dict[str, float] mapping "en-{lang}" to CLC score
+        - average_clc: Average CLC across all (en, other) pairs
     """
     lang_results = {}
     for lang in languages:
@@ -246,54 +255,40 @@ def calculate_cross_lingual_consistency(results_by_lang, languages):
             qid = r["question_id"]
             lang_results[lang][qid] = {
                 "correct": r["judge_info"][0]["finally_judge_result"] if r["judge_info"] else False,
-                "passat1": r["passat1"]
             }
 
-    available_langs = [l for l in languages if l in lang_results]
-
-    pairwise_consistency = {}
-
-    for lang1, lang2 in combinations(available_langs, 2):
-        both_correct_count = 0
-        either_correct_count = 0
-
-        common_qids = set(lang_results[lang1].keys()) & set(lang_results[lang2].keys())
-
-        for qid in common_qids:
-            r1 = lang_results[lang1][qid]
-            r2 = lang_results[lang2][qid]
-
-            # Count both correct
-            if r1["correct"] and r2["correct"]:
-                both_correct_count += 1
-
-            # Count either correct (at least one correct)
-            if r1["correct"] or r2["correct"]:
-                either_correct_count += 1
-
-        # Calculate consistency as both_correct / either_correct
-        if either_correct_count > 0:
-            consistency = both_correct_count / either_correct_count
-        else:
-            consistency = 0.0
-
-        pairwise_consistency[(lang1, lang2)] = {
-            "both_correct": both_correct_count,
-            "either_correct": either_correct_count,
-            "consistency": consistency,
-            "total_questions": len(common_qids)
+    if "en" not in lang_results:
+        return {
+            "pairwise_clc": {},
+            "average_clc": 0.0,
+            "num_language_pairs": 0
         }
 
-    # Calculate average consistency
-    if pairwise_consistency:
-        average_consistency = sum(v["consistency"] for v in pairwise_consistency.values()) / len(pairwise_consistency)
+    other_langs = [l for l in languages if l in lang_results and l != "en"]
+
+    pairwise_clc = {}
+
+    for lang in other_langs:
+        both_correct_count = 0
+        common_qids = set(lang_results["en"].keys()) & set(lang_results[lang].keys())
+        total_questions = len(common_qids)
+
+        for qid in common_qids:
+            if lang_results["en"][qid]["correct"] and lang_results[lang][qid]["correct"]:
+                both_correct_count += 1
+
+        pairwise_clc[f"en-{lang}"] = both_correct_count / total_questions if total_questions > 0 else 0.0
+
+    # Average CLC across all (en, other) pairs
+    if pairwise_clc:
+        average_clc = sum(pairwise_clc.values()) / len(pairwise_clc)
     else:
-        average_consistency = 0.0
+        average_clc = 0.0
 
     return {
-        "pairwise_consistency": {f"{k[0]}-{k[1]}": v for k, v in pairwise_consistency.items()},
-        "average_consistency": average_consistency,
-        "num_language_pairs": len(pairwise_consistency)
+        "pairwise_clc": pairwise_clc,
+        "average_clc": average_clc,
+        "num_language_pairs": len(pairwise_clc)
     }
 
 
@@ -470,18 +465,25 @@ Please solve the following multiple-choice question. Please show your choice in 
     # Check if all runs already exist (complete resume)
     stats_file = f"{args.output_dir}/results/xreasoning_{dataset_name}/{base_filename}_statistics.json"
     if os.path.exists(stats_file):
-        print(f"\n[OK] Found existing complete evaluation results!")
+        print(f"\n[OK] Found existing evaluation results!")
         print(f"  Loading from: {stats_file}")
         try:
             with open(stats_file, "r", encoding="utf-8") as f:
                 results_statistics = json.load(f)
 
+            existing_num_runs = results_statistics.get('num_runs', 0)
             print(f"\n[OK] Successfully loaded existing results:")
             print(f"  Dataset: {results_statistics.get('dataset', 'N/A')}")
-            print(f"  Number of runs: {results_statistics.get('num_runs', 'N/A')}")
+            print(f"  Number of runs: {existing_num_runs}")
             print(f"  Average accuracy: {results_statistics.get('average_accuracy', 0):.4f}")
-            print(f"\n[OK] All evaluation already completed. Exiting.")
-            return results_statistics
+
+            if existing_num_runs >= num_runs:
+                print(f"\n[OK] All {num_runs} evaluation runs already completed. Exiting.")
+                return results_statistics
+            else:
+                print(f"\n[!] Existing results have {existing_num_runs} runs, but {num_runs} requested.")
+                print(f"[!] Deleting old statistics file and re-running evaluation...")
+                os.remove(stats_file)
         except Exception as e:
             print(f"[!] Failed to load existing statistics: {e}")
             print(f"[!] Will re-run evaluation")
@@ -817,8 +819,7 @@ Please solve the following multiple-choice question. Please show your choice in 
             print(f"  {lang} ({LANGUAGE_NAMES.get(lang, lang):10s}): {acc:.4f} ({acc * 100:.2f}%)")
 
     print(f"\nAverage Accuracy: {average_accuracy:.4f} ({average_accuracy * 100:.2f}%)")
-    print(f"Average Cross-Lingual Consistency (CO): {consistency_metrics['average_consistency']:.4f}")
-    print(f"  (CO = both_correct / either_correct, matching tinker-cookbook)")
+    print(f"Average CLC (en vs. others): {consistency_metrics['average_clc']:.4f} ({consistency_metrics['average_clc'] * 100:.2f}%)")
     print(f"Time taken: {(end_time - start_time) / 3600:.2f} hours")
 
     # Save overall statistics

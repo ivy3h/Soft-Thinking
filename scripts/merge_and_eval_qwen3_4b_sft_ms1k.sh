@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
+#SBATCH -x spd-13
 #SBATCH -J eval_q3_4b_ms1k
 #SBATCH -o logs/eval_qwen3_4b_sft_ms1k_%j.log
 

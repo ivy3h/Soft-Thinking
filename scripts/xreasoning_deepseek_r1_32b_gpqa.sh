@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:a40:4
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=128G
+#SBATCH -x spd-13
 #SBATCH -J xr_dsr1_32b_gpqa
 #SBATCH -o logs/xreasoning_deepseek_r1_32b_gpqa_%j.log
 

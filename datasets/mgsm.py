@@ -14,7 +14,7 @@ import json
 import os
 
 # All MGSM languages
-MGSM_LANGUAGES = ["en", "es", "fr", "de", "ru", "zh", "ja", "th", "sw", "bn", "te"]
+MGSM_LANGUAGES = ["en", "zh", "fr", "ja", "sw", "te", "th", "es", "de", "ru", "bn"]
 
 LANGUAGE_NAMES = {
     "en": "English",

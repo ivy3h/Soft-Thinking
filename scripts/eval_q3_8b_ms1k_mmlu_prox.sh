@@ -3,10 +3,10 @@
 #SBATCH --account=overcap
 #SBATCH --qos short
 #SBATCH -t 24:00:00
-#SBATCH --gres=gpu:a40:2
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=96G
-#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,baymax,spd-13
+#SBATCH --gres=gpu:a40:4
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=128G
+#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,baymax,spd-13,samantha,omgwth,protocol,crushinator
 #SBATCH -J mmlu_8bms1k
 #SBATCH -o logs/eval_q3_8b_ms1k_mmlu_prox_%j.log
 
@@ -26,6 +26,6 @@ python run_xreasoning_evaluation.py \
     --top_k 30 \
     --min_p 0.001 \
     --mem_fraction_static 0.85 \
-    --num_gpus 2 \
+    --num_gpus 4 \
     --num_samples 1 \
     --single_engine

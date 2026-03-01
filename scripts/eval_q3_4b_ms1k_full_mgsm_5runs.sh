@@ -3,10 +3,10 @@
 #SBATCH --account=overcap
 #SBATCH --qos short
 #SBATCH -t 24:00:00
-#SBATCH --gres=gpu:a40:1
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=64G
-#SBATCH -x starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,ig-88,brainiac,randotron,consu,baymax,chappie,cyborg,spot
+#SBATCH --gres=gpu:a40:2
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=96G
+#SBATCH -x ig-88,brainiac,randotron,consu,chappie,cyborg,spot,sonny,major,gundam,omgwth,protocol,robby,spd-13,samantha,deebot,shakey,tachikoma,nestor,crushinator,trublu,chitti,hk47,megabot,perseverance,megazord,johnny5,dave,kitt
 #SBATCH -J mgsm_sft_5r
 #SBATCH -o logs/eval_q3_4b_ms1k_full_mgsm_5runs_%j.log
 
@@ -24,9 +24,9 @@ python run_mgsm_evaluation.py \
     --top_p 0.95 \
     --top_k 30 \
     --min_p 0.001 \
-    --mem_fraction_static 0.9 \
-    --num_gpus 1 \
+    --mem_fraction_static 0.85 \
+    --num_gpus 2 \
     --num_samples 1 \
-    --num_runs 5 \
+    --num_runs 10 \
     --single_engine \
     --resume

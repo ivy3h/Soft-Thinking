@@ -2,7 +2,7 @@
 # Create eval scripts for all training models
 cd /coc/pskynet6/jhe478/Soft-Thinking/scripts
 
-EXCLUDE_4B="starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu"
+EXCLUDE_4B="starrysky,heistotron,deebot,nestor,cheetah,chitti,tachikoma,optimistprime,uniblab,puma,perseverance,clippy,xaea-12,megazord,trublu,spd-13"
 EXCLUDE_8B="$EXCLUDE_4B,baymax"
 
 # Function to create MGSM 5-run eval script

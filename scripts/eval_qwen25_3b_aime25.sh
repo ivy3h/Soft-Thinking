@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:a40:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
+#SBATCH -x spd-13,crushinator
 #SBATCH -J xr_q25_3b_a25
 #SBATCH -o logs/eval_qwen25_3b_aime25_%j.log
 

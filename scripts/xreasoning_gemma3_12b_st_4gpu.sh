@@ -6,6 +6,7 @@
 #SBATCH --gres=gpu:a40:4
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=128G
+#SBATCH -x spd-13
 #SBATCH -J xr_g3_12b_st
 #SBATCH -o logs/xreasoning_gemma3_12b_st_4gpu_%j.log
 
